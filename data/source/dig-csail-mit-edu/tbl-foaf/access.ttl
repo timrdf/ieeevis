@@ -4,21 +4,21 @@
 @prefix void:       <http://rdfs.org/ns/void#> .
 @prefix prov:       <http://www.w3.org/ns/prov#> .
 @prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
-@prefix :           </id/> .
+@prefix :           <http://aquarius.tw.rpi.edu/projects/ieeevis/id/> .
 
-</source/dig-csail-mit-edu/dataset/tbl-foaf>
+<http://aquarius.tw.rpi.edu/projects/ieeevis/source/dig-csail-mit-edu/dataset/tbl-foaf>
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "dig-csail-mit-edu";
    conversion:dataset_identifier "tbl-foaf";
-   prov:wasDerivedFrom :download_25277dda-f131-42ad-84a3-c01b3b914234;
+   prov:wasDerivedFrom :download_ffe3fb2e-bf86-4de0-9d7d-7ff1fbc972b4;
 .
 
-:download_25277dda-f131-42ad-84a3-c01b3b914234
+:download_ffe3fb2e-bf86-4de0-9d7d-7ff1fbc972b4
    a dcat:Distribution;
-   dcat:downloadURL <tbl-foaf>;
+   dcat:downloadURL <http://dig.csail.mit.edu/2008/webdav/timbl/foaf.rdf>;
 .
 
-<dataset/25277dda-f131-42ad-84a3-c01b3b914234>
+<dataset/ffe3fb2e-bf86-4de0-9d7d-7ff1fbc972b4>
    a dcat:Dataset;
-   dcat:distribution :download_25277dda-f131-42ad-84a3-c01b3b914234;
+   dcat:distribution :download_ffe3fb2e-bf86-4de0-9d7d-7ff1fbc972b4;
 .
