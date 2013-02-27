@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           </id/> .
+
+</source/dig-csail-mit-edu/dataset/tbl-foaf>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "dig-csail-mit-edu";
+   conversion:dataset_identifier "tbl-foaf";
+   prov:wasDerivedFrom :download_25277dda-f131-42ad-84a3-c01b3b914234;
+.
+
+:download_25277dda-f131-42ad-84a3-c01b3b914234
+   a dcat:Distribution;
+   dcat:downloadURL <tbl-foaf>;
+.
+
+<dataset/25277dda-f131-42ad-84a3-c01b3b914234>
+   a dcat:Dataset;
+   dcat:distribution :download_25277dda-f131-42ad-84a3-c01b3b914234;
+.
