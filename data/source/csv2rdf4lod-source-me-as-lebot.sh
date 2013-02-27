@@ -4,6 +4,7 @@
 #3>     <https://github.com/timrdf/csv2rdf4lod-automation/wiki/Script:-source-me.sh> .
 
 export CSV2RDF4LOD_CONVERT_PERSON_URI="http://tw.rpi.edu/instances/TimLebo"
+source /home/lebot/prizms/ieeevis/data/source/csv2rdf4lod-source-me-for-ieeevis.sh
 alias ieeevis='sudo su ieeevis'
 export PATH=$PATH`/home/lebot/opt/prizms/bin/install/paths.sh`
 export CLASSPATH=$CLASSPATH`/home/lebot/opt/prizms/bin/install/classpaths.sh`
