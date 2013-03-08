@@ -10,15 +10,15 @@
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "vis-stanford-edu";
    conversion:dataset_identifier "revision-image-corpus";
-   prov:wasDerivedFrom :download_a35af73e-931d-4bd7-a431-bdc3e996cc5f;
+   prov:wasDerivedFrom :download_4780e43c-8743-401d-8ce3-c464c37c498e;
 .
 
-:download_a35af73e-931d-4bd7-a431-bdc3e996cc5f
+:download_4780e43c-8743-401d-8ce3-c464c37c498e
    a dcat:Distribution;
-   dcat:downloadURL <http://vis.stanford.edu/>;
+   dcat:downloadURL <http://vis.stanford.edu/files/revision-corpus.zip>;
 .
 
-<dataset/a35af73e-931d-4bd7-a431-bdc3e996cc5f>
+<dataset/4780e43c-8743-401d-8ce3-c464c37c498e>
    a dcat:Dataset;
-   dcat:distribution :download_a35af73e-931d-4bd7-a431-bdc3e996cc5f;
+   dcat:distribution :download_4780e43c-8743-401d-8ce3-c464c37c498e;
 .
