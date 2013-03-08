@@ -98,7 +98,7 @@
          conversion:range   rdfs:Resource;
       ];
       conversion:enhance [
-         ov:csvCol          1;
+         ov:csvCol          2;
          ov:csvHeader       "http://1.bp.blogspot.com/_SfQs2MmYlaw/S0DDHnFoJDI/AAAAAAAAAH4/Ny96tQlt8CY/s400/c3_area.jpg";
          #conversion:label   "http://1.bp.blogspot.com/_SfQs2MmYlaw/S0DDHnFoJDI/AAAAAAAAAH4/Ny96tQlt8CY/s400/c3_area.jpg";
          conversion:equivalent_property dcat:downloadURL;
