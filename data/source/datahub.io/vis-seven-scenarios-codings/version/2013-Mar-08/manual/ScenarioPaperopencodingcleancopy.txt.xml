@@ -1,0 +1,2422 @@
+﻿<!--
+#3> <> prov:wasDerivedFrom  <https://docs.google.com/document/d/1uSius4qLHHAERhUtuMrfJ5nMyE-X9cot3ewUdZfR0lQ/edit?authkey=CIjs31Q>;
+#3>    prov:wasAttributedTo <http://tw.rpi.edu/instances/TimLebo> .
+#3> <https://docs.google.com/document/d/1uSius4qLHHAERhUtuMrfJ5nMyE-X9cot3ewUdZfR0lQ/edit?authkey=CIjs31Q> prov:wasAttributedTo [ foaf:name "Heidi Lam" ] .
+-->
+
+<codings>
+
+   <title>Empirical Studies in Information Visualization: Seven Scenarios</title>
+
+   <description>Codes assigned to papers from VAST, InfoVis, EuroVis, and IVS.</description>
+
+   <original_codes>
+      <code id="1">
+         <title>Data analysis</title>
+      </code>
+      <code id="2">
+         <title>Decision making</title>
+      </code>
+      <code id="3">
+         <title>Collaboration</title>
+      </code>
+      <code id="4">
+         <title>Adoption</title>
+      </code>
+      <code id="5">
+         <title>Communication, learning, teaching, publishing</title>
+      </code>
+      <code id="6">
+         <title>Usability/effectiveness, further split into EXP for user experience, and PER for user performance</title>
+      </code>
+      <code id="7">
+         <title>People's workflow, work practices</title>
+      </code>
+      <code id="8">
+         <title>Perception and cognition</title>
+      </code>
+      <code id="9">
+         <title>Algorithm performance</title>
+      </code>
+         <code id="10">
+         <title>Knowledge discovery</title>
+      </code>
+      <code id="11">
+         <title>Potential usage</title>
+      </code>
+      <code id="12">
+         <title>Proposed evaluation methodologies</title>
+      </code>
+      <code id="13">
+         <title>Visualization-analytical operation</title>
+      </code>
+      <code id="14">
+         <title>Causal information acquisition</title>
+      </code>
+         <code id="15">
+         <title>Evaluation metric development</title>
+      </code>
+      <code id="16">
+         <title>Algorithm quality</title>
+      </code>
+      <code id="17">
+         <title>Knowledge management</title>
+      </code>
+   </original_codes>
+
+   <venue>
+      <title>VAST (2006 - 2010)</title>
+
+      <year id="2010">
+
+         <publication>
+            <title>Improving the Visual Analysis of High-dimensional Datasets Using Quality Measures</title>
+            <authors>Georgia Albuquerque, Martin Eisemann, Dirk J. Lehmann, Holger Theisel, Marcus Magnor</authors>
+            <code ref="15"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Finding and Visualizing Relevant Subspaces for Clustering High-Dimensional Astronomical Data Using Connected Morphological Operators</title>
+            <authors>Bilkis J. Ferdosi, Hugo Buddelmeijer, Scott Trager, Michael H.F. Wilkinson, Jos B.T.M. Roerdink</authors>
+            <code ref="16 (standard datasets)"/>
+         </publication>
+
+         <publication>
+            <title>VizCept: Supporting Synchronous Collaboration for Constructing Visualizations in Intelligence Analysis</title>
+            <authors>Haeyong Chung, Seungwon Yang, Naveed Massjouni, Christopher Andrews, Rahul Kanna, Chris North</authors>
+            <code ref="1"/>
+            <code ref="3"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Diamonds in the Rough: Social Media Visual Analytics for Journalistic Inquiry</title>
+            <authors>Nicholas Diakopoulos, Mor Naaman, Funda Kivran-Swaine</authors>
+            <code ref="10"/>
+            <code ref="11"/>
+            <code ref="18 "/>
+         </publication>
+
+         <publication>
+            <title>NetClinic: Interactive Visualization to Enhance Automated Fault Diagnosis in Enterprise Networks</title>
+            <authors>Zhicheng Liu, Bongshin Lee, Srikanth Kandula, Ratul Mahajan</authors>
+            <code ref="2"/>
+            <code ref="6 (Exp) "/>
+         </publication>
+
+         <publication>
+            <title>Geo-Historical Context Support for Information Foraging and Sensemaking: Conceptual Model, Implementation, and Assessment</title>
+            <authors>Brian Tomaszewski, Alan M. MacEachren</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Click2Annotate: Automated Insight Externalization with Rich Semantics</title>
+            <authors>Yang Chen, Scott Barlowe, Jing Yang</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Interactive Querying of Temporal Data Using A Comic Strip Metaphor</title>
+            <authors>Jing Jin, Pedro Szekely</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>A Closer Look at Note Taking in the Co-located Collaborative Visual Analytics Process</title>
+            <authors>Narges Mahyar, Ali Sarvghad, Melanie Tory</authors>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>An Exploratory Study of Co-located Collaborative Visual Analytics Around a Tabletop Display</title>
+            <authors>Petra Isenberg, Danyel Fisher, Meredith Ringel Morris, Kori Inkpen, Mary Czerwinski</authors>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>Helping Users Recall Their Reasoning Process</title>
+            <authors>Heather Richter Lipford, Felesia Stukes, Wenwen Dou, Matthew E. Hawkins, Remco Chang</authors>
+            <code ref="1"/>
+            <code ref="6 (Per)"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Comparing Different Levels of Interaction Constraints for Deriving Visual Problem Isomorphs</title>
+            <authors>Wenwen Dou, Caroline Ziemkiewicz, Lane Harrison, Dong Hyun Jeong, Roxanne Ryan, William Ribarsky, Xiaoyu Wang, Remco Chang</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Towards the Personal Equation of Interaction: The Impact of Personality Factors on Visual Analytics Interface Interaction</title>
+            <authors>Tear Marie Green, Brian Fisher</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+      </year>
+
+      <year id="2009">
+
+         <publication>
+            <title>Finding Comparable Temporal Categorical Records: A Similarity Measure with an Interactive Visualization</title>
+            <authors>Krist Wongsuphasawat, Ben Shneiderman</authors>
+            <code ref="1"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Geovisual Analytics for Self-Organizing Network Data</title>
+            <authors>Ho Van Quan, Tobias Åström, Mikael Jern</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Two-stage Framework for Visualization of Clustered High Dimensional Data</title>
+            <authors>Jaegul Choo, Shawn Bohn, Haesun Park</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Connecting the Dots in Visual Analysis</title>
+            <authors>Yedendra B. Shrinivasan, David Gotzy, Jie Lu</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating Visual Analytics Systems for Investigative Analysis: Deriving Design Principles from a Case Study</title>
+            <authors>Youn-ah Kang, Carsten Görg, John Stasko</authors>
+            <code ref="1"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Visual Opinion Analysis of Customer Feedback Data</title>
+            <authors>Daniela Oelke, Ming Hao, Christian Rohrdantz, Daniel A. Keim, Umeshwar Dayal, Lars-Erik Haug, Halldór Janetzko</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>FinVis: Applied Visual Analytics for Personal Financial Planning</title>
+            <authors>Stephen Rudolph, Anya Savikhin, David S. Ebert</authors>
+            <code ref="2"/>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Iterative Integration of Visual Insights during Patent Search and Analysis</title>
+            <authors>Steffen Koch, Harald Bosch, Mark Giereth, Thomas Ertl</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+      </year>
+
+      <year id="2008">
+
+         <publication>
+            <title>Using Visual Analytics to Maintain Situation Awareness in Astrophysics</title>
+            <authors>Cecilia R. Aragon, Sarah S. Poon, Gregory S. Aldering, Rollin C. Thomas, Robert Quimby</authors>
+            <code ref="1"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Configurable Spaces: Temporal Analysis in Diagrammatic Contexts</title>
+            <authors>Thomas Kapler, Ryan Eccles, Robert Harper, William Wright</authors>
+            <code ref="1"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Spatio-temporal Aggregation for Visual Analysis of Movements</title>
+            <authors>Gennady Andrienko, Natalia Andrienko</authors>
+            <code ref="1"/>
+         </publication>
+
+         <publication>
+            <title>Collaborative Synthesis of Visual Analytic Results</title>
+            <authors>Anthony C. Robinson</authors>
+            <code ref="4"/>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating the Relationship Between User Interaction and Financial Visual Analysis</title>
+            <authors>Dong Hyun Jeong, Wenwen Dou, Felesia Stukes, William Ribarsky, Heather Richter Lipford, Remco Chang</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Entity-Based Collaboration Tools for Intelligence Analysis</title>
+            <authors>Eric A. Bier, Stuart K. Card, John W. Bodnar</authors>
+            <code ref="8"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Applied Visual Analytics for Economic Decision-Making</title>
+            <authors>Anya Savikhin, Ross Maciejewski, David S. Ebert</authors>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>Narratives: A Visualization to Track Narrative Events as they Develop</title>
+            <authors>Danyel Fisher, Aaron Hoff, George Robertson, Matthew Hurst</authors>
+            <code ref="12"/>
+         </publication>
+
+         <publication>
+            <title>Characterizing Users' Visual Analytic Activity for Insight Provenance</title>
+            <authors>David Gotz, Michelle X. Zhou</authors>
+            <code ref="5"/>
+         </publication>
+
+         <publication>
+            <title>The Scalable Reasoning System: Lightweight Visualization for Distributed Analytics </title>
+            <authors>William A. Pike, Joe Bruce, Bob Baddeley, Daniel Best, Lyndsey Franklin, Richard May, Douglas M. Rice, Rick Riensche, Katarina Younkin</authors>
+            <code ref="1"/>
+         </publication>
+
+         <publication>
+            <title>Multivariate Visual Explanation for High Dimensional Datasets</title>
+            <authors>Scott Barlowe, Tianyi Zhang, Yujie Liu, Jing Yang, Donald Jacobs</authors>
+            <code ref="11"/>
+         </publication>
+
+      </year>
+
+      <year id="2007">
+
+         <publication>
+            <title>Activity Analysis using Spatio-Temporal Activity Maps in Surveillance Applications</title>
+            <authors>Firdaus Janoos, Shantanu Singh, Okan Irfanoglu, Richard Parent, Raghu Machiraju.</authors>
+            <code ref="2"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Stories in GeoTime</title>
+            <authors>Eccles, R. Kapler, T. Harper, R. Wright, W.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Analyzing Large-Scale News Video Databases to Support Knowledge Visualization and Intuitive Retrieval </title>
+            <authors>Hangzai Luo Jianping Fan Jing Yang Ribarsky, W. Satoh, S.</authors>
+            <code ref="1"/>
+         </publication>
+
+         <publication>
+            <title>Analysis Guided Visual Exploration of Multivariate Data</title>
+            <authors>Di Yang, Rundensteiner, E.A. Ward, M.O.</authors>
+            <code ref="17"/>
+         </publication>
+
+      </year>
+
+      <year id="2006">
+
+         <publication>
+            <title>Visual Analysis of Historic Hotel Visitation Patterns</title>
+            <authors>Chris Weaver, David Fyfe, Anthony Robinson, Deryck Holdsworth, Donna Peuquet, Alan M. MacEachren</authors>
+            <code ref="2"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Interactive Visual Synthesis of Analytic Knowledge</title>
+            <authors>David Gotz, Michelle X. Zhou, Vikram Aggarwal</authors>
+            <code ref="11"/>
+            <code ref="17"/>
+         </publication>
+
+         <publication>
+            <title>ScentIndex: Conceptually Reorganizing Subject Indexes for Reading</title>
+            <authors>Ed H. Chi, Lichan Hong, Julie Heiser, Stuart K. Card</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>A Visual Interface for Multivariate Temporal Data: Finding Patterns of Events Across Multiple Histories</title>
+            <authors>Jerry Fails, Amy Karlson, Layla Shahamat, Ben Shneiderman</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>User Interfaces for the Exploration of Hierarchical Multi-dimensional Data</title>
+            <authors>Mark Sifer</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Exploratory Visualization of Multivariate Data with Variable Quality</title>
+            <authors>Zaixian Xie, Shiping Huang, Matthew Ward, Elke Rundensteiner</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Beyond Usability: Evaluation Aspects of Visual Analytic Environments</title>
+            <authors>Jean Scholtz</authors>
+            <code ref="12"/>
+         </publication>
+
+      </year>
+
+   </venue>
+   <venue>
+      <title>EuroVis (2002 - 2011; only including InfoVis papers - or papers applicable to both SciVis and InfoVis)</title>
+
+      <year id="2011">
+
+         <publication>
+            <title>A Visual Analytics Approach for Peak-Preserving Prediction of Large Seasonal Time Series</title>
+            <authors>M. C. Hao, H. Janetzko, S. Mittelstädt, W. Hill, U. Dayal, D. A. Keim, M. Marwah, and R. K. Sharma</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Exploring Collections of Tagged Text for Literary Scholarship</title>
+            <authors>M. Correll, M. Witmore, M. Gleicher</authors>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Semantic-Preserving Word Clouds by Seam Carving</title>
+            <authors>Yingcai Wu, Thomas Provan, Furu Wei, Shixia Liu, and Kwan-Liu Ma</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>A User Study of Visualization Effectiveness Using EEG and Cognitive Load</title>
+            <authors>Erik W. Anderson, K. C. Potter, L. E. Matzen, J. F. Shepherd, G. A. Preston, and C. T. Silva</authors>
+            <code ref="15"/>
+         </publication>
+
+         <publication>
+            <title>Evaluation of the Visibility of Vessel Movement Features in Trajectory Visualizations</title>
+            <authors>Niels Willems, Huub van de Wetering, and Jarke J. van Wijk</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>An Evaluation of Visualization Techniques to Illustrate Statistical Deformation Models</title>
+            <authors>J. Caban, P. Rheingans and T. Yoo</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Dynamic Insets for Context-Aware Graph Navigation</title>
+            <authors>Sohaib Ghani, N. Henry Riche, and Niklas Elmqvist</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Visualization of Time-Series Data in Parameter Space for Understanding Facial Dynamics</title>
+            <authors>Gary K. L. Tam, H. Fang, A. J. Aubrey, P. W. Grant, P. L. Rosin, D. Marshall, and M. Chen</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Uncertainty-Aware Exploration of Continuous Parameter Spaces Using Multivariate Prediction</title>
+            <authors>Wolfgang Berger, H. Piringer, P. Filzmoser, and Eduard Gröller</authors>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Temporal Visualization of Boundary-based Geo-information Using Radial Projection</title>
+            <authors>Drocourt, Borgo, et al</authors>
+            <code ref="11"/>
+         </publication>
+         <publication>
+            <title>Visualizing the Evolution of Community Structures in Dynamic Social Networks</title>
+            <authors>Khairi Reda, Chayant Tantipathananandh, Andrew Johnson, Jason Leigh, and Tanya Berger-Wolf</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>ImPrEd: An Improved Force-Directed Algorithm that Prevents Nodes from Crossing Edges</title>
+            <authors>Paolo Simonetto, Daniel Archambault, David Auber, and Romain Bourqui</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Piecewise Laplacian-based Projection for Interactive Data Exploration and Organization</title>
+            <authors>Fernando V. Paulovich, D. M. Eler, J. Poco, Charl P. Botha, R. Minghim, and L. G. Nonato</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>A Framework for Exploring Multidimensional Datawith 3D Projections</title>
+            <authors>Jorge Poco, Ronak Etemadpour, F. V. Paulovich, T. V. Long, P. Rosenthal, M. C. F. Oliveira, Lars Linsen, and R. Minghim</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Visualizing High-Dimensional Structures by Dimension Ordering and Filtering using Subspace Analysis</title>
+            <authors>Bilkis J. Ferdosi , Roerdink</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Tablorer - An Interactive Tree Visualization System for Tablet PCs</title>
+            <authors>HyunJu Shin, GwangHyun Park, and JungHyun Han</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Comparison of Multiple Weighted Hierarchies: Visual Analytics for Microbe Community Profiling</title>
+            <authors>Kasper Dinkla, M. A. Westenberg, H. M. Timmerman, S.A.F.T. van Hijum, and J. J. van Wijk</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Automatic Registration of Multi-Projector Domes Using a Single Uncalibrated Camera</title>
+            <authors>Behzad Sajadi and Aditi Majumder</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2010">
+         <publication>
+            <title>Alleviating the Modifiable Areal Unit Problem</title>
+            <authors>Butkiewicz et al</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Evaluation of Cluster Identification Performance for Different PCP Variants</title>
+            <authors>Danny Holten and Jarke J. van Wijk</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Supporting Exploratory Analysis with the Select &amp; Slice Table</title>
+            <authors>Shrinivasan, van Wijk</authors>
+            <code ref="7"/>
+            <code ref="11"/>
+         </publication>
+         <publication>
+            <title>Brushing Moments in Interactive Visual Analysis</title>
+            <authors>J. Kehrer, P. Filzmoser and H. Hauser</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+         <publication>
+            <title>SmallWorlds: Visualizing Social Recommendations</title>
+            <authors>Gretarsson et al.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>GraphDice: A System for Exploring Multivariate Social Networks</title>
+            <code ref="11"/>
+         </publication>
+         <publication>
+            <title>Real-Time Temporal-Coherent Color Contrast Enhancement for Dichromats</title>
+            <authors>G. M. Machado and M. M. Oliveira</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>An Interactive Visual Analytics System for Bridge Management</title>
+            <authors>Xiaoyu Wang, Wenwen Dou, Shen-En Chen, William Ribarsky, Remco Chang</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Pathline: A Tool For Comparative Functional Genomics</title>
+            <authors>Miriah Meyer, Bang Wong, Mark Styczynski, Tamara Munzner, and Hanspeter Pfister</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Video Visualization for Snooker Skill Training</title>
+            <authors>Markus Höferlin, Edward Grundy, Rita Borgo, Daniel Weiskopf, Min Chen, Iwan W. Griffiths, and W. Griffiths</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>The Readability of Path-Preserving Clusterings of Graphs</title>
+            <authors>Daniel Archambault, Helen C. Purchase, Bruno Pinaud</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>A Salience-based Quality Metric for Visualization</title>
+            <authors>Heike Jänicke and Min Chen</authors>
+            <code ref="15"/>
+         </publication>
+         <publication>
+            <title>Understanding Interactive Legends: a Comparative Evaluation with Standard Widgets</title>
+            <authors>Nathalie Henry Riche, Bongshin Lee, and Catherine Plaisant</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>The Perception of Correlation in Scatterplots</title>
+            <authors>Ronald A. Rensink and Gideon Baldridge</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Scalable Multi-view Registration for Multi-Projector Displays on Vertically Extruded Surfaces</title>
+            <authors>Behzad Sajadi and Aditi Majumder</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2009">
+
+         <publication>
+            <title>Efficient and Adaptive Rendering of 2-D Continuous Scatterplots</title>
+            <authors>Sven Bachthaler and Daniel Weiskopf</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Preconceptions and Individual Differences in Understanding Visual Metaphors</title>
+            <authors>Caroline Ziemkiewicz and Robert Kosara</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>SDViz: A Context-Preserving Interactive Visualization System for Technical Diagrams</title>
+            <authors>I. Woo and S. Kim and R. Maciejewski and D. S. Ebert and T. D. Ropp and K. Thomas</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>A Visualization Based Approach for Digital Signature Authentication</title>
+            <authors>Songhua Xu, Wenxia Yang, and Francis C.M. Lau</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Extended Excentric Labeling</title>
+            <authors>Enrico Bertini, Maurizio Rigamonti, and Denis Lalanne</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Comparing Parameter Manipulation with Mouse, Pen and Slider User Interfaces</title>
+            <authors>Colin Swindells, Melanie Tory, and Rebecca Dreezer</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>iPCA: An Interactive System for PCA-based Visual Analytics</title>
+            <authors>Dong Hyun Jeong, Caroline Ziemkiewicz, Brian Fisher, William Ribarsky, and Remco Chang</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Selecting Good Views of High-dimensional Data using Class Consistency</title>
+            <authors>Mike Sips, Boris Neubert, John P. Lewis, and Pat Hanrahan</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Visualization Techniques for Schedule Comparison</title>
+            <authors>D. Huang, M. Tory, S. Staub-French, and R. Pottinger</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per) "/>
+         </publication>
+         <publication>
+            <title>The Chinese Room: Visualization and Interaction to Understand and Correct Ambiguous Machine Translation</title>
+            <authors>Joshua Albrecht, Rebecca Hwa, and G. Elisabeta Marai</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+      </year>
+
+      <year id="2008">
+
+         <publication>
+            <title>Animating Causal Overlays</title>
+            <authors>Lyn Bartram and Miao Yao</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Density Displays for Data Stream Monitoring</title>
+            <authors>Ming Hao, Daniel A. Keim, Umeshwar Dayal, Daniela Oelke, and Chantal Tremblay. </authors>
+            <code ref="6 (Per)"/>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Investigative Visual Analysis of Global Terrorism</title>
+            <authors>Xiaoyu Wang, Erin Miller, Kathleen Smarick,William Ribarsky, and Remco Chang</authors>
+            <code ref="17"/>
+         </publication>
+
+         <publication>
+            <title>Visual Inspection of Multivariate Graphs</title>
+            <authors>A. Johannes Pretorius and Jarke J. van Wijk: </authors>
+            <code ref="6 (Exp)"/>
+            <code ref="7"/>
+         </publication>
+
+         <publication>
+            <title>Evaluation of illustration-inspired techniques for time-varying data visualization</title>
+            <authors>Alark Joshi and Penny Rheingans: </authors>
+            <code ref="8"/>
+         </publication>
+
+      </year>
+
+      <year id="2007">
+
+         <publication>
+            <title>KeyStrokes: Personalizing Typed Text with Visualization</title>
+            <authors>Petra Neumann, Annie Tat, Torre Zuk, Sheelagh Carpendale</authors>
+            <code ref="7"/>
+            <code ref="8"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Dimensional Congruence for Interactive Visual Data Mining and Knowledge Discovery</title>
+            <authors>Sebastian Baumgärtner, Achim Ebert, and Matthias Deller</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Trust Neighborhoods: Visualizing Trust in Distributed File Sharing Systems</title>
+            <authors>N. Elmqvist and P. Tsigas</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+      </year>
+
+      <year id="2006">
+
+         <publication>
+            <title>Natural Visualizations</title>
+            <authors>Steve Haroz and Kwan-Liu Ma: </authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating the Effectiveness of Tree Visualization Systems for Knowledge Discovery</title>
+            <authors>Yue Wang, Soon Tee Teoh and Kwan-Liu Ma</authors>
+            <code ref="10"/>
+         </publication>
+
+      </year>
+
+      <year id="2005">
+
+         <publication>
+            <title>Scalable, Robust Visualization of Very Large Trees</title>
+            <authors>Dale Beermann, Tamara Munzner, and Greg Humphreys</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>The i-Disc - A Tool To Visualize and Explore Topic Maps</title>
+            <authors>Tobias Hofmann, Hendrik Wendler, and Bernd Froehlich </authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Tiled Parallel Coordinates for the Visualization of Time-Varying Multichannel EEG Data</title>
+            <authors>Michael ten Caat, N. M. Maurits, and J. B. T. M. Roerdink:</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>VisBiz: A Business Process Visualization Case Study</title>
+            <authors>Ming Hao and Daniel A. Keim and Umeshwar Dayal and Joern Schneidewind</authors>
+            <code ref="6 (Exp) "/>
+         </publication>
+
+      </year>
+      
+      <year id="2004">
+
+         <publication>
+            <title>Graph Drawing by Subspace Optimization</title>
+            <authors>Yehuda Koren</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2003">
+
+         <publication>
+            <title>Accelerated Force Computation for Physics-Based Information Visualization</title>
+            <authors>Ming C. Hao, Umeshwar Dayal, Thomas Holenstein, Markus Gross</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2002">
+
+         <publication>
+            <title>Secondary Task Display Attributes – Optimizing Visualizations for Cognitive Task Suitability and Interference Avoidance</title>
+            <authors>C. M. Chewar ,  D. Scott Mccrickard ,  Ali Ndiwalana ,  Chris North ,  Jon Pryor ,  David Tessendorf</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Speech and Gesture Multimodal Control of a Whole Earth 3D Visualization Environment</title>
+            <authors>David Michael Krum, Olugbenga Omoteso, William Ribarsky, Thad Starner, Larry F. Hodges</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Useful Properties of Semantic Depth of Field for Better F+C Visualization</title>
+            <authors>Robert Kosara, Silvia Miksch, Helwig Hauser, Johann Schrammel, Verena Giller, Manfred Tscheligi</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>An Evaluation of Information Visualization in Attention-Limited Environments</title>
+            <authors>Jacob Somervell, D. Scott Mccrickard, Chris North, Maulik Shukla8</authors>
+         </publication>
+
+      </year>
+
+   </venue>
+
+   <venue>
+      <title>Information Visualization Journal (IVS: 2002-2010)</title>
+
+      <year id="2010">
+
+         <publication>
+            <title>Judging Correlation from Scatterplots and Parallel Coordinate Plots</title>
+            <authors>Jing Li, Jean-Bernard Martens, and Jarke J van Wijk.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Visualising the Structure of Document Search Results: A Comparison of Graph Theoretic Approaches </title>
+            <authors>Timothy Cribbin</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>On the Role of Visual References in Collaborative Visualization</title>
+            <authors>Lars Winkler Pettersson, Andreas Kjellin, Mats Lind, and Stefan Seipel</authors>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>Quantifying the Space-Efficiency of 2D Graphical Representations of Trees</title>
+            <authors>Michael J McGuffin and Jean-Marc Robert</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Pinpoint: A Design Study in Interactive Visualization for Finding People in a Large Organization</title>
+            <authors>Gunnar Forsén, Thomas Lundin, and Jonas Löwgren</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Different Levels of 3D: An Evaluation of Visualized Discrete Spatiotemporal Data in Space-Time Cubes</title>
+            <authors>Andreas Kjellin, Lars Winkler Pettersson, Stefan Seipel, and Mats Lind</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Dimensionality Reduction on Multi-Dimensional Transfer Functions for Multi-Channel Volume Data Sets</title>
+            <authors>Han Suk Kim, Jürgen P. Schulze, Angela C. Cone, Gina E. Sosinsky, and Maryann E. Martone</authors>
+            <code ref="9"/>
+            <code ref="16 "/>
+         </publication>
+
+         <publication>
+            <title>Variable Binned Scatter Plots</title>
+            <authors>Ming C. Hao, Umeshwar Dayal, Ratnesh K. Sharma, Daniel A. Keim, and Halldór Janetzko</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>A Multi-Phase Network Situational Awareness Cognitive Task Analysis</title>
+            <authors>Robert F. Erbacher, Deborah A. Frincke, Pak Chung Wong, Sarah Moody, and Glenn Fink.</authors>
+            <code ref="7"/>
+         </publication>
+
+         <publication>
+            <title>Disk Diagram: An Interactive Visualization Technique of Fuzzy Set Operations for the Analysis of Fuzzy Data</title>
+            <authors>Yeseul Park and Jinah Park.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>2D and 3D Representations for Feature Recognition in Time Geographical Diary Data</title>
+            <authors>Katerina Vrotsou, Camilla Forsell, and Matthew Cooper</authors>
+            <code ref="8"/>
+            <code ref="6 (Exp)"/>
+            <code ref="13"/>
+         </publication>
+
+      </year>
+
+      <year id="2009">
+
+         <publication>
+            <title>Characterizing Users' Visual Analytic Activity for Insight Provenance</title>
+            <authors>David Gotz and Michelle X. Zhou</authors>
+            <code ref="4"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Visualizing Large-Scale Streaming Applications</title>
+            <authors>Wim De Pauw and Henrique Andrade</authors>
+            <code ref="6 (Exp) "/>
+         </publication>
+
+         <publication>
+            <title>Eclipse GEF3D: Bringing 3D to Existing 2D Editors</title>
+            <authors>Jens von Pilgrim, Kristian Duske, and Paul McIntosh</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Design and Evaluation of Extensions to UML Sequence Diagrams for Modeling Multithreaded Interactions</title>
+            <authors>Shaohua Xie, Eileen Kraemer, R. E. K. Stirewalt, Laura K Dillon, and Scott D Fleming</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per) "/>
+            <code ref="7"/>
+         </publication>
+
+         <publication>
+            <title>Measuring Effectiveness of Graph Visualizations: A Cognitive Load Perspective</title>
+            <authors>Weidong Huang, Peter Eades, and Seok-Hee Hong</authors>
+            <code ref="8"/>
+            <code ref="15"/>
+         </publication>
+
+         <publication>
+            <title>Adaptive Visualization of Search Results: Bringing User Models to Visual Analytics</title>
+            <authors>Jae-Wook Ahn and Peter Brusilovsky</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Knowledge Generation through Human-Centered Information Visualization</title>
+            <authors>Katja Einsfeld, Achim Ebert, Andreas Kerren, and Matthias Deller</authors>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Seeing is Believing: Linking Data with Knowledge</title>
+            <authors>Aba-Sah Dadzie, Vitaveska Lanfranchi, and Daniela Petrelli</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Visual Analysis of Dynamic Data Streams</title>
+            <authors>George Chin, Jr., Mudita Singhal, Grant Nakamura, Vidhya Gurumoorthi, and Natalie Freeman-Cadoret</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per) "/>
+         </publication>
+
+      </year>
+
+      <year id="2008">
+
+         <publication>
+            <title>Stories in GeoTime</title>
+            <authors>Ryan Eccles, Thomas Kapler, Robert Harper and William Wright</authors>
+            <code ref="1"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>DataMeadow: a visual canvas for analysis of large-scale multivariate data</title>
+            <authors>Niklas Elmqvist, John Stasko and Philippas Tsigas</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Mobile analytics for emergency response and training</title>
+            <authors>SungYe Kim, Ross Maciejewski, Karl Ostmo, Edward J Delp, Timothy F Collins and David S Ebert</authors>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>A dynamic multiscale magnifying tool for exploring large sparse graphs</title>
+            <authors>Pak Chung Wong, Harlan Foote, Patrick Mackey, George Chin, Heidi Sofia and Jim Thomas</authors>
+            <code ref="1"/>
+         </publication>
+
+         <publication>
+            <title>Perceiving patterns in parallel coordinates: determining thresholds for identification of relationships</title>
+            <authors>Jimmy Johansson, Camilla Forsell, Mats Lind and Matthew Cooper</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Exploring the spatio-temporal dynamics of geographical processes with geographically weighted regression and geovisual analytics</title>
+            <authors>Urka Demar, A Stewart Fotheringham and Martin Charlton</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>A chorem-based approach for visually synthesizing complex phenomena</title>
+            <authors>Vincenzo Del Fatto, Robert Laurini, Karla Lopez, Monica Sebillo and Giuliana Vitiello</authors>
+            <code ref="7"/>
+         </publication>
+
+         <publication>
+            <title>Understanding geospatial interests by visualizing map interaction behavior</title>
+            <authors>Eoin Mac Aoidh, Michela Bertolotto and David C Wilson</authors>
+            <code ref="8"/>
+         </publication>
+
+      </year>
+
+      <year id="2007">
+
+         <publication>
+            <title>Interactive wormhole detection and evaluation</title>
+            <authors>Weichao Wang, Aidong Lu</authors>
+            <code ref="4"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>NetLens: iterative exploration of content-actor network data</title>
+            <authors>Hyunmo Kang, Catherine Plaisant, Bongshin Lee, Benjamin B Bederson</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>ScentIndex and ScentHighlights: productive reading techniques for conceptually reorganizing subject indexes and highlighting passages</title>
+            <authors>Ed H Chi, Lichan Hong, Julie Heiser, Stuart K Card, Michelle Gumbrecht</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>EWall: A visual analytics environment for collaborative sense-making</title>
+            <authors>Paul E Keel</authors>
+            <code ref="3"/>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Visual exploration and analysis of historic hotel visits</title>
+            <authors>Chris Weaver, David Fyfe, Anthony Robinson, Deryck Holdsworth</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Information space partitioning using adaptive Voronoi diagrams</title>
+            <authors>René Reitsma and Stanislav Trubin</authors>
+            <code ref="8"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Comparison of visualization methods for an atlas of gene expression data sets</title>
+            <authors>Jarkko Venna and Samuel Kaski</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>CiteWiz: a tool for the visualization of scientific citation networks</title>
+            <authors>Niklas Elmqvist and Philippas Tsigas</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>CandidTree: visualizing structural uncertainty in similar hierarchies</title>
+            <authors>Bongshin Lee, George G Robertson, Mary Czerwinski and Cynthia Sims Parr</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Fast point-feature label placement for dynamic visualization</title>
+            <authors>Kevin Mote</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2006">
+
+         <publication>
+            <title>Overview+detail in a Tomahawk Mission-to-Platform Assignment Tool: applying information visualization in support of an asset allocation planning task</title>
+            <authors>John Cushing, Lecha Dawn Janssen, Stephen Allen, Stephanie Guerlain</authors>
+            <code ref="6 (Per)"/>
+            <code ref="11"/>
+         </publication>
+         <publication>
+            <title>Finding and understanding reusable designs from large hierarchical repositories</title>
+            <authors>Peter Demian, Renate Fruchter</authors>
+            <code ref="5"/>
+         </publication>
+         <publication>
+            <title>Human perception of structure in shaded space-filling visualizations</title>
+            <authors>Pourang Irani, Dean Slonowsky, Peer Shajahan</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Matrices or node-link diagrams: which visual representation is better for visualising connectivity models?</title>
+            <authors>René Keller, Claudia M Eckert, P John Clarkson</authors>
+            <code ref="6 (Per)"/>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Surface glyphs for efficient visualization of spatial multivariate data</title>
+            <authors>Camilla Forsell, Stefan Seipel, Mats Lind</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>PRISAD: A Partitioned Rendering Infrastructure for Scalable Accordion Drawing (extended version)</title>
+            <authors>James Slack, Kristian Hildebrand and Tamara Munzner</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>A Sky Dome visualisation for identification of astronomical orientations</title>
+            <authors>Georg Zotti</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>The Concept Plot: a concept mapping visualization tool for asynchronous web-based brainstorming sessions</title>
+            <authors>Alex Ivanov, Dianne Cyr</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Concept maps for designing adaptive knowledge maps</title>
+            <authors>Michel Crampes, Sylvie Ranwez, Jean Villerd, Filip Velickovski, et al.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Nature-inspired visualisation of similarity and relationships in human systems and behaviours</title>
+            <authors>Russell Beale, Robert J Hendley, Andy Pryke and Barry Wilkins</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Feature hiding in 3D human body scans</title>
+            <authors>Joseph Laws, Nathaniel Bauernfeind, Yang Cai</authors>
+            <code ref="2"/>
+         </publication>
+         <publication>
+            <title>Multi-scale visual analysis of trauma injury</title>
+            <authors>Celina Imielinska, Andrzej Przekwas and X G Tan</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2005">
+
+         <publication>
+            <title>EncCon: an approach to constructing interactive visualization of large hierarchical data</title>
+            <authors>Quang Vinh Nguyen and Mao Lin Huang</authors>
+            <code ref="16"/>
+         </publication>
+         <publication>
+            <title>Self-organizing map learning nonlinearly embedded manifolds</title>
+            <authors>Timo Similä</authors>
+            <code ref="16"/>
+         </publication>
+         <publication>
+            <title>Constructing and reconstructing the reorderable matrix</title>
+            <authors>Harri Siirtola, Erkki Mäkinen</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Supporting visual queries on medium-sized node-link diagrams</title>
+            <authors>Colin Ware, Robert Bobrow</authors>
+            <code ref="6 (Per)"/>
+            <code ref="8 "/>
+         </publication>
+         <publication>
+            <title>Visualizing and discovering non-trivial patterns in large time series databases</title>
+            <authors>Jessica Lin, Eamonn Keogh and Stefano Lonardi</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>On the readability of graphs using node-link and matrix-based representations: a controlled experiment and statistical analysis</title>
+            <authors>Mohammad Ghoniem, Jean-Daniel Fekete, Philippe Castagliola</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>GeoTime information visualization</title>
+            <authors>Thomas Kapler, William Wright</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="11"/>
+         </publication>
+         <publication>
+            <title>Animated interval scatter-plot views for the exploratory analysis of large-scale microarray time-course data</title>
+            <authors>Paul Craig, Jessie Kennedy, Andrew Cumming</authors>
+            <code ref="1"/>
+         </publication>
+         <publication>
+            <title>Exploratory visualization of array-based comparative genomic hybridization</title>
+            <authors>Robert Kincaid, Amir Ben-Dor, Zohar Yakhini</authors>
+            <code ref="4"/>
+            <code ref="5"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Visualizing biological pathways: requirements analysis, systems evaluation and research agenda</title>
+            <authors>Purvi Saraiya, Chris North, Karen Duca</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Dust &amp; Magnet: multivariate information visualization using a magnet metaphor</title>
+            <authors>Ji Soo Yi, Rachel Melton, John Stasko, Julie A Jacko</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Image fusion based on topographic mappings using the hyperbolic space</title>
+            <authors>Axel Saalbach, Jörg Ontrup, Helge Ritter and Tim W Nattkemper</authors>
+            <code ref="16"/>
+         </publication>
+
+   </year>
+
+   <year id="2004">
+
+         <publication>
+            <title>Dynamic query tools for time series data sets: Timebox widgets for interactive exploration</title>
+            <authors>Harry Hochheiser, Ben Shneiderman</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Multiple foci visualisation of large hierarchies with FlexTree</title>
+            <authors>Hongzhi Song, Edwin P Curran, Roy Sterritt</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Feel the information with VisPad: a large area vibrotactile device</title>
+            <authors>Doanna Weissgerber, Bruce Bridgeman, Alex Pang</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>A pivot-based routine for improved parent-finding in hybrid MDS</title>
+            <authors>Alistair Morrison and Matthew Chalmers. IVS 3(2): 109--122, 2004.</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Visualizing roles of variables in program animation</title>
+            <authors>Jorma Sajaniemi, Marja Kuittinen</authors>
+            <code ref="5"/>
+         </publication>
+         <publication>
+            <title>Animated visualization of causal relations through growing 2D geometry</title>
+            <authors>Niklas Elmqvist, Philippas Tsigas</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>GAMMATELLA: visualizing program-execution data for deployed software</title>
+            <authors>James A Jones, Alessandro Orso and Mary Jean Harrold</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Visualising changes in fund manager holdings in two and a half-dimensions</title>
+            <authors>Tim Dwyer, David R Gallagher</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>The representation of neural data using visualization </title>
+            <authors>Martin Walter, Liz Stuart and Roman Borisyuk</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>VISTA: validating and refining clusters via visualization</title>
+            <authors>Keke Chen and Ling Liu</authors>
+            <code ref="16 (ML criteria)"/>
+         </publication>
+
+   </year>
+
+   <year id="2003">
+
+         <publication>
+            <title>Visualizing geographic information: VisualPoints vs CartoDraw</title>
+            <authors>Daniel A Keim, Stephen C North, Christian Panse and Jörn Schneidewind</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Fast multidimensional scaling through sampling, springs and interpolation</title>
+            <authors>Alistair Morrison, Greg Ross and Matthew Chalmers</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Network intrusion visualization with NIVA, an intrusion detection visual and haptic analyzer</title>
+            <authors>Craig Scott, Kofi Nyarko, Tanya Capers and Jumoke Ladeji-Osias</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Application of information visualization techniques to the design of a mathematical mindtool: a usability study</title>
+            <authors>Kamran Sedig, Sonja Rowhani, Jim Morey and Hai-Ning Liang</authors>
+            <code ref="3"/>
+            <code ref="5"/>
+            <code ref="6 (Exp) "/>
+            <code ref="6 (Per)"/>
+            <code ref="9"/>
+         </publication>
+
+   </year>
+
+   <year id="2002">
+
+         <publication>
+            <title>Animated visualization of multiple intersecting hierarchies</title>
+            <authors>Robertson, George, Kim Cameron, Mary Czerwinski and Daniel Robbins.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Filtering and brushing with motion</title>
+            <authors>Bartram, Lyn and Colin Ware</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Cognitive measurements of graph aesthetics</title>
+            <authors>Ware, Collin, Helen Purchase, Linda Colpoys and Mathew McGill</authors>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Liver cancer detection system based on the analysis of digitized color images of tissue samples obtained using needle biopsy </title>
+            <authors>Mohamed Sammouda, Rachid Sammouda, Noboru Niki and Kiyoshi Mukai</authors>
+            <code ref="16"/>
+         </publication>
+         <publication>
+            <title>DEViD: a media design and software ergonomics integrating visualization for document retrieval</title>
+            <authors>Eibl, Maximilian</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>The InfoSky visual explorer: exploiting hierarchical structure and document similarities</title>
+            <authors>Keith Andrews, Wolfgang Kienreich, Vedran Sabol, Jutta Becker, Georg Droschl, Frank Kappe, Michael Granitzer, Peter Auer and Klaus Tochtermann</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Space-optimized tree: a connection+enclosure approach for the visualization of large hierarchies </title>
+            <authors>Quang Vinh Nguyen and Mao Lin Huang</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>InterRing: a visual interface for navigating and manipulating hierarchies</title>
+            <authors>Jing Yang, Matthew O Ward, Elke A Rundensteiner and Anilkumar Patro</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+            <code ref="8"/>
+         </publication>
+         <publication>
+            <title>Beamtrees: compact visualization of large hierarchies</title>
+            <authors>Frank van Ham and Jarke J van Wijk</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Metric 3D structure in visualizations</title>
+            <authors>Mats Lind and Geoffrey P Bingham and Camilla Forsell</authors>
+            <code ref="8"/>
+         </publication>
+
+      </year>
+
+   </venue>
+
+   <venue>
+
+      <title>InfoVis</title>
+
+      <year id="2010">
+
+         <publication>
+            <title>Rethinking Map Legends with Visualization</title>
+            <authors>Jason Dykes, Jo Wood, Aidan Slingsby</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>SignalLens: Focus+Context Applied to Electronic Time Series</title>
+            <authors>Robert Kincaid</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Gremlin: An Interactive Visualization Model for Analyzing Genomic Rearrangements</title>
+            <authors>Trevor M. O'Brien, Anna M. Ritz, Benjamin J. Raphael, David H. Laidlaw</authors>
+            <code ref="1"/>
+            <code ref="6 "/>
+         </publication>
+         <publication>
+            <title>Graphical Perception of Multiple Time Series</title>
+            <authors>Waqas Javed, Bryan McDonnel, Niklas Elmqvist</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>Uncovering Strengths and Weaknesses of Radial Visualizations-an Empirical Approach</title>
+            <authors>Stephan Diehl, Fabian Beck, Michael Burch</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>How Information Visualization Novices Construct Visualizations</title>
+            <authors>Lars Grammel, Melanie Tory, Margaret-Anne Storey</authors>
+            <code ref="1"/>
+         </publication>
+         <publication>
+            <title>Evaluating the Impact of Task Demands and Block Resolution on the Effectiveness of Pixel-based Visualization</title>
+            <authors>Rita Borgo, Karl Proctor, Min Chen, Heike Jänicke, Tavi Murray, Ian M. Thornton</authors>
+            <code ref="8"/>
+            <code ref="13 "/>
+         </publication>
+         <publication>
+            <title>Perceptual Guidelines for Creating Rectangular Treemaps</title>
+            <authors>Nicholas Kong, Jeffrey Heer, Maneesh Agrawala</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>Laws of Attraction: From Perceived Forces to Conceptual Similarity</title>
+            <authors>Caroline Ziemkiewicz, Robert Kosara</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>Pargnostics: Screen-Space Metrics for Parallel Coordinates</title>
+            <authors>Aritra Dasgupta, Robert Kosara</authors>
+            <code ref="9"/>
+            <code ref="15"/>
+         </publication>
+         <publication>
+            <title>Comparative Analysis of Multidimensional, Quantitative Data</title>
+            <authors>Alexander Lex, Marc Streit, Christian Partl, Karl Kashofer, Dieter Schmalstieg</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="9 "/>
+         </publication>
+         <publication>
+            <title>Visualization of Diversity in Large Multivariate Data Sets</title>
+            <authors>Tuan Pham, Rob Hess, Crystal Ju, Eugene Zhang, Ronald Metoyer</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>PedVis: A Structured, Space-Efficient Technique for Pedigree Visualization</title>
+            <authors>Claurissa Tuttle, Luis Gustavo Nonato, Cláudio T. Silva</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>GeneaQuilts: A System for Exploring Large Genealogies</title>
+            <authors>Anastasia Bezerianos, Pierre Dragicevic, Jean-Daniel Fekete, Juhee Bae, Ben Watson</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Visualization of Graph Products</title>
+            <authors>Stefan Jänicke, Christian Heine, Marc Hellmuth, Peter F. Stadler, Gerik Scheuermann</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Untangling Euler Diagrams</title>
+            <authors>Nathalie Henry Riche, Tim Dwyer</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>The FlowVizMenu and Parallel Scatterplot Matrix: Hybrid Multidimensional Visualizations for Network Exploration</title>
+            <authors>Christophe Viau, Michael J. McGuffin, Yves Chiricota, Igor Jurisica</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>OpinionSeer: Interactive Visualization of Hotel Customer Feedback</title>
+            <authors>Yingcai Wu, Furu Wei, Shixia Liu, Norman Au, Weiwei Cui, Hong Zhou, Huamin Qu</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>The Streams of Our Lives: Visualizing Listening Histories in Context</title>
+            <authors>Dominikus Baur, Frederik Seiffert, Michael Sedlmair, Sebastian Boring</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>A Visual Backchannel for Large-Scale Events</title>
+            <authors>Marian Dörk, Daniel Gruen, Carey Williamson, Sheelagh Carpendale</authors>
+            <code ref="6 (exp: informal user feedback and potential uses)"/>
+         </publication>
+         <publication>
+            <title>FacetAtlas: Multifaceted Visualization for Rich Text Corpora</title>
+            <authors>Nan Cao, Jimeng Sun, Yu-Ru Lin, David Gotz, Shixia Liu, Huamin Qu</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>SparkClouds: Visualizing Trends in Tag Clouds</title>
+            <authors>Bongshin Lee, Nathalie Henry Riche, Amy K. Karlson, Sheelagh Carpendale</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>ManiWordle: Providing Flexible Control over Wordle</title>
+            <authors>Kyle Koh, Bongshin Lee, Bohyoung Kim, Jinwook Seo</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+   </year>
+
+   <year id="2009">
+
+         <publication>
+            <title>Protovis: A Graphical Toolkit for Visualization</title>
+            <authors>Michael Bostock, Jeffrey Heer</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Constructing Overview + Detail Dendrogram-Matrix Views</title>
+            <authors>Jin Chen, Alan M. MacEachren, Donna J. Peuquet</authors>
+            <code ref="15"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Exemplar-based Visualization of Large Document Corpus</title>
+            <authors>Yanhua Chen, Lijun Wang, Ming Dong, Jing Hua</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+         <publication>
+            <title>ResultMaps: Visualization for Search Interfaces</title>
+            <authors>Edward C. Clarkson, Krishna Desai, James D. Foley</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Visualizing Social Photos on a Hasse Diagram for Eliciting Relations and Indexing New Photos</title>
+            <authors>Michel Crampes, Jeremy de Oliveira-Kumar, Sylvie Ranwez, Jean Villerd</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>SpicyNodes: Radial Layout Authoring for the General Public</title>
+            <authors>Michael Douma, Grzegorz Ligierko, Ovidiu Ancuta, Pavel Gritsai, Sean Liu</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>Interactive Dimensionality Reduction Through User-defined Combinations of Quality Metrics</title>
+            <authors>Sara Johansson, Jimmy Johansson</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>GeneShelf: A Web-based Visual Interface for Large Gene Expression Time-Series Data Repositories</title>
+            <authors>Bohyoung Kim, Bongshin Lee, Susan Knoblach, Eric Hoffman, Jinwook Seo</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>SellTrend: Inter-Attribute Visual Analysis of Temporal Transaction Data</title>
+            <authors>Zhicheng Liu, John Stasko, Timothy Sullivan</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Harnessing the Web Information Ecosystem with Wiki-based Visualization Dashboards</title>
+            <authors>Matt McKeon</authors>
+            <code ref="4"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Comparing Dot and Landscape Spatializations for Visual Memory Differences</title>
+            <authors>Melanie Tory, Colin Swindells, Rebecca Dreezer</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>Participatory Visualization with Wordle</title>
+            <authors>Fernanda B. Viégas, Martin Wattenberg, Jonathan Feinberg</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Temporal Summaries: Supporting Temporal Categorical Searching, Aggregation and Comparison</title>
+            <authors>Taowei David Wang, Catherine Plaisant, Ben Shneiderman, Neil Spring, David Roseman, Greg Marchand, Vikramjit Mukherjee, Mark Smith</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Interaction Techniques for Selecting and Manipulating Subgraphs in Network Visualizations</title>
+            <authors>Michael J. McGuffin, Igor Jurisica</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>A Comparison of User-Generated and Automatic Graph Layouts</title>
+            <authors>Tim Dwyer, Bongshin Lee, Danyel Fisher, Kori Inkpen Quinn, Petra Isenberg, George Robertson, Chris North</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+         <publication>
+            <title>code swarm: A Design Study in Organic Software Visualization</title>"/>
+            <authors>Michael Ogawa, Kwan-Liu Ma</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Towards Utilizing GPUs in Information Visualization: A Model and Implementation of Image-Space Operations</title>
+            <authors>Bryan McDonnel, Niklas Elmqvist</authors>
+            <code ref="9"/>
+         </publication>
+         <publication>
+            <title>A Multi-Threading Architecture to Support Interactive Visual Exploration</title>
+            <authors>Harald Piringer, Christian Tominski, Philipp Muigg, Wolfgang Berger</authors>
+            <code ref="9"/>
+         </publication>
+
+   </year>
+
+   <year id="2008">
+
+         <publication>
+            <title>Balloon Focus: a Seamless Multi-Focus+Context Method for Treemaps </title>
+
+
+            <authors>Ying Tu; Han-Wei Shen</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+         <publication>
+            <title>Multi-Focused Geospatial Analysis Using Probes</title>
+            <authors>Butkiewicz, T.; Dou, W.; Wartell, Z.; Ribarsky, W.; Chang, R.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Distributed Cognition as a Theoretical Framework for Information Visualization</title>
+            <authors>Zhicheng Liu; Nersessian, N.; Stasko, J.</authors>
+            <code ref="12"/>
+         </publication>
+         <publication>
+            <title>EMDialog: Bringing Information Visualization into the Museum</title>
+            <authors>Hinrichs, U.; Schmidt, H.; Carpendale, S.</authors>
+            <code ref="14"/>
+         </publication>
+         <publication>
+            <title>Graphical Histories for Visualization: Supporting Analysis, Communication, and Evaluation</title>
+            <authors>Heer, J.; Mackinlay, J.; Stolte, C.; Agrawala, M.</authors>
+            <code ref="17"/>
+         </publication>
+         <publication>
+            <title>Who Votes For What? A Visual Query Language for Opinion Data</title>
+            <authors>Draper, G.; Riesenfeld, R.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>VisGets: Coordinated Visualizations for Web-based Information Exploration and Discovery</title>
+            <authors>Dork, M.; Carpendale, S.; Collins, C.; Williamson, C.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+         <publication>
+            <title>Vispedia: Interactive Visual Exploration of Wikipedia Data via Search-Based Integration</title>
+            <authors>Chan, B.; Wu, L.; Talbot, J.; Cammarano, M.; Hanrahan, P.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>The Word Tree, an Interactive Visual Concordance</title>
+            <authors>Wattenberg, M.; Viegas, F.B.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>HiPP: A Novel Hierarchical Point Placement Strategy and its Application to the Exploration of Document Collections</title>
+            <authors>Paulovich, F.V.; Minghim, R.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Particle-based labeling: Fast point-feature labeling without obscuring other visual features</title>
+            <authors>Luboschik, M.; Schumann, H.; Cords, H.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Stacked Graphs – Geometry &amp; Aesthetics</title>
+            <authors>Byron, L.; Wattenberg, M.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Cerebral: Visualizing Multiple Experimental Conditions on a Graph with Biological Context</title>
+            <authors>Barsky, A.; Munzner, T.; Gardy, J.; Kincaid, R. </authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Viz-A-Vis: Toward Visualizing Video through Computer Vision</title>
+            <authors>Romero, M.; Summet, J.; Stasko, J.; Abowd, G.</authors>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>The Shaping of Information by Visual Metaphors</title>
+            <authors>Ziemkiewicz, C. and Kosara, R.</authors>
+            <code ref="13"/>
+         </publication>
+
+         <publication>
+            <title>Geometry-Based Edge Clustering for Graph Visualization</title>
+            <authors>Weiwei Cui; Hong Zhou; Huamin Qu; Pak Chung Wong; Xiaoming Li</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>On the Visualization of Social and other Scale-Free Networks </title>
+            <authors>Yuntao Jia; Hoberock, J.; Garland, M.; Hart, J.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Rapid Graph Layout Using Space Filling Curves</title>
+            <authors>Muelder, C.; Kwan-Liu Ma</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating the Use of Data Transformation for Information Visualization</title>
+            <authors>Zhen Wen; Zhou, M.X.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Improving the Readability of Clustered Social Networks using Node Duplication</title>
+            <authors>Henr, N.; Bezerianos, A.; Fekete, J.-D.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Effectiveness of Animation in Trend Visualization</title>
+            <authors>Robertson, G.; Fernandez, R.; Fisher, D.; Lee, B.; Stasko, J.</authors>
+            <code ref="8 "/>
+         </publication>
+
+         <publication>
+            <title>Perceptual Organization in User-Generated Graph Layouts</title>
+            <authors>van Ham, F.; Rogowitz, B.</authors>
+            <code ref="8"/>
+         </publication>
+
+   </year>
+
+   <year id="2007">
+
+         <publication>
+            <title>Visual Analysis of Network Traffic for Resource Planning, Interactive Monitoring, and Interpretation of Security Threats </title>
+            <authors>Mansmann, F.; Keim, D.A.; North, S.C.; Rexroad, B.; Sheleheda, D.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>AdaptiviTree: Adaptive Tree Visualization for Tournament-Style Brackets</title>
+            <authors>Tan, D; Smith, G; Lee, B; and Robertson, G.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Many Eyes: A Site for Visualization at Internet Scale</title>
+            <authors>Viegas, F; Wattenberg, M; van Ham, F; Kriss, J; and McKeon, M.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Show Me: Automatic Presentation for Visual Analytics</title>
+            <authors>Mackinlay, J; Hanrahn, P; and Stolte, C.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Legible Cities: Focus-Dependent Multi-Resolution Visualization of Urban Relationships</title>
+            <authors>Chang, R; Wessell, G; Kosara, R; Sauda, E; Ribarsky; W.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Hotmap: Looking at Geographic Attention</title>
+            <authors>Fisher, D.</authors>
+            <code ref="3"/>
+            <code ref="10"/>
+            <code ref="14"/>
+         </publication>
+
+         <publication>
+            <title>Visualization of Heterogeneous Data</title>
+            <authors>Cammarano, M.; Xin Dong; Bryan Chan; Klingner, J.; Talbot, J.; Halevy, A.; Hanrahan, P.</authors>
+            <code ref="9"/>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Sequential Document Visualization</title>
+            <authors>Mao, Y; Dillion, J; and Lebanon, G.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Animated Transitions in Statistical Data Graphics</title>
+            <authors>Heer, J. and Robertson, G.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Visualizing Causal Semantics using Animations</title>
+            <authors>Kadaba, N; Irani, P; and Leboe, J.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Spatialization Design: Comparing Points and Landscapes</title>
+            <authors>Tory, M; Sprague, DW; Wu, F; So, WY; Munzner, T.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Weaving versus Blending: A Quantitative Assessment of the Information Carrying Capacities of Two Alternative Methods for Conveying Multivariate Data with Color</title>
+            <authors>Hagh-Shenas, H.   Sunghee Kim   Interrante, V.   Healey, C.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Overview use in Multiple Information Resolution Interfaces</title>
+            <authors>Lam, H; Munzner, T; and Kincaid, R.</authors>
+            <code ref="13"/>
+         </publication>
+
+         <publication>
+            <title>Visualizing Changes of Hierarchical Data Using Treemaps</title>
+            <authors>Tu, Y and Shen, HW.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Exploring Multiple Trees through DAG Representations</title>
+            <authors>Graham, M and Kennedy, J.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Multi-Level Graph Layout on the GPU</title>
+            <authors>Frishman, Y.; Tal, A.</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2006">
+
+         <publication>
+            <title>ASK-Graph View: A Large Scale Graph Visualization System</title>
+            <authors>Abello, J., van Ham, F., and Krishnan, N. . IEEE TVCG 12(5):, 2006.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Enabling Automatic Clutter Reduction in Parallel Coordinate Plots</title>
+            <authors>Ellis, G.; Dix, A.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Topographic Visualization of Prefix Propagation in the Internet</title>
+            <authors>Cortese, P.F.; Di Battista, G.; Moneta, A.; Patrignani, M.; Pizzonia, M.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data</title>
+            <authors>Holten, D.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Spatial Analysis of News Sources</title>
+            <authors>Mehler, A.; Yunfan Bao; Xin Li; Yue Wang; Skiena, S.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Dynamic Map Labeling</title>
+            <authors>Been, K.; Daiches, E.; Chee Yap</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Visualization of Barrier Tree Sequences</title>
+            <authors>Heine, C.; Scheuermann, G.; Flamm, C.; Hofacker, I.L.; Stadler, P.F.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>FacetMap: A Scalable Search and Browse Visualization</title>
+            <authors>Smith, G., Czerwinski, M., Meyers, B., Robbins, D., Robertson, G., and Tan Desney</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Smashing Peacocks Further: Drawing Quasi-Trees from Biconnected Components</title>
+            <authors>Archambault, D.; Munzner, T.; Auber, D.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>IPSep-CoLa: An Incremental Procedure for Separation Constraint Layout of Graphs</title>
+            <authors>Dwyer, T.; Koren, Y.; Marriott, K.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>User Interaction with Scatterplots on Small Screens---A Comparative Evaluation of Geometric-Semantic Zoom and Fisheye Distortion</title>
+            <authors>Buering T; Gerkin, J; and Reiterer H.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>The Perceptual Scalability of Visualization</title>
+            <authors>Yost, B and North C.</authors>
+            <code ref="8"/>
+         </publication>
+
+      </year>
+
+      <year id="2005">
+
+         <publication>
+            <title>Baby Names, Visualization, and Social Data Analysis</title>
+            <authors>Wattenberg, M.</authors>
+            <code ref="1"/>
+            <code ref="3"/>
+         </publication>
+
+         <publication>
+            <title>Interactive Visualization of Genealogical Graphs</title>
+            <authors>McGuffin, M and Balakrishnan.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>The Visual Code Navigator: An Interactive Toolset for Souce Code Investigation</title>
+            <authors>Lommerse, G, Nossin, F., Voinea, L, and Telea, A.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Vizster: Visualizing Online Social Networks</title>
+            <authors>Heer, J. and Boyd Danah.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>PRISAD: a partitioned rendering infrastructure for scalable accordion drawing</title>
+            <authors>Slack, J.; Hildebrand, K.; Munzner, T.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Voronoi treemaps</title>
+            <authors>Balzer, M.; Deussen, O.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Dig-CoLa: directed graph layout through constrained energy minimization</title>
+            <authors>Dwyer, T.; Koren, Y.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Dynamic Visualization of Graph with Extended labels</title>
+            <authors>Wong, PK, MacKey, P., Perrine, K, Eagan, J, Foote, H, and Thomas, J.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>An Evaluation of Content Browsing Techniques for Hierarchical Space-Filling Visualizations</title>
+            <authors>Shi, K., Irani, P., and Li Ben.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Turning the Bucket of Text into a Pipe</title>
+            <authors>Hetzler, E., Crow, VL, Payne, DA, and Turner, AI.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Simple 3D Glyphs for Multivariate Spatial Data</title>
+            <authors>Forsell, C., Seipel, S. and Lind, M.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Revealing structure within clustered parallel coordinates displays</title>
+            <authors>Johansson, J.; Ljung, P.; Jern, M.; Cooper, M.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Multivariate Glyphs for Multi-Object Clusters</title>
+            <authors>Chlan, EB, and Rheingans, P.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>An Optimization-based Approach to Dynamic Visual Context Management</title>
+            <authors>Wen, Z., Zhou, MX, and Aggarwal, V.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Adapting the cognitive walkthrough method to assess the usability of a knowledge domain visualization</title>
+            <authors>Allendoerfer, K.; Aluker, S.; Panjwani, G.; Proctor, J.; Sturtz, D.; Vukovic, M.; Chaomei Chen</authors>
+            <code ref="12"/>
+         </publication>
+
+         <publication>
+            <title>Importance-driven visualization layouts for large time series data </title>
+            <authors>Hao, M.C.; Umeshwar Dayal; Keim, D.A.; Schreck, T.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Visualization of Graphs with Associated Timeseries Data</title>
+            <authors>Saraiya, P., Lee, P., and North, C.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Interactive Sankey Diagrams</title>
+            <authors>Riehmann, P., Hanfler, M., and Froehlich, B.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+      </year>
+
+      <year id="2004">
+
+         <publication>
+            <title>An Evaluation of Microarray Visualization Tools for Biological Insight</title>
+            <authors>Saraiya, P.; North, C.; Duca, K.</authors>
+            <code ref="6 (Per)"/>
+            <code ref="15"/>
+         </publication>
+
+         <publication>
+            <title>User Experiment with Tree Visualization Systems</title>
+            <authors>Kobsa, A.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>A Comparison of the Readability of Graphs Using Node-Link and Matrix-Based Representations</title>
+            <authors>Ghoniem, M; Fekete, JD, Castagliola, P.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>GeoTime Information Visualization</title>
+            <authors>Kapler, T.; Wright, W.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>RecMap: Rectangular Map Approximations</title>
+            <authors>Heilmann, R.; Keim, D.A.; Panse, C.; Sips, M.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Steerable, Progressive Multidimensional Scaling</title>
+            <authors>Williams, M.; Munzner, T.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Value and Relation Display for Interactive Exploration of High Dimensional Datasets</title>
+            <authors>Yang, J.; Anilkumar Patro; Huang, S.; Nishant Mehta; Ward, M.O.; Rundensteiner, E.A.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Clutter Reduction in Multi-Dimensional Data Visualization Using Dimension Reordering</title>
+            <authors>Peng, W.; Ward, M.O.; Rundensteiner, E.A.</authors>
+            <code ref="15"/>
+         </publication>
+
+         <publication>
+            <title>Time-Varying Data Visualization Using Information Flocking Boids</title>
+            <authors>Moere, A.V.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Artifacts of the Presence Era; Using Information Visualization to Create an Evocative Souvenir</title>
+            <authors>Viegas, F.; Perry E; Howe, E; and Donath, J.</authors>
+            <code ref="14"/>
+         </publication>
+
+         <publication>
+            <title>Expand-Ahead: A Space-Filling Strategy for Browsing Trees</title>
+            <authors>McGuffin, M; Davison, G; and Balakrishnan, R.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating a System for Interactive Exploration of Large, Hierarchically Structured Document Repositories</title>
+            <authors>Granitzer, M, Kienreich, W., Sabal, V., Andrews, K., and Klieber, W.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>A Knowledge Task-Based Framework for Design and Evaluation of Information Visualizations</title>
+            <authors>Amar, R.; Stasko, J.</authors>
+            <code ref="12"/>
+         </publication>
+
+      </year>
+
+      <year id="2003">
+
+         <publication>
+            <title>Smooth and Efficient Zooming and Panning</title>
+            <authors>Jarke J. van Wijk. Wim A.A. Nuij. </authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>EdgeLens: An Interactive Method for Managing Edge Congestion in Graphs</title>
+            <authors>Wong, N; Carpendale, S; and Greenberg, S.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Dynamic visualization of transient data streams </title>
+            <authors>Pak Chung Wong; Foote, H.; Adams, D.; Cowley, W.; Thomas, J.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Mapping nominal values to numbers for effective visualization</title>
+            <authors>Rosario, G.E.; Rundensteiner, E.A.; Brown, D.C.; Ward, M.O.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Constant density displays using diversity sampling</title>
+            <authors>Derthick, M.; Christel, M.G.; Hauptmann, A.G.; Wactlar, H.D.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Empirical Comparison of Dynamic Query Sliders and Brushing Histograms</title>
+            <authors>Li, Q; and North, C.</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+
+         <publication>
+            <title>An Experimental Evaluation of Continuous Semantic Zooming in Program Visualization</title>
+            <authors>Summers, K.L.; Goldsmith, T.E.; Kubica, S.; and Caudell T.P.</authors>
+            <code ref="2"/>
+         </publication>
+
+         <publication>
+            <title>Conveying Shape with Texture: an Experimental Investigation of the Impact of Texture Type on Shape Categorization Judgments</title>
+            <authors>Kim, S; Hagh-Shenas, H; Interrante, V.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>Coordinated graph and scatter-plot views for the visual exploration of microarray time-series data</title>
+            <authors>Craig, P.; Kennedy, J.</authors>
+            <code ref="15"/>
+         </publication>
+
+         <publication>
+            <title>Causality Visualization Using Animated Growing Polygons</title>
+            <authors>Elmqvist, N. and Tsigas, P.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Between Aesthetics and Utility: Designing Ambient Information Visualization</title>
+            <authors>Skog, T; Ljungblad, S. and Holmquist, LE</authors>
+            <code ref="14"/>
+         </publication>
+
+         <publication>
+            <title>Developing Architectural Lighting Representations</title>
+            <authors>Glaser, DC; Tan, R., Canny, J. and Do EY.</authors>
+            <code ref="2"/>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+      </year>
+
+      <year id="2002">
+
+         <publication>
+            <title>Efficient cartogram generation: a comparison</title>
+            <authors>Keim, D.A.; North, S.C.; Panse, C.; Schneidewind, J.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Graphical Encoding for Information Visualization: An Empirical Study</title>
+            <authors>L. Nowell, R. Schulman, and D. Hix.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>The illusion of perceived metric 3D structure</title>
+            <authors>Lind, M.; Bingham, G.P.; Forser, C.</authors>
+            <code ref="8"/>
+         </publication>
+
+         <publication>
+            <title>SpaceTree: supporting exploration in large node link tree, design evolution and empirical evaluation</title>
+            <authors>Plaisant, C.; Grosjean, J.; Bederson, B.B.</authors>
+            <code ref="8"/>
+            <code ref="13"/>
+         </publication>
+
+         <publication>
+            <title>Beamtrees: compact visualization of large hierarchies </title>
+            <authors>van Ham, F.; van Wijk, J.J.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Interactive information visualization of a million items </title>
+            <authors>Fekete, J.-D.; Plaisant, C.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>ACE: a fast multiscale eigenvectors computation for drawing huge graphs </title>
+            <authors>Yehuda Koren; Carmel, L.; Harel, D.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>A hybrid layout algorithm for sub-quadratic multidimensional scaling </title>
+            <authors>Morrison, A.; Ross, G.; Chalmers, M.</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="2001">
+
+         <publication>
+            <title>Cluster stability and the use of noise in interpretation of clustering</title>
+            <authors>Davidson, G.S.; Wylie, B.N.; Boyack, K.W.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Animated exploration of dynamic graphs with radial layout</title>
+            <authors>Ka-Ping Yee; Fisher, D.; Dhamija, R.; Hearst, M. </authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Ordered treemap layouts</title>
+            <authors>Shneiderman, B.; Wattenberg, M.</authors>
+            <code ref="16"/>
+         </publication>
+
+         <publication>
+            <title>Collapsible cylindrical trees: a fast hierarchical navigation technique</title>
+            <authors>Dachselt, R.; Ebert, J.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Botanical visualization of huge hierarchies</title>
+            <authors>Kleiberg, E.; van de Wetering, H.; van Wijk, J.J.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Interactive visualization of multiple query results</title>
+            <authors>Havre, S.; Hetzler, E.; Perrine, K.; Jurrus, E.; Miller, N.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>An empirical comparison of three commercial information visualization systems</title>
+            <authors>Kobsa, A.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>A comparison of 2-D visualizations of hierarchies</title>
+            <authors>Barlow, T.; Neville, P.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>2D vs 3D, implications on spatial memory</title>
+            <authors>Tavanti, M.; Lind, M.</authors>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Graphic Data Display for Cardiovascular System</title>
+            <authors>J. Agutter, N. Syroid, F. Drews, D. Westenskow, J. Bermudez, and D. Strayer</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+      </year>
+
+      <year id="2000">
+
+         <publication>
+            <title>ThemeRiver: visualizing theme changes over time</title>
+            <authors>Havre, S.; Hetzler, B.; Nowell, L.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Lighthouse: showing the way to relevant information</title>
+            <authors>Leuski, A.; Allan, J. . IEEE Proc Infovis, 125-129, 2000.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Collaborative geographic visualization: enabling shared understanding of environmental processes</title>
+            <authors>Brewer, I.; MacEachren, A.M.; Abdo, H.; Gundrum, J.; Otto, G.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="7 "/>
+            <code ref="11"/>
+         </publication>
+
+         <publication>
+            <title>Interactive problem solving via algorithm visualization </title>
+            <authors>Pu, P.; Lalanne, D.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+      </year>
+
+      <year id="1999">
+
+         <publication>
+            <title>Does animation help users build mental maps of spatial information?</title>
+            <authors>Bederson, B.B.; Boltman, A. </authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Evaluating a visualisation of image similarity as a tool for image browsing</title>
+            <authors>Rodden, K.; Basalaj, W.; Sinclair, D.; Wood, K.</authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Efficient multi-object dynamic query histograms</title>
+            <authors>Derthick, M.; Harrison, J.; Moore, A.; Roth, S.F.</authors>
+            <code ref="9"/>
+         </publication>
+
+      </year>
+
+      <year id="1998">
+
+         <publication>
+            <title>Geographic visualization: designing manipulable maps for exploring temporally varying georeferenced statistics</title>
+            <authors>MacEachren, A.M.; Boscoe, F.P.; Haug, D.; Pickle, L.W.</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Multi-faceted insight through interoperable visual information analysis paradigms</title>
+            <authors>Hetzler, B.; Whitney, P.; Martucci, L.; Thomas, J.</authors>
+            <code ref="1"/>
+         </publication>
+
+      </year>
+
+      <year id="1997">
+
+         <publication>
+            <title>On integrating visualization techniques for effective software exploration</title>
+            <authors>Storey, M.-A.D.; Wong, K.; Fracchia, F.D.; Muller, H.A. </authors>
+            <code ref="6 (Exp)"/>
+            <code ref="6 (Per)"/>
+         </publication>
+
+         <publication>
+            <title>Design and evaluation of incremental data structures and algorithms for dynamic query interfaces</title>
+            <authors>Tanin, E.; Beigel, R.; Shneiderman, B.</authors>
+            <code ref="9"/>
+         </publication>
+
+         <publication>
+            <title>Metrics for effective information visualization</title>
+            <authors>Brath, R.</authors>
+            <code ref="15"/>
+         </publication>
+
+      </year>
+
+      <year id="1996">None</year>
+
+      <year id="1995">
+
+         <publication>
+            <title>Research Report: Interacting with Huge Hierarchies: Beyond Cone Trees</title>
+            <authors>J. CarriBre and R. Kazman</authors>
+            <code ref="6 (Exp)"/>
+         </publication>
+
+         <publication>
+            <title>Case Study: An Empirical Investigation of Thumbnail Image Recognition</title>
+            <authors>C.A. Burton, L. J. Johnston, and E.A. Sonenberg</authors>
+            <code ref="8"/>
+         </publication>
+
+      </year>
+
+   </venue>
+
+</codings>
