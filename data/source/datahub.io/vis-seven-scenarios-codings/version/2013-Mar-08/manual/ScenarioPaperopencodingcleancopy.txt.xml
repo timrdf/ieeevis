@@ -3,6 +3,7 @@
 #3>    prov:wasAttributedTo <http://tw.rpi.edu/instances/TimLebo>;
 #3>    prov:specializationOf 
 #3>      <https://github.com/timrdf/ieeevis/blob/master/data/source/datahub.io/vis-seven-scenarios-codings/version/2013-Mar-08/manual/ScenarioPaperopencodingcleancopy.txt.xml>;
+#3>    dcterms:isPartOf <http://datahub.io/dataset/vis-seven-scenarios-codings>;
 #3> .
 #3> <https://docs.google.com/document/d/1uSius4qLHHAERhUtuMrfJ5nMyE-X9cot3ewUdZfR0lQ/edit?authkey=CIjs31Q> prov:wasAttributedTo [ foaf:name "Heidi Lam" ] .
 -->
