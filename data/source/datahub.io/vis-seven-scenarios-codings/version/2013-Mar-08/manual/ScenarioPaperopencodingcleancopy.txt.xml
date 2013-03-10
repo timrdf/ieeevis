@@ -15,57 +15,100 @@
    <description>Codes assigned to papers from VAST, InfoVis, EuroVis, and IVS.</description>
 
    <original_codes>
+
+      <code id="7">
+         <title>People's workflow, work practices</title>
+         <broader ref="process"/>
+         <broader ref="uwp - understanding environments and work practices"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
       <code id="1">
          <title>Data analysis</title>
+         <broader ref="process"/>
+         <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
       <code id="2">
          <title>Decision making</title>
-      </code>
-      <code id="3">
-         <title>Collaboration</title>
-      </code>
-      <code id="4">
-         <title>Adoption</title>
-      </code>
-      <code id="5">
-         <title>Communication, learning, teaching, publishing</title>
-      </code>
-      <code id="6">
-         <title>Usability/effectiveness, further split into EXP for user experience, and PER for user performance</title>
-      </code>
-      <code id="7">
-         <title>People's workflow, work practices</title>
-      </code>
-      <code id="8">
-         <title>Perception and cognition</title>
-      </code>
-      <code id="9">
-         <title>Algorithm performance</title>
-      </code>
-         <code id="10">
-         <title>Knowledge discovery</title>
-      </code>
-      <code id="11">
-         <title>Potential usage</title>
-      </code>
-      <code id="12">
-         <title>Proposed evaluation methodologies</title>
-      </code>
-      <code id="13">
-         <title>Visualization-analytical operation</title>
-      </code>
-      <code id="14">
-         <title>Causal information acquisition</title>
-      </code>
-         <code id="15">
-         <title>Evaluation metric development</title>
-      </code>
-      <code id="16">
-         <title>Algorithm quality</title>
+         <broader ref="process"/>
+         <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
       <code id="17">
          <title>Knowledge management</title>
+         <broader ref="process"/>
+         <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
+      <code id="10">
+         <title>Knowledge discovery</title>
+         <broader ref="process"/>
+         <broader ref="vdar - evaluating visual data analysis and reasoning"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+      <code id="5">
+         <title>Communication, learning, teaching, publishing</title>
+         <broader ref="process"/>
+         <broader ref="ctv - evaluating communication through visualization"/>
+      </code>
+      <code id="14">
+         <title>Causal information acquisition</title>
+         <broader ref="process"/>
+         <broader ref="ctv - evaluating communication through visualization"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+      <code id="3">
+         <title>Collaboration</title>
+         <broader ref="process"/>
+         <broader ref="cda - evaluating collaborative data analysis"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+
+
+      <code id="13">
+         <title>Visualization-analytical operation</title>
+         <broader ref="visualization"/>
+         <broader ref="up - evaluating user performance"/>
+      </code>
+      <code id="8">
+         <title>Perception and cognition</title>
+         <broader ref="visualization"/>
+         <broader ref="up - evaluating user performance"/>
+      </code>
+      <code id="6">
+         <title>Usability/effectiveness, further split into EXP for user experience, and PER for user performance</title>
+         <broader ref="visualization"/>
+         <broader ref="up - evaluating user performance"/>
+         <broader ref="ue - evaluating user experience"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+      <code id="11">
+         <title>Potential usage</title>
+         <broader ref="visualization"/>
+         <broader ref="ue - evaluating user experience"/>
+      </code>
+      <code id="4">
+         <title>Adoption</title>
+         <broader ref="visualization"/>
+         <broader ref="ue - evaluating user experience"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+      <code id="9">
+         <title>Algorithm performance</title>
+         <broader ref="visualization"/>
+         <broader ref="va - evaluating visualization algorithms"/>
+      </code>
+      <code id="16">
+         <title>Algorithm quality</title>
+         <broader ref="visualization"/>
+         <broader ref="va - evaluating visualization algorithms"/>
+      </code>
+      <!-- - - - - - - - - - - - - -->
+
+      <code id="12">
+         <title>Proposed evaluation methodologies</title>
+      </code>
+      <code id="15">
+         <title>Evaluation metric development</title>
+      </code>
+      <!-- - - - - - - - - - - - - -->
    </original_codes>
 
    <venue>
