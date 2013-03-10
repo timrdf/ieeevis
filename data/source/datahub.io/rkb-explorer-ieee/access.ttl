@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://aquarius.tw.rpi.edu/projects/ieeevis/id/> .
+
+<http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/rkb-explorer-ieee>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "datahub.io";
+   conversion:dataset_identifier "rkb-explorer-ieee";
+   prov:wasDerivedFrom :download_aacd7363-f143-48e2-bd3d-43e38876db3b;
+.
+
+:download_aacd7363-f143-48e2-bd3d-43e38876db3b
+   a dcat:Distribution;
+   dcat:downloadURL <http://ieee.rkbexplorer.com/models/dump.tgz>;
+.
+
+<dataset/aacd7363-f143-48e2-bd3d-43e38876db3b>
+   a dcat:Dataset;
+   dcat:distribution :download_aacd7363-f143-48e2-bd3d-43e38876db3b;
+.
