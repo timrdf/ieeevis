@@ -69,7 +69,8 @@
    </original_codes>
 
    <venue>
-      <title>VAST (2006 - 2010)</title>
+      <title>VAST</title>
+      <scope>2006 - 2010</scope>
 
       <year id="2010">
 
@@ -374,7 +375,8 @@
 
    </venue>
    <venue>
-      <title>EuroVis (2002 - 2011; only including InfoVis papers - or papers applicable to both SciVis and InfoVis)</title>
+      <title>EuroVis</title>
+      <scope>2002 - 2011; only including InfoVis papers - or papers applicable to both SciVis and InfoVis.</scope>
 
       <year id="2011">
 
@@ -792,7 +794,8 @@
    </venue>
 
    <venue>
-      <title>Information Visualization Journal (IVS: 2002-2010)</title>
+      <title>Information Visualization Journal (IVS)</title>
+      <scope>2002 - 2010</scope>
 
       <year id="2010">
 
@@ -1354,6 +1357,7 @@
    <venue>
 
       <title>InfoVis</title>
+      <scope>1995 - 2010</scope>
 
       <year id="2010">
 
@@ -1362,64 +1366,75 @@
             <authors>Jason Dykes, Jo Wood, Aidan Slingsby</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>SignalLens: Focus+Context Applied to Electronic Time Series</title>
             <authors>Robert Kincaid</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Gremlin: An Interactive Visualization Model for Analyzing Genomic Rearrangements</title>
             <authors>Trevor M. O'Brien, Anna M. Ritz, Benjamin J. Raphael, David H. Laidlaw</authors>
             <code ref="1"/>
             <code ref="6 "/>
          </publication>
+
          <publication>
             <title>Graphical Perception of Multiple Time Series</title>
             <authors>Waqas Javed, Bryan McDonnel, Niklas Elmqvist</authors>
             <code ref="6 (Exp)"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>Uncovering Strengths and Weaknesses of Radial Visualizations-an Empirical Approach</title>
             <authors>Stephan Diehl, Fabian Beck, Michael Burch</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>How Information Visualization Novices Construct Visualizations</title>
             <authors>Lars Grammel, Melanie Tory, Margaret-Anne Storey</authors>
             <code ref="1"/>
          </publication>
+
          <publication>
             <title>Evaluating the Impact of Task Demands and Block Resolution on the Effectiveness of Pixel-based Visualization</title>
             <authors>Rita Borgo, Karl Proctor, Min Chen, Heike Jänicke, Tavi Murray, Ian M. Thornton</authors>
             <code ref="8"/>
             <code ref="13 "/>
          </publication>
+
          <publication>
             <title>Perceptual Guidelines for Creating Rectangular Treemaps</title>
             <authors>Nicholas Kong, Jeffrey Heer, Maneesh Agrawala</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>Laws of Attraction: From Perceived Forces to Conceptual Similarity</title>
             <authors>Caroline Ziemkiewicz, Robert Kosara</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>Pargnostics: Screen-Space Metrics for Parallel Coordinates</title>
             <authors>Aritra Dasgupta, Robert Kosara</authors>
             <code ref="9"/>
             <code ref="15"/>
          </publication>
+
          <publication>
             <title>Comparative Analysis of Multidimensional, Quantitative Data</title>
             <authors>Alexander Lex, Marc Streit, Christian Partl, Karl Kashofer, Dieter Schmalstieg</authors>
             <code ref="6 (Exp)"/>
             <code ref="9 "/>
          </publication>
+
          <publication>
             <title>Visualization of Diversity in Large Multivariate Data Sets</title>
             <authors>Tuan Pham, Rob Hess, Crystal Ju, Eugene Zhang, Ronald Metoyer</authors>
@@ -1427,27 +1442,32 @@
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>PedVis: A Structured, Space-Efficient Technique for Pedigree Visualization</title>
             <authors>Claurissa Tuttle, Luis Gustavo Nonato, Cláudio T. Silva</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>GeneaQuilts: A System for Exploring Large Genealogies</title>
             <authors>Anastasia Bezerianos, Pierre Dragicevic, Jean-Daniel Fekete, Juhee Bae, Ben Watson</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Visualization of Graph Products</title>
             <authors>Stefan Jänicke, Christian Heine, Marc Hellmuth, Peter F. Stadler, Gerik Scheuermann</authors>
             <code ref="9"/>
          </publication>
+
          <publication>
             <title>Untangling Euler Diagrams</title>
             <authors>Nathalie Henry Riche, Tim Dwyer</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>The FlowVizMenu and Parallel Scatterplot Matrix: Hybrid Multidimensional Visualizations for Network Exploration</title>
             <authors>Christophe Viau, Michael J. McGuffin, Yves Chiricota, Igor Jurisica</authors>
@@ -1459,16 +1479,19 @@
             <authors>Yingcai Wu, Furu Wei, Shixia Liu, Norman Au, Weiwei Cui, Hong Zhou, Huamin Qu</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>The Streams of Our Lives: Visualizing Listening Histories in Context</title>
             <authors>Dominikus Baur, Frederik Seiffert, Michael Sedlmair, Sebastian Boring</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>A Visual Backchannel for Large-Scale Events</title>
             <authors>Marian Dörk, Daniel Gruen, Carey Williamson, Sheelagh Carpendale</authors>
             <code ref="6 (exp: informal user feedback and potential uses)"/>
          </publication>
+
          <publication>
             <title>FacetAtlas: Multifaceted Visualization for Rich Text Corpora</title>
             <authors>Nan Cao, Jimeng Sun, Yu-Ru Lin, David Gotz, Shixia Liu, Huamin Qu</authors>
@@ -1515,82 +1538,97 @@
             <code ref="9"/>
             <code ref="16"/>
          </publication>
+
          <publication>
             <title>ResultMaps: Visualization for Search Interfaces</title>
             <authors>Edward C. Clarkson, Krishna Desai, James D. Foley</authors>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>Visualizing Social Photos on a Hasse Diagram for Eliciting Relations and Indexing New Photos</title>
             <authors>Michel Crampes, Jeremy de Oliveira-Kumar, Sylvie Ranwez, Jean Villerd</authors>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>SpicyNodes: Radial Layout Authoring for the General Public</title>
             <authors>Michael Douma, Grzegorz Ligierko, Ovidiu Ancuta, Pavel Gritsai, Sean Liu</authors>
             <code ref="6 (Exp)"/>
             <code ref="9"/>
          </publication>
+
          <publication>
             <title>Interactive Dimensionality Reduction Through User-defined Combinations of Quality Metrics</title>
             <authors>Sara Johansson, Jimmy Johansson</authors>
             <code ref="9"/>
          </publication>
+
          <publication>
             <title>GeneShelf: A Web-based Visual Interface for Large Gene Expression Time-Series Data Repositories</title>
             <authors>Bohyoung Kim, Bongshin Lee, Susan Knoblach, Eric Hoffman, Jinwook Seo</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>SellTrend: Inter-Attribute Visual Analysis of Temporal Transaction Data</title>
             <authors>Zhicheng Liu, John Stasko, Timothy Sullivan</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Harnessing the Web Information Ecosystem with Wiki-based Visualization Dashboards</title>
             <authors>Matt McKeon</authors>
             <code ref="4"/>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Comparing Dot and Landscape Spatializations for Visual Memory Differences</title>
             <authors>Melanie Tory, Colin Swindells, Rebecca Dreezer</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>Participatory Visualization with Wordle</title>
             <authors>Fernanda B. Viégas, Martin Wattenberg, Jonathan Feinberg</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Temporal Summaries: Supporting Temporal Categorical Searching, Aggregation and Comparison</title>
             <authors>Taowei David Wang, Catherine Plaisant, Ben Shneiderman, Neil Spring, David Roseman, Greg Marchand, Vikramjit Mukherjee, Mark Smith</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Interaction Techniques for Selecting and Manipulating Subgraphs in Network Visualizations</title>
             <authors>Michael J. McGuffin, Igor Jurisica</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>A Comparison of User-Generated and Automatic Graph Layouts</title>
             <authors>Tim Dwyer, Bongshin Lee, Danyel Fisher, Kori Inkpen Quinn, Petra Isenberg, George Robertson, Chris North</authors>
             <code ref="8"/>
             <code ref="13"/>
          </publication>
+
          <publication>
             <title>code swarm: A Design Study in Organic Software Visualization</title>"/>
             <authors>Michael Ogawa, Kwan-Liu Ma</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Towards Utilizing GPUs in Information Visualization: A Model and Implementation of Image-Space Operations</title>
             <authors>Bryan McDonnel, Niklas Elmqvist</authors>
             <code ref="9"/>
          </publication>
+
          <publication>
             <title>A Multi-Threading Architecture to Support Interactive Visual Exploration</title>
             <authors>Harald Piringer, Christian Tominski, Philipp Muigg, Wolfgang Berger</authors>
@@ -1603,32 +1641,35 @@
 
          <publication>
             <title>Balloon Focus: a Seamless Multi-Focus+Context Method for Treemaps </title>
-
-
             <authors>Ying Tu; Han-Wei Shen</authors>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>Multi-Focused Geospatial Analysis Using Probes</title>
             <authors>Butkiewicz, T.; Dou, W.; Wartell, Z.; Ribarsky, W.; Chang, R.</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Distributed Cognition as a Theoretical Framework for Information Visualization</title>
             <authors>Zhicheng Liu; Nersessian, N.; Stasko, J.</authors>
             <code ref="12"/>
          </publication>
+
          <publication>
             <title>EMDialog: Bringing Information Visualization into the Museum</title>
             <authors>Hinrichs, U.; Schmidt, H.; Carpendale, S.</authors>
             <code ref="14"/>
          </publication>
+
          <publication>
             <title>Graphical Histories for Visualization: Supporting Analysis, Communication, and Evaluation</title>
             <authors>Heer, J.; Mackinlay, J.; Stolte, C.; Agrawala, M.</authors>
             <code ref="17"/>
          </publication>
+
          <publication>
             <title>Who Votes For What? A Visual Query Language for Opinion Data</title>
             <authors>Draper, G.; Riesenfeld, R.</authors>
@@ -1640,6 +1681,7 @@
             <authors>Dork, M.; Carpendale, S.; Collins, C.; Williamson, C.</authors>
             <code ref="6 (Exp)"/>
          </publication>
+
          <publication>
             <title>Vispedia: Interactive Visual Exploration of Wikipedia Data via Search-Based Integration</title>
             <authors>Chan, B.; Wu, L.; Talbot, J.; Cammarano, M.; Hanrahan, P.</authors>
