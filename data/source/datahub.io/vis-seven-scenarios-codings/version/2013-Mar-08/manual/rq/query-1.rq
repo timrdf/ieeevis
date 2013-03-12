@@ -1,0 +1,17 @@
+PREFIX bibo:    <http://purl.org/ontology/bibo/>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+
+select ?category count(*) as ?count
+where {
+  graph <http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08> {
+     ?paper
+        a bibo:Document;
+        dcterms:title    ?title;
+        prov:alternateOf ?alt;
+        dcterms:subject  ?category
+  }
+}
+group by ?category
+order by desc(?count)
