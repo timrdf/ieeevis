@@ -17,45 +17,81 @@
 
    <original_codes>
 
-      <code id="7" paper-id="1">
+      <code id="process" frag="data-process">
+         <title>Scenarios for understanding data analysis processes</title>
+
+         <code id="uwp - understanding environments and work practices" frag="data-process/uwp">
+            <title>Understanding environments and work practices</title>
+         </code>
+
+         <code id="vdar - evaluating visual data analysis and reasoning" frag="data-process/vdar">
+            <title>Evaluating visual data analysis and reasoning</title>
+         </code>
+
+         <code id="ctv - evaluating communication through visualization" frag="data-process/ctv">
+            <title>Evaluating communication through visualization</title>
+         </code>
+
+         <code id="cda - evaluating collaborative data analysis" frag="data-process/cda">
+            <title>Evaluating collaborative data analysis</title>
+         </code>
+      </code>
+
+      <code id="visualization" frag="visualization">
+         <title>Scenarios for understanding visualizations</title>
+
+         <code id="ue - evaluating user experience" frag="visualization/ue">
+            <title>Evaluating user experience</title>
+         </code>
+
+         <code id="up - evaluating user performance" frag="visualization/up">
+            <title>Evaluating user performance</title>
+         </code>
+
+         <code id="va - evaluating visualization algorithms" frag="visualization/va">
+            <title>Evaluating visualization algorithms </title>
+         </code>
+      </code>
+
+      <code id="7" paper-id="1" frag="7">
          <title>People's workflow, work practices</title>
          <broader ref="process"/>
          <broader ref="uwp - understanding environments and work practices"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="1" paper-id="2">
+      <code id="1" paper-id="2" frag="1">
          <title>Data analysis</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="2" paper-id="3">
+      <code id="2" paper-id="3" frag="2">
          <title>Decision making</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="17" paper-id="4">
+      <code id="17" paper-id="4" frag="17">
          <title>Knowledge management</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="10" paper-id="5">
+      <code id="10" paper-id="5" frag="10">
          <title>Knowledge discovery</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="5" paper-id="6">
+      <code id="5" paper-id="6" frag="5">
          <title>Communication, learning, teaching, publishing</title>
          <broader ref="process"/>
          <broader ref="ctv - evaluating communication through visualization"/>
       </code>
-      <code id="14" paper-id="7">
+      <code id="14" paper-id="7" frag="14">
          <title>Causal information acquisition</title>
          <broader ref="process"/>
          <broader ref="ctv - evaluating communication through visualization"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="3" paper-id="8">
+      <code id="3" paper-id="8" frag="3">
          <title>Collaboration</title>
          <broader ref="process"/>
          <broader ref="cda - evaluating collaborative data analysis"/>
@@ -63,78 +99,79 @@
       <!-- - - - - - - - - - - - - -->
 
 
-      <code id="13" paper-id="9">
+      <code id="13" paper-id="9" frag="13">
          <title>Visualization-analytical operation</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
       </code>
-      <code id="8" paper-id="10">
+      <code id="8" paper-id="10" frag="8">
          <title>Perception and cognition</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
       </code>
-      <code id="6" paper-id="11">
+      <code id="6" paper-id="11" frag="6">
          <title>Usability/effectiveness, further split into EXP for user experience, and PER for user performance</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
          <broader ref="ue - evaluating user experience"/>
 
-         <code id="6 (Exp)">
+         <code id="6 (Exp)" frag="6/experience">
             <title>Usability/effectiveness - user experience</title>
 
-            <code id="6 (exp: informal user feedback and potential uses)">
+            <code id="6 (exp: informal user feedback and potential uses)" frag="6/experience/information-user-feedback-and-potential-uses">
                <title>Usability/effectiveness - user performance</title>
             </code>
 
          </code>
 
-         <code id="6 (Per)">
+         <code id="6 (Per)" frag="6/performance">
             <title>Usability/effectiveness - user performance</title>
          </code>
 
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="11" paper-id="12">
+      <code id="11" paper-id="12" frag="11">
          <title>Potential usage</title>
          <broader ref="visualization"/>
          <broader ref="ue - evaluating user experience"/>
       </code>
-      <code id="4" paper-id="13">
+      <code id="4" paper-id="13" frag="4">
          <title>Adoption</title>
          <broader ref="visualization"/>
          <broader ref="ue - evaluating user experience"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="9" paper-id="14">
+      <code id="9" paper-id="14" frag="9">
          <title>Algorithm performance</title>
          <broader ref="visualization"/>
          <broader ref="va - evaluating visualization algorithms"/>
       </code>
-      <code id="16" paper-id="15">
+      <code id="16" paper-id="15" frag="16">
          <title>Algorithm quality</title>
          <broader ref="visualization"/>
          <broader ref="va - evaluating visualization algorithms"/>
 
-         <code id="16 (ML criteria)">
+         <code id="16 (ML criteria)" frag="16/ml-criteria">
             <title>Algorithm quality - ML criteria</title>
          </code>
 
-         <code id="16 (standard datasets)">
+         <code id="16 (standard datasets)" frag="16/standard-datasets">
             <title>Algorithm quality - standard datasets</title>
          </code>
       </code>
       <!-- - - - - - - - - - - - - -->
 
-      <code id="12" paper-id="16">
+      <code id="12" paper-id="16" frag="12">
          <title>Proposed evaluation methodologies</title>
       </code>
-      <code id="15" paper-id="17">
+      <code id="15" paper-id="17" frag="15">
          <title>Evaluation metric development</title>
       </code>
       <!-- - - - - - - - - - - - - -->
 
       <code id="18">
          <note>Hiedi Lam contacted 11 March 2013 about this missing code.</note>
+         <note>was added very late in the process "usage statistics and logs" and we decided it was more of a means rather than an end so we decided to not use the tag. </note>
       </code>
    </original_codes>
 
