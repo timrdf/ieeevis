@@ -17,45 +17,45 @@
 
    <original_codes>
 
-      <code id="7">
+      <code id="7" paper-id="1">
          <title>People's workflow, work practices</title>
          <broader ref="process"/>
          <broader ref="uwp - understanding environments and work practices"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="1">
+      <code id="1" paper-id="2">
          <title>Data analysis</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="2">
+      <code id="2" paper-id="3">
          <title>Decision making</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="17">
+      <code id="17" paper-id="4">
          <title>Knowledge management</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
-      <code id="10">
+      <code id="10" paper-id="5">
          <title>Knowledge discovery</title>
          <broader ref="process"/>
          <broader ref="vdar - evaluating visual data analysis and reasoning"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="5">
+      <code id="5" paper-id="6">
          <title>Communication, learning, teaching, publishing</title>
          <broader ref="process"/>
          <broader ref="ctv - evaluating communication through visualization"/>
       </code>
-      <code id="14">
+      <code id="14" paper-id="7">
          <title>Causal information acquisition</title>
          <broader ref="process"/>
          <broader ref="ctv - evaluating communication through visualization"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="3">
+      <code id="3" paper-id="8">
          <title>Collaboration</title>
          <broader ref="process"/>
          <broader ref="cda - evaluating collaborative data analysis"/>
@@ -63,53 +63,79 @@
       <!-- - - - - - - - - - - - - -->
 
 
-      <code id="13">
+      <code id="13" paper-id="9">
          <title>Visualization-analytical operation</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
       </code>
-      <code id="8">
+      <code id="8" paper-id="10">
          <title>Perception and cognition</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
       </code>
-      <code id="6">
+      <code id="6" paper-id="11">
          <title>Usability/effectiveness, further split into EXP for user experience, and PER for user performance</title>
          <broader ref="visualization"/>
          <broader ref="up - evaluating user performance"/>
          <broader ref="ue - evaluating user experience"/>
+
+         <code id="6 (Exp)">
+            <title>Usability/effectiveness - user experience</title>
+
+            <code id="6 (exp: informal user feedback and potential uses)">
+               <title>Usability/effectiveness - user performance</title>
+            </code>
+
+         </code>
+
+         <code id="6 (Per)">
+            <title>Usability/effectiveness - user performance</title>
+         </code>
+
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="11">
+      <code id="11" paper-id="12">
          <title>Potential usage</title>
          <broader ref="visualization"/>
          <broader ref="ue - evaluating user experience"/>
       </code>
-      <code id="4">
+      <code id="4" paper-id="13">
          <title>Adoption</title>
          <broader ref="visualization"/>
          <broader ref="ue - evaluating user experience"/>
       </code>
       <!-- - - - - - - - - - - - - -->
-      <code id="9">
+      <code id="9" paper-id="14">
          <title>Algorithm performance</title>
          <broader ref="visualization"/>
          <broader ref="va - evaluating visualization algorithms"/>
       </code>
-      <code id="16">
+      <code id="16" paper-id="15">
          <title>Algorithm quality</title>
          <broader ref="visualization"/>
          <broader ref="va - evaluating visualization algorithms"/>
+
+         <code id="16 (ML criteria)">
+            <title>Algorithm quality - ML criteria</title>
+         </code>
+
+         <code id="16 (standard datasets)">
+            <title>Algorithm quality - standard datasets</title>
+         </code>
       </code>
       <!-- - - - - - - - - - - - - -->
 
-      <code id="12">
+      <code id="12" paper-id="16">
          <title>Proposed evaluation methodologies</title>
       </code>
-      <code id="15">
+      <code id="15" paper-id="17">
          <title>Evaluation metric development</title>
       </code>
       <!-- - - - - - - - - - - - - -->
+
+      <code id="18">
+         <note>Hiedi Lam contacted 11 March 2013 about this missing code.</note>
+      </code>
    </original_codes>
 
    <venue>
@@ -148,7 +174,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652922</doi>
             <code ref="10"/>
             <code ref="11"/>
-            <code ref="18 "/>
+            <code ref="18"/>
          </publication>
 
          <publication>
@@ -156,7 +182,7 @@
             <authors>Zhicheng Liu, Bongshin Lee, Srikanth Kandula, Ratul Mahajan</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652910</doi>
             <code ref="2"/>
-            <code ref="6 (Exp) "/>
+            <code ref="6 (Exp)"/>
          </publication>
 
          <publication>
@@ -757,7 +783,7 @@
             <authors>D. Huang, M. Tory, S. Staub-French, and R. Pottinger</authors>
             <doi>http://dx.doi.org/10.1111/j.1467-8659.2009.01441.x</doi>
             <code ref="6 (Exp)"/>
-            <code ref="6 (Per) "/>
+            <code ref="6 (Per)"/>
          </publication>
          <publication>
             <title>The Chinese Room: Visualization and Interaction to Understand and Correct Ambiguous Machine Translation</title>
@@ -881,7 +907,7 @@
             <title>VisBiz: A Business Process Visualization Case Study</title>
             <authors>Ming Hao and Daniel A. Keim and Umeshwar Dayal and Joern Schneidewind</authors>
             <doi>http://dx.doi.org/10.2312/VisSym/EuroVis05/109-116</doi>
-            <code ref="6 (Exp) "/>
+            <code ref="6 (Exp)"/>
          </publication>
 
       </year>
@@ -1001,7 +1027,7 @@
             <authors>Han Suk Kim, Jürgen P. Schulze, Angela C. Cone, Gina E. Sosinsky, and Maryann E. Martone</authors>
             <doi>http://dx.doi.org/10.1057/ivs.2010.6</doi>
             <code ref="9"/>
-            <code ref="16 "/>
+            <code ref="16"/>
          </publication>
 
          <publication>
@@ -1051,7 +1077,7 @@
             <title>Visualizing Large-Scale Streaming Applications</title>
             <authors>Wim De Pauw and Henrique Andrade</authors>
             <doi>http://dx.doi.org/10.1057/ivs.2009.5</doi>
-            <code ref="6 (Exp) "/>
+            <code ref="6 (Exp)"/>
          </publication>
 
          <publication>
@@ -1067,7 +1093,7 @@
             <authors>Shaohua Xie, Eileen Kraemer, R. E. K. Stirewalt, Laura K Dillon, and Scott D Fleming</authors>
             <doi>http://dx.doi.org/10.1057/ivs.2009.6</doi>
             <code ref="6 (Exp)"/>
-            <code ref="6 (Per) "/>
+            <code ref="6 (Per)"/>
             <code ref="7"/>
          </publication>
 
@@ -1106,7 +1132,7 @@
             <authors>George Chin, Jr., Mudita Singhal, Grant Nakamura, Vidhya Gurumoorthi, and Natalie Freeman-Cadoret</authors>
             <doi>http://dx.doi.org/10.1057/ivs.2009.18</doi>
             <code ref="6 (Exp)"/>
-            <code ref="6 (Per) "/>
+            <code ref="6 (Per)"/>
          </publication>
 
       </year>
@@ -1361,7 +1387,7 @@
             <authors>Colin Ware, Robert Bobrow</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500090</doi>
             <code ref="6 (Per)"/>
-            <code ref="8 "/>
+            <code ref="8"/>
          </publication>
          <publication>
             <title>Visualizing and discovering non-trivial patterns in large time series databases</title>
@@ -1516,7 +1542,7 @@
             <doi>http://dx.doi.org/10.1016/j.intcom.2005.02.002</doi>
             <code ref="3"/>
             <code ref="5"/>
-            <code ref="6 (Exp) "/>
+            <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
             <code ref="9"/>
          </publication>
@@ -1620,7 +1646,7 @@
             <authors>Trevor M. O'Brien, Anna M. Ritz, Benjamin J. Raphael, David H. Laidlaw</authors>
             <doi>http://dx.doi.org/10.1109/TVCG.2010.163</doi>
             <code ref="1"/>
-            <code ref="6 "/>
+            <code ref="6"/>
          </publication>
 
          <publication>
@@ -1651,7 +1677,7 @@
             <authors>Rita Borgo, Karl Proctor, Min Chen, Heike Jänicke, Tavi Murray, Ian M. Thornton</authors>
             <doi>http://dx.doi.org/10.1109/TVCG.2010.150</doi>
             <code ref="8"/>
-            <code ref="13 "/>
+            <code ref="13"/>
          </publication>
 
          <publication>
@@ -1683,7 +1709,7 @@
             <authors>Alexander Lex, Marc Streit, Christian Partl, Karl Kashofer, Dieter Schmalstieg</authors>
             <doi>http://dx.doi.org/10.1109/TVCG.2010.138</doi>
             <code ref="6 (Exp)"/>
-            <code ref="9 "/>
+            <code ref="9"/>
          </publication>
 
          <publication>
@@ -2067,7 +2093,7 @@
             <title>Effectiveness of Animation in Trend Visualization</title>
             <authors>Robertson, G.; Fernandez, R.; Fisher, D.; Lee, B.; Stasko, J.</authors>
             <doi>http://dx.doi.org/10.1109/TVCG.2008.125</doi>
-            <code ref="8 "/>
+            <code ref="8"/>
          </publication>
 
          <publication>
@@ -2767,7 +2793,7 @@
             <authors>Brewer, I.; MacEachren, A.M.; Abdo, H.; Gundrum, J.; Otto, G.</authors>
             <doi>http://dx.doi.org/10.1109/INFVIS.2000.885102</doi>
             <code ref="6 (Exp)"/>
-            <code ref="7 "/>
+            <code ref="7"/>
             <code ref="11"/>
          </publication>
 
