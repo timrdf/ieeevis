@@ -8,7 +8,8 @@
 #3> <https://docs.google.com/document/d/1uSius4qLHHAERhUtuMrfJ5nMyE-X9cot3ewUdZfR0lQ/edit?authkey=CIjs31Q> prov:wasAttributedTo [ foaf:name "Heidi Lam" ] .
 -->
 
-<codings>
+<codings xmlns:grddl="http://www.w3.org/2003/g/data-view" 
+   grddl:transformation="https://raw.github.com/timrdf/ieeevis/master/data/source/datahub.io/vis-seven-scenarios-codings/src/grddl.xsl">
 
    <title>Empirical Studies in Information Visualization: Seven Scenarios</title>
 
