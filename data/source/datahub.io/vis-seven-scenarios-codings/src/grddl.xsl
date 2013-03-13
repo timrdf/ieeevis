@@ -11,7 +11,7 @@
    exclude-result-prefixes="">
 <xsl:output method="text"/>
 
-<xsl:param name="base-uri" select="'http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08'"/>
+<xsl:param name="base-uri" select="'http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/'"/>
 
 <xsl:template match="/">
    <xsl:value-of select="concat(
@@ -47,13 +47,13 @@
    </xsl:variable>
 
    <xsl:value-of select="concat(
-      '&lt;/venue/',lower-case(../../title),'/year/',../@id,'/paper/',$position,'&gt;',$NL,
+      '&lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',$position,'&gt;',$NL,
       '   a bibo:Document;',$NL,
       '   void:inDataset &lt;',$base-uri,'&gt;;',$NL,
       if (string-length(title)) then concat(
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else '',
       if (string-length(authors)) then concat(
-         '   dcterms:creator &lt;/authors/',sof:checksum(authors),'&gt;;',$NL) else '',
+         '   dcterms:creator &lt;authors/',sof:checksum(authors),'&gt;;',$NL) else '',
       if (string-length(doi)) then concat(
          '   prov:alternateOf &lt;',doi,'&gt;;',$NL) else '',
       if (starts-with(doi,'http://dx.doi.org/')) then concat(
@@ -92,7 +92,7 @@
 
       <xsl:for-each select="key('code',@ref)/ancestor-or-self::code">
          <xsl:value-of select="concat(
-            '   dcterms:subject &lt;/category/',@frag,'&gt;;',$NL
+            '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL
          )"/>
       </xsl:for-each>
    </xsl:for-each-group>
@@ -100,7 +100,7 @@
    <xsl:value-of select="concat(
       '.',$NL,
       if (string-length(authors)) then concat(
-         '&lt;/authors/',sof:checksum(authors),'&gt;',$NL,
+         '&lt;../../authors/',sof:checksum(authors),'&gt;',$NL,
          '   a foaf:Agent;',$NL,
          '   dcterms:description ',$DQ,authors,$DQ,';',$NL,'.',$NL) else '',
       $NL,$NL
@@ -111,7 +111,7 @@
 <xsl:template match="code">
 
    <xsl:value-of select="concat(
-      '&lt;/category/',@frag,'&gt;',$NL,
+      '&lt;../../category/',@frag,'&gt;',$NL,
       '   a skos:Concept;',$NL,
       if (string-length(title)) then concat(
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else ''
@@ -119,13 +119,13 @@
 
    <xsl:for-each select="ancestor::code">
       <xsl:value-of select="concat(
-         '   skos:broader &lt;/category/',@frag,'&gt;;',$NL
+         '   skos:broader &lt;../../category/',@frag,'&gt;;',$NL
       )"/>
    </xsl:for-each>
 
    <xsl:for-each select="broader">
       <xsl:value-of select="concat(
-         '   skos:broader &lt;/category/',key('code',@ref)/@frag,'&gt;;',$NL
+         '   skos:broader &lt;../../category/',key('code',@ref)/@frag,'&gt;;',$NL
       )"/>
    </xsl:for-each>
 
