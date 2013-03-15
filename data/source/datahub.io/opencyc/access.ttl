@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://logd.tw.rpi.edu/id/> .
+
+<http://logd.tw.rpi.edu/source/datahub.io/dataset/opencyc>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "datahub.io";
+   conversion:dataset_identifier "opencyc";
+   prov:wasDerivedFrom :download_b8801608-b82f-406e-99ff-90aa2c6ee06b;
+.
+
+:download_b8801608-b82f-406e-99ff-90aa2c6ee06b
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cyc.com/sites/default/files/downloads/opencyc-latest.owl.gz>;
+.
+
+<dataset/b8801608-b82f-406e-99ff-90aa2c6ee06b>
+   a dcat:Dataset;
+   dcat:distribution :download_b8801608-b82f-406e-99ff-90aa2c6ee06b;
+.
