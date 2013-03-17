@@ -11,7 +11,7 @@
    exclude-result-prefixes="">
 <xsl:output method="text"/>
 
-<xsl:param name="base-uri" select="'http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/'"/>
+<xsl:param name="base-uri" select="'http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/'"/>
 
 <xsl:template match="/">
    <xsl:value-of select="concat(

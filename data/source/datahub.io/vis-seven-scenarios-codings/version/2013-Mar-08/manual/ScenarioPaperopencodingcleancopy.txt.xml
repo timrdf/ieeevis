@@ -187,6 +187,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652433</doi>
             <code ref="15"/>
             <code ref="16"/>
+            <mendeley>http://www.mendeley.com/catalog/improving-visual-analysis-high-dimensional-datasets-using-quality-measures/</mendeley>
          </publication>
 
          <publication>
@@ -194,6 +195,7 @@
             <authors>Bilkis J. Ferdosi, Hugo Buddelmeijer, Scott Trager, Michael H.F. Wilkinson, Jos B.T.M. Roerdink</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652450</doi>
             <code ref="16 (standard datasets)"/>
+            <mendeley>http://www.mendeley.com/catalog/finding-visualizing-relevant-subspaces-clustering-high-dimensional-astronomical-data-using-connected/</mendeley>
          </publication>
 
          <publication>
@@ -203,6 +205,7 @@
             <code ref="1"/>
             <code ref="3"/>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/vizcept-supporting-synchronous-collaboration-constructing-visualizations-intelligence-analysis/</mendeley>
          </publication>
 
          <publication>
@@ -212,6 +215,7 @@
             <code ref="10"/>
             <code ref="11"/>
             <code ref="18"/>
+            <mendeley>http://www.mendeley.com/catalog/diamonds-rough-social-media-visual-analytics-journalistic-inquiry/</mendeley>
          </publication>
 
          <publication>
@@ -220,6 +224,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652910</doi>
             <code ref="2"/>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/netclinic-interactive-visualization-enhance-automated-fault-diagnosis-enterprise-networks/</mendeley>
          </publication>
 
          <publication>
@@ -228,6 +233,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652895</doi>
             <code ref="6 (Exp)"/>
             <code ref="11"/>
+            <mendeley>http://www.mendeley.com/catalog/geo-historical-context-support-information-foraging-sensemaking-conceptual-model-implementation-asse-1/</mendeley>
          </publication>
 
          <publication>
@@ -236,6 +242,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652885</doi>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/click2annotate-automated-insight-externalization-rich-semantics-1/</mendeley>
          </publication>
 
          <publication>
@@ -244,12 +251,14 @@
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652890</doi>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/interactive-querying-temporal-data-using-comic-strip-metaphor/</mendeley>
          </publication>
 
          <publication>
             <title>A Closer Look at Note Taking in the Co-located Collaborative Visual Analytics Process</title>
             <authors>Narges Mahyar, Ali Sarvghad, Melanie Tory</authors>
             <code ref="3"/>
+            <mendeley>http://www.mendeley.com/catalog/closer-look-note-taking-co-located-collaborative-visual-analytics-process-1/</mendeley>
          </publication>
 
          <publication>
@@ -257,6 +266,7 @@
             <authors>Petra Isenberg, Danyel Fisher, Meredith Ringel Morris, Kori Inkpen, Mary Czerwinski</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2010.5652880</doi>
             <code ref="3"/>
+            <mendeley>http://www.mendeley.com/catalog/exploratory-study-co-located-collaborative-visual-analytics-around-tabletop-display/</mendeley>
          </publication>
 
          <publication>
@@ -266,6 +276,7 @@
             <code ref="1"/>
             <code ref="6 (Per)"/>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/helping-users-recall-reasoning-process/</mendeley>
          </publication>
 
          <publication>
@@ -273,6 +284,7 @@
             <authors>Wenwen Dou, Caroline Ziemkiewicz, Lane Harrison, Dong Hyun Jeong, Roxanne Ryan, William Ribarsky, Xiaoyu Wang, Remco Chang</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2010.5653599</doi>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/comparing-different-levels-interaction-constraints-deriving-visual-problem-isomorphs/</mendeley>
          </publication>
 
          <publication>
@@ -280,6 +292,7 @@
             <authors>Tear Marie Green, Brian Fisher</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2010.5653587</doi>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/towards-personal-equation-interaction-impact-personality-factors-visual-analytics-interface-interaction/</mendeley>
          </publication>
 
       </year>
@@ -292,6 +305,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2009.5332595</doi>
             <code ref="1"/>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/finding-comparable-temporal-categorical-records-similarity-measure-interactive-visualization/</mendeley>
          </publication>
 
          <publication>
@@ -299,6 +313,7 @@
             <authors>Ho Van Quan, Tobias Åström, Mikael Jern</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2009.5332610</doi>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/geovisual-analytics-self-organizing-network-data/</mendeley>
          </publication>
 
          <publication>
@@ -306,6 +321,7 @@
             <authors>Jaegul Choo, Shawn Bohn, Haesun Park</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2009.5332629</doi>
             <code ref="16"/>
+            <mendeley>http://www.mendeley.com/research/two-stage-framework-visualization-clustered-high-dimensional-data/</mendeley>
          </publication>
 
          <publication>
@@ -313,6 +329,7 @@
             <authors>Yedendra B. Shrinivasan, David Gotzy, Jie Lu</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2009.5333023</doi>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/connecting-dots-visual-analysis/</mendeley>
          </publication>
 
          <publication>
@@ -321,6 +338,7 @@
             <doi>http://dx.doi.org/10.1109/VAST.2009.5333878</doi>
             <code ref="1"/>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/evaluating-visual-analytics-systems-investigative-analysis-deriving-design-principles-case-study/</mendeley>
          </publication>
 
          <publication>
@@ -328,6 +346,7 @@
             <authors>Daniela Oelke, Ming Hao, Christian Rohrdantz, Daniel A. Keim, Umeshwar Dayal, Lars-Erik Haug, Halldór Janetzko</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2009.5333919</doi>
             <code ref="16"/>
+            <mendeley>http://www.mendeley.com/catalog/visual-opinion-analysis-customer-feedback-data/</mendeley>
          </publication>
 
          <publication>
@@ -337,6 +356,7 @@
             <code ref="2"/>
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
+            <mendeley>http://www.mendeley.com/catalog/finvis-applied-visual-analytics-personal-financial-planning/</mendeley>
          </publication>
 
          <publication>
@@ -344,6 +364,7 @@
             <authors>Steffen Koch, Harald Bosch, Mark Giereth, Thomas Ertl</authors>
             <doi>http://dx.doi.org/10.1109/VAST.2009.5333564</doi>
             <code ref="6 (Exp)"/>
+            <mendeley>http://www.mendeley.com/catalog/iterative-integration-visual-insights-during-scalable-patent-search-analysis-6/</mendeley>
          </publication>
 
       </year>
@@ -600,12 +621,14 @@
             <doi>http://dx.doi.org/10.1111/j.1467-8659.2011.01947.x</doi>
             <code ref="11"/>
          </publication>
+
          <publication>
             <title>Visualizing the Evolution of Community Structures in Dynamic Social Networks</title>
             <authors>Khairi Reda, Chayant Tantipathananandh, Andrew Johnson, Jason Leigh, and Tanya Berger-Wolf</authors>
             <doi>http://dx.doi.org/10.1111/j.1467-8659.2011.01955.x</doi>
             <code ref="6 (Exp)"/>
             <code ref="11"/>
+            <mendeley>http://www.mendeley.com/catalog/visualizing-evolution-community-structures-dynamic-social-networks-2/</mendeley>
          </publication>
 
          <publication>
