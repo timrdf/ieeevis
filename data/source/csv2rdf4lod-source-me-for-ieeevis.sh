@@ -963,4 +963,5 @@ export DG_RETRIEVAL_REQUEST_DATA="true"
 export DG_RETRIEVAL_CONVERT_RAW="true" 
 export DG_RETRIEVAL_CONVERT_RAW="false" 
 
+export VSR_PROVENANCE="true"
 # End of CSV2RDF4LOD_ variables
