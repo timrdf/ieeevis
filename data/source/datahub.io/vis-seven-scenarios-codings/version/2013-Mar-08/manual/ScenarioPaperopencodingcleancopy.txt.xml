@@ -1026,6 +1026,7 @@
             <authors>Jacob Somervell, D. Scott Mccrickard, Chris North, Maulik Shukla8</authors>
             <doi></doi>
             <page>http://dl.acm.org/citation.cfm?id=509775&amp;CFID=189258701&amp;CFTOKEN=10003802</page>
+            <code ref="8"/>
          </publication>
 
       </year>
@@ -1624,18 +1625,21 @@
             <doi>http://dx.doi.org/10.1057/palgrave/ivs/9500005</doi>
             <code ref="8"/>
          </publication>
+
          <publication>
             <title>Cognitive measurements of graph aesthetics</title>
             <authors>Ware, Collin, Helen Purchase, Linda Colpoys and Mathew McGill</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500013</doi>
             <code ref="8"/>
          </publication>
+
          <publication>
             <title>Liver cancer detection system based on the analysis of digitized color images of tissue samples obtained using needle biopsy </title>
             <authors>Mohamed Sammouda, Rachid Sammouda, Noboru Niki and Kiyoshi Mukai</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500012</doi>
             <code ref="16"/>
          </publication>
+
          <publication>
             <title>DEViD: a media design and software ergonomics integrating visualization for document retrieval</title>
             <authors>Eibl, Maximilian</authors>
@@ -1643,18 +1647,21 @@
             <code ref="6 (Exp)"/>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>The InfoSky visual explorer: exploiting hierarchical structure and document similarities</title>
             <authors>Keith Andrews, Wolfgang Kienreich, Vedran Sabol, Jutta Becker, Georg Droschl, Frank Kappe, Michael Granitzer, Peter Auer and Klaus Tochtermann</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500023</doi>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>Space-optimized tree: a connection+enclosure approach for the visualization of large hierarchies </title>
             <authors>Quang Vinh Nguyen and Mao Lin Huang</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500031</doi>
             <code ref="9"/>
          </publication>
+
          <publication>
             <title>InterRing: a visual interface for navigating and manipulating hierarchies</title>
             <authors>Jing Yang, Matthew O Ward, Elke A Rundensteiner and Anilkumar Patro</authors>
@@ -1663,12 +1670,14 @@
             <code ref="6 (Per)"/>
             <code ref="8"/>
          </publication>
+
          <publication>
             <title>Beamtrees: compact visualization of large hierarchies</title>
             <authors>Frank van Ham and Jarke J van Wijk</authors>
             <doi>http://dx.doi.org/10.1057/palgrave.ivs.9500036</doi>
             <code ref="6 (Per)"/>
          </publication>
+
          <publication>
             <title>Metric 3D structure in visualizations</title>
             <authors>Mats Lind and Geoffrey P Bingham and Camilla Forsell</authors>
