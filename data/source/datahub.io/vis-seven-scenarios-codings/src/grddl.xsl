@@ -62,12 +62,12 @@
             '&lt;../../count/',$year,'/',@id,'&gt;',$NL,
             '   a qb:Observation;',$NL,
             '   void:inDataset &lt;../../figure/1&gt;;',$NL,
-            '   dcterms:date    ',$DQ,$year,$DQ,'^^xsd:gYear;',$NL,
+            '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
             '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
             '   sio:count ',count($categories/publication),';',$NL)"/>
          <xsl:for-each select="$categories/publication">
             <xsl:value-of select="concat(
-               '   sio:member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
+               '   sio:has-member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
          </xsl:for-each>
          <xsl:value-of select="concat('.',$NL)"/>
       </xsl:for-each>
@@ -87,12 +87,12 @@
                '&lt;../../count/',$year,'/',@frag,'&gt;',$NL,
                '   a qb:Observation;',$NL,
                '   void:inDataset &lt;../../figure/2&gt;;',$NL,
-               '   dcterms:date    ',$DQ,$year,$DQ,'^^xsd:gYear;',$NL,
+               '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
                '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
                '   sio:count ',count($scenarios/publication),';',$NL)"/>
             <xsl:for-each select="$scenarios/publication">
                <xsl:value-of select="concat(
-                  '   sio:member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
+                  '   sio:has-member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
             </xsl:for-each>
             <xsl:value-of select="concat('.',$NL)"/>
             <xsl:message select="concat('  ',@id,' ',count($scenarios/publication),' / ',count(key('venue',$year)),' held venue(s)',$NL)"/>
