@@ -14,7 +14,7 @@
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {1051, 824}}</string>
+		<string>{{0, 0}, {1051, 855}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
@@ -38,7 +38,7 @@
 	<key>CanvasOrigin</key>
 	<string>{0, 0}</string>
 	<key>CanvasSize</key>
-	<string>{1051, 824}</string>
+	<string>{1051, 855}</string>
 	<key>ColumnAlign</key>
 	<integer>1</integer>
 	<key>ColumnSpacing</key>
@@ -55,6 +55,48 @@
 	<integer>8</integer>
 	<key>GraphicsList</key>
 	<array>
+		<dict>
+			<key>Bounds</key>
+			<string>{{0, 0}, {10, 10}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>999</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0.6</string>
+						<key>g</key>
+						<string>0.6</string>
+						<key>r</key>
+						<string>0.6</string>
+					</dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+			<key>UserInfo</key>
+			<dict>
+				<key>http://www.w3.org/2003/g/data-view#transformation</key>
+				<string>https://raw.github.com/timrdf/vsr/master/src/xsl/grddl/graffle.xsl</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>Bounds</key>
 			<string>{{20.680851576283874, 541.26783839681696}, {28, 29}}</string>
@@ -4103,7 +4145,7 @@ Visualization}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-03-20 16:17:01 +0000</string>
+	<string>2013-03-20 18:04:28 +0000</string>
 	<key>Modifier</key>
 	<string>lebot</string>
 	<key>NotesVisible</key>
@@ -4186,7 +4228,7 @@ Visualization}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{-2, 111}, {1048, 917}}</string>
+		<string>{{216, 62}, {1048, 917}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -4198,7 +4240,7 @@ Visualization}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-30.872340420135387, -24.936170210067694}, {1114.8936198490567, 874.46808732435568}}</string>
+		<string>{{-30.872340420135387, -8.9361702100676936}, {1114.8936198490567, 875.53191711428804}}</string>
 		<key>Zoom</key>
 		<real>0.93999999761581421</real>
 		<key>ZoomValues</key>
