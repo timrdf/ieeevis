@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/lam-2012-evaluations-2-categories>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "ieeevis-tw-rpi-edu";
+   conversion:dataset_identifier "lam-2012-evaluations-2-categories";
+   prov:wasDerivedFrom :download_d4fc3f97-7780-4c06-b94a-1c4fdaba4a77;
+.
+
+:download_d4fc3f97-7780-4c06-b94a-1c4fdaba4a77
+   a dcat:Distribution;
+   dcat:downloadURL <http://ieeevis.tw.rpi.edu/source/datahub.io/file/vis-seven-scenarios-codings/version/2013-Mar-08/manual/ScenarioPaperopencodingcleancopy.txt.xml.ttl.v6.graffle>;
+.
+
+<dataset/d4fc3f97-7780-4c06-b94a-1c4fdaba4a77>
+   a dcat:Dataset;
+   dcat:distribution :download_d4fc3f97-7780-4c06-b94a-1c4fdaba4a77;
+.
