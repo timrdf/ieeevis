@@ -39,7 +39,6 @@
       <xsl:sort select="title"/>
    </xsl:apply-templates>
 
-   <!-- Calculations for Figures 1 and 2 -->
    <xsl:for-each-group select="//year" group-by="@id">                                 <!-- year     -->
       <xsl:sort select="number(current-grouping-key())"/>
       <xsl:variable name="year" select="current-grouping-key()"/>
@@ -53,6 +52,7 @@
                   <xsl:copy-of select="key('pubs',@id)[../@id = $year]"/>
                   <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
                </xsl:for-each>
+               <!-- Figure 2 http://dx.doi.org/10.1109/TVCG.2011.279 -->
             </xsl:for-each>
          </xsl:variable>
          <xsl:message select="concat('  ',@id,' ',count($categories/publication),' / ',count(key('venue',$year)),' held venue(s)',$NL)"/>
@@ -62,7 +62,7 @@
             '&lt;../../count/',$year,'/',@id,'&gt;',$NL,
             '   a qb:Observation;',$NL,
             '   void:inDataset &lt;../../figure/1&gt;;',$NL,
-            '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
+            '   dcterms:date    ',$DQ,$year,$DQ,'^^xsd:gYear;',$NL,
             '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
             '   sio:count ',count($categories/publication),';',$NL)"/>
          <xsl:for-each select="$categories/publication">
@@ -75,24 +75,31 @@
       <!-- Figure 2 http://dx.doi.org/10.1109/TVCG.2011.279 -->
       <xsl:for-each select="//original_codes/code[@id = ('process','visualization')]"> <!-- category -->
          <xsl:for-each select="code">                                                  <!-- scenario -->
-            <xsl:variable name="scenario" select="@frag"/>
-            <xsl:for-each select="key('subtree',@id)">                                 <!-- tag      -->
-               <xsl:value-of select="concat(
-                  '&lt;../../count/',$year,'/',$scenario,'&gt;',$NL,
-                  '   a qb:Observation;',$NL,
-                  '   void:inDataset &lt;../../figure/2&gt;;',$NL,
-                  '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
-                  '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
-                  '   sio:count ',count(key('pubs',@id)[../@id = $year]),';',$NL)"/>
-               <xsl:for-each select="key('pubs',@id)[../@id = $year]">
-                  <xsl:value-of select="concat(
-                     '   sio:member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
+            <xsl:message select="concat('    scenario: ',@id)"/>
+            <xsl:variable name="scenarios">
+               <xsl:for-each select="key('subtree',@id)">                              <!-- tag      -->
+                  <xsl:copy-of select="key('pubs',@id)[../@id = $year]"/>
+                  <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
                </xsl:for-each>
-               <xsl:value-of select="concat('.',$NL)"/>
+            </xsl:variable>
+
+            <xsl:value-of select="concat(
+               '&lt;../../count/',$year,'/',@frag,'&gt;',$NL,
+               '   a qb:Observation;',$NL,
+               '   void:inDataset &lt;../../figure/2&gt;;',$NL,
+               '   dcterms:date    ',$DQ,$year,$DQ,'^^xsd:gYear;',$NL,
+               '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
+               '   sio:count ',count($scenarios/publication),';',$NL)"/>
+            <xsl:for-each select="$scenarios/publication">
+               <xsl:value-of select="concat(
+                  '   sio:member &lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',sof:checksum(title),'&gt;;',$NL)"/>
             </xsl:for-each>
+            <xsl:value-of select="concat('.',$NL)"/>
+            <xsl:message select="concat('  ',@id,' ',count($scenarios/publication),' / ',count(key('venue',$year)),' held venue(s)',$NL)"/>
          </xsl:for-each>
       </xsl:for-each>
    </xsl:for-each-group>
+
 
 </xsl:template>
 
