@@ -1696,9 +1696,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2269</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2269</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2269</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -1706,7 +1706,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2269</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2002/process</string>
 			</dict>
@@ -1767,9 +1767,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2272</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2272</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2272</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -1777,7 +1777,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2272</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2002/visualization</string>
 			</dict>
@@ -1844,9 +1844,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2078</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2078</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2078</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -1854,7 +1854,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2078</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1995/process</string>
 			</dict>
@@ -1915,9 +1915,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2082</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2082</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2082</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -1925,7 +1925,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2082</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1995/visualization</string>
 			</dict>
@@ -1992,9 +1992,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2107</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2107</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2107</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2002,7 +2002,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2107</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1996/process</string>
 			</dict>
@@ -2069,9 +2069,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2110</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2110</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2110</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2079,7 +2079,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2110</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1996/visualization</string>
 			</dict>
@@ -2146,9 +2146,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2134</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2134</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2134</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2156,7 +2156,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2134</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1997/process</string>
 			</dict>
@@ -2217,9 +2217,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2137</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2137</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2137</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2227,7 +2227,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2137</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1997/visualization</string>
 			</dict>
@@ -2292,9 +2292,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2161</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2161</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2161</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2302,7 +2302,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2161</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1998/process</string>
 			</dict>
@@ -2363,9 +2363,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2164</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2164</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2164</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2373,7 +2373,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2164</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1998/visualization</string>
 			</dict>
@@ -2440,9 +2440,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2188</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2188</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2188</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2450,7 +2450,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2188</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1999/process</string>
 			</dict>
@@ -2511,9 +2511,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2191</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2191</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2191</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2521,7 +2521,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2191</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/1999/visualization</string>
 			</dict>
@@ -2586,9 +2586,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2215</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2215</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2215</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2596,7 +2596,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2215</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2000/process</string>
 			</dict>
@@ -2657,9 +2657,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2218</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2218</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2218</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2667,7 +2667,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2218</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2000/visualization</string>
 			</dict>
@@ -2734,9 +2734,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2242</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2242</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2242</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2744,7 +2744,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2242</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2001/process</string>
 			</dict>
@@ -2805,9 +2805,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2245</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2245</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2245</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2815,7 +2815,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2245</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2001/visualization</string>
 			</dict>
@@ -2876,9 +2876,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2296</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2296</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2296</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2886,7 +2886,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2296</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2003/process</string>
 			</dict>
@@ -2947,9 +2947,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2299</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2299</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2299</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -2957,7 +2957,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2299</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2003/visualization</string>
 			</dict>
@@ -3018,9 +3018,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2323</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2323</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2323</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3028,7 +3028,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2323</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2004/process</string>
 			</dict>
@@ -3089,9 +3089,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2326</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2326</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2326</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3099,7 +3099,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2326</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2004/visualization</string>
 			</dict>
@@ -3160,9 +3160,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2350</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2350</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2350</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3170,7 +3170,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2350</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2005/process</string>
 			</dict>
@@ -3231,9 +3231,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2353</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2353</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2353</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3241,7 +3241,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2353</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2005/visualization</string>
 			</dict>
@@ -3302,9 +3302,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2377</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2377</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2377</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3312,7 +3312,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2377</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2006/process</string>
 			</dict>
@@ -3373,9 +3373,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2380</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2380</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2380</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3383,7 +3383,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2380</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2006/visualization</string>
 			</dict>
@@ -3444,9 +3444,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2404</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2404</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2404</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3454,7 +3454,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2404</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2007/process</string>
 			</dict>
@@ -3515,9 +3515,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2407</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2407</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2407</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3525,7 +3525,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2407</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2007/visualization</string>
 			</dict>
@@ -3586,9 +3586,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2431</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2431</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2431</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3596,7 +3596,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2431</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2008/process</string>
 			</dict>
@@ -3657,9 +3657,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2434</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2434</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2434</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3667,7 +3667,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2434</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2008/visualization</string>
 			</dict>
@@ -3728,9 +3728,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2458</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2458</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2458</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3738,7 +3738,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2458</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2009/process</string>
 			</dict>
@@ -3799,9 +3799,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2461</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2461</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2461</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3809,7 +3809,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2461</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2009/visualization</string>
 			</dict>
@@ -3870,9 +3870,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2485</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2485</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2485</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3880,7 +3880,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2485</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2010/process</string>
 			</dict>
@@ -3941,9 +3941,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2488</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2488</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2488</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -3951,7 +3951,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2488</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2010/visualization</string>
 			</dict>
@@ -4012,9 +4012,9 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/curieTypeList</key>
 				<string>qb:Observation</string>
 				<key>http://open.vocab.org/terms/originatingVisualArtifact</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://open.vocab.org/terms/originatingVisualForm</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2515</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1#visual_form_2515</string>
 				<key>http://open.vocab.org/terms/vid</key>
 				<string>2515</string>
 				<key>http://open.vocab.org/terms/vid_given</key>
@@ -4022,7 +4022,7 @@ Visualization}</string>
 				<key>http://open.vocab.org/terms/vid_local_name</key>
 				<string>#visual_form_2515</string>
 				<key>http://open.vocab.org/terms/visualContext</key>
-				<string>http://logd.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
+				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/visualization/1</string>
 				<key>http://purl.org/twc/vocab/vsr#depicts</key>
 				<string>http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/count/2011/visualization</string>
 			</dict>
