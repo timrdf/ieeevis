@@ -127,6 +127,12 @@
          </xsl:variable>
          <xsl:value-of select="$reference"/>
       </xsl:when>
+      <xsl:when test="name($node) = 'year'">
+         <xsl:variable name="reference">
+            <xsl:apply-templates select="$node" mode="reference"/>
+         </xsl:variable>
+         <xsl:value-of select="$reference"/>
+      </xsl:when>
       <xsl:otherwise>
       </xsl:otherwise>
    </xsl:choose>
@@ -137,6 +143,10 @@
       <xsl:number count="publication"/>
    </xsl:variable>
    <xsl:value-of select="concat('&lt;../../paper/venue/',translate(lower-case(../../title),' ()','-'),'/year/',../@id,'/',$alphabetical-within-venue,'&gt;')"/>
+</xsl:template>
+
+ <xsl:template match="year" mode="reference">
+   <xsl:value-of select="concat('&lt;../../venue/',translate(lower-case(../title),' ()','-'),'/year/',@id,'&gt;')"/>
 </xsl:template>
  
 <xsl:template match="publication">
@@ -151,6 +161,9 @@
       '   void:inDataset &lt;',$base-uri,'&gt;;',$NL,
       if (string-length(title)) then concat(
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else '',
+      if (string-length(../@id)) then concat(
+         '   dcterms:date ',$DQ,../@id,$DQ,';',$NL) else '',
+      '   dcterms:isPartOf ',this:reference(..),';',$NL,
       if (string-length(authors)) then concat(
          '   dcterms:creator &lt;authors/',sof:checksum(authors),'&gt;;',$NL) else '',
       if (string-length(doi)) then concat(
