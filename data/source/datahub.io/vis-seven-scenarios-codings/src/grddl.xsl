@@ -43,6 +43,22 @@
 
    <xsl:apply-templates select="//code[@frag]"/>
 
+   <!-- prov:Dictionary to order the codes -->
+   <xsl:value-of select="concat('&lt;../../order/codes&gt;',$NL,
+                           '   a prov:Dictionary;',$NL)"/>
+   <xsl:for-each select="//code[@paper-id]">
+      <xsl:value-of select="concat('   prov:hadDictionaryMember &lt;',this:reference(.),'/position/',@paper-id,'&gt;;',$NL)"/>
+   </xsl:for-each>
+   <xsl:value-of select="concat('.',$NL)"/>
+   <xsl:for-each select="//code[@paper-id]">
+      <xsl:value-of select="concat('&lt;',this:reference(.),'/position/',@paper-id,'&gt;',$NL,
+                                   '   a prov:KeyValuePair;',$NL,
+                                   '   prov:pairKey ',@paper-id,';',$NL,
+                                   '   prov:pairValue &lt;',this:reference(.),'&gt;;',$NL,
+                                   '.',$NL)"/>
+   </xsl:for-each>
+   <xsl:value-of select="concat($NL,$NL)"/>
+
    <xsl:apply-templates select="//publication">
       <xsl:sort select="../../title"/>
       <xsl:sort select="xs:integer(../@id)"/>
@@ -79,7 +95,7 @@
             <xsl:for-each select="key('subtree',@id)">                              <!-- tag      -->
                <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
                <xsl:for-each select="key('pubs',@id)[../@id = $year]">
-                  <xsl:value-of select="concat('   sio:has-member ',this:reference(.),';',$NL)"/>
+                  <xsl:value-of select="concat('   sio:has-member &lt;',this:reference(.),'&gt;;',$NL)"/>
                </xsl:for-each>
             </xsl:for-each>
          </xsl:for-each>
@@ -107,7 +123,7 @@
             <xsl:for-each select="key('subtree',@id)">                                <!-- tag      -->
                <xsl:for-each select="key('pubs',@id)[../@id = $year]">
                   <xsl:value-of select="concat(
-                     '   sio:has-member ',this:reference(.),';',$NL)"/>
+                     '   sio:has-member &lt;',this:reference(.),'&gt;;',$NL)"/>
                </xsl:for-each>
             </xsl:for-each>
             <xsl:value-of select="concat('.',$NL)"/>
@@ -133,6 +149,12 @@
          </xsl:variable>
          <xsl:value-of select="$reference"/>
       </xsl:when>
+      <xsl:when test="name($node) = 'code'">
+         <xsl:variable name="reference">
+            <xsl:apply-templates select="$node" mode="reference"/>
+         </xsl:variable>
+         <xsl:value-of select="$reference"/>
+      </xsl:when>
       <xsl:otherwise>
       </xsl:otherwise>
    </xsl:choose>
@@ -142,11 +164,15 @@
    <xsl:variable name="alphabetical-within-venue">
       <xsl:number count="publication"/>
    </xsl:variable>
-   <xsl:value-of select="concat('&lt;../../paper/venue/',translate(lower-case(../../title),' ()','-'),'/year/',../@id,'/',$alphabetical-within-venue,'&gt;')"/>
+   <xsl:value-of select="concat('../../paper/venue/',translate(lower-case(../../title),' ()','-'),'/year/',../@id,'/',$alphabetical-within-venue)"/>
 </xsl:template>
 
- <xsl:template match="year" mode="reference">
-   <xsl:value-of select="concat('&lt;../../venue/',translate(lower-case(../title),' ()','-'),'/year/',@id,'&gt;')"/>
+<xsl:template match="year" mode="reference">
+   <xsl:value-of select="concat('../../venue/',translate(lower-case(../title),' ()','-'),'/year/',@id)"/>
+</xsl:template>
+ 
+<xsl:template match="code" mode="reference">
+   <xsl:value-of select="concat('../../category/',@frag)"/>
 </xsl:template>
  
 <xsl:template match="publication">
@@ -156,14 +182,14 @@
    </xsl:variable>
 
    <xsl:value-of select="concat(
-      $reference,$NL,
+      '&lt;',$reference,'&gt;',$NL,
       '   a bibo:Document;',$NL,
       '   void:inDataset &lt;',$base-uri,'&gt;;',$NL,
       if (string-length(title)) then concat(
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else '',
       if (string-length(../@id)) then concat(
          '   dcterms:date ',$DQ,../@id,$DQ,';',$NL) else '',
-      '   dcterms:isPartOf ',this:reference(..),';',$NL,
+      '   dcterms:isPartOf &lt;',this:reference(..),'&gt;;',$NL,
       if (string-length(authors)) then concat(
          '   dcterms:creator &lt;authors/',sof:checksum(authors),'&gt;;',$NL) else '',
       if (string-length(doi)) then concat(
