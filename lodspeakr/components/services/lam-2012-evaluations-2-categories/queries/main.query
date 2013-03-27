@@ -1,0 +1,20 @@
+PREFIX bibo:    <http://purl.org/ontology/bibo/>
+PREFIX void:    <http://rdfs.org/ns/void#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov:    <http://www.w3.org/ns/prov#>
+PREFIX qb:  <http://purl.org/linked-data/cube#>
+PREFIX sio: <http://semanticscience.org/resource/>
+
+select distinct ?point ?year ?scenario ?count
+where {
+  graph <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08>{
+  ?point
+     a qb:Observation;
+     void:inDataset  <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/figure/1>;
+     dcterms:date    ?year;
+     dcterms:subject ?scenario;
+     sio:count       ?count
+  .
+  }
+}
+order by ?scenario ?year

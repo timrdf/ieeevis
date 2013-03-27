@@ -1,0 +1,49 @@
+{%include "../../includes/header.inc"%}
+    <div class="container-fluid">
+       <div class='span8'>
+       <h1>How the visualization community evaluates</h1>
+            <p>
+            Heidi Lam <i>et al.</i> surveyed 800 papers from four different visualization venues
+            (InfoVis, EuroVis, VAST, and Journal of Information Visualization) between 1995 and 2011.
+            They categorized 361 papers according to the kind of evaluation that was presented (approximately 400 papers did not evaluate their work).
+            The chart below replicates Figure 1 in <a href="http://dx.doi.org/10.1109/TVCG.2011.279">Heidi Lam <i>et al.'s paper</i></a> to show the occurrences of each evaluation category from 1995 to 2011. 
+            </p>
+
+{{models.main|D3StackedColumnChart:"scenario,year,count,point,width=800"}}
+
+            <p>However, the figure above is <b>more than just a replica</b> of the original -- it is <i>content-preserved</i>, meaning that it can be detached from its original creation environment without losing the ability to be repurposed. 
+               When we repurpose a graphic, we perform a new analysis to create a new view that may not have been anticipated by the original author(s). 
+               This empowers the audience to <i>continue the endeavor</i> to further understand or provide alternative interpretations of the material presented in the original.
+            </p>
+
+            <p>
+            Using the content-preservation technique that we present in our VAST 2013 paper, audiences no longer need to take another's graphic <i>at face falue</i>; instead, 
+            <i>sharing the graphic</i> is <i>sharing the data</i>.
+            For example, anyone can create <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-7-scenarios">a replica of Lam et al.'s <i>second</i> figure</a> 
+            given only the graphic for her first figure (shown above).
+            </p>
+
+            <p>If you take a peek at <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-7-scenarios">our replica of Figure 2</a>, you'll notice that <i>more details</i> are shown than in Figure 1 above.
+               The second figure is not just a new view of the material in the first, nor is it a more abstract summary. 
+               The ability to use new material is afforded by the content-preservation technique that we describe in our VAST paper.
+            </p>
+
+            <p>
+            Content-preservation is a technique that can be applied to a variety of graphical formats and within a variety of graphic production environments.
+            The replica above is in SVG and was created using d3.js in the browser. We created three other replicas of Lam's Figure 1 using our own VSR graphic production system.
+            Any of the following graphics can be repurposed even after being removed from their original creation environment:
+            </p>
+
+            <ul>
+               <li>Figure 1 in content-preserved SVG by d3.js (shown above; use the <a href="http://nytimes.github.com/svg-crowbar/">svg-crowbar</a> bookmarklet to save it to file)</li>
+               <li>Figure 1 in <a href="">content-preserved SVG</a> by VSR</li>
+               <li>Figure 1 in <a href="http://ieeevis.tw.rpi.edu/source/datahub.io/file/vis-seven-scenarios-codings/version/2013-Mar-08/manual/ScenarioPaperopencodingcleancopy.
+txt.xml.ttl.v6.graffle">content-preserved OmniGraffle</a> by VSR</li>
+               <li>Figure 1 in <a href="">content-preserved GraphML</a> by VSR</li>
+            </ul>
+
+            <p>Check out <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-7-scenarios">our replica of Figure 2</a> to see how we used content-augmentation to get the needed details.
+            </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+{%include "../../includes/header.inc"%}
+    <div class="container-fluid">
+      <div class='span8'>
+         <h1>Comparison Lam/Perer</h1>
+         <p id ="main">
+<script src='http://d3js.org/d3.v2.min.js?2.9.3'></script>
+<script>
+var x = [], y = [];
+
+tone = function(d){
+  var aux =  245 - 10*d;
+  var r = "rgb("+aux+","+aux+","+aux+")";
+  console.log(r);
+  return r;
+}
+{%for i in models.lam%}
+x.push("{{i.lCategoryL.value}}");{%endfor%}
+{%for i in models.perer%}
+y.push("{{i.pCategoryL.value}}");{%endfor%}
+
+var data = [];
+
+{%for i in models.main%}
+data.push({ total: {{i.total.value}}, x: "{{i.lCategoryL.value}}", y: "{{i.pCategoryL.value}}"});{%endfor%}
+
+table = d3.select("#main").append("table").attr("id", "comparison").attr('border', '1');
+table.append("tr").selectAll("th").data(y).enter().append("th").html(function(d){return d});
+
+table.selectAll("tr")
+     .data(x)
+     .enter()
+     .append("tr")
+     .attr("class", function(d, i){return "myRow myRow_"+i})
+     .selectAll("td")
+     .data(y)
+     .enter()
+     .append("td")
+     .attr("class", function(d, i){return "myColumn_"+i});
+
+var columnNumber = y.length-1;
+for(var i=0; i<x.length; i++){
+  d3.select(".myRow_"+i).append("th").attr("class", ".myColumn_"+columnNumber).html(x[i]);
+}
+
+for(var i=0; i<data.length; i++){
+  d = data[i];
+  myRow = x.indexOf(d.x);
+  col = y.indexOf(d.y);
+  selector = ".myRow_"+myRow+" .myColumn_"+col;
+  d3.select(selector).html(d.total).style('background-color', tone(d.total)).style('text-align', 'center');
+}
+
+</script>
+         </p>
+         </div>
+    </div>
+  </body>
+</html>
