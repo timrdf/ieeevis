@@ -13,9 +13,9 @@ tone = function(d){
   console.log(r);
   return r;
 }
-{%for i in models.x%}
+{%for i in models.lam%}
 x.push("{{i.lCategoryL.value}}");{%endfor%}
-{%for i in models.y%}
+{%for i in models.perer%}
 y.push("{{i.pCategoryL.value}}");{%endfor%}
 
 var data = [];
