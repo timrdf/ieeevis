@@ -1,0 +1,29 @@
+prefix bibo:    <http://purl.org/ontology/bibo/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix vis:     <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/>
+prefix process: <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/>
+
+select ?subject ?title ?year count(distinct ?publication)
+where {
+  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/lam-2012-evaluations-2-categories/version/2013-Mar-20> { 
+
+    ?publication
+       a bibo:Document;
+       dcterms:subject ?subject; 
+       dcterms:date    ?year
+    .
+
+    ?subject dcterms:title ?title .
+    filter(
+      ?subject = process:cda  ||
+      ?subject = process:ctv  ||
+      ?subject = process:uwp  ||
+      ?subject = process:vdar ||
+      ?subject = vis:ue       ||
+      ?subject = vis:up       ||
+      ?subject = vis:va
+    )
+  }
+}
+group by ?subject ?title ?year
+order by ?subject ?title ?year

@@ -1,0 +1,1232 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix sio:     <http://semanticscience.org/resource/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
+@prefix qb:      <http://purl.org/linked-data/cube#> .
+@base <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/lam-2012-evaluations-7-scenarios/version/2013-Mar-22> .
+
+<../../count/1995/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/1995/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/1995/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/1995/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/1995/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1995/1>;
+.
+<../../count/1995/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1995/2>;
+.
+<../../count/1995/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1995";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 0;
+.
+<../../count/1997/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/1997/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/1997/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/1997/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/1997/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1997/1>;
+.
+<../../count/1997/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1997/1>;
+.
+<../../count/1997/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1997";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1997/2>;
+.
+<../../count/1998/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/1998/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/1998/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/1998/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1998/2>;
+.
+<../../count/1998/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1998/1>;
+.
+<../../count/1998/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 0;
+.
+<../../count/1998/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1998";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 0;
+.
+<../../count/1999/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/1999/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/1999/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/1999/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/1999/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1999/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1999/2>;
+.
+<../../count/1999/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1999/2>;
+.
+<../../count/1999/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "1999";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/1999/3>;
+.
+<../../count/2000/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2000/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2000/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2000/3>;
+.
+<../../count/2000/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/2000/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 4;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2000/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2000/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2000/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2000/4>;
+.
+<../../count/2000/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 0;
+.
+<../../count/2000/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2000";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 0;
+.
+<../../count/2001/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2001/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2001/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2001/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/2001/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 6;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/7>;
+.
+<../../count/2001/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 3;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/9>;
+.
+<../../count/2001/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2001";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2001/3>;
+.
+<../../count/2002/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2002/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2002/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2002/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/2002/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 3;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/5>;
+.
+<../../count/2002/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 16;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2002/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2002/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2002/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2002/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/5>;
+.
+<../../count/2002/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2002";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 6;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2002/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2002/8>;
+.
+<../../count/2003/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/4>;
+.
+<../../count/2003/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/11>;
+.
+<../../count/2003/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2003/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/7>;
+.
+<../../count/2003/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/12>;
+.
+<../../count/2003/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 7;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/8>;
+.
+<../../count/2003/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2003";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 7;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2003/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2003/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2003/5>;
+.
+<../../count/2004/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2004/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/10>;
+.
+<../../count/2004/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2004/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/2004/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 9;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/7>;
+.
+<../../count/2004/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 9;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/7>;
+.
+<../../count/2004/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2004";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 8;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2004/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2004/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2004/9>;
+.
+<../../count/2005/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/1>;
+.
+<../../count/2005/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/9>;
+.
+<../../count/2005/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2005/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/1>;
+.
+<../../count/2005/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 12;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2005/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2005/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/18>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/4>;
+.
+<../../count/2005/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 8;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/17>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/9>;
+.
+<../../count/2005/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2005";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 12;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2005/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2005/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2005/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2005/7>;
+.
+<../../count/2006/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2006/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/2>;
+.
+<../../count/2006/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2006/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 4;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2006/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/2>;
+.
+<../../count/2006/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 12;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/5>;
+.
+<../../count/2006/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 10;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2006/6>;
+.
+<../../count/2006/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2006";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 10;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2006/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2006/9>;
+.
+<../../count/2007/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/6>;
+.
+<../../count/2007/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/6>;
+.
+<../../count/2007/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2007/1>;
+.
+<../../count/2007/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 4;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2007/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2007/4>;
+.
+<../../count/2007/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 15;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2007/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2007/2>;
+.
+<../../count/2007/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 18;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2007/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/9>;
+.
+<../../count/2007/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2007";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 5;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2007/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2007/7>;
+.
+<../../count/2008/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/7>;
+.
+<../../count/2008/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/9>;
+.
+<../../count/2008/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/7>;
+.
+<../../count/2008/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 8;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/3>;
+.
+<../../count/2008/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 19;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/19>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/20>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/6>;
+.
+<../../count/2008/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 13;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2008/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/19>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/20>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/21>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/22>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/6>;
+.
+<../../count/2008/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2008";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 7;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2008/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/17>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2008/18>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2008/5>;
+.
+<../../count/2009/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2009/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2009/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 1;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/4>;
+.
+<../../count/2009/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 3;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/7>;
+.
+<../../count/2009/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 29;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/8>;
+.
+<../../count/2009/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 16;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/7>;
+.
+<../../count/2009/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2009";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 13;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2009/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2009/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/17>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/18>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2009/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2009/6>;
+.
+<../../count/2010/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 4;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/9>;
+.
+<../../count/2010/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2010/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 2;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/9>;
+.
+<../../count/2010/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 6;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/5>;
+.
+<../../count/2010/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 30;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/17>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/18>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/19>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/20>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/21>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/22>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/23>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/8>;
+.
+<../../count/2010/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 24;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/21>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/22>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/23>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/9>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/8>;
+.
+<../../count/2010/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2010";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 13;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2010/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/4>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/information-visualization-journal-ivs/year/2010/8>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/infovis/year/2010/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/vast/year/2010/2>;
+.
+<../../count/2011/data-process/cda>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/cda>;
+   sio:count 0;
+.
+<../../count/2011/data-process/ctv>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/ctv>;
+   sio:count 0;
+.
+<../../count/2011/data-process/uwp>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/uwp>;
+   sio:count 0;
+.
+<../../count/2011/data-process/vdar>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/vdar>;
+   sio:count 0;
+.
+<../../count/2011/visualization/ue>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/ue>;
+   sio:count 9;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/10>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/11>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/17>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/2>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/7>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/9>;
+.
+<../../count/2011/visualization/up>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/up>;
+   sio:count 5;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/14>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/16>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/5>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/6>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/7>;
+.
+<../../count/2011/visualization/va>
+   a qb:Observation;
+   void:inDataset <figure/2>;
+   dcterms:date "2011";
+   dcterms:subject <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/va>;
+   sio:count 7;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/1>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/12>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/13>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/15>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/18>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/3>;
+   sio:has-member <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/paper/venue/eurovis/year/2011/8>;
+.

@@ -1,0 +1,14 @@
+prefix bibo:    <http://purl.org/ontology/bibo/>
+prefix prov:    <http://www.w3.org/ns/prov#>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix lam:     <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08>
+prefix perer:   <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-evaluation-methods-in-2005–2007-infovis-and-2006-2007-vast-papers/version/2013-Mar-22>
+
+select distinct ?lCategory ?lCategoryL
+where {
+  graph lam: { 
+    ?lam a bibo:Document; prov:alternateOf ?doi;
+      dcterms:subject ?lCategory
+    optional { ?lCategory dcterms:title ?lCategoryL }
+  }
+}

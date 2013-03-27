@@ -1,0 +1,25 @@
+{%include "../../includes/header.inc"%}
+    <div class="container-fluid">
+      <div class='span8'>
+         <h1>How the visualization community evaluates</h1>
+         <p>
+            Heidi Lam <i>et al.</i> surveyed 800 papers from four different visualization venues 
+            (InfoVis, EuroVis, VAST, and Journal of Information Visualization) between 1995 and 2011. 
+            They categorized 361 papers according to the kind of evaluation that was presented (approximately 400 papers did not evaluate their work). 
+            The chart below shows the occurrences of each evaluation category from 1995 to 2011; 
+            it replicates Figure 2 in <a href="http://dx.doi.org/10.1109/TVCG.2011.279">Heidi Lam <i>et al.'s paper</i></a>.
+         </p>
+
+         {{models.figure2_via_figure1|D3LineChart:"scenario,year,count,point,width=800"}}
+
+         <p>However, the figure above is <b>more than just a replica</b> of the original -- it was created given <b>only</b> 
+          <a href="http://ieeevis.tw.rpi.edu/source/datahub.io/file/vis-seven-scenarios-codings/version/2013-Mar-08/manual/ScenarioPaperopencodingcleancopy.txt.xml.ttl.v6.graffle">this content-preserved OmniGraffle file</a> (and the same thing could have been done from <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-2-categories">this d3.js replica of their Figure 1</a>, or <a href="">this SVG file</a> created using another system, or even <a href="">this GraphML</a> file). 
+            Using a content-preserved graphic and the content-augmentation technique described in our VAST 2013 paper enabled us to access the data depicted in the original graphic.
+            In addition, the figure above is also content-preserved, meaning that anyone can reconstruct and repurpose the data shown in the figure.
+         
+            See our <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-2-categories">replica of Figure 1</a>.
+         </p>
+         </div>
+    </div>
+  </body>
+</html>

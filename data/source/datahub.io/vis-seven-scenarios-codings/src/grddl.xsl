@@ -8,27 +8,56 @@
    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xs="http://www.w3.org/2001/XMLSchema"
    xmlns:sof="http://stackoverflow.com/questions/6753343/using-xsl-to-make-a-hash-of-xml-file"
-   exclude-result-prefixes="">
+   xmlns:this="https://github.com/timrdf/ieeevis/blob/master/data/source/datahub.io/vis-seven-scenarios-codings/src/grddl.xsl">
 <xsl:output method="text"/>
 
-<xsl:param name="base-uri" select="'http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/'"/>
+<xsl:param name="base-uri" 
+           select="'http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/version/2013-Mar-08/'"/>
+
+<xsl:param name="infer-hierarchy" select="false()"/>
+
+<xsl:key name="code"    match="code"        use="@id"/>
+<!-- 
+   'up - evaluating user performance'
+      -> category/13, category/8,  category/6/performance 
+-->
+<xsl:key name="subtree" match="code"        use="broader/@ref | ../broader/@ref"/>
+<xsl:key name="pubs"    match="publication" use="code/@ref"/>
+<xsl:key name="venue"   match="venue"       use="year/@id"/>
+<xsl:key name="title"   match="publication" use="title"/>
 
 <xsl:template match="/">
    <xsl:value-of select="concat(
-                                 '@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .',$NL,
-                                 '@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .',$NL,
-                                 '@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .',$NL,
-                                 '@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .',$NL,
-                                 '@prefix void: &lt;http://rdfs.org/ns/void#&gt; .',$NL,
-                                 '@prefix sioc: &lt;http://rdfs.org/sioc/ns#&gt; .',$NL,
-                                 '@prefix prov: &lt;http://www.w3.org/ns/prov#&gt; .',$NL,
-                                 '@prefix sio: &lt;http://semanticscience.org/resource/&gt; .',$NL,
-                                 '@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .',$NL,
-                                 '@prefix bibo: &lt;http://purl.org/ontology/bibo/&gt; .',$NL,
-                                 '@base &lt;',$base-uri,'&gt; .',$NL,
-                         $NL)"/>
+      '@prefix rdfs:    &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .',$NL,
+      '@prefix xsd:     &lt;http://www.w3.org/2001/XMLSchema#&gt; .',$NL,
+      '@prefix foaf:    &lt;http://xmlns.com/foaf/0.1/&gt; .',$NL,
+      '@prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .',$NL,
+      '@prefix void:    &lt;http://rdfs.org/ns/void#&gt; .',$NL,
+      '@prefix sioc:    &lt;http://rdfs.org/sioc/ns#&gt; .',$NL,
+      '@prefix prov:    &lt;http://www.w3.org/ns/prov#&gt; .',$NL,
+      '@prefix sio:     &lt;http://semanticscience.org/resource/&gt; .',$NL,
+      '@prefix skos:    &lt;http://www.w3.org/2004/02/skos/core#&gt; .',$NL,
+      '@prefix bibo:    &lt;http://purl.org/ontology/bibo/&gt; .',$NL,
+      '@prefix qb:      &lt;http://purl.org/linked-data/cube#&gt; .',$NL,
+      '@base &lt;',$base-uri,'&gt; .',$NL,$NL)"/>
 
    <xsl:apply-templates select="//code[@frag]"/>
+
+   <!-- prov:Dictionary to order the codes -->
+   <xsl:value-of select="concat('&lt;../../order/codes&gt;',$NL,
+                           '   a prov:Dictionary;',$NL)"/>
+   <xsl:for-each select="//code[@paper-id]">
+      <xsl:value-of select="concat('   prov:hadDictionaryMember &lt;',this:reference(.),'/position/',@paper-id,'&gt;;',$NL)"/>
+   </xsl:for-each>
+   <xsl:value-of select="concat('.',$NL)"/>
+   <xsl:for-each select="//code[@paper-id]">
+      <xsl:value-of select="concat('&lt;',this:reference(.),'/position/',@paper-id,'&gt;',$NL,
+                                   '   a prov:KeyValuePair;',$NL,
+                                   '   prov:pairKey ',@paper-id,';',$NL,
+                                   '   prov:pairValue &lt;',this:reference(.),'&gt;;',$NL,
+                                   '.',$NL)"/>
+   </xsl:for-each>
+   <xsl:value-of select="concat($NL,$NL)"/>
 
    <xsl:apply-templates select="//publication">
       <xsl:sort select="../../title"/>
@@ -36,22 +65,131 @@
       <xsl:sort select="title"/>
    </xsl:apply-templates>
 
+   <xsl:for-each-group select="//year" group-by="@id">                                 <!-- year     -->
+      <xsl:sort select="number(current-grouping-key())"/>
+      <xsl:variable name="year" select="current-grouping-key()"/>
+      <xsl:message select="string($year)"/>
+
+      <xsl:for-each select="//original_codes/code[@id = ('process','visualization')]"> <!-- category -->
+         <xsl:variable name="categories">
+            <xsl:for-each select="code">                                               <!-- scenario -->
+               <xsl:message select="concat('    scenario: ',@id)"/>
+               <xsl:for-each select="key('subtree',@id)">                              <!-- tag      -->
+                  <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
+                  <xsl:copy-of select="key('pubs',@id)[../@id = $year]"/>
+               </xsl:for-each>
+            </xsl:for-each>
+         </xsl:variable>
+         <xsl:message select="concat('  ',@id,' ',count($categories/publication),' / ',count(key('venue',$year)),' held venue(s)',$NL)"/>
+
+         <!-- Figure 1 http://dx.doi.org/10.1109/TVCG.2011.279 -->
+         <xsl:value-of select="concat(
+            '&lt;../../count/',$year,'/',@id,'&gt;',$NL,
+            '   a qb:Observation;',$NL,
+            '   void:inDataset &lt;../../figure/1&gt;;',$NL,
+            '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
+            '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
+            '   sio:count ',count($categories/publication),';',$NL)"/>
+         <xsl:for-each select="code">                                               <!-- scenario -->
+            <xsl:message select="concat('    scenario: ',@id)"/>
+            <xsl:for-each select="key('subtree',@id)">                              <!-- tag      -->
+               <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
+               <xsl:for-each select="key('pubs',@id)[../@id = $year]">
+                  <xsl:value-of select="concat('   sio:has-member &lt;',this:reference(.),'&gt;;',$NL)"/>
+               </xsl:for-each>
+            </xsl:for-each>
+         </xsl:for-each>
+         <xsl:value-of select="concat('.',$NL)"/>
+      </xsl:for-each>
+
+      <!-- Figure 2 http://dx.doi.org/10.1109/TVCG.2011.279 -->
+      <xsl:for-each select="//original_codes/code[@id = ('process','visualization')]"> <!-- category -->
+         <xsl:for-each select="code">                                                  <!-- scenario -->
+            <xsl:message select="concat('    scenario: ',@id)"/>
+            <xsl:variable name="scenarios">
+               <xsl:for-each select="key('subtree',@id)">                              <!-- tag      -->
+                  <xsl:copy-of select="key('pubs',@id)[../@id = $year]"/>
+                  <xsl:message select="concat('      tag: ',@id,' = ',count(key('pubs',@id)[../@id = $year]))"/>
+               </xsl:for-each>
+            </xsl:variable>
+
+            <xsl:value-of select="concat(
+               '&lt;../../count/',$year,'/',@frag,'&gt;',$NL,
+               '   a qb:Observation;',$NL,
+               '   void:inDataset &lt;../../figure/2&gt;;',$NL,
+               '   dcterms:date    ',$DQ,$year,$DQ,';',$NL,
+               '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL,
+               '   sio:count ',count($scenarios/publication),';',$NL)"/>
+            <xsl:for-each select="key('subtree',@id)">                                <!-- tag      -->
+               <xsl:for-each select="key('pubs',@id)[../@id = $year]">
+                  <xsl:value-of select="concat(
+                     '   sio:has-member &lt;',this:reference(.),'&gt;;',$NL)"/>
+               </xsl:for-each>
+            </xsl:for-each>
+            <xsl:value-of select="concat('.',$NL)"/>
+            <xsl:message select="concat('  ',@id,' ',count($scenarios/publication),' / ',count(key('venue',$year)),' held venue(s)',$NL)"/>
+         </xsl:for-each>
+      </xsl:for-each>
+   </xsl:for-each-group>
+
 </xsl:template>
 
-<xsl:key name="code" match="code" use="@id"/>
+<xsl:function name="this:reference">
+   <xsl:param name="node"/>
+   <xsl:choose>
+      <xsl:when test="name($node) = 'publication'">
+         <xsl:variable name="reference">
+            <xsl:apply-templates select="$node" mode="reference"/>
+         </xsl:variable>
+         <xsl:value-of select="$reference"/>
+      </xsl:when>
+      <xsl:when test="name($node) = 'year'">
+         <xsl:variable name="reference">
+            <xsl:apply-templates select="$node" mode="reference"/>
+         </xsl:variable>
+         <xsl:value-of select="$reference"/>
+      </xsl:when>
+      <xsl:when test="name($node) = 'code'">
+         <xsl:variable name="reference">
+            <xsl:apply-templates select="$node" mode="reference"/>
+         </xsl:variable>
+         <xsl:value-of select="$reference"/>
+      </xsl:when>
+      <xsl:otherwise>
+      </xsl:otherwise>
+   </xsl:choose>
+</xsl:function>
 
+<xsl:template match="publication" mode="reference">
+   <xsl:variable name="alphabetical-within-venue">
+      <xsl:number count="publication"/>
+   </xsl:variable>
+   <xsl:value-of select="concat('../../paper/venue/',translate(lower-case(../../title),' ()','-'),'/year/',../@id,'/',$alphabetical-within-venue)"/>
+</xsl:template>
+
+<xsl:template match="year" mode="reference">
+   <xsl:value-of select="concat('../../venue/',translate(lower-case(../title),' ()','-'),'/year/',@id)"/>
+</xsl:template>
+ 
+<xsl:template match="code" mode="reference">
+   <xsl:value-of select="concat('../../category/',@frag)"/>
+</xsl:template>
+ 
 <xsl:template match="publication">
 
-   <xsl:variable name="position">
-      <xsl:number count="publication"/>
+   <xsl:variable name="reference">
+      <xsl:apply-templates select="." mode="reference"/>
    </xsl:variable>
 
    <xsl:value-of select="concat(
-      '&lt;../../paper/venue/',lower-case(../../title),'/year/',../@id,'/',$position,'&gt;',$NL,
+      '&lt;',$reference,'&gt;',$NL,
       '   a bibo:Document;',$NL,
       '   void:inDataset &lt;',$base-uri,'&gt;;',$NL,
       if (string-length(title)) then concat(
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else '',
+      if (string-length(../@id)) then concat(
+         '   dcterms:date ',$DQ,../@id,$DQ,';',$NL) else '',
+      '   dcterms:isPartOf &lt;',this:reference(..),'&gt;;',$NL,
       if (string-length(authors)) then concat(
          '   dcterms:creator &lt;authors/',sof:checksum(authors),'&gt;;',$NL) else '',
       if (string-length(doi)) then concat(
@@ -90,7 +228,8 @@
          <xsl:message select="concat('WARNING: missing code description for ',@ref)"/>
       </xsl:if>
 
-      <xsl:for-each select="key('code',@ref)/ancestor-or-self::code">
+      <xsl:for-each select="if ($infer-hierarchy) then key('code',@ref)/ancestor-or-self::code 
+                                                  else key('code',@ref)">
          <xsl:value-of select="concat(
             '   dcterms:subject &lt;../../category/',@frag,'&gt;;',$NL
          )"/>
@@ -117,11 +256,13 @@
          '   dcterms:title ',$DQ,title,$DQ,';',$NL) else ''
    )"/>
 
-   <xsl:for-each select="ancestor::code">
-      <xsl:value-of select="concat(
-         '   skos:broader &lt;../../category/',@frag,'&gt;;',$NL
-      )"/>
-   </xsl:for-each>
+   <xsl:if test="true() or $infer-hierarchy">
+      <xsl:for-each select="ancestor::code">
+         <xsl:value-of select="concat(
+            '   skos:broader &lt;../../category/',@frag,'&gt;;',$NL
+         )"/>
+      </xsl:for-each>
+   </xsl:if>
 
    <xsl:for-each select="broader">
       <xsl:value-of select="concat(
