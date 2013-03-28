@@ -373,7 +373,7 @@ export CSV2RDF4LOD_PUBLISH_PURGE_AUTODIR="false"
 # (done in cr-publish-void-to-endpoint.sh)
 #
 export CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID="twc-rpi-edu"
-export CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID="tw-rpi-edu"
+export CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID="ieeevis-tw-rpi-edu"
 
 #
 # Customize: Specify the "base" conversion_identifier
