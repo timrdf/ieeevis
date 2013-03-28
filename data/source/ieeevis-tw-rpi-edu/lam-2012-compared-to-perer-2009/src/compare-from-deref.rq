@@ -1,0 +1,19 @@
+prefix bibo:    <http://purl.org/ontology/bibo/>
+prefix prov:    <http://www.w3.org/ns/prov#>
+prefix dcterms: <http://purl.org/dc/terms/>
+
+select distinct ?doi ?lCategoryL ?pCategoryL
+where {
+  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/lam-2012-evaluations-2-categories/version/2013-Mar-21> { 
+    ?lam a bibo:Document; prov:alternateOf ?doi;
+      dcterms:subject ?lCategory
+    optional { ?lCategory dcterms:title ?lCategoryL }
+    
+    ?perer a bibo:Document; prov:alternateOf ?doi;
+      dcterms:subject ?pCategory .
+    optional { ?pCategory rdfs:label ?pCategoryL }
+
+    filter(?lam != ?perer)
+  }
+}  
+order by ?lCategory ?pCategory
