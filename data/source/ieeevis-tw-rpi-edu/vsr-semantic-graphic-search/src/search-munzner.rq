@@ -10,6 +10,6 @@ where {
     { [] dcterms:title       ?label } union
     { [] dcterms:description ?label }
   }
-  filter(regex(?label,"perer","i")) # Same search term "Munzner"
+  filter(regex(?label,"Munzner","i")) # Same search term "Munzner"
 }
 order by ?graphic
