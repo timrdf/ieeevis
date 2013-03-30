@@ -59,10 +59,8 @@
               <li><a href="{{lodspk.home}}">Home</a></li>
               <li><a href="{{lodspk.home}}classes">Classes</a></li>
               <li><a href="{{lodspk.home}}namedGraphs">Named Graphs</a></li>
+              <li><a href="{{lodspk.home}}search">Search</a></li>
             </ul>
-            <form class="navbar-search pull-left" action="">
-              <input type="text" data-provide="typeahead" class="typeahead search-query span2" placeholder="Search"/>
-            </form>
           </div><!--/.nav-collapse -->
         </div>
       </div>

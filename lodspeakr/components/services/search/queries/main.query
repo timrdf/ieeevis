@@ -1,11 +1,9 @@
-SELECT DISTINCT ?resource ?label WHERE {
-  {
-    GRAPH ?g {
-      ?resource rdfs:label ?label .
-    }
-  }UNION{
-    ?resource rdfs:label ?label .
+prefix vsr: <http://purl.org/twc/vocab/vsr#>
+
+select distinct ?g where { 
+  GRAPH ?g { 
+    ?g a vsr:Dataset. 
+    ?some rdfs:label ?string .
+    filter(regex(?string,"{{lodspk.args.arg0}}","i"))
   }
-  FILTER(regex(str(?label), "{{lodspk.args.arg0}}", "i"))
 }
-LIMIT 10
