@@ -19,7 +19,17 @@
       {%if lodspk.args.arg0 != ""%}
         <ul>
     {% for row in models.main %}
-        <li><a href="{{ row.g.value }}">{{row.g.value}}</a></li>
+      {%ifchanged row.g.value%}
+       {%if !forloop.first%}
+       </ul>
+        </li>
+       {%endif%}
+        <li><a href="{{ row.g.value }}">{{row.g.value}}</a>
+         <ul>
+          <li><em>{{row.string.value|TruncateChars:"30"}}</em></li>
+      {%else%}
+             <li><em>{{row.string.value}}</em></li>
+      {%endifchanged%}
     {% endfor %}
     </ul>
       {%endif%}

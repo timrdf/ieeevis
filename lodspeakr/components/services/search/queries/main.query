@@ -1,9 +1,9 @@
 prefix vsr: <http://purl.org/twc/vocab/vsr#>
 
-select distinct ?g where { 
+select distinct ?g ?string where { 
   GRAPH ?g { 
     ?g a vsr:Dataset. 
     ?some rdfs:label ?string .
     filter(regex(?string,"{{lodspk.args.arg0}}","i"))
   }
-}
+}order by DESC(?g) DESC(?string)
