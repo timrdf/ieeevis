@@ -10,8 +10,9 @@
       <script>
       $(document).ready(function(){
        var home = "{{lodspk.home}}";
+       var searchUrl = 'search-graphics/v1/';
        $("#submit").on('click', function(){
-         url = home+'search/'+$("#search-string").val();
+         url = home+searchUrl+$("#search-string").val();
          window.location = url;
        });
       });
