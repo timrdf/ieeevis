@@ -1,0 +1,41 @@
+{%include "../../includes/header.inc"%}
+    <div class="container-fuild">
+      {%if lodspk.args.arg0 != ""%}
+      <h1>Results searching for "{{lodspk.args.arg0}}"</h1>
+      {%else%}
+      <h1>Search</h1>
+      {%endif%}
+              <input type="text" placeholder="Search" id="search-string" value="{{lodspk.args.arg0}}"/>
+              <button class="btn btn-info" id="submit">Search</button>
+      <script>
+      $(document).ready(function(){
+       var home = "{{lodspk.home}}";
+       $("#submit").on('click', function(){
+         url = home+'search/'+$("#search-string").val();
+         window.location = url;
+       });
+      });
+      </script>
+      {%if lodspk.args.arg0 != ""%}
+        <ul>
+{%if models.main|length == 0%}
+  <p><strong>No results found</strong></p>
+{%endif%}
+    {% for row in models.main %}
+      {%ifchanged row.g.value%}
+       {%if !forloop.first%}
+       </ul>
+        </li>
+       {%endif%}
+        <li><a href="{{ row.g.value }}">{{row.g.value}}</a>
+         <ul>
+          <li><em>{{row.string.value|TruncateChars:"30"}}</em></li>
+      {%else%}
+             <li><em>{{row.string.value}}</em></li>
+      {%endifchanged%}
+    {% endfor %}
+    </ul>
+      {%endif%}
+   </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix vsr:     <http://purl.org/twc/vocab/vsr#>
+
+select distinct ?g ?string
+where { 
+  graph ?g { 
+    ?g a vsr:Dataset .
+    { [] rdfs:label          ?string } union
+    { [] dcterms:title       ?string } union
+    { [] dcterms:description ?string }
+  }
+  filter(regex(?string,"{{lodspk.args.arg0}}","i")) # Same search term "Munzner"
+}
+order by ?g ?string
