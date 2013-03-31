@@ -18,6 +18,9 @@
       </script>
       {%if lodspk.args.arg0 != ""%}
         <ul>
+{%if models.main|length == 0%}
+  <p><strong>No results found</strong></p>
+{%endif%}
     {% for row in models.main %}
       {%ifchanged row.g.value%}
        {%if !forloop.first%}
