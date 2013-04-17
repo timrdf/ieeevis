@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/visualizing-org/dataset/dataset-economic-return-education-2012>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "visualizing-org";
+   conversion:dataset_identifier "dataset-economic-return-education-2012";
+   prov:wasDerivedFrom :download_b0fc8a53-ff95-45e6-bc58-4cb94901c438;
+.
+
+:download_b0fc8a53-ff95-45e6-bc58-4cb94901c438
+   a dcat:Distribution;
+   dcat:downloadURL <http://visualizing.org/sites/default/files/data_set/admin/oecd_eag2012_returnoneducation.xls>;
+.
+
+<dataset/b0fc8a53-ff95-45e6-bc58-4cb94901c438>
+   a dcat:Dataset;
+   dcat:distribution :download_b0fc8a53-ff95-45e6-bc58-4cb94901c438;
+.
