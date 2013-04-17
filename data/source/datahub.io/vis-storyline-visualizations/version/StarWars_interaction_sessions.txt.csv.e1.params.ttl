@@ -1,0 +1,213 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix todo:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix vann:          <http://purl.org/vocab/vann/> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:          <http://www.w3.org/2006/time#> .
+@prefix wgs:           <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames:      <http://www.geonames.org/ontology#> .
+@prefix geonamesid:    <http://sws.geonames.org/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dbpedia:       <http://dbpedia.org/resource/> .
+@prefix dbpediaprop:   <http://dbpedia.org/property/> .
+@prefix dbpediaowl:    <http://dbpedia.org/ontology/> .
+@prefix con:           <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix muo:           <http://purl.oclc.org/NET/muo/muo#> .
+@prefix vs:            <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix frbr:          <http://purl.org/vocab/frbr/core#> .
+@prefix bibo:          <http://purl.org/ontology/bibo/> .
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix doap:          <http://usefulinc.com/ns/doap#> .
+@prefix nfo:           <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix sio:           <http://semanticscience.org/resource/> .
+@prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix qb:            <http://purl.org/linked-data/cube#> .
+@prefix dgtwc:         <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix pml:           <http://provenanceweb.org/ns/pml#> .
+@prefix :              <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-storyline-visualizations/version/2012-Oct-03/params/enhancement/1/> .
+
+
+:start_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name prov:qualifiedStart; # Can also be a URI, e.g. dcterms:title.
+   conversion:type_name     prov:Start;   # Can also be a URI, e.g. foaf:Person.
+   conversion:name_template "[/sdv]session/[#2]/start";
+.
+
+:end_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name prov:qualifiedEnd; # Can also be a URI, e.g. dcterms:title.
+   conversion:type_name     prov:End;   # Can also be a URI, e.g. foaf:Person.
+   conversion:name_template "[/sdv]session/[#2]/end";
+.
+
+<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-storyline-visualizations/version/2012-Oct-03/conversion/enhancement/1>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
+   conversion:source_identifier  "datahub.io";
+   conversion:dataset_identifier "vis-storyline-visualizations";
+   conversion:version_identifier "2012-Oct-03";
+   conversion:enhancement_identifier "1";
+
+   conversion:conversion_process [
+      a conversion:EnhancementConversionProcess;
+      conversion:enhancement_identifier "1";
+      conversion:subject_discriminator  "inception-interaction-sessions";
+
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+      dcterms:created "2013-04-17T14:04:39-04:00"^^xsd:dateTime;
+
+      conversion:includes <e1.params.ttl>; # https://github.com/timrdf/csv2rdf4lod-automation/issues/325
+
+      conversion:enhance [
+         ov:csvRow 7;
+         a conversion:DataStartRow;
+      ];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      #conversion:interpret [
+      #   conversion:symbol        "";
+      #   conversion:interpretation conversion:null; 
+      #];
+      conversion:enhance [
+         conversion:domain_template "session/[#2]";
+         conversion:domain_name     "InteractionSession";
+      ];
+      conversion:enhance [
+         conversion:class_name "InteractionSession";
+         conversion:subclass_of prov:Activity;
+      ];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "Name";
+         #conversion:label   "Name";
+         conversion:equivalent_property dcterms:identifier;
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "Id";
+         a conversion:Omitted;
+         #conversion:label   "Id";
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "Start";
+         #conversion:label   "Start";
+         conversion:comment "";
+         conversion:bundled_by :start_bundle;
+         conversion:equivalent_property   pml:atIndex;
+         conversion:range   xsd:integer;
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "End";
+         #conversion:label   "End";
+         conversion:comment "";
+         conversion:bundled_by :end_bundle;
+         conversion:equivalent_property   pml:atIndex;
+         conversion:range   xsd:integer;
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "Members";
+         #conversion:label   "Members";
+         conversion:comment "";
+         conversion:equivalent_property prov:wasAssociatedWith;
+         conversion:delimits_object ",\\s*";
+         conversion:range   rdfs:Resource;
+         # {'R2-D2': 2, 'LEIA': 1, 'HAN': 6, 'VADER': 0, 'BOBA FETT': 12, 'LUKE': 5, 'C-3PO': 3, 'CHEWIE': 7, 'GREEDO': 9, 'JABBA': 8, 'EMPEROR': 13, 'YODA': 11, 'OBI-WAN': 4, 'LANDO': 10}
+         conversion:interpret [
+            conversion:symbol        "R2-D2";
+            conversion:interpretation <http://www.imdb.com/character/ch0000054>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "LEIA";
+            conversion:interpretation <http://www.imdb.com/character/ch0000008>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "HAN";
+            conversion:interpretation <http://www.imdb.com/character/ch0000002>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "VADER";
+            conversion:interpretation <http://www.imdb.com/character/ch0000005>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "BOBA FETT";
+            conversion:interpretation <http://www.imdb.com/character/ch0000026>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "LUKE";
+            conversion:interpretation <http://www.imdb.com/character/ch0000273>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "C-3PO";
+            conversion:interpretation <http://www.imdb.com/character/ch0000048>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "CHEWIE";
+            conversion:interpretation <http://www.imdb.com/character/ch0000033>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "GREEDO";
+            conversion:interpretation <>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "JABBA";
+            conversion:interpretation <http://dbpedia.org/resource/Jabba_the_Hutt>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "EMPEROR";
+            conversion:interpretation <http://www.imdb.com/character/ch0000024>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "YODA";
+            conversion:interpretation <http://www.imdb.com/character/ch0000015>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "OBI-WAN";
+            conversion:interpretation <http://www.imdb.com/character/ch0000004>;
+         ];
+         conversion:interpret [
+            conversion:symbol        "LANDO";
+            conversion:interpretation <http://www.imdb.com/character/ch0000031>;
+         ];
+      ];
+      conversion:enhance [
+         ov:csvCol          6;
+         ov:csvHeader       "Location";
+         #conversion:label   "Location";
+         conversion:comment "";
+         conversion:equivalent_property prov:atLocation;
+         conversion:range   rdfs:Resource, prov:Location; # TODO: https://github.com/timrdf/csv2rdf4lod-automation/issues/324
+         conversion:range_name "Location";
+      ];
+      conversion:enhance [
+         conversion:class_name "Location";
+         conversion:subclass_of prov:Location, wgs:SpatialThing;
+      ];
+      #conversion:enhance [            
+      #   ov:csvRow 3,4,5;             
+      #   a conversion:ExampleResource;
+      #];                              
+   ];
+.
