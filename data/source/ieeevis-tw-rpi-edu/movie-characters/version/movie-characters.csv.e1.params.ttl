@@ -1,0 +1,138 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix todo:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix vann:          <http://purl.org/vocab/vann/> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:          <http://www.w3.org/2006/time#> .
+@prefix wgs:           <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames:      <http://www.geonames.org/ontology#> .
+@prefix geonamesid:    <http://sws.geonames.org/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dbpedia:       <http://dbpedia.org/resource/> .
+@prefix dbpediaprop:   <http://dbpedia.org/property/> .
+@prefix dbpediaowl:    <http://dbpedia.org/ontology/> .
+@prefix con:           <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix muo:           <http://purl.oclc.org/NET/muo/muo#> .
+@prefix vs:            <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix frbr:          <http://purl.org/vocab/frbr/core#> .
+@prefix bibo:          <http://purl.org/ontology/bibo/> .
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix doap:          <http://usefulinc.com/ns/doap#> .
+@prefix nfo:           <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix sio:           <http://semanticscience.org/resource/> .
+@prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix qb:            <http://purl.org/linked-data/cube#> .
+@prefix dgtwc:         <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix :              <http://logd.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/params/enhancement/1/> .
+
+<http://tw.rpi.edu/instances/TimLebo> foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot> .
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of  <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+#:a_bundle
+#   a conversion:ImplicitBundle;
+#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
+#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
+#.
+
+<http://logd.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/conversion/enhancement/1>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://logd.tw.rpi.edu"^^xsd:anyURI;
+   conversion:source_identifier  "ieeevis-tw-rpi-edu";
+   conversion:dataset_identifier "movie-characters";
+   conversion:version_identifier "2013-Apr-18";
+   conversion:enhancement_identifier "1";
+
+   conversion:conversion_process [
+      a conversion:EnhancementConversionProcess;
+      conversion:enhancement_identifier "1";
+
+      dcterms:creator <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+      dcterms:created "2013-04-18T01:02:02-04:00"^^xsd:dateTime;
+
+
+      #conversion:enhance [
+      #   ov:csvRow 2;
+      #   a conversion:DataStartRow;
+      #];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      conversion:interpret [
+         conversion:symbol        "","-";
+         conversion:interpretation conversion:null; 
+      ];
+      conversion:enhance [
+         conversion:domain_template "[_#1_]";
+         #conversion:domain_name     "Thing";
+      ];
+      #conversion:enhance [
+      #   conversion:class_name "Thing";
+      #   conversion:subclass_of <http://purl.org/...>;
+      #];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "Names";
+         a conversion:Only_if_column;
+         #conversion:label   "Names";
+         conversion:equivalent_property foaf:name;
+         conversion:comment "";
+         conversion:delimits_object ",\\s*";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "linkedmdb";
+         #conversion:label   "linkedmdb";
+         conversion:equivalent_property owl:sameAs;
+         conversion:comment "";
+         conversion:range   rdfs:Resource;
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "imdb";
+         #conversion:label   "imdb";
+         conversion:equivalent_property foaf:page;
+         conversion:comment "";
+         conversion:range   rdfs:Resource;
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "wikia";
+         #conversion:label   "wikia";
+         conversion:equivalent_property foaf:page;
+         conversion:comment "";
+         conversion:range   rdfs:Resource;
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "dbpedia";
+         #conversion:label   "dbpedia";
+         conversion:equivalent_property owl:sameAs;
+         conversion:comment "";
+         conversion:range   rdfs:Resource;
+      ];
+      #conversion:enhance [            
+      #   ov:csvRow 3,4,5;             
+      #   a conversion:ExampleResource;
+      #];                              
+   ];
+.
