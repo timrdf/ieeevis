@@ -8,3 +8,4 @@
 #source /srv/twc-healthdata/config/ckan/csv2rdf4lod-source-me-for-ckan-api-key.sh
 #source /srv/twc-healthdata/data/source/csv2rdf4lod-source-me-when-bioportal-annotating.sh
 source /etc/prizms/ieeevis/triple-store/virtuoso/csv2rdf4lod-source-me-for-virtuoso-credentials.sh
+source /etc/prizms/ieeevis/ckan/datahub.io/csv2rdf4lod-source-me-for-ckan-credentials.sh
