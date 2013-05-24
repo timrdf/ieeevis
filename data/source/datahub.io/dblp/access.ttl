@@ -4,9 +4,9 @@
 @prefix void:       <http://rdfs.org/ns/void#> .
 @prefix prov:       <http://www.w3.org/ns/prov#> .
 @prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
-@prefix :           <http://logd.tw.rpi.edu/id/> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
 
-<http://logd.tw.rpi.edu/source/datahub.io/dataset/dblp>
+<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/dblp>
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "datahub.io";
    conversion:dataset_identifier "dblp";
