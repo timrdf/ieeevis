@@ -33,7 +33,7 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix ov:            <http://open.vocab.org/terms/> .
 @prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
-@prefix :              <http://logd.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/params/enhancement/1/> .
+@prefix :              <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/params/enhancement/1/> .
 
 <http://tw.rpi.edu/instances/TimLebo> foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot> .
 <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
@@ -49,10 +49,10 @@
 #   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
 #.
 
-<http://logd.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/conversion/enhancement/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/movie-characters/version/2013-Apr-18/conversion/enhancement/1>
    a conversion:LayerDataset, void:Dataset;
 
-   conversion:base_uri           "http://logd.tw.rpi.edu"^^xsd:anyURI;
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
    conversion:source_identifier  "ieeevis-tw-rpi-edu";
    conversion:dataset_identifier "movie-characters";
    conversion:version_identifier "2013-Apr-18";
