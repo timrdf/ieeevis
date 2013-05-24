@@ -33,7 +33,7 @@
 @prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
 @prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
 @prefix dcat:          <http://www.w3.org/ns/dcat#> .
-@prefix :              <http://aquarius.tw.rpi.edu/projects/ieeevis/source/vis-stanford-edu/dataset/revision-image-corpus/version/2011-Sep-14/params/enhancement/1/> .
+@prefix :              <http://ieeevis.tw.rpi.edu/source/vis-stanford-edu/dataset/revision-image-corpus/version/2011-Sep-14/params/enhancement/1/> .
 
 
 #:a_bundle
@@ -42,10 +42,10 @@
 #   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
 #.
 
-<http://aquarius.tw.rpi.edu/projects/ieeevis/source/vis-stanford-edu/dataset/revision-image-corpus/version/2011-Sep-14/conversion/enhancement/1>
+<http://ieeevis.tw.rpi.edu/source/vis-stanford-edu/dataset/revision-image-corpus/version/2011-Sep-14/conversion/enhancement/1>
    a conversion:LayerDataset, void:Dataset;
 
-   conversion:base_uri           "http://aquarius.tw.rpi.edu/projects/ieeevis"^^xsd:anyURI;
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
    conversion:source_identifier  "vis-stanford-edu";
    conversion:dataset_identifier "revision-image-corpus";
    conversion:version_identifier "2011-Sep-14";
