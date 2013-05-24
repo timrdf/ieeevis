@@ -6,19 +6,19 @@
 @prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
 @prefix :           <http://ieeevis.tw.rpi.edu/id/> .
 
-<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/opencyc>
+<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/rkb-explorer-dblp>
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "datahub.io";
-   conversion:dataset_identifier "opencyc";
-   prov:wasDerivedFrom :download_b8801608-b82f-406e-99ff-90aa2c6ee06b;
+   conversion:dataset_identifier "rkb-explorer-dblp";
+   prov:wasDerivedFrom :download_2eb4e198-94d8-466d-9faf-aee0b2723f12;
 .
 
-:download_b8801608-b82f-406e-99ff-90aa2c6ee06b
+:download_2eb4e198-94d8-466d-9faf-aee0b2723f12
    a dcat:Distribution;
-   dcat:downloadURL <http://www.cyc.com/sites/default/files/downloads/opencyc-latest.owl.gz>;
+   dcat:downloadURL <http://dblp.rkbexplorer.com/models/dump.tgz>;
 .
 
-<dataset/b8801608-b82f-406e-99ff-90aa2c6ee06b>
+<dataset/2eb4e198-94d8-466d-9faf-aee0b2723f12>
    a dcat:Dataset;
-   dcat:distribution :download_b8801608-b82f-406e-99ff-90aa2c6ee06b;
+   dcat:distribution :download_2eb4e198-94d8-466d-9faf-aee0b2723f12;
 .
