@@ -3,27 +3,27 @@ prefix dcterms: <http://purl.org/dc/terms/>
 prefix vis:     <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/visualization/>
 prefix process: <http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/vis-seven-scenarios-codings/category/data-process/>
 
-select ?subject ?title ?year count(distinct ?publication)
+select ?scenario ?title ?year count(distinct ?publication) as ?num_publications
 where {
   graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/lam-2012-evaluations-2-categories/version/2013-Mar-20> { 
 
     ?publication
        a bibo:Document;
-       dcterms:subject ?subject; 
+       dcterms:subject ?scenario; 
        dcterms:date    ?year
     .
 
-    ?subject dcterms:title ?title .
+    ?scenario dcterms:title ?title .
     filter(
-      ?subject = process:cda  ||
-      ?subject = process:ctv  ||
-      ?subject = process:uwp  ||
-      ?subject = process:vdar ||
-      ?subject = vis:ue       ||
-      ?subject = vis:up       ||
-      ?subject = vis:va
+      ?scenario = process:cda  ||
+      ?scenario = process:ctv  ||
+      ?scenario = process:uwp  ||
+      ?scenario = process:vdar ||
+      ?scenario = vis:ue       ||
+      ?scenario = vis:up       ||
+      ?scenario = vis:va
     )
   }
 }
-group by ?subject ?title ?year
-order by ?subject ?title ?year
+group by ?scenario ?title ?year
+order by ?scenario ?title ?year

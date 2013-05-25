@@ -4,9 +4,9 @@
 @prefix void:       <http://rdfs.org/ns/void#> .
 @prefix prov:       <http://www.w3.org/ns/prov#> .
 @prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
-@prefix :           <http://aquarius.tw.rpi.edu/projects/ieeevis/id/> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
 
-<http://aquarius.tw.rpi.edu/projects/ieeevis/source/datahub.io/dataset/rkb-explorer-ieee>
+<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/rkb-explorer-ieee>
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "datahub.io";
    conversion:dataset_identifier "rkb-explorer-ieee";
