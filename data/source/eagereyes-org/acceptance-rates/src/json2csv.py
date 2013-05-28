@@ -20,3 +20,5 @@ def csvize(local_json):
 if __name__ == '__main__':
    if len(sys.argv) == 1:
       csvize('source/conferences.json')
+   elif len(sys.argv) == 2:
+      csvize(sys.argv[1])
