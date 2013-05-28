@@ -10,15 +10,15 @@
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "eagereyes-org";
    conversion:dataset_identifier "acceptance-rates";
-   prov:wasDerivedFrom :download_98012a5b-6020-4c00-9578-8e80a1afbe45;
+   prov:wasDerivedFrom :download_97ed10e7-d5c9-4f5c-9b03-3b58d1165d1c;
 .
 
-:download_98012a5b-6020-4c00-9578-8e80a1afbe45
+:download_97ed10e7-d5c9-4f5c-9b03-3b58d1165d1c
    a dcat:Distribution;
-   dcat:downloadURL <http://eagereyes.org/acceptance-rates>;
+   dcat:downloadURL <http://eagereyes.org/media/conferences.json>;
 .
 
-<dataset/98012a5b-6020-4c00-9578-8e80a1afbe45>
+<dataset/97ed10e7-d5c9-4f5c-9b03-3b58d1165d1c>
    a dcat:Dataset;
-   dcat:distribution :download_98012a5b-6020-4c00-9578-8e80a1afbe45;
+   dcat:distribution :download_97ed10e7-d5c9-4f5c-9b03-3b58d1165d1c;
 .
