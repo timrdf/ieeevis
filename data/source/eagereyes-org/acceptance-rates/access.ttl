@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/acceptance-rates>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "eagereyes-org";
+   conversion:dataset_identifier "acceptance-rates";
+   prov:wasDerivedFrom :download_98012a5b-6020-4c00-9578-8e80a1afbe45;
+.
+
+:download_98012a5b-6020-4c00-9578-8e80a1afbe45
+   a dcat:Distribution;
+   dcat:downloadURL <http://eagereyes.org/acceptance-rates>;
+.
+
+<dataset/98012a5b-6020-4c00-9578-8e80a1afbe45>
+   a dcat:Dataset;
+   dcat:distribution :download_98012a5b-6020-4c00-9578-8e80a1afbe45;
+.
