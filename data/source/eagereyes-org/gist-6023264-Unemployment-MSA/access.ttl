@@ -1,0 +1,24 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/gist-6023264-Unemployment-MSA>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "eagereyes-org";
+   conversion:dataset_identifier "gist-6023264-Unemployment-MSA";
+   prov:wasDerivedFrom :download_f3d37205-2c0c-4c75-a0ee-26e5f62d1f5f;
+.
+
+:download_f3d37205-2c0c-4c75-a0ee-26e5f62d1f5f
+   a dcat:Distribution;
+   dcat:downloadURL <https://gist.github.com/eagereyes/6023264/raw/8eb42b32952be814cc10e4c5f2ffd4069df2b536/Unemployment-MSA.csv>;
+.
+
+<dataset/f3d37205-2c0c-4c75-a0ee-26e5f62d1f5f>
+   a dcat:Dataset;
+   dcat:distribution :download_f3d37205-2c0c-4c75-a0ee-26e5f62d1f5f;
+.
