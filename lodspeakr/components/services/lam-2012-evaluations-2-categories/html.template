@@ -17,7 +17,7 @@
             </p>
 
             <p>
-            Using the content-preservation technique that we present in our VAST 2013 paper, audiences no longer need to take another's graphic <i>at face falue</i>; instead, 
+            Using the content-preservation technique that we present in our <a href="https://github.com/timrdf/ieeevis/wiki/COLD-2013-Supplemental-Material">COLD 2013 paper</a>, audiences no longer need to take another's graphic <i>at face falue</i>; instead, 
             <i>sharing the graphic</i> is <i>sharing the data</i>.
             For example, anyone can create <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-7-scenarios">a replica of Lam et al.'s <i>second</i> figure</a> 
             given only the graphic for her first figure (shown above).
@@ -25,7 +25,7 @@
 
             <p>If you take a peek at <a href="http://ieeevis.tw.rpi.edu/lam-2012-evaluations-7-scenarios">our replica of Figure 2</a>, you'll notice that <i>more details</i> are shown than in Figure 1 above.
                The second figure is not just a new view of the material in the first, nor is it a more abstract summary. 
-               The ability to use new material is afforded by the content-preservation technique that we describe in our VAST paper.
+               The ability to use new material is afforded by the content-preservation technique that we describe in our COLD paper.
             </p>
 
             <p>
