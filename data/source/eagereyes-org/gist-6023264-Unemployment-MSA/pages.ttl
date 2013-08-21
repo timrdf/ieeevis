@@ -1,0 +1,10 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://ieeevis.tw.rpi.edu/source/eagereyes-org/dataset/gist-6023264-Unemployment-MSA>
+   foaf:page <https://gist.github.com/eagereyes/6023264>,
+             <http://www.bls.gov/lau/home.htm>,
+             <https://twitter.com/eagereyes/status/357563438022680576>,
+             <https://twitter.com/eagereyes/status/357567556359434242>,
+             <https://twitter.com/eagereyes/status/357568081335287810>,
+             <https://twitter.com/eagereyes/status/357569235188330497>,
+             <https://gist.github.com/cscheid/6023362> .
