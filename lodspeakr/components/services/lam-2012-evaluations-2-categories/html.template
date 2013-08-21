@@ -30,7 +30,7 @@
 
             <p>
             Content-preservation is a technique that can be applied to a variety of graphical formats and within a variety of graphic production environments.
-            The replica above is in SVG and was created using d3.js in the browser. We created three other replicas of Lam's Figure 1 using our own VSR graphic production system.
+            The replica above is in SVG and was created using d3.js in the browser. We created three other replicas of Lam's Figure 1 using our own <a href="https://github.com/timrdf/vsr/wiki">VSR graphic production system</a>.
             Any of the following graphics can be repurposed even after being removed from their original creation environment:
             </p>
 
