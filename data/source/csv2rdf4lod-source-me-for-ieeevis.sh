@@ -965,3 +965,6 @@ export DG_RETRIEVAL_CONVERT_RAW="false"
 
 export VSR_PROVENANCE="true"
 # End of CSV2RDF4LOD_ variables
+export DATAFAQS_BASE_URI="http://ieeevis.tw.rpi.edu"
+export DATAFAQS_PROVENANCE_CODE_RAW_BASE="https://raw.github.com/timrdf/DataFAQs/master"
+export DATAFAQS_PROVENANCE_CODE_PAGE_BASE="https://github.com/timrdf/DataFAQs/blob/master"

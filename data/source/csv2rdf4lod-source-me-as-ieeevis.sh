@@ -14,3 +14,4 @@ export CSV2RDF4LOD_PUBLISH_VIRTUOSO="true"
 export CSV2RDF4LOD_PUBLISH_SUBSET_SAMPLES="true"
 export CSV2RDF4LOD_PUBLISH_VARWWW_ROOT="/var/www"
 export JENAROOT=/home/ieeevis/opt/apache-jena-2.10.0
+export DATAFAQS_HOME="/home/ieeevis/opt/prizms/repos/DataFAQs"
