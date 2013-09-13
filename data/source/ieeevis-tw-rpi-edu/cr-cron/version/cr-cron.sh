@@ -130,25 +130,6 @@ pushd $conversion_root &> /dev/null
 
 
    #
-   # DCAT files provide the data download URLs.
-   echo "BEGIN cron cr-publish-dcat-to-endpoint.sh `date`"                                     >> $log
-   echo "#3> <#cr-publish-dcat> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
-   if [[ -n "$CSV2RDF4LOD_BASE_URI"              && \
-         -n "$CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID" && \
-         `which cr-publish-dcat-to-endpoint.sh` ]]; then
-      echo "pwd: `pwd`"                                                                        >> $log
-      cr-publish-dcat-to-endpoint.sh cr:auto                                              2>&1 >> $log
-   else
-      echo "   ERROR: Failed to invoke cr-publish-dcat-to-endpoint.sh:"                        >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:              $CSV2RDF4LOD_BASE_URI"                    >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID: $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"       >> $log
-      echo "      cr-publish-dcat-to-endpoint.sh path: `which cr-publish-dcat-to-endpoint.sh`" >> $log
-   fi
-   echo "END cron cr-publish-dcat-to-endpoint.sh `date`"                                       >> $log
-   echo                                                                                        >> $log
-
-
-   #
    # cr-retrieve.sh follows the DCAT descriptions to download the files.
    echo "BEGIN cron cr-retrieve.sh `date`"           >> $log
    echo "#3> <#cr-retrieve> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
@@ -164,49 +145,6 @@ pushd $conversion_root &> /dev/null
    fi
    echo "END cron cr-retrieve.sh `date`"             >> $log
    echo                                              >> $log
-
-
-   #
-   # Analyze the retrieved files and determine their file format.
-   echo "BEGIN cron cr-publish-droid-to-endpoint.sh `date`"                                      >> $log
-   echo "#3> <#cr-publish-droid> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
-   if [[ -n "$CSV2RDF4LOD_BASE_URI"              && \
-         -n "$CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID" && \
-         `which cr-publish-droid-to-endpoint.sh` && \
-         `which cr-droid.sh` ]]; then
-      echo "pwd:    `pwd`"                                                                       >> $log
-      echo "script: `which cr-publish-droid-to-endpoint.sh`"                                     >> $log
-      cr-publish-droid-to-endpoint.sh cr:auto                                               2>&1 >> $log
-   else
-      echo "   ERROR: Failed to invoke cr-publish-droid-to-endpoint.sh:"                         >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:              $CSV2RDF4LOD_BASE_URI"                      >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID: $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"         >> $log
-      echo "      cr-publish-droid-to-endpoint.sh path: `which cr-publish-droid-to-endpoint.sh`" >> $log
-      echo "      cr-droid.sh path:                     `which cr-droid.sh`"                     >> $log
-   fi
-   echo "END cron cr-publish-droid-to-endpoint.sh `date`"                                        >> $log
-   echo                                                                                          >> $log
-
-
-   #
-   # The VoID metadata organizes the RDF datasets created by converting each original dataset.
-   echo "BEGIN cron cr-publish-void-to-endpoint.sh `date`"                                     >> $log
-   echo "#3> <#cr-publish-void> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
-   if [[ -n "$CSV2RDF4LOD_BASE_URI"              && \
-         -n "$CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID" && \
-         `which cr-publish-void-to-endpoint.sh` ]]; then
-      echo "pwd:    `pwd`"                                                                     >> $log
-      echo "script: `which cr-publish-void-to-endpoint.sh`"                                    >> $log
-      echo cr-publish-void-to-endpoint.sh cr:auto                                              >> $log
-      cr-publish-void-to-endpoint.sh cr:auto                                              2>&1 >> $log
-   else
-      echo "   ERROR: Failed to invoke cr-publish-void-to-endpoint.sh:"                        >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:              $CSV2RDF4LOD_BASE_URI"                    >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID: $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"       >> $log
-      echo "      cr-publish-void-to-endpoint.sh path: `which cr-publish-void-to-endpoint.sh`" >> $log
-   fi
-   echo "END cron cr-publish-void-to-endpoint.sh `date`"                                       >> $log
-   echo                                                                                        >> $log
 
 
    # TODO: fix https://github.com/timrdf/csv2rdf4lod-automation/issues/313 and reinstate this.
@@ -232,26 +170,6 @@ pushd $conversion_root &> /dev/null
 
 
    #
-   # Find all asserted properties and classes, and assert rdfs:isDefinedBy to their namespace.
-   echo "BEGIN cron cr-publish-isdefinedby-to-endpoint.sh `date`"                            >> $log
-   echo "#3> <#cr-publish-isdefinedby> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
-   if [[ -n "$CSV2RDF4LOD_BASE_URI"                && \
-         -n "$CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT" && \
-         `which cr-publish-isdefinedby-to-endpoint.sh` ]]; then
-      # The SPARQL endpoint is needed b/c we query for all asserted properties and classes.
-      echo "pwd: `pwd`"                                                                      >> $log
-      cr-publish-isdefinedby-to-endpoint.sh cr:auto                                     2>&1 >> $log
-   else
-      echo "   ERROR: Failed to invoke cr-publish-isdefinedby-to-endpoint.sh:"               >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:                $CSV2RDF4LOD_BASE_URI"                >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT: $CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT" >> $log
-      echo "                        path:    `which cr-publish-isdefinedby-to-endpoint.sh`"  >> $log
-   fi
-   echo "END cron cr-publish-isdefinedby-to-endpoint.sh `date`"                              >> $log
-   echo                                                                                      >> $log
-
-
-   #
    # Gather all versioned dataset dump files into a "one click" download.
    echo "BEGIN cron cr-full-dump.sh `date`"                                              >> $log
    echo "#3> <#cr-full-dump> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
@@ -273,43 +191,23 @@ pushd $conversion_root &> /dev/null
    #
    # Search the RDF Node URIs in our dataset that come from other Linked Data cloud bubbbles' namespaces.
    # This needs to be run AFTER cr-full-dump.sh
-   echo "BEGIN cron cr-linksets.sh `date`"                                                     >> $log
-   echo "#3> <#cr-linksets> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
+   echo "BEGIN cron cr-linksets.sh `date`"                                                                                 >> $log
+   echo "#3> <#cr-linksets> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ."                             >> $log
    if [[ -n "$CSV2RDF4LOD_BASE_URI"                               && \
          -n "$CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"                  && \
          -n "$CSV2RDF4LOD_PUBLISH_DATAHUB_METADATA_OUR_BUBBLE_ID" && \
          `which cr-linksets.sh` ]]; then
-      echo "pwd: `pwd`"                                                                        >> $log
-      cr-linksets.sh cr:auto cr:auto                                                      2>&1 >> $log
+      echo "pwd: `pwd`"                                                                                                    >> $log
+      cr-linksets.sh
    else
-      echo "   ERROR: Failed to invoke:"                                                       >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:              $CSV2RDF4LOD_BASE_URI"                    >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID: $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"       >> $log
-      echo "                                   path: `which cr-full-dump.sh`"                  >> $log
+      echo "   ERROR: Failed to invoke:"                                                                                   >> $log
+      echo "      CSV2RDF4LOD_BASE_URI:              $CSV2RDF4LOD_BASE_URI"                                                >> $log
+      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID: $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"                                   >> $log
+      echo "      CSV2RDF4LOD_PUBLISH_DATAHUB_METADATA_OUR_BUBBLE_ID: $CSV2RDF4LOD_PUBLISH_DATAHUB_METADATA_OUR_BUBBLE_ID" >> $log
+      echo "                                   path: `which cr-linksets.sh`"                                               >> $log
    fi
-   echo "END cron cr-linksets.sh `date`"                                                       >> $log
-   echo                                                                                        >> $log
-
-
-   #
-   # Create a sitemap for each conversion:VersionedDataset.
-   echo "BEGIN cron cr-sitemap.sh `date`"                                                     >> $log
-   echo "#3> <#cr-sitemap> $wasInformed prov:startedAtTime `dateInXSDDateTime.sh --turtle` ." >> $log
-   if [[ -n "$CSV2RDF4LOD_BASE_URI"                && \
-         -n "$CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT" && \
-         -n "$CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"   && \
-         `which cr-sitemap.sh` ]]; then
-      echo "pwd: `pwd`"                                                                       >> $log
-      cr-sitemap.sh cr:auto cr:auto                                                      2>&1 >> $log
-   else
-      echo "   ERROR: Failed to invoke:"                                                      >> $log
-      echo "      CSV2RDF4LOD_BASE_URI:                $CSV2RDF4LOD_BASE_URI"                 >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT: $CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT"  >> $log
-      echo "      CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID:   $CSV2RDF4LOD_PUBLISH_OUR_SOURCE_ID"    >> $log
-      echo "                                   path: `which cr-sitemap.sh`"                   >> $log
-   fi
-   echo "END cron cr-sitemap.sh `date`"                                                       >> $log
-   echo                                                                                       >> $log
+   echo "END cron cr-linksets.sh `date`"                                                                                   >> $log
+   echo                                                                                                                    >> $log
 
 
    #
@@ -329,7 +227,7 @@ pushd $conversion_root &> /dev/null
       echo "      CSV2RDF4LOD_PUBLISH_DATAHUB_METADATA_OUR_BUBBLE_ID: $CSV2RDF4LOD_PUBLISH_DATAHUB_METADATA_OUR_BUBBLE_ID" >> $log
       echo "                                   path: `which cr-pingback.sh`"                  >> $log
    fi
-   echo "END cron cr-sitemap.sh `date`"                                                       >> $log
+   echo "END cron cr-pingback.sh `date`"                                                      >> $log
    echo                                                                                       >> $log
 
 
