@@ -4,6 +4,7 @@
 #3>     <https://github.com/timrdf/csv2rdf4lod-automation/wiki/Script:-source-me.sh> .
 
 source /home/ieeevis/prizms/ieeevis/data/source/csv2rdf4lod-source-me-for-ieeevis.sh
+source /home/ieeevis/prizms/ieeevis/data/source/csv2rdf4lod-source-me-on-ieeevis.sh
 source /home/ieeevis/prizms/ieeevis/data/source/csv2rdf4lod-source-me-credentials.sh
 export CSV2RDF4LOD_CONVERT_DATA_ROOT="/home/ieeevis/prizms/ieeevis/data/source"
 export CSV2RDF4LOD_PUBLISH_VARWWW_DUMP_FILES="true"
@@ -14,3 +15,4 @@ export CSV2RDF4LOD_PUBLISH_VIRTUOSO="true"
 export CSV2RDF4LOD_PUBLISH_SUBSET_SAMPLES="true"
 export CSV2RDF4LOD_PUBLISH_VARWWW_ROOT="/var/www"
 export JENAROOT=/home/ieeevis/opt/apache-jena-2.10.0
+export DATAFAQS_HOME="/home/ieeevis/opt/prizms/repos/DataFAQs"
