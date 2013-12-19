@@ -1,0 +1,25 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/datahub.io/dataset/social-interactions-at-2013-vivo-conference>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "datahub.io";
+   conversion:dataset_identifier "social-interactions-at-2013-vivo-conference";
+   prov:wasDerivedFrom :download_48ad1a65bce65f05689b8a5fb6da16f3;
+.
+
+:download_48ad1a65bce65f05689b8a5fb6da16f3
+   a dcat:Distribution;
+   dcat:downloadURL <http://files.figshare.com/1206598/VIVO2013_RealtimeSemNet.rdf>;
+.
+
+<dataset/48ad1a65bce65f05689b8a5fb6da16f3>
+   a dcat:Dataset;
+   dcat:distribution :download_48ad1a65bce65f05689b8a5fb6da16f3;
+.
