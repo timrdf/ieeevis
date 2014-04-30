@@ -1,0 +1,95 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<lod-cloud-wave-of-arrivals.svg>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-04-30T11:45:42-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://nytimes.github.io/svg-crowbar#e7433087-1035-484e-9ad1-2d6289fda068>;
+.
+<http://nytimes.github.io/svg-crowbar#e7433087-1035-484e-9ad1-2d6289fda068> a prov:Plan;
+  dcterms:date "2014-04-30T11:45:56-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://nytimes.github.io/svg-crowbar>;
+.
+<http://nytimes.github.io/svg-crowbar> a prov:Plan .
+<lod-cloud-wave-of-arrivals.svg>
+   a nfo:FileDataObject;
+   nfo:fileName "lod-cloud-wave-of-arrivals.svg";
+   nfo:hasHash <md5_34ede8182eab883fe7cc233719197862_time_1398872756>;
+.
+<md5_34ede8182eab883fe7cc233719197862_time_1398872756>
+   a nfo:FileHash; 
+   dcterms:date      "2014-04-30T11:45:56-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "34ede8182eab883fe7cc233719197862";
+.
+
+<lod-cloud-wave-of-arrivals.svg> prov:wasDerivedFrom <http://lodcloud.tw.rpi.edu/lodcloud-wave-of-arrivals> .
+<http://lodcloud.tw.rpi.edu/lodcloud-wave-of-arrivals>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<lod-cloud-wave-of-arrivals.svg> prov:wasDerivedFrom <http://lodcloud.tw.rpi.edu/lodcloud-wave-of-arrivals> .
+
+<nodeSet/e7433087-1035-484e-9ad1-2d6289fda068>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <lod-cloud-wave-of-arrivals.svg>;
+   pmlj:isConsequentOf <inferenceStep/e7433087-1035-484e-9ad1-2d6289fda068>;
+.
+<inferenceStep/e7433087-1035-484e-9ad1-2d6289fda068>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSete7433087-1035-484e-9ad1-2d6289fda068_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSete7433087-1035-484e-9ad1-2d6289fda068_antecedent> );
+   pmlj:hasInferenceEngine <http://nytimes.github.io/svg-crowbar#e7433087-1035-484e-9ad1-2d6289fda068>;
+   pmlj:hasInferenceRule   <http://nytimes.github.io/svg-crowbar>;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<wasControlled/e7433087-1035-484e-9ad1-2d6289fda068>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep/e7433087-1035-484e-9ad1-2d6289fda068>;
+   oprov:endTime "2014-04-30T11:45:56-04:00"^^xsd:dateTime;
+.
+<nodeSete7433087-1035-484e-9ad1-2d6289fda068_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://lodcloud.tw.rpi.edu/lodcloud-wave-of-arrivals>;
+.
+
+<http://nytimes.github.io/svg-crowbar#e7433087-1035-484e-9ad1-2d6289fda068>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://nytimes.github.io/svg-crowbar#e7433087-1035-484e-9ad1-2d6289fda068";
+.
+
