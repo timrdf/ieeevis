@@ -270,7 +270,7 @@
          conversion:subproperty_of      dcterms:created;
          conversion:comment "";
          conversion:eg "1957-10-04";
-         conversion:pattern  "YYYY-MM-dd";
+         conversion:pattern  "yyyy-MM-dd"; # Y or y depending on OS.
          conversion:range   xsd:date;
       ];
       conversion:enhance [
@@ -416,7 +416,7 @@
          conversion:subproperty_of      prov:invalidatedAtTime;
          conversion:comment "";
          conversion:eg "1958-01-03";
-         conversion:pattern "YYY-MM-dd";
+         conversion:pattern "yyyy-MM-dd"; # y or Y depending on OS.
          conversion:range   xsd:date;
       ];
       conversion:enhance [
