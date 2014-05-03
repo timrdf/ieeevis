@@ -115,7 +115,7 @@
          conversion:equivalent_property dcterms:created;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:eg "28.01.2010";
-         conversion:pattern "dd'.'MM'.'YYYY";
+         conversion:pattern "dd'.'MM'.'yyyy"; # Y or y, depending on OS.
          conversion:comment "";
          conversion:range   xsd:date;
       ];
