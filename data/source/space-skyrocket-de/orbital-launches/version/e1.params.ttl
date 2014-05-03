@@ -1,0 +1,190 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix todo:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix vann:          <http://purl.org/vocab/vann/> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:          <http://www.w3.org/2006/time#> .
+@prefix wgs:           <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames:      <http://www.geonames.org/ontology#> .
+@prefix geonamesid:    <http://sws.geonames.org/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dbpedia:       <http://dbpedia.org/resource/> .
+@prefix dbpediaprop:   <http://dbpedia.org/property/> .
+@prefix dbpediaowl:    <http://dbpedia.org/ontology/> .
+@prefix con:           <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix muo:           <http://purl.oclc.org/NET/muo/muo#> .
+@prefix vs:            <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix frbr:          <http://purl.org/vocab/frbr/core#> .
+@prefix bibo:          <http://purl.org/ontology/bibo/> .
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix doap:          <http://usefulinc.com/ns/doap#> .
+@prefix nfo:           <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix sio:           <http://semanticscience.org/resource/> .
+@prefix org:           <http://www.w3.org/ns/org#> .
+@prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix qb:            <http://purl.org/linked-data/cube#> .
+@prefix pml:           <http://provenanceweb.org/ns/pml#> .
+@prefix dgtwc:         <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix :              <http://ieeevis.tw.rpi.edu/source/space-skyrocket-de/dataset/orbital-launches/version/2013-Nov-24/params/enhancement/1/> .
+
+
+#:a_bundle
+#   a conversion:ImplicitBundle;
+#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
+#   conversion:name_template "[/sd]company/[#2]/[r]";
+#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
+#.
+
+<http://ieeevis.tw.rpi.edu/source/space-skyrocket-de/dataset/orbital-launches/version/2013-Nov-24/conversion/enhancement/1>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
+   conversion:source_identifier  "space-skyrocket-de";
+   conversion:dataset_identifier "orbital-launches";
+   conversion:version_identifier "2013-Nov-24";
+   conversion:enhancement_identifier "1";
+
+   conversion:conversion_process [
+      a conversion:EnhancementConversionProcess;
+      conversion:enhancement_identifier "1";
+      conversion:subject_discriminator  "lau2010.html";
+
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+      dcterms:created "2013-11-24T21:06:20-05:00"^^xsd:dateTime;
+
+
+      #conversion:enhance [
+      #   ov:csvRow 2;
+      #   a conversion:DataStartRow;
+      #];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      #conversion:interpret [
+      #   conversion:symbol        "";
+      #   conversion:interpretation conversion:null; 
+      #];
+      conversion:enhance [
+         conversion:domain_template "[/sd][#1]";
+         conversion:domain_name     "Launch";
+      ];
+      conversion:enhance [
+         conversion:class_name "Launch";
+         conversion:subclass_of prov:Activity;
+      ];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "Launch ID (COSPAR)";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Launch ID (COSPAR)";
+         conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/]id/launch/[!]";
+         conversion:range   rdfs:Literal;
+         #conversion:range_name  "Thing";
+         conversion:object_search [
+            conversion:regex     "^(\\d\\d\\d\\d-\\d\\d\\d)$";
+            conversion:predicate prov:alternateOf;
+            conversion:object    "[/]id/launch[\\1]";
+         ];
+         conversion:object_search [
+            conversion:regex     "^(\\d\\d\\d\\d-F\\d\\d)$";
+            conversion:predicate rdf:type;
+            conversion:object    "[/s]vocab/Failure";
+         ];
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "Date";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Date";
+         conversion:equivalent_property dcterms:created;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:eg "28.01.2010";
+         conversion:pattern "dd'.'MM'.'YYYY";
+         conversion:comment "";
+         conversion:range   xsd:date;
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "Payload(s)";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Payload(s)";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:delimits_object "\\|\\|";
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "Launch Vehicle";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Launch Vehicle";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Launch Vehicle";
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "Launch Vehicle Page";
+         conversion:bundled_by [ ov:csvCol 4 ];
+         #conversion:label   "Launch Vehicle";
+         conversion:equivalent_property rdfs:seeAlso;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range   rdfs:Resource;
+      ];
+      conversion:enhance [
+         ov:csvCol          6;
+         ov:csvHeader       "Site";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Site";
+         conversion:equivalent_property prov:used;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/s]id/launch-site/[!]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Launch Site";
+      ];
+      conversion:enhance [
+         ov:csvCol          7;
+         ov:csvHeader       "Remark";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Remark";
+         conversion:equivalent_property rdfs:comment;
+         conversion:interpret [
+            conversion:symbol        "";
+            conversion:interpretation conversion:null; 
+         ];
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      #conversion:enhance [
+      #   ov:csvRow 3,4,5;
+      #   conversion:fromRow 3;
+      #   conversion:toRow   5;
+      #   a conversion:ExampleResource;
+      #];
+   ];
+.
