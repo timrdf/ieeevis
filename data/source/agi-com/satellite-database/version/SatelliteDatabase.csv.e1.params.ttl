@@ -358,7 +358,7 @@
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          conversion:eg "11/13/1996 10:40:00 PM", "10/21/2003";
-         conversion:pattern "MM/dd/YYYY HH:mm:ss aa", "MM/dd/YYYY";
+         conversion:pattern "MM/dd/yyyy HH:mm:ss aa", "MM/dd/yyyy"; # Y or y depending on OS.
          conversion:range   xsd:date;
       ];
       conversion:enhance [
