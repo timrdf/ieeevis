@@ -12,7 +12,8 @@
 #3>      <https://github.com/timrdf/csv2rdf4lod-automation/wiki/tic-turtle-in-comments>;
 #3> .
 
-for year in {1957..`date +%Y`}; do # for year in `seq 1959 \`date +%Y\``; do
+#for year in {1957..2014}; do 
+for year in `seq 1957 \`date +%Y\``; do
    page="http://space.skyrocket.de/doc_chr/lau$year.htm"
    retrieved="source/lau$year.html"
    if [[ ! -e $retrieved ]]; then
