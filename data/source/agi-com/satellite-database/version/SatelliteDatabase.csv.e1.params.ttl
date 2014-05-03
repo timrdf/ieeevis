@@ -1,0 +1,864 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix todo:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix vann:          <http://purl.org/vocab/vann/> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:          <http://www.w3.org/2006/time#> .
+@prefix wgs:           <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames:      <http://www.geonames.org/ontology#> .
+@prefix geonamesid:    <http://sws.geonames.org/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dbpedia:       <http://dbpedia.org/resource/> .
+@prefix dbpediaprop:   <http://dbpedia.org/property/> .
+@prefix dbpediaowl:    <http://dbpedia.org/ontology/> .
+@prefix con:           <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix muo:           <http://purl.oclc.org/NET/muo/muo#> .
+@prefix vs:            <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix frbr:          <http://purl.org/vocab/frbr/core#> .
+@prefix bibo:          <http://purl.org/ontology/bibo/> .
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix doap:          <http://usefulinc.com/ns/doap#> .
+@prefix nfo:           <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix sio:           <http://semanticscience.org/resource/> .
+@prefix org:           <http://www.w3.org/ns/org#> .
+@prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix qb:            <http://purl.org/linked-data/cube#> .
+@prefix pml:           <http://provenanceweb.org/ns/pml#> .
+@prefix dgtwc:         <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix pext:          <http://www.ontotext.com/proton/protonext#>.
+@prefix acl:           <http://www.w3.org/ns/auth/acl#>.
+@prefix places:        <http://purl.org/ontology/places#>.
+@prefix :              <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/params/enhancement/1/> .
+
+
+:orbit_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name foaf:based_near; # Can also be a URI, e.g. dcterms:title.
+   conversion:name_template "[/sd][#2]/orbit";
+   conversion:type_name     "Orbit";   # Can also be a URI, e.g. foaf:Person.
+.
+
+<http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/conversion/enhancement/1>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
+   conversion:source_identifier  "agi-com";
+   conversion:dataset_identifier "satellite-database";
+   conversion:version_identifier "2013-Nov-07";
+   conversion:enhancement_identifier "1";
+
+   conversion:conversion_process [
+      a conversion:EnhancementConversionProcess;
+      conversion:enhancement_identifier "1";
+
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+      dcterms:created "2013-11-16T17:56:01-05:00"^^xsd:dateTime;
+
+
+      #conversion:enhance [
+      #   ov:csvRow 2;
+      #   a conversion:DataStartRow;
+      #];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      #conversion:interpret [
+      #   conversion:symbol        "";
+      #   conversion:interpretation conversion:null; 
+      #];
+      conversion:enhance [
+         conversion:domain_template "[/sdv][#1]";
+         conversion:domain_name     pext:ArtificialSatellite;
+      ];
+      #conversion:enhance [
+      #   conversion:class_name "Thing";
+      #   conversion:subclass_of <http://purl.org/...>;
+      #];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "AGI KML Identifier";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "AGI KML Identifier";
+         conversion:equivalent_property prov:specializationOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template "[/sd][#1]";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  pext:ArtificialSatellite;
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "International Designator";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "International Designator";
+         conversion:equivalent_property prov:alternateOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/]id/satellite/cospar/[!]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  pext:ArtificialSatellite;
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "Satellite Number";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Satellite Number";
+         a conversion:Omitted;
+         rdfs:comment "Satellite Number looks the same as the SSC number";
+         rdfs:comment "SSC number looks the same as the NORAD Catalog Number";
+         conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         #conversion:range_template  "[/sd]id/satellite/ssc/[!]";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "SSC";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "SSC";
+         conversion:equivalent_property prov:alternateOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/]id/satellite/ssc/[!]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  pext:ArtificialSatellite;
+         conversion:interpret [
+            conversion:symbol        "";
+            conversion:interpretation conversion:null; 
+         ];
+         conversion:object_search [
+            conversion:regex     "^(.*)$";
+            conversion:predicate foaf:isPrimaryTopicOf;
+            conversion:object    "http://www.n2yo.com/satellite/?s=[\\1]";
+         ];
+         conversion:object_search [
+            conversion:regex     "^(.*)$";
+            conversion:predicate prov:alternateOf;
+            conversion:object    "[/]source/norad-mil/dataset/satellite-catalog/[\\1]";
+         ];
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "Name";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Name";
+         conversion:equivalent_property dcterms:title;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          6;
+         ov:csvHeader       "Launch Site";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Launch Site";
+         conversion:equivalent_property prov:wasDerivedFrom;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:interpret [
+            conversion:symbol         "AFE";
+            conversion:interpretation "http://dbpedia.org/resource/Eastern_Range";
+            rdfs:seeAlso <http://celestrak.com/satcat/2003/2003-010.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/27704>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "AFW";
+            conversion:interpretation "http://dbpedia.org/resource/Vandenberg_Air_Force_Base";
+            rdfs:seeAlso <http://celestrak.com/satcat/2011/2011-024.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/37673>;
+            rdfs:comment "Air Force Western?";
+         ];
+         conversion:interpret [
+            conversion:symbol         "DLS";
+            conversion:interpretation "DLS";
+            rdfs:comment "Yasni, Russia / Ural Mountains";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ERA";
+            conversion:interpretation "ERA";
+            rdfs:comment "Eastern Range? Aircraft?";
+            rdfs:comment "launched at 20:13 UT on 2003 January 25 by a Pegasus XL rocket released from a L-1011 cargo aircraft flying out of Cape Canaveral."; 
+            rdfs:comment "launched by a Pegasus XL rocket carried aloft on a L-1011 cargo plane flying out of Wallops Flight Facility in Virginia, USA";
+            rdfs:comment "launched by a Pegasus rocket released from a L-1011 aircraft flying out of Wallops Island, Virginia";
+            rdfs:comment "launched at 05:06 UT by a Pegasus rocket released from a L-1011 aircraft flying out of Wallops Island in Virginia (USA)";
+         ];
+         conversion:interpret [
+            conversion:symbol         "FRG";
+            conversion:interpretation "http://dbpedia.org/resource/Kourou_spaceport";
+            rdfs:seeAlso <http://celestrak.com/satcat/2011/2011-076.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/38011>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/38012>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/38013>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "HGS";
+            conversion:interpretation "http://dbpedia.org/resource/Hammaguir";
+            #conversion:interpretation "http://dbpedia.org/resource/Guiana_Space_Centre";
+            rdfs:seeAlso <http://celestrak.com/satcat/1967/1967-014.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/02680>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "JCS", "JSC";
+            conversion:interpretation "http://dbpedia.org/resource/Jiuquan_Satellite_Launch_Center";
+            rdfs:seeAlso <http://celestrak.com/satcat/2005/2005-024.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/35271>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "KOD";
+            conversion:interpretation "http://dbpedia.org/resource/Kodiak_Launch_Complex";
+            rdfs:seeAlso <http://celestrak.com/satcat/2011/2011-052.asp>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "KSC";
+            conversion:interpretation "http://dbpedia.org/resource/Uchinoura_Space_Center";
+            rdfs:seeAlso <http://celestrak.com/satcat/1997/1997-005.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/27489>;
+            rdfs:comment "Formerly Kagoshima Space Center";
+         ];
+         conversion:interpret [
+            conversion:symbol         "KWA";
+            conversion:interpretation "http://dbpedia.org/resource/Ronald_Reagan_Ballistic_Missile_Defense_Test_Site";
+            rdfs:seeAlso <http://celestrak.com/satcat/2012/2012-031.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/38358>;
+            rdfs:seeAlso [ 
+               prov:wasQuotedFrom <http://en.wikipedia.org/wiki/Ronald_Reagan_Ballistic_Missile_Defense_Test_Site>;
+               prov:value "formerly Kwajalein Missile Range";
+            ];
+         ];
+         conversion:interpret [
+            conversion:symbol         "KYM";
+            conversion:interpretation "http://dbpedia.org/resource/Kapustin_Yar";
+            rdfs:seeAlso <http://celestrak.com/satcat/2008/2008-031.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/33066>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "NSC";
+            conversion:interpretation "NSC";
+            rdfs:comment "Somewhere in South Korea";
+            rdfs:seeAlso <http://www.n2yo.com/satellite/?s=39068>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "PLM";
+            conversion:interpretation "http://dbpedia.org/resource/Plesetsk_Cosmodrome";
+            rdfs:seeAlso <http://celestrak.com/satcat/1992/1992-068.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/22183>; 
+         ];
+         conversion:interpret [
+            conversion:symbol         "SEA";
+            conversion:interpretation "http://dbpedia.org/resource/Sea_Launch";
+            rdfs:seeAlso <http://celestrak.com/satcat/2001/2001-012.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/26724>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "SUB";
+            conversion:interpretation "SUB";
+            rdfs:comment "launched by a modified combat ICBM, RSM-54 (US name: SS-N-23) from a Russian submarine in the Barents Sea";
+            rdfs:comment "launched by a Shtil 1 rocket (a modified submarine-based ICBM) from a nuclear submarine in Barents Sea";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SRI";
+            conversion:interpretation "http://dbpedia.org/resource/Sriharikota_Launching_Range";
+            rdfs:seeAlso <http://celestrak.com/satcat/1994/1994-068.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/23324>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "SVO";
+            conversion:interpretation "http://dbpedia.org/resource/Svobodny_Cosmodrome";
+            rdfs:seeAlso <http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2006-014A>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/29079>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "TAI";
+            conversion:interpretation "http://dbpedia.org/resource/Taiyuan_Satellite_Launch_Center";
+            rdfs:seeAlso <http://celestrak.com/satcat/2006/2006-015.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/36364>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "TAN";
+            conversion:interpretation "http://dbpedia.org/resource/Tanegashima_Space_Center";
+            rdfs:seeAlso <http://celestrak.com/satcat/2012/2012-025.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/12677>; 
+         ];
+         conversion:interpret [
+            conversion:symbol         "TYM";
+            conversion:interpretation "http://dbpedia.org/resource/Baikonur_Cosmodrome";
+            rdfs:seeAlso <http://celestrak.com/satcat/2007/2007-020.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/31572>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "WOM";
+            conversion:interpretation "http://dbpedia.org/resource/Woomera_Test_Range";
+            rdfs:seeAlso <http://www.n2yo.com/satellite/?s=05580>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/05580>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "WRA";
+            conversion:interpretation "WRA";
+            rdfs:comment "Western Range? Aircraft?";
+            rdfs:seeAlso [ 
+               prov:wasQuotedFrom <http://celestrak.com/satcat/2006/2006-008.asp>;
+               prov:value "They were launched at 14:04 UT on 2006 March 22 by a Pegasus XL rocket that was released from the belly of a Lockheed L-1011 plane flying out of Vandenberg AFB"; 
+               dcterms:subject <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/28983>;
+            ];
+            rdfs:seeAlso [ 
+               prov:wasQuotedFrom <http://celestrak.com/satcat/2006/2006-008.asp>;
+               prov:value "launched by a Pegasus XL rocket from an airplane flying out of Vandenberg AFB"; 
+               dcterms:subject <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/24921>;
+            ];
+            rdfs:seeAlso [ 
+               prov:wasQuotedFrom <http://celestrak.com/satcat/1995/1995-017.asp>;
+               prov:value "launched by a Pegasus rocket carried aloft by an L-1011 aircraft flying out of Vandenberg AFB"; 
+               dcterms:subject <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/23547>;
+            ];
+         ];
+         conversion:interpret [
+            conversion:symbol         "WLP";
+            conversion:interpretation "http://dbpedia.org/resource/Mid-Atlantic_Regional_Spaceport";
+            rdfs:comment "Wallops Island in Virginia";
+            rdfs:seeAlso <http://celestrak.com/satcat/2007/2007-014.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/31140>;
+         ];
+         conversion:interpret [
+            conversion:symbol         "XIC";
+            conversion:interpretation "http://dbpedia.org/resource/Xichang_Satellite_Launch_Center";
+            rdfs:seeAlso <http://celestrak.com/satcat/2012/2012-018.asp>,
+                         <http://ieeevis.tw.rpi.edu/source/agi-com/dataset/satellite-database/version/2013-Nov-07/38251>; 
+         ];
+         conversion:interpret [
+            conversion:symbol         "YUN";
+            conversion:interpretation "YUN";
+            rdfs:comment "North Korea";
+         ];
+         conversion:range_template  "[/s]id/launch-site/[!]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Launch Site";
+      ];
+      conversion:enhance [
+         ov:csvCol          7;
+         ov:csvHeader       "Launch Date";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Launch Date";
+         conversion:equivalent_property dcterms:created;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:eg "11/13/1996 10:40:00 PM", "10/21/2003";
+         conversion:pattern "MM/dd/YYYY HH:mm:ss aa", "MM/dd/YYYY";
+         conversion:range   xsd:date;
+      ];
+      conversion:enhance [
+         ov:csvCol          8;
+         ov:csvHeader       "Owner";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Owner";
+         conversion:equivalent_property acl:owner;
+         conversion:subproperty_of      prov:wasAttributedTo;
+         conversion:comment "";
+         conversion:interpret [
+            conversion:symbol         "AB";
+            conversion:interpretation "http://dbpedia.org/resource/Albania";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ABS";
+            conversion:interpretation "ABS";
+         ];
+         conversion:interpret [
+            conversion:symbol         "AC";
+            conversion:interpretation "AC";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ALG";
+            conversion:interpretation "http://dbpedia.org/resource/Algeria";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ARGN";
+            conversion:interpretation "http://dbpedia.org/resource/Argentina";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ASRA";
+            conversion:interpretation "ASRA";
+         ];
+         conversion:interpret [
+            conversion:symbol         "AUS";
+            conversion:interpretation "http://dbpedia.org/resource/Australia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "AZER";
+            conversion:interpretation "http://dbpedia.org/resource/Azerbaijan";
+         ];
+         conversion:interpret [
+            conversion:symbol         "BELA";
+            conversion:interpretation "BELA";
+         ];
+         conversion:interpret [
+            conversion:symbol         "BRAZ";
+            conversion:interpretation "http://dbpedia.org/resource/Brazil";
+         ];
+         conversion:interpret [
+            conversion:symbol         "CA";
+            conversion:interpretation "http://dbpedia.org/resource/Canada";
+         ];
+         conversion:interpret [
+            conversion:symbol         "CHBZ";
+            conversion:interpretation "CHBZ";
+         ];
+         conversion:interpret [
+            conversion:symbol         "CHLE";
+            conversion:interpretation "http://dbpedia.org/resource/Chile";
+         ];
+         conversion:interpret [
+            conversion:symbol         "CIS";
+            conversion:interpretation "http://dbpedia.org/resource/Commonwealth_of_Independent_States";
+         ];
+         conversion:interpret [
+            conversion:symbol         "COL";
+            conversion:interpretation "http://dbpedia.org/resource/Colombia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "CZCH";
+            conversion:interpretation "http://dbpedia.org/resource/Czech_Republic";
+         ];
+         conversion:interpret [
+            conversion:symbol         "DEN";
+            conversion:interpretation "http://dbpedia.org/resource/Denmark";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ECU";
+            conversion:interpretation "http://dbpedia.org/resource/Ecuador";
+         ];
+         conversion:interpret [
+            conversion:symbol         "EGYP";
+            conversion:interpretation "http://dbpedia.org/resource/Egypt";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ESA";
+            conversion:interpretation "http://dbpedia.org/resource/ESA";
+         ];
+         conversion:interpret [
+            conversion:symbol         "EST";
+            conversion:interpretation "http://dbpedia.org/resource/Estonia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "EUME";
+            conversion:interpretation "EUME";
+         ];
+         conversion:interpret [
+            conversion:symbol         "EUTE";
+            conversion:interpretation "EUTE";
+         ];
+         conversion:interpret [
+            conversion:symbol         "FGER";
+            conversion:interpretation "FGER";
+         ];
+         conversion:interpret [
+            conversion:symbol         "FR";
+            conversion:interpretation "http://dbpedia.org/resource/France";
+         ];
+         conversion:interpret [
+            conversion:symbol         "GER";
+            conversion:interpretation "http://dbpedia.org/resource/Germany";
+         ];
+         conversion:interpret [
+            conversion:symbol         "GLOB";
+            conversion:interpretation "GLOB";
+         ];
+         conversion:interpret [
+            conversion:symbol         "GREC";
+            conversion:interpretation "GREC";
+         ];
+         conversion:interpret [
+            conversion:symbol         "HUN";
+            conversion:interpretation "http://dbpedia.org/resource/Hungary";
+         ];
+         conversion:interpret [
+            conversion:symbol         "IM";
+            conversion:interpretation "IM";
+         ];
+         conversion:interpret [
+            conversion:symbol         "IND";
+            conversion:interpretation "http://dbpedia.org/resource/India";
+         ];
+         conversion:interpret [
+            conversion:symbol         "INDO";
+            conversion:interpretation "http://dbpedia.org/resource/Indonesia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "IRAN";
+            conversion:interpretation "http://dbpedia.org/resource/Iran";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ISRA";
+            conversion:interpretation "http://dbpedia.org/resource/Israel";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ISS";
+            conversion:interpretation "http://dbpedia.org/resource/ISS";
+         ];
+         conversion:interpret [
+            conversion:symbol         "IT";
+            conversion:interpretation "http://dbpedia.org/resource/Italy";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ITSO";
+            conversion:interpretation "http://dbpedia.org/resource/International_Telecommunications_Satellite_Organization";
+         ];
+         conversion:interpret [
+            conversion:symbol         "JPN";
+            conversion:interpretation "http://dbpedia.org/resource/Japan";
+         ];
+         conversion:interpret [
+            conversion:symbol         "LUXE";
+            conversion:interpretation "http://dbpedia.org/resource/Luxembourg";
+         ];
+         conversion:interpret [
+            conversion:symbol         "MALA";
+            conversion:interpretation "http://dbpedia.org/resource/Malaysia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "MEX";
+            conversion:interpretation "http://dbpedia.org/resource/Mexico";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NATO";
+            conversion:interpretation "http://dbpedia.org/resource/NATO";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NETH";
+            conversion:interpretation "http://dbpedia.org/resource/Netherlands";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NICO";
+            conversion:interpretation "http://dbpedia.org/resource/NICO";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NIG";
+            conversion:interpretation "http://dbpedia.org/resource/Niger";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NKOR";
+            conversion:interpretation "NKOR";
+         ];
+         conversion:interpret [
+            conversion:symbol         "NOR";
+            conversion:interpretation "http://dbpedia.org/resource/Norway";
+         ];
+         conversion:interpret [
+            conversion:symbol         "O3B";
+            conversion:interpretation "http://dbpedia.org/resource/O3b";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ORB";
+            conversion:interpretation "ORB";
+         ];
+         conversion:interpret [
+            conversion:symbol         "PAKI";
+            conversion:interpretation "http://dbpedia.org/resource/Pakistan";
+         ];
+         conversion:interpret [
+            conversion:symbol         "POL";
+            conversion:interpretation "http://dbpedia.org/resource/Poland";
+         ];
+         conversion:interpret [
+            conversion:symbol         "POR";
+            conversion:interpretation "POR";
+         ];
+         conversion:interpret [
+            conversion:symbol         "PRC";
+            conversion:interpretation "http://dbpedia.org/resource/PRC";
+         ];
+         conversion:interpret [
+            conversion:symbol         "RASC";
+            conversion:interpretation "http://dbpedia.org/resource/Royal_Astronomical_Society_of_Canada";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ROC";
+            conversion:interpretation "ROC";
+         ];
+         conversion:interpret [
+            conversion:symbol         "ROM";
+            conversion:interpretation "http://dbpedia.org/resource/Romania";
+         ];
+         conversion:interpret [
+            conversion:symbol         "RP";
+            conversion:interpretation "RP"; # Philippines or Poland?
+         ];
+         conversion:interpret [
+            conversion:symbol         "SAFR";
+            conversion:interpretation "SAFR";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SAUD";
+            conversion:interpretation "http://dbpedia.org/resource/Saudi_Arabia";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SEAL";
+            conversion:interpretation "SEAL";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SES";
+            conversion:interpretation "SES";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SING";
+            conversion:interpretation "http://dbpedia.org/resource/Singapore";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SKOR";
+            conversion:interpretation "SKOR";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SPN";
+            conversion:interpretation "http://dbpedia.org/resource/Spain";
+         ];
+         conversion:interpret [
+            conversion:symbol         "STCT";
+            conversion:interpretation "STCT";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SWED";
+            conversion:interpretation "http://dbpedia.org/resource/Sweden";
+         ];
+         conversion:interpret [
+            conversion:symbol         "SWTZ";
+            conversion:interpretation "http://dbpedia.org/resource/Switzerland";
+         ];
+         conversion:interpret [
+            conversion:symbol         "THAI";
+            conversion:interpretation "http://dbpedia.org/resource/Thailand";
+         ];
+         conversion:interpret [
+            conversion:symbol         "TURK";
+            conversion:interpretation "http://dbpedia.org/resource/Turkey";
+         ];
+         conversion:interpret [
+            conversion:symbol         "UAE";
+            conversion:interpretation "http://dbpedia.org/resource/UAE";
+         ];
+         conversion:interpret [
+            conversion:symbol         "UK";
+            conversion:interpretation "http://dbpedia.org/resource/UK";
+         ];
+         conversion:interpret [
+            conversion:symbol         "US";
+            conversion:interpretation "http://dbpedia.org/resource/United_States";
+         ];
+         conversion:interpret [
+            conversion:symbol         "USBZ";
+            conversion:interpretation "http://dbpedia.org/resource/Uzbekistan";
+         ];
+         conversion:interpret [
+            conversion:symbol         "VENZ";
+            conversion:interpretation "http://dbpedia.org/resource/Venezuela";
+         ];
+         conversion:interpret [
+            conversion:symbol         "VTNM";
+            conversion:interpretation "http://dbpedia.org/resource/Vietnam";
+         ];
+         conversion:range_template  "[/sd]organization/[!]";
+         conversion:range   rdfs:Resource;
+         rdfs:comment "NATO is mentioned, so it's not necessarily a country.";
+         conversion:range_name  foaf:Organization; #, places:Country;
+      ];
+      conversion:enhance [
+         ov:csvCol          9;
+         ov:csvHeader       "Folder";
+         a conversion:Omitted;
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Folder";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          10;
+         ov:csvHeader       "Period (minutes)";
+         conversion:bundled_by :orbit_bundle;
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Period (minutes)";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          11;
+         ov:csvHeader       "Perigee (km)";
+         conversion:bundled_by :orbit_bundle;
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Perigee (km)";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          12;
+         ov:csvHeader       "Apogee (km)";
+         conversion:bundled_by :orbit_bundle;
+         #conversion:label   "Apogee (km)";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          13;
+         ov:csvHeader       "Inclination (deg)";
+         conversion:bundled_by :orbit_bundle;
+         #conversion:label   "Inclination (deg)";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          14;
+         ov:csvHeader       "Satellite Type/Orbit Type";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Satellite Type/Orbit Type";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+         conversion:eg "InactiveLEO",
+                       "DebrisHEO",
+                       "InactiveGEO",
+                       "RocketBodyGEO",
+                       "RocketBodyHEO",
+                       "DebrisGEO",
+                       "ActiveHEO",
+                       "InactiveHEO",
+                       "RocketBodyLEO",
+                       "ActiveGEO",
+                       "ActiveLEO",
+                       "DebrisLEO";
+         conversion:object_search [
+            conversion:regex     "^(Active).*$";
+            conversion:regex     "^(Inactive).*$";
+            conversion:regex     "^(Debris).*$";
+            conversion:regex     "^(RocketBody).*$";
+            conversion:predicate rdf:type;
+            conversion:object    "[/sd]vocab/[\\1]";
+         ];
+         conversion:object_search [
+            conversion:regex     "^.*(.)EO$";
+            conversion:subject   "[/sd][#2]/orbit"; # NOTE: doesn't work.
+            conversion:predicate foaf:based_near;
+            conversion:object    "[/]id/orbit/[\\1]EO";
+         ];
+      ];
+      conversion:enhance [
+         ov:csvCol          15;
+         ov:csvHeader       "Position X";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Position X";
+         conversion:equivalent_property wgs:long;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   xsd:decimal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          16;
+         ov:csvHeader       "Position Y";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Position Y";
+         conversion:equivalent_property wgs:lat;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   xsd:decimal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          17;
+         ov:csvHeader       "Altitude";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:equivalent_property wgs:alt;
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   xsd:decimal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          18;
+         ov:csvHeader       "Altitude Mode";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Altitude Mode";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/sd]vocab/[.]";
+         conversion:range   todo:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          19;
+         ov:csvHeader       "Active";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Active";
+         conversion:equivalent_property rdf:type;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:interpret [
+            conversion:symbol        "True";
+            conversion:interpretation "Active"; 
+         ];
+         conversion:interpret [
+            conversion:symbol        "False";
+            conversion:interpretation "Inactive"; 
+         ];
+         conversion:range_template  "[/sd]vocab/[!]";
+         conversion:range   rdfs:Resource;
+      ];
+      conversion:enhance [
+         ov:csvCol          20;
+         ov:csvHeader       "Celstrak Page";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Celstrak Page";
+         conversion:equivalent_property foaf:primaryTopicOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      #conversion:enhance [
+      #   ov:csvRow 3,4,5;
+      #   conversion:fromRow 3;
+      #   conversion:toRow   5;
+      #   a conversion:ExampleResource;
+      #];
+   ];
+.
