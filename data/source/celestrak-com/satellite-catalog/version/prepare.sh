@@ -24,15 +24,22 @@
 
 mkdir automatic &> /dev/null
 
+src='https://github.com/timrdf/ieeevis/blob/master/data/source/celestrak-com/satellite-catalog'
+
 cat source/satcat.txt | awk -f ../../src/fw2csv.awk             > manual/satcat.csv
+justify.sh source/satcat.txt manual/satcat.csv "$src/fw2csv.awk"
 
 #saxon.sh ../../src/sources.xsl      a a manual/sources.html     > manual/sources.csv
 tidy.sh -w -od manual source/sources.asp # manual/sources.asp.tidy 
+justify.sh source/sources.asp manual/sources.asp.tidy 'http://dbpedia.org/resource/HTML_Tidy'
 saxon.sh ../../src/sources.xsl         a a manual/sources.asp.tidy > manual/sources.csv
+justify.sh manual/sources.asp.tidy manual/sources.csv "$src/sources.xsl"
 
 #saxon.sh ../../src/launch-sites.xsl a a manual/launchsites.html > manual/launchsites.csv
 tidy.sh -w -od manual source/launchsites.asp # manual/launchsites.asp.tidy 
+justify.sh source/launchsites.asp manual/launchsites.asp.tidy 'http://dbpedia.org/resource/HTML_Tidy'
 saxon.sh ../../src/launch-sites.xsl a a manual/launchsites.asp.tidy > manual/launchsites.csv
+justify.sh manual/launchsites.asp.tidy manual/launchsites.csv "$src/launch-sites.xsl"
 
 echo manual/satcat.csv 
 echo manual/sources.csv
