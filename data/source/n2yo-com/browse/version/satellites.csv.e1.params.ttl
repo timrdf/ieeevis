@@ -115,7 +115,7 @@
          conversion:equivalent_property dcterms:created;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         conversion:pattern "YYYY-MM-dd";
+         conversion:pattern "yyyy-MM-dd"; # Y or y depending on OS.
          conversion:range   xsd:date;
       ];
       conversion:enhance [
