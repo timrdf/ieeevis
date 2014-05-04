@@ -23,6 +23,8 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
+mkdir -p manual
+
 xls2csv.sh -w -od manual source/publication-resources.xls
 justify.sh source/publication-resources.xls manual/publication-resources.xls.csv xls2csv
 
