@@ -12,5 +12,7 @@
 #3>      <https://github.com/timrdf/csv2rdf4lod-automation/wiki/tic-turtle-in-comments>;
 #3> .
 
-web_directory='http://hcil2.cs.umd.edu/newvarepository/benchmarks.php'
-wget --mirror -e robots=off --no-parent $web_directory
+mkdir -p source && pushd source
+   web_directory='http://hcil2.cs.umd.edu/newvarepository/benchmarks.php'
+   wget --mirror -e robots=off --no-parent $web_directory
+popd
