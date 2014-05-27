@@ -1,0 +1,27 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003/version/2003-Apr-16>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-InfoVis-Challenge-2003";
+   conversion:identifier         "ae3059cebe251dced98ebace8951165c";
+   prov:wasDerivedFrom <distribution/60dd315dcdf08a527620149d2d5c80c0>;
+.
+
+<distribution/60dd315dcdf08a527620149d2d5c80c0>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/iv03contest/datasets/iv03contest_data_03-04-16.zip>;
+.
+
+<dataset/60dd315dcdf08a527620149d2d5c80c0>
+   a dcat:Dataset;
+   dcat:distribution <distribution/60dd315dcdf08a527620149d2d5c80c0>;
+.

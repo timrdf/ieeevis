@@ -1,0 +1,15 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003>
+   foaf:page <http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003>
+   foaf:page <http://www.cs.umd.edu/hcil/iv03contest/datasets.html>;
+.
