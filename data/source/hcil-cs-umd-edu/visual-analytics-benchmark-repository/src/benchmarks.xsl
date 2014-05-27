@@ -9,20 +9,30 @@
 <xsl:param name="mode"     select="'parts'"/>
 
 <xsl:template match="/">
+   <xsl:choose>
+      <xsl:when test="$mode = 'parts'">
+            <xsl:value-of select="concat($DQ,string-join((
+                                                          'group-id','group-title','benchmark-title','benchmark-url'
+                                                         ),
+                                                         concat($DQ,',',$DQ)),$DQ,$NL)"/>
+      </xsl:when>
+      <xsl:otherwise>
+      </xsl:otherwise>
+   </xsl:choose>
    <xsl:apply-templates select="//html:div[@id='text_all']/html:div/html:div[@id]"/>
 </xsl:template>
 
 <xsl:template match="html:div">
-   <xsl:variable name="org-id"    select="@id"/>
-   <xsl:variable name="org-title" select="normalize-space(html:b[1]/text())"/>
+   <xsl:variable name="group-id"    select="@id"/>
+   <xsl:variable name="group-title" select="normalize-space(html:b[1]/text())"/>
 
    <xsl:choose>
       <xsl:when test="$mode = 'parts'">
          <xsl:for-each select="html:ul/html:li">
-            <xsl:variable name="part-url"   select="concat($url-base,html:a/@href)"/>
-            <xsl:variable name="part-title" select="normalize-space(html:a)"/>
+            <xsl:variable name="benchmark-url"   select="concat($url-base,html:a/@href)"/>
+            <xsl:variable name="benchmark-title" select="normalize-space(html:a)"/>
             <xsl:value-of select="concat($DQ,string-join((
-                                                          $org-id,$org-title,$part-url,$part-title
+                                                          $group-id,$group-title,$benchmark-title,$benchmark-url
                                                          ),
                                                          concat($DQ,',',$DQ)),$DQ,$NL)"/>
          </xsl:for-each>
@@ -44,10 +54,6 @@
       <xsl:apply-templates/>
   </xsl:copy>
 </xsl:template>
-
-<!--xsl:template match="text()">
-   <xsl:value-of select="normalize-space(.)"/>
-</xsl:template-->
 
 <xsl:variable name="NL" select="'&#xa;'"/>
 <xsl:variable name="DQ" select="'&#x22;'"/>
