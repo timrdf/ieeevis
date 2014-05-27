@@ -1,0 +1,106 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<transcript.rtf>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-25T20:56:11-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/Transcription_(service)#4e40a626-2732-49ae-badc-6373ee11a332>;
+.
+<http://dbpedia.org/resource/Transcription_(service)#4e40a626-2732-49ae-badc-6373ee11a332> a prov:Plan;
+  dcterms:date "2014-05-27T10:21:43-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/Transcription_(service)>;
+.
+<http://dbpedia.org/resource/Transcription_(service)> a prov:Plan .
+<transcript.rtf>
+   a nfo:FileDataObject;
+   nfo:fileName "transcript.rtf";
+   nfo:hasHash <md5_de90917041e84ec68c1a7020a9973af0_time_1401200503>;
+.
+<md5_de90917041e84ec68c1a7020a9973af0_time_1401200503>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-27T10:21:43-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "de90917041e84ec68c1a7020a9973af0";
+.
+
+<../source/Bangor-epSpread-MC1-video.mp4>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-25T20:22:14-04:00"^^xsd:dateTime;
+.
+<transcript.rtf> prov:wasDerivedFrom <../source/Bangor-epSpread-MC1-video.mp4> .
+<../source/Bangor-epSpread-MC1-video.mp4>
+   a nfo:FileDataObject;
+   nfo:fileName "../source/Bangor-epSpread-MC1-video.mp4";
+   nfo:hasHash <md5_34ac1eb454272d6175cbdbbf2d0fad0a_time_1401200503>;
+.
+<md5_34ac1eb454272d6175cbdbbf2d0fad0a_time_1401200503>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-27T10:21:43-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "34ac1eb454272d6175cbdbbf2d0fad0a";
+.
+
+<nodeSet/4e40a626-2732-49ae-badc-6373ee11a332>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <transcript.rtf>;
+   pmlj:isConsequentOf <inferenceStep/4e40a626-2732-49ae-badc-6373ee11a332>;
+.
+<inferenceStep/4e40a626-2732-49ae-badc-6373ee11a332>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet4e40a626-2732-49ae-badc-6373ee11a332_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet4e40a626-2732-49ae-badc-6373ee11a332_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/Transcription_(service)#4e40a626-2732-49ae-badc-6373ee11a332>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/Transcription_(service)>;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<wasControlled/4e40a626-2732-49ae-badc-6373ee11a332>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep/4e40a626-2732-49ae-badc-6373ee11a332>;
+   oprov:endTime "2014-05-27T10:21:43-04:00"^^xsd:dateTime;
+.
+<nodeSet4e40a626-2732-49ae-badc-6373ee11a332_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../source/Bangor-epSpread-MC1-video.mp4>;
+.
+
+<http://dbpedia.org/resource/Transcription_(service)#4e40a626-2732-49ae-badc-6373ee11a332>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/Transcription_(service)#4e40a626-2732-49ae-badc-6373ee11a332";
+.
+

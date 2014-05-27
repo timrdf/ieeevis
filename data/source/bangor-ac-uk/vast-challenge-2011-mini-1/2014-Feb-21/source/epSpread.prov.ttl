@@ -1,0 +1,95 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<epSpread>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-25T18:50:37-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://git-scm.com/docs/git-clone#18a00bb3-fdbc-44e8-80c0-ec1706db9a42>;
+.
+<http://git-scm.com/docs/git-clone#18a00bb3-fdbc-44e8-80c0-ec1706db9a42> a prov:Plan;
+  dcterms:date "2014-05-25T18:52:31-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://git-scm.com/docs/git-clone>;
+.
+<http://git-scm.com/docs/git-clone> a prov:Plan .
+<epSpread>
+   a nfo:FileDataObject;
+   nfo:fileName "epSpread";
+   nfo:hasHash <md5__time_1401058351>;
+.
+<md5__time_1401058351>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-25T18:52:31-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "";
+.
+
+<epSpread> prov:wasDerivedFrom <https://github.com/RickWalker/epSpread.git> .
+<https://github.com/RickWalker/epSpread.git>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<epSpread> prov:wasDerivedFrom <https://github.com/RickWalker/epSpread.git> .
+
+<nodeSet/18a00bb3-fdbc-44e8-80c0-ec1706db9a42>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <epSpread>;
+   pmlj:isConsequentOf <inferenceStep/18a00bb3-fdbc-44e8-80c0-ec1706db9a42>;
+.
+<inferenceStep/18a00bb3-fdbc-44e8-80c0-ec1706db9a42>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet18a00bb3-fdbc-44e8-80c0-ec1706db9a42_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet18a00bb3-fdbc-44e8-80c0-ec1706db9a42_antecedent> );
+   pmlj:hasInferenceEngine <http://git-scm.com/docs/git-clone#18a00bb3-fdbc-44e8-80c0-ec1706db9a42>;
+   pmlj:hasInferenceRule   <http://git-scm.com/docs/git-clone>;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<wasControlled/18a00bb3-fdbc-44e8-80c0-ec1706db9a42>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep/18a00bb3-fdbc-44e8-80c0-ec1706db9a42>;
+   oprov:endTime "2014-05-25T18:52:31-04:00"^^xsd:dateTime;
+.
+<nodeSet18a00bb3-fdbc-44e8-80c0-ec1706db9a42_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <https://github.com/RickWalker/epSpread.git>;
+.
+
+<http://git-scm.com/docs/git-clone#18a00bb3-fdbc-44e8-80c0-ec1706db9a42>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://git-scm.com/docs/git-clone#18a00bb3-fdbc-44e8-80c0-ec1706db9a42";
+.
+
