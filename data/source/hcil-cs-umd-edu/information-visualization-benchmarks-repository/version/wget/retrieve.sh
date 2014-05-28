@@ -14,6 +14,6 @@
 
 
 mkdir -p source/homepage && pushd source/homepage
-   web_directory='http://www.cs.umd.edu/hcil/InfovisRepository/contest-2005'
+   web_directory='http://www.cs.umd.edu/hcil/InfovisRepository/contest-2005' # NOTE: this says 2005, but we get all of the years.
    wget --mirror -e robots=off --no-parent $web_directory
 popd
