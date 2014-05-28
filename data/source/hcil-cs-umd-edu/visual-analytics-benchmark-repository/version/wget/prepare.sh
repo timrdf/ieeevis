@@ -31,10 +31,10 @@ justify.sh source/hcil2.cs.umd.edu/newvarepository/benchmarks.php automatic/benc
 saxon.sh ../../src/benchmarks.xsl html csv -w -od automatic automatic/benchmarks.php.tidy
 justify.sh automatic/benchmarks.php.tidy automatic/benchmarks.php.tidy.csv ../../src/benchmarks.xsl
 
-benchmarks=''
 pushd automatic;
    # Note, we're missing the '/challenges/' constraint...
    # http://www.cyberciti.biz/tips/handling-filenames-with-spaces-in-bash.html
+   saxon.sh ../../../src/benchmark.xsl 'html' 'csv' ../../../src/benchmark.xsl > benchmark-users.csv
    find ../source -mindepth 6 -maxdepth 6 -name 'index.html' -print0 | while read -d $'\0' benchmark; do
       echo $benchmark
       benchmark_url=`echo ${benchmark#../source/} | sed 's/ /%20/g'`
@@ -44,8 +44,8 @@ pushd automatic;
       ln -s "$benchmark"        benchmark-$hash.html
       tidy.sh                   benchmark-$hash.html > benchmark-$hash.html.tidy
       saxon.sh ../../../src/benchmark.xsl 'html' 'csv' -v "url-base=http://$benchmark_url" -in benchmark-$hash.html.tidy > benchmark-$hash.html.tidy.csv
-      benchmarks="$benchmarks source/benchmark-$hash.html.tidy.csv"
+      cat benchmark-$hash.html.tidy.csv >> benchmark-users.csv
    done
 popd
 
-cr-create-conversion-trigger.sh -w automatic/benchmarks.php.tidy.csv $benchmarks
+cr-create-conversion-trigger.sh -w automatic/benchmarks.php.tidy.csv automatic/benchmark-users.csv
