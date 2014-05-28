@@ -5,10 +5,10 @@
 @prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
 @prefix prov:       <http://www.w3.org/ns/prov#> .
 @prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
-@prefix :           <http://localhost/id/> .
-@base               <http://localhost/id/> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
 
-<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008/version/2008-Mar-19>
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008/version/2008-Mar-19>
    a void:Dataset, dcat:Dataset;
    conversion:source_identifier  "hcil-cs-umd-edu";
    conversion:dataset_identifier "IEEE-VAST-Challenge-2008";
@@ -24,4 +24,22 @@
 <dataset/a54ce47461101c0bbd29c953e07da467>
    a dcat:Dataset;
    dcat:distribution <distribution/a54ce47461101c0bbd29c953e07da467>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008/version/2008-Mar-19>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2008";
+   conversion:identifier         "047adf452ddfcab62ac766bcfda65abf";
+   prov:wasDerivedFrom <distribution/7e621d0818cfe73f2fecf8413ab11781>;
+.
+
+<distribution/7e621d0818cfe73f2fecf8413ab11781>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202008/challenges/MC2%20-%20Migrant%20Boats/solution/Migrant%20Boats_sol.zip>;
+.
+
+<dataset/7e621d0818cfe73f2fecf8413ab11781>
+   a dcat:Dataset;
+   dcat:distribution <distribution/7e621d0818cfe73f2fecf8413ab11781>;
 .
