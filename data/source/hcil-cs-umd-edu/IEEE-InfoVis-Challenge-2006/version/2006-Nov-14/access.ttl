@@ -1,0 +1,27 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2006/version/2006-Nov-14>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-InfoVis-Challenge-2006";
+   conversion:identifier         "4672ce0ae5a4dacfce9b467725943e05";
+   prov:wasDerivedFrom <distribution/43648ad4d3ef9eeee42ac0ba6f949843>;
+.
+
+<distribution/43648ad4d3ef9eeee42ac0ba6f949843>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Census2000-PUMS-OnePercent.tar.gz>;
+.
+
+<dataset/43648ad4d3ef9eeee42ac0ba6f949843>
+   a dcat:Dataset;
+   dcat:distribution <distribution/43648ad4d3ef9eeee42ac0ba6f949843>;
+.

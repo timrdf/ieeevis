@@ -1,0 +1,95 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<Census2000-PUMS-OnePercent.tar.gz>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-28T10:58:05-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/CURL#39c45e52-c968-4c91-afd9-deba543af71f>;
+.
+<http://dbpedia.org/resource/CURL#39c45e52-c968-4c91-afd9-deba543af71f> a prov:Plan;
+  dcterms:date "2014-05-28T11:48:37-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/CURL>;
+.
+<http://dbpedia.org/resource/CURL> a prov:Plan .
+<Census2000-PUMS-OnePercent.tar.gz>
+   a nfo:FileDataObject;
+   nfo:fileName "Census2000-PUMS-OnePercent.tar.gz";
+   nfo:hasHash <md5_02633b6c85e9831121f1156e296d0e2a_time_1401292117>;
+.
+<md5_02633b6c85e9831121f1156e296d0e2a_time_1401292117>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-28T11:48:37-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "02633b6c85e9831121f1156e296d0e2a";
+.
+
+<Census2000-PUMS-OnePercent.tar.gz> prov:wasDerivedFrom <http://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Census2000-PUMS-OnePercent.tar.gz> .
+<http://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Census2000-PUMS-OnePercent.tar.gz>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<Census2000-PUMS-OnePercent.tar.gz> prov:wasDerivedFrom <http://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Census2000-PUMS-OnePercent.tar.gz> .
+
+<nodeSet/39c45e52-c968-4c91-afd9-deba543af71f>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <Census2000-PUMS-OnePercent.tar.gz>;
+   pmlj:isConsequentOf <inferenceStep/39c45e52-c968-4c91-afd9-deba543af71f>;
+.
+<inferenceStep/39c45e52-c968-4c91-afd9-deba543af71f>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet39c45e52-c968-4c91-afd9-deba543af71f_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet39c45e52-c968-4c91-afd9-deba543af71f_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/CURL#39c45e52-c968-4c91-afd9-deba543af71f>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/CURL>;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<wasControlled/39c45e52-c968-4c91-afd9-deba543af71f>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep/39c45e52-c968-4c91-afd9-deba543af71f>;
+   oprov:endTime "2014-05-28T11:48:37-04:00"^^xsd:dateTime;
+.
+<nodeSet39c45e52-c968-4c91-afd9-deba543af71f_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://www.cs.umd.edu/hcil/InfovisRepository/contest-2006/files/Census2000-PUMS-OnePercent.tar.gz>;
+.
+
+<http://dbpedia.org/resource/CURL#39c45e52-c968-4c91-afd9-deba543af71f>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/CURL#39c45e52-c968-4c91-afd9-deba543af71f";
+.
+
