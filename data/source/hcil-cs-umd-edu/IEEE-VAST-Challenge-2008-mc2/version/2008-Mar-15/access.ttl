@@ -1,0 +1,41 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2008-mc2";
+   conversion:identifier         "a4e028efbb608b249ea6702f4684d71e";
+   prov:wasDerivedFrom <distribution/f37e9264217b136eae2de194b4bb10a3>;
+.
+
+<distribution/f37e9264217b136eae2de194b4bb10a3>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202008/challenges/MC2%20-%20Migrant%20Boats/dataset/VASTchallenge08-20080315-Deinosuchus.zip>;
+.
+
+<dataset/f37e9264217b136eae2de194b4bb10a3>
+   a dcat:Dataset;
+   dcat:distribution <distribution/f37e9264217b136eae2de194b4bb10a3>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15>
+   prov:wasDerivedFrom <distribution/7e621d0818cfe73f2fecf8413ab11781>;
+.
+
+<distribution/7e621d0818cfe73f2fecf8413ab11781>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202008/challenges/MC2%20-%20Migrant%20Boats/solution/Migrant%20Boats_sol.zip>;
+.
+
+<dataset/7e621d0818cfe73f2fecf8413ab11781>
+   a dcat:Dataset;
+   dcat:distribution <distribution/7e621d0818cfe73f2fecf8413ab11781>;
+.

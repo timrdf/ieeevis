@@ -1,0 +1,27 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2007/version/2007-Feb-28>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2007";
+   conversion:identifier         "22526e06d36b1c89d87b29fab9bdc6c7";
+   prov:wasDerivedFrom <distribution/dc334fdb68cd4e323819ea73c06d803f>;
+.
+
+<distribution/dc334fdb68cd4e323819ea73c06d803f>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202007/challenges/Grand%20Challenge%202007/dataset/VASTCONTEST2007-RAW-Blueiggy20070228.zip>;
+.
+
+<dataset/dc334fdb68cd4e323819ea73c06d803f>
+   a dcat:Dataset;
+   dcat:distribution <distribution/dc334fdb68cd4e323819ea73c06d803f>;
+.

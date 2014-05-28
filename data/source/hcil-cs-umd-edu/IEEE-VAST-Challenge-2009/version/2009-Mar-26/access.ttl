@@ -1,0 +1,55 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2009/version/2009-Mar-26>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2009";
+   conversion:identifier         "4a7b576d9c38fa14de7dbc8eeb7ab18e";
+   prov:wasDerivedFrom <distribution/23eef9990f3f57e21e584aadb1dcdd3d>;
+.
+
+<distribution/23eef9990f3f57e21e584aadb1dcdd3d>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil.cs.umd.edu/localphp/hcil/vast/images/uploads/VASTChallenge2009-March%2025-WITHOUTVIDEO.zip>;
+.
+
+<dataset/23eef9990f3f57e21e584aadb1dcdd3d>
+   a dcat:Dataset;
+   dcat:distribution <distribution/23eef9990f3f57e21e584aadb1dcdd3d>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2009/version/2009-Mar-26>
+   prov:wasDerivedFrom <distribution/3a5e3ea2b8cd67764d03d70b1ddf1a27>;
+.
+
+<distribution/3a5e3ea2b8cd67764d03d70b1ddf1a27>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil.cs.umd.edu/localphp/hcil/vast/images/uploads/VASTChallenge2009-M3-VIDEOPART1.zip>;
+.
+
+<dataset/3a5e3ea2b8cd67764d03d70b1ddf1a27>
+   a dcat:Dataset;
+   dcat:distribution <distribution/3a5e3ea2b8cd67764d03d70b1ddf1a27>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2009/version/2009-Mar-26>
+   prov:wasDerivedFrom <distribution/4d3db87db02b325aa5d540e9c7cb1abd>;
+.
+
+<distribution/4d3db87db02b325aa5d540e9c7cb1abd>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil.cs.umd.edu/localphp/hcil/vast/images/uploads/VASTChallenge2009-M3-VIDEOPART2.zip>;
+.
+
+<dataset/4d3db87db02b325aa5d540e9c7cb1abd>
+   a dcat:Dataset;
+   dcat:distribution <distribution/4d3db87db02b325aa5d540e9c7cb1abd>;
+.

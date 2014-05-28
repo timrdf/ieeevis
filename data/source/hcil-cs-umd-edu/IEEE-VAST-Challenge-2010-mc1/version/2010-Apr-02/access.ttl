@@ -1,0 +1,59 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2010-mc1/version/2010-Apr-02>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2010-mc1";
+   conversion:identifier         "7983905de9c675913a0019dfde2e37fc";
+   prov:wasDerivedFrom <distribution/a27e2a115e225c3f1235d44e0a903c0a>;
+.
+
+<distribution/a27e2a115e225c3f1235d44e0a903c0a>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202010/challenges/MC1%20-%20Investigations%20into%20Arms%20Dealing/dataset/VAST2010-Mini-1-Data%20Files-04-02.zip>;
+.
+
+<dataset/a27e2a115e225c3f1235d44e0a903c0a>
+   a dcat:Dataset;
+   dcat:distribution <distribution/a27e2a115e225c3f1235d44e0a903c0a>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2010-mc1/version/2010-Apr-02>
+   prov:wasDerivedFrom <distribution/2e560a63a88e06dd9f9d9472c13d5949>;
+.
+
+<distribution/2e560a63a88e06dd9f9d9472c13d5949>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202010/challenges/MC1%20-%20Investigations%20into%20Arms%20Dealing/solution/VAST2010Solution-v7-Aug10-2010.zip>;
+.
+
+<dataset/2e560a63a88e06dd9f9d9472c13d5949>
+   a dcat:Dataset;
+   dcat:distribution <distribution/2e560a63a88e06dd9f9d9472c13d5949>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2010-mc1/version/2010-Apr-02>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2010-mc1";
+   conversion:identifier         "0bd9e8373f4a13ba3a24e8ca4ab48ea9";
+   prov:wasDerivedFrom <distribution/2086a874b2ba617cd741a82a8258f98f>;
+.
+
+<distribution/2086a874b2ba617cd741a82a8258f98f>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/VASTchallenge2010/datasetfordownload/VAST2010-Mini-1-Data%20Files-04-02.zip>;
+.
+
+<dataset/2086a874b2ba617cd741a82a8258f98f>
+   a dcat:Dataset;
+   dcat:distribution <distribution/2086a874b2ba617cd741a82a8258f98f>;
+.

@@ -1,0 +1,27 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://localhost/id/> .
+@base               <http://localhost/id/> .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2010-mc2/version/2010-Apr-05>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2010-mc2";
+   conversion:identifier         "ab27ab94e1ca782a9013c1139e4b1d0b";
+   prov:wasDerivedFrom <distribution/94899717e397fbb2b298ba99e7af55c5>;
+.
+
+<distribution/94899717e397fbb2b298ba99e7af55c5>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/VASTchallenge2010/datasetfordownload/VAST2010-Mini-2-Data%20Files-v2-04-03.zip>;
+.
+
+<dataset/94899717e397fbb2b298ba99e7af55c5>
+   a dcat:Dataset;
+   dcat:distribution <distribution/94899717e397fbb2b298ba99e7af55c5>;
+.

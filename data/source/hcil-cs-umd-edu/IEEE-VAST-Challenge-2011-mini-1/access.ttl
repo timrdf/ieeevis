@@ -1,0 +1,27 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2011-mini-1>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2011-mini-1";
+   conversion:identifier         "4951375a4fdae7c1fc211eb02e8a8036";
+   prov:wasDerivedFrom <distribution/6edf8083398d1a4449082f767a62499d>;
+.
+
+<distribution/6edf8083398d1a4449082f767a62499d>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.uml.edu/~skonecni/MC_1_Materials_3-30-2011.zip>;
+.
+
+<dataset/6edf8083398d1a4449082f767a62499d>
+   a dcat:Dataset;
+   dcat:distribution <distribution/6edf8083398d1a4449082f767a62499d>;
+.

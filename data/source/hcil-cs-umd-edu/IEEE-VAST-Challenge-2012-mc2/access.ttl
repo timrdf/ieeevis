@@ -1,0 +1,41 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2012-mc2>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2012-mc2";
+   conversion:identifier         "09c04474bd195f4d67d31339de67db8c";
+   prov:wasDerivedFrom <distribution/26dc757a8b45c8b6d6102f727fdbbb77>;
+.
+
+<distribution/26dc757a8b45c8b6d6102f727fdbbb77>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202012/challenges/MC2%20-%20Bank%20of%20Money%20regional%20Network%20Op/dataset/Bank%20of%20Money%20regional%20Network%20Op.zip>;
+.
+
+<dataset/26dc757a8b45c8b6d6102f727fdbbb77>
+   a dcat:Dataset;
+   dcat:distribution <distribution/26dc757a8b45c8b6d6102f727fdbbb77>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2012-mc2>
+   prov:wasDerivedFrom <distribution/76e55643830cef5ac90d619b3e99926c>;
+.
+
+<distribution/76e55643830cef5ac90d619b3e99926c>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202013/challenges/MC3%20-%20Big%20Marketing/solution/MC3solution.zip>;
+.
+
+<dataset/76e55643830cef5ac90d619b3e99926c>
+   a dcat:Dataset;
+   dcat:distribution <distribution/76e55643830cef5ac90d619b3e99926c>;
+.

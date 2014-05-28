@@ -1,0 +1,41 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2012-mc1>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2012-mc1";
+   conversion:identifier         "ec5c1cc11a641cb9084288be276bd2cb";
+   prov:wasDerivedFrom <distribution/6477df2e8ab0b468427b181968ae7020>;
+.
+
+<distribution/6477df2e8ab0b468427b181968ae7020>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202012/challenges/MC1%20-%20Bank%20of%20Money%20Enterprise%20Cyber/dataset/Bank%20of%20Money%20Enterprise%20Cyber.zip>;
+.
+
+<dataset/6477df2e8ab0b468427b181968ae7020>
+   a dcat:Dataset;
+   dcat:distribution <distribution/6477df2e8ab0b468427b181968ae7020>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2012-mc1>
+   prov:wasDerivedFrom <distribution/7c469f205285676f4b0168192b748ff4>;
+.
+
+<distribution/7c469f205285676f4b0168192b748ff4>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202012/challenges/MC1%20-%20Bank%20of%20Money%20Enterprise%20Cyber/solution/Bank%20of%20Money%20solution.docx>;
+.
+
+<dataset/7c469f205285676f4b0168192b748ff4>
+   a dcat:Dataset;
+   dcat:distribution <distribution/7c469f205285676f4b0168192b748ff4>;
+.
