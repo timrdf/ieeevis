@@ -9,7 +9,22 @@
 <xsl:param name="mode"     select="'now'"/>
 
 <xsl:template match="/">
-   <xsl:apply-templates select="//html:div[@id='text_all']"/>
+   <xsl:choose>
+      <xsl:when test="$url-base = 'http://hcil2.cs.umd.edu'">
+         <xsl:value-of select="concat($DQ,string-join((
+                                                       'group-id','benchmark title','description and links',
+                                                       'dataset link',
+                                                       'solution link',
+                                                       'submitter',
+                                                       'entry-link',
+                                                       'award'
+                                                      ),
+                                                      concat($DQ,',',$DQ)),$DQ,$NL)"/>
+      </xsl:when>
+      <xsl:otherwise>
+         <xsl:apply-templates select="//html:div[@id='text_all']"/>
+      </xsl:otherwise>
+   </xsl:choose>
 </xsl:template>
 
 <xsl:template match="html:div">
@@ -36,7 +51,7 @@
                                                           if (starts-with($solution-link,'http')) then $solution-link else concat($url-base,$solution-link),
                                                           $submitter,
                                                           if (starts-with($entry-link,'http')) then $entry-link else concat($url-base,$entry-link),
-                                                          $award
+                                                          replace($award,$DQ,concat('\\',$DQ))
                                                          ),
                                                          concat($DQ,',',$DQ)),$DQ,$NL)"/>
          </xsl:for-each>
