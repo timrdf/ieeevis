@@ -1,0 +1,81 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<MC1-Data.zip>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-27T20:09:53-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/Hypertext_Transfer_Protocol#a1f5175b-9e45-4640-aa5c-da783cbec753>;
+.
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol#a1f5175b-9e45-4640-aa5c-da783cbec753> a prov:Plan;
+  dcterms:date "2014-05-27T20:09:53-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+.
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol> a prov:Plan .
+<MC1-Data.zip>
+   a nfo:FileDataObject;
+   nfo:fileName "MC1-Data.zip";
+   nfo:hasHash <md5_18e4393e35c1f9ed55c1e46675acd780_time_1401235793>;
+.
+<md5_18e4393e35c1f9ed55c1e46675acd780_time_1401235793>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-27T20:09:53-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "18e4393e35c1f9ed55c1e46675acd780";
+.
+
+<MC1-Data.zip> prov:wasDerivedFrom <http://vacommunity.org/dl424> .
+<http://vacommunity.org/dl424>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<MC1-Data.zip> prov:wasDerivedFrom <http://vacommunity.org/dl424> .
+
+<nodeSet/a1f5175b-9e45-4640-aa5c-da783cbec753>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <MC1-Data.zip>;
+   pmlj:isConsequentOf <inferenceStep/a1f5175b-9e45-4640-aa5c-da783cbec753>;
+.
+<inferenceStep/a1f5175b-9e45-4640-aa5c-da783cbec753>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSeta1f5175b-9e45-4640-aa5c-da783cbec753_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSeta1f5175b-9e45-4640-aa5c-da783cbec753_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/Hypertext_Transfer_Protocol#a1f5175b-9e45-4640-aa5c-da783cbec753>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/a1f5175b-9e45-4640-aa5c-da783cbec753>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/a1f5175b-9e45-4640-aa5c-da783cbec753>;
+   oprov:endTime "2014-05-27T20:09:53-04:00"^^xsd:dateTime;
+.
+<nodeSeta1f5175b-9e45-4640-aa5c-da783cbec753_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://vacommunity.org/dl424>;
+.
+
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol#a1f5175b-9e45-4640-aa5c-da783cbec753>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/Hypertext_Transfer_Protocol#a1f5175b-9e45-4640-aa5c-da783cbec753";
+.
+

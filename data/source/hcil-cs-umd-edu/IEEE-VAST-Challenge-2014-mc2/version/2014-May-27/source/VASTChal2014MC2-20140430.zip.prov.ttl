@@ -1,0 +1,81 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<VASTChal2014MC2-20140430.zip>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-27T20:11:12-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/Hypertext_Transfer_Protocol#30adfcaf-05b7-4624-93b4-148936588d63>;
+.
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol#30adfcaf-05b7-4624-93b4-148936588d63> a prov:Plan;
+  dcterms:date "2014-05-27T20:11:59-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+.
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol> a prov:Plan .
+<VASTChal2014MC2-20140430.zip>
+   a nfo:FileDataObject;
+   nfo:fileName "VASTChal2014MC2-20140430.zip";
+   nfo:hasHash <md5_94850927e49e5e076764c890b37c14ef_time_1401235919>;
+.
+<md5_94850927e49e5e076764c890b37c14ef_time_1401235919>
+   a nfo:FileHash; 
+   dcterms:date      "2014-05-27T20:11:59-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "94850927e49e5e076764c890b37c14ef";
+.
+
+<VASTChal2014MC2-20140430.zip> prov:wasDerivedFrom <http://vacommunity.org/dl427> .
+<http://vacommunity.org/dl427>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<VASTChal2014MC2-20140430.zip> prov:wasDerivedFrom <http://vacommunity.org/dl427> .
+
+<nodeSet/30adfcaf-05b7-4624-93b4-148936588d63>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <VASTChal2014MC2-20140430.zip>;
+   pmlj:isConsequentOf <inferenceStep/30adfcaf-05b7-4624-93b4-148936588d63>;
+.
+<inferenceStep/30adfcaf-05b7-4624-93b4-148936588d63>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet30adfcaf-05b7-4624-93b4-148936588d63_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet30adfcaf-05b7-4624-93b4-148936588d63_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/Hypertext_Transfer_Protocol#30adfcaf-05b7-4624-93b4-148936588d63>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/30adfcaf-05b7-4624-93b4-148936588d63>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/30adfcaf-05b7-4624-93b4-148936588d63>;
+   oprov:endTime "2014-05-27T20:11:59-04:00"^^xsd:dateTime;
+.
+<nodeSet30adfcaf-05b7-4624-93b4-148936588d63_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://vacommunity.org/dl427>;
+.
+
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol#30adfcaf-05b7-4624-93b4-148936588d63>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/Hypertext_Transfer_Protocol#30adfcaf-05b7-4624-93b4-148936588d63";
+.
+
