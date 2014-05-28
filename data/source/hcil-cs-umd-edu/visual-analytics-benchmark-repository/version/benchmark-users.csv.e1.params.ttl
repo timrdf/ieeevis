@@ -84,10 +84,10 @@
       #   conversion:symbol        "";
       #   conversion:interpretation conversion:null; 
       #];
-      #conversion:enhance [
-      #   conversion:domain_template "thing_[r]";
-      #   conversion:domain_name     "Thing";
-      #];
+      conversion:enhance [
+         conversion:domain_template "[/sd][_#1_]/[_#2_]";
+         conversion:domain_name     "Benchmark";
+      ];
       #conversion:enhance [
       #   conversion:class_name "Thing";
       #   conversion:subclass_of <http://purl.org/...>;
@@ -97,11 +97,11 @@
          ov:csvHeader       "group-id";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "group-id";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property dcterms:isPartOf;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range_template  "[/sd][_#1_]/[_#2_]";
+         conversion:range   rdfs:Resource;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -109,11 +109,11 @@
          ov:csvHeader       "benchmark title";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "benchmark title";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property dcterms:title;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   rdfs:Literal;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -121,11 +121,11 @@
          ov:csvHeader       "description and links";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "description and links";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property dcterms:description;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   rdfs:Literal;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -133,35 +133,35 @@
          ov:csvHeader       "dataset link";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "dataset link";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property dcat:accessURL;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Data";
       ];
       conversion:enhance [
          ov:csvCol          5;
          ov:csvHeader       "solution link";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "solution link";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property dcat:accessURL;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   todo:Resource;
+         conversion:range_name  "Solution";
       ];
       conversion:enhance [
          ov:csvCol          6;
          ov:csvHeader       "submitter";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "submitter";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property prov:wasAttributedTo;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range_template  "[/sd][_#1_]/[_#2_]/[_._]";
+         conversion:range   foaf:Organization;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -169,24 +169,28 @@
          ov:csvHeader       "entry-link";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "entry-link";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property prov:hadDerivation;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   rdfs:Resource;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
          ov:csvCol          8;
          ov:csvHeader       "award";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by [ ov:csvCol 7 ];
          #conversion:label   "award";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property prov:hadDerivation;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
+         conversion:interpret [
+            conversion:symbol        "";
+            conversion:interpretation conversion:null; 
+         ];
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Award";
       ];
       #conversion:enhance [
       #   ov:csvRow 3,4,5;
