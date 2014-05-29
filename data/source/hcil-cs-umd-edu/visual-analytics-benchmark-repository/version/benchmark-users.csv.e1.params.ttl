@@ -47,12 +47,12 @@
    sioc:account_of  <http://tw.rpi.edu/instances/TimLebo>;
 .
 
-#:a_bundle
-#   a conversion:ImplicitBundle;
-#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
-#   conversion:name_template "[/sd]company/[#2]/[r]";
-#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
-#.
+:award_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name schema:award;
+   conversion:name_template "[/sd][_#1_]/[_#2_]/[_#6_]/award";
+   conversion:type_name     pext:Award;
+.
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/version/wget/conversion/enhancement/1>
    a conversion:LayerDataset, void:Dataset;
@@ -102,9 +102,9 @@
          conversion:equivalent_property dcterms:isPartOf;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         conversion:range_template  "[/sd][_#1_]/[_#2_]";
+         conversion:range_template  "[/sd][_#1_]";
          conversion:range   rdfs:Resource;
-         #conversion:range_name  "Thing";
+         conversion:range_name  "BenchmarkGroup";
       ];
       conversion:enhance [
          ov:csvCol          2;
@@ -116,7 +116,6 @@
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
          conversion:range   rdfs:Literal;
-         #conversion:range_name  "Thing";
       ];
       conversion:enhance [
          ov:csvCol          3;
@@ -151,13 +150,13 @@
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Resource;
-         conversion:range_name  "Solution";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Submission";
       ];
       conversion:enhance [
          ov:csvCol          6;
          ov:csvHeader       "submitter";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by [ ov:csvCol 5 ];
          #conversion:label   "submitter";
          conversion:equivalent_property prov:wasAttributedTo;
          #conversion:subproperty_of      dcterms:identifier;
@@ -172,12 +171,15 @@
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "entry-link";
          conversion:equivalent_property prov:hadDerivation;
+         conversion:inverse_of          prov:wasDerivedFrom;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
          conversion:range   rdfs:Resource;
          #conversion:range_name  "Thing";
       ];
+
+      # Misses labels on the award URI.
       conversion:enhance [
          ov:csvCol          8;
          ov:csvHeader       "award";
@@ -185,21 +187,51 @@
          #conversion:label   "award";
          conversion:equivalent_property schema:award;
          conversion:subproperty_of      prov:hadDerivation;
+         conversion:inverse_of          prov:wasDerivedFrom;
          conversion:comment "";
          conversion:interpret [
             conversion:symbol        "";
             conversion:interpretation conversion:null; 
          ];
          conversion:range_template  "[/sd][_#1_]/[_#2_]/[_#6_]/award";
-         #conversion:range_template  "[/sd]thing[.]";
          conversion:range   pext:Award;
-         #conversion:range_name  "Award";
       ];
       conversion:enhance [
          conversion:subject  "[/sd][_#1_]/[_#2_]/[_#6_]/award";
          conversion:predicate dcterms:title;
          conversion:object    "[#8]";
       ];
+
+      # 
+      #conversion:enhance [
+      #   ov:csvCol          8;
+      #   ov:csvHeader       "award";
+      #   conversion:bundled_by :award_bundle;
+      #   #conversion:label   "award";
+      #   conversion:equivalent_property dcterms:title;
+      #   #conversion:subproperty_of      rdfs:label;
+      #   conversion:comment "";
+      #   conversion:interpret [
+      #      conversion:symbol        "";
+      #      conversion:interpretation conversion:null; 
+      #   ];
+      #   #conversion:range_template  "[/sd]thing[.]";
+      #   conversion:range   rdfs:Literal;
+      #];
+
+      # Can't handle literal object values?
+      #conversion:enhance [
+      #   a conversion:TemplatedTopicsEnhancement;
+      #   conversion:topic [
+      #      conversion:name "[/sd][_#1_]/[_#2_]/[_#6_]/award";
+      #      a pext:Award;
+      #      prov:alternateOf [  # TODO
+      #         a foaf:Person; # TODO
+      #         conversion:name "[#4]"; # TODO
+      #      ];
+      #   ];
+      #];
+
       #conversion:enhance [
       #   ov:csvRow 3,4,5;
       #   conversion:fromRow 3;
