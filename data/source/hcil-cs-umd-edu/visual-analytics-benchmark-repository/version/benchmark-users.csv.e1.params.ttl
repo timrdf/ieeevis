@@ -35,6 +35,8 @@
 @prefix foaf:          <http://xmlns.com/foaf/0.1/> .
 @prefix ov:            <http://open.vocab.org/terms/> .
 @prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix pext:          <http://www.ontotext.com/proton/protonext#> .
+@prefix schema:        <http://schema.org/>.
 @prefix :              <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/version/wget/params/enhancement/1/> .
 
 <http://tw.rpi.edu/instances/TimLebo> foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot> .
@@ -181,16 +183,22 @@
          ov:csvHeader       "award";
          conversion:bundled_by [ ov:csvCol 7 ];
          #conversion:label   "award";
-         conversion:equivalent_property prov:hadDerivation;
-         #conversion:subproperty_of      dcterms:identifier;
+         conversion:equivalent_property schema:award;
+         conversion:subproperty_of      prov:hadDerivation;
          conversion:comment "";
          conversion:interpret [
             conversion:symbol        "";
             conversion:interpretation conversion:null; 
          ];
+         conversion:range_template  "[/sd][_#1_]/[_#2_]/[_#6_]/award";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   rdfs:Resource;
-         conversion:range_name  "Award";
+         conversion:range   pext:Award;
+         #conversion:range_name  "Award";
+      ];
+      conversion:enhance [
+         conversion:subject  "[/sd][_#1_]/[_#2_]/[_#6_]/award";
+         conversion:predicate dcterms:title;
+         conversion:object    "[#8]";
       ];
       #conversion:enhance [
       #   ov:csvRow 3,4,5;
