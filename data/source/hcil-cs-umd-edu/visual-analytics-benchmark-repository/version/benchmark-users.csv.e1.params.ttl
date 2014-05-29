@@ -156,7 +156,7 @@
       conversion:enhance [
          ov:csvCol          6;
          ov:csvHeader       "submitter";
-         conversion:bundled_by [ ov:csvCol 5 ];
+         conversion:bundled_by [ ov:csvCol 7 ];
          #conversion:label   "submitter";
          conversion:equivalent_property prov:wasAttributedTo;
          #conversion:subproperty_of      dcterms:identifier;
