@@ -174,7 +174,7 @@
          conversion:inverse_of          prov:wasDerivedFrom;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         conversion:range_template  "[/]instance/external/md5([#7])";
+         conversion:range_template  "[/]instance/external/submission/md5([#7])";
          conversion:range   rdfs:Resource;
          conversion:range_name  "Submission";
          #conversion:object_search [
@@ -184,7 +184,7 @@
          #];
       ];
       conversion:enhance [
-         conversion:subject  "[/]instance/external/md5([#7])";
+         conversion:subject  "[/]instance/external/submission/md5([#7])";
          conversion:predicate prov:specializationOf;
          conversion:object    "[#7]";
       ];
