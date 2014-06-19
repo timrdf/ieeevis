@@ -17,7 +17,10 @@ BEGIN {
 {
    #print $0
    talk_contribs_pos = index($0,"(Talk | contribs)");
-   date_and_user     = substr($0,1,talk_contribs_pos-1);
+   if( talk_contribs_pos < 1 ) {
+      talk_contribs_pos = index($0,"(Talk)");
+   }
+   date_and_user       = substr($0,1,talk_contribs_pos-1);
    minor_bytes_comment = substr($0,talk_contribs_pos);
 
    # Date
@@ -32,16 +35,19 @@ BEGIN {
    gsub(/^.*200. */,"",user)
 
    # Minor edit?
-   index(minor_bytes_comment, "(Talk | contribs) m (") > 0 ? minor = "minor" : minor = "";
+   index(minor_bytes_comment, "(Talk | contribs) m (") > 0 || index(minor_bytes_comment, "(Talk) m (") > 0 ? minor = "minor" : minor = "";
 
    # Bytes
    bytes_pos = index(minor_bytes_comment," bytes)")
    bytes = substr(minor_bytes_comment,1,bytes_pos)
    gsub(/^.*\(Talk \| contribs\)[m ]+\(/,"",bytes)
+   gsub(/^.*\(Talk\)[m ]+\(/,"",bytes)
    gsub(/ *$/,"",bytes)
 
    # Comment
    comment = substr(minor_bytes_comment,bytes_pos)
+   gsub(/^.*\(Talk \| contribs\)[m ]+\(/,"",comment)
+   gsub(/^.*\(Talk\)[m ]+\(/,"",comment)
    gsub(/ *bytes\) */,"",comment)
    gsub(/\(/,"",comment)
    if( index(comment,")") > 0 ) {
