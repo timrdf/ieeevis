@@ -25,6 +25,7 @@ BEGIN {
    sub(/ *$/, "", date_and_user)
    year_pos = index(date_and_user," 200") # NOTE: Assumes year is 2010
    date = substr(date_and_user,1,year_pos+4)
+   sub(/^ */,"",date)
 
    # User
    user = date_and_user
