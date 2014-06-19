@@ -1,5 +1,14 @@
+#3> <> prov:specializationOf <https://github.com/timrdf/ieeevis/blob/master/data/source/hcil-cs-umd-edu/IEEE-VAST-Challenge-2008-mc2/src/paraiso-edits.awk>;
+#3> .
+
+# Example input:
 # (cur) (last) 23:44, 15 January 2007 Alonzo (Talk | contribs) m (100,571 bytes) (?Scientific criticism of Paraiso beliefs - link)
 # (cur) (last) 03:21, 14 January 2007 Alfonso (Talk | contribs) (100,552 bytes) (?External links - pruning links (see talk))
+#
+# Examle output:
+# Edit date,Editing user,Minor edit or not,Resulting page size in bytes,Edit comment
+# "23:44, 15 January 2007","Alonzo","minor","100,571","?Scientific criticism of Paraiso beliefs - link"
+# "03:21, 14 January 2007","Alfonso","","100,552","?External links - pruning links see talk)"
 
 BEGIN {
    print "Edit date,Editing user,Minor edit or not,Resulting page size in bytes,Edit comment"
