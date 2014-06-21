@@ -6,4 +6,4 @@
 #3> .
 #
 
-aggregate-source-rdf.sh reverts.graffle.ttl.tdb.ttl
+aggregate-source-rdf.sh manual/reverts.graffle.ttl.tdb.ttl
