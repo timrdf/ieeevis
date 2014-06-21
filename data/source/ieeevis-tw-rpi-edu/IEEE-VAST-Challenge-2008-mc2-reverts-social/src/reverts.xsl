@@ -8,6 +8,7 @@
 <!-- http://stackoverflow.com/questions/1384802/java-how-to-indent-xml-generated-by-transformer -->
 
 <xsl:variable name="prefixes"><![CDATA[@prefix mc2:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/> .
+@prefix user: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/> .
 @prefix social: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/> .
 ]]>
 </xsl:variable>
