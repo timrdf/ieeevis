@@ -1,4 +1,4 @@
-@prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/Revert> .
+@prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/> .
 @prefix vsr:   <http://purl.org/twc/vocab/vsr#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix graffle: <http://purl.org/twc/vocab/vsr/graffle#> .
