@@ -1,0 +1,93 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<edits.rq.sparql.manual.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-20T16:24:54-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <copy#3ca1f774-4b8f-41d4-956d-602f3e442956>;
+.
+<copy#3ca1f774-4b8f-41d4-956d-602f3e442956> a prov:Plan;
+  dcterms:date "2014-06-20T16:24:57-04:00"^^xsd:dateTime;
+  prov:specializationOf conv:copy_Method;
+.
+conv:copy_Method a prov:Plan .
+<edits.rq.sparql.manual.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "edits.rq.sparql.manual.graffle";
+   nfo:hasHash <md5_0a9cb2500955bbb818bff4033dee5924_time_1403295897>;
+.
+<md5_0a9cb2500955bbb818bff4033dee5924_time_1403295897>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-20T16:24:57-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "0a9cb2500955bbb818bff4033dee5924";
+.
+
+<../manual/edits.rq.sparql.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-20T16:24:44-04:00"^^xsd:dateTime;
+.
+<edits.rq.sparql.manual.graffle> prov:wasDerivedFrom <../manual/edits.rq.sparql.graffle> .
+<../manual/edits.rq.sparql.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "../manual/edits.rq.sparql.graffle";
+   nfo:hasHash <md5_0a9cb2500955bbb818bff4033dee5924_time_1403295897>;
+.
+<md5_0a9cb2500955bbb818bff4033dee5924_time_1403295897>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-20T16:24:57-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "0a9cb2500955bbb818bff4033dee5924";
+.
+
+<nodeSet/3ca1f774-4b8f-41d4-956d-602f3e442956>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <edits.rq.sparql.manual.graffle>;
+   pmlj:isConsequentOf <inferenceStep/3ca1f774-4b8f-41d4-956d-602f3e442956>;
+.
+<inferenceStep/3ca1f774-4b8f-41d4-956d-602f3e442956>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet3ca1f774-4b8f-41d4-956d-602f3e442956_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet3ca1f774-4b8f-41d4-956d-602f3e442956_antecedent> );
+   pmlj:hasInferenceEngine <copy#3ca1f774-4b8f-41d4-956d-602f3e442956>;
+   pmlj:hasInferenceRule   conv:copy_Method;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/3ca1f774-4b8f-41d4-956d-602f3e442956>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/3ca1f774-4b8f-41d4-956d-602f3e442956>;
+   oprov:endTime "2014-06-20T16:24:57-04:00"^^xsd:dateTime;
+.
+<nodeSet3ca1f774-4b8f-41d4-956d-602f3e442956_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../manual/edits.rq.sparql.graffle>;
+.
+
+<copy#3ca1f774-4b8f-41d4-956d-602f3e442956>
+   a pmlp:InferenceEngine, conv:Copy_Engine, prov:Entity;
+   dcterms:identifier "copy#3ca1f774-4b8f-41d4-956d-602f3e442956";
+.
+
+conv:Copy_Engine rdfs:subClassOf pmlp:InferenceEngine .
