@@ -1,3 +1,3 @@
 #!/bin/bash
 
-aggregate-source-rdf.sh publish/*.ttl
+aggregate-source-rdf.sh automatic/*.ttl
