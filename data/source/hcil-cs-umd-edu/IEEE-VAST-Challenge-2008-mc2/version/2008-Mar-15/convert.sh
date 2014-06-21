@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir -p automatic
-rm -f automatic/usages.ttl
+echo '@prefix prov: <http://www.w3.org/ns/prov#>.' > automatic/usages.ttl
 sdv=`cr-dataset-uri.sh --uri`
 for ((commit=3; commit<=1010; commit++)); do
    let "prev=$commit-1"
