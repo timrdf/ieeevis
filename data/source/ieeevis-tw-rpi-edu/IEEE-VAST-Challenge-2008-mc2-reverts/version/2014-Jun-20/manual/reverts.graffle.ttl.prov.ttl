@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<reverts.graffle.ttl>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-21T11:50:40-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh#85d24cc7-b6d8-4a65-803e-03d74ee7e8af>;
+.
+<https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh#85d24cc7-b6d8-4a65-803e-03d74ee7e8af> a prov:Plan;
+  dcterms:date "2014-06-21T11:54:11-04:00"^^xsd:dateTime;
+  prov:specializationOf <https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh>;
+.
+<https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh> a prov:Plan .
+<reverts.graffle.ttl>
+   a nfo:FileDataObject;
+   nfo:fileName "reverts.graffle.ttl";
+   nfo:hasHash <md5_4033d85a988eec0a936ceda52f2b6cfa_time_1403366051>;
+.
+<md5_4033d85a988eec0a936ceda52f2b6cfa_time_1403366051>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-21T11:54:11-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "4033d85a988eec0a936ceda52f2b6cfa";
+.
+
+<../manual/reverts.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-21T11:52:46-04:00"^^xsd:dateTime;
+.
+<reverts.graffle.ttl> prov:wasDerivedFrom <../manual/reverts.graffle> .
+<../manual/reverts.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "../manual/reverts.graffle";
+   nfo:hasHash <md5_7cc60409b477c4d1334b40275d8325bf_time_1403366051>;
+.
+<md5_7cc60409b477c4d1334b40275d8325bf_time_1403366051>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-21T11:54:11-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "7cc60409b477c4d1334b40275d8325bf";
+.
+
+<nodeSet/85d24cc7-b6d8-4a65-803e-03d74ee7e8af>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <reverts.graffle.ttl>;
+   pmlj:isConsequentOf <inferenceStep/85d24cc7-b6d8-4a65-803e-03d74ee7e8af>;
+.
+<inferenceStep/85d24cc7-b6d8-4a65-803e-03d74ee7e8af>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSet85d24cc7-b6d8-4a65-803e-03d74ee7e8af_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSet85d24cc7-b6d8-4a65-803e-03d74ee7e8af_antecedent> );
+   pmlj:hasInferenceEngine <https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh#85d24cc7-b6d8-4a65-803e-03d74ee7e8af>;
+   pmlj:hasInferenceRule   <https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/85d24cc7-b6d8-4a65-803e-03d74ee7e8af>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/85d24cc7-b6d8-4a65-803e-03d74ee7e8af>;
+   oprov:endTime "2014-06-21T11:54:11-04:00"^^xsd:dateTime;
+.
+<nodeSet85d24cc7-b6d8-4a65-803e-03d74ee7e8af_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../manual/reverts.graffle>;
+.
+
+<https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh#85d24cc7-b6d8-4a65-803e-03d74ee7e8af>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh#85d24cc7-b6d8-4a65-803e-03d74ee7e8af";
+.
+

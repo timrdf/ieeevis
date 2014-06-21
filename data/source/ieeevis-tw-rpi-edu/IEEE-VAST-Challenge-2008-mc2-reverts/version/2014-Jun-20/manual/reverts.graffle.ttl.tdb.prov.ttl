@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<reverts.graffle.ttl.tdb>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-21T11:44:52-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader#bb7ee114-5574-439d-872e-a28009322c48>;
+.
+<http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader#bb7ee114-5574-439d-872e-a28009322c48> a prov:Plan;
+  dcterms:date "2014-06-21T11:50:40-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader>;
+.
+<http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader> a prov:Plan .
+<reverts.graffle.ttl.tdb>
+   a nfo:FileDataObject;
+   nfo:fileName "reverts.graffle.ttl.tdb";
+   nfo:hasHash <md5__time_1403365840>;
+.
+<md5__time_1403365840>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-21T11:50:40-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "";
+.
+
+<../manual/reverts.graffle.ttl>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-21T11:46:24-04:00"^^xsd:dateTime;
+.
+<reverts.graffle.ttl.tdb> prov:wasDerivedFrom <../manual/reverts.graffle.ttl> .
+<../manual/reverts.graffle.ttl>
+   a nfo:FileDataObject;
+   nfo:fileName "../manual/reverts.graffle.ttl";
+   nfo:hasHash <md5_4033d85a988eec0a936ceda52f2b6cfa_time_1403365840>;
+.
+<md5_4033d85a988eec0a936ceda52f2b6cfa_time_1403365840>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-21T11:50:40-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "4033d85a988eec0a936ceda52f2b6cfa";
+.
+
+<nodeSet/bb7ee114-5574-439d-872e-a28009322c48>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <reverts.graffle.ttl.tdb>;
+   pmlj:isConsequentOf <inferenceStep/bb7ee114-5574-439d-872e-a28009322c48>;
+.
+<inferenceStep/bb7ee114-5574-439d-872e-a28009322c48>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetbb7ee114-5574-439d-872e-a28009322c48_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetbb7ee114-5574-439d-872e-a28009322c48_antecedent> );
+   pmlj:hasInferenceEngine <http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader#bb7ee114-5574-439d-872e-a28009322c48>;
+   pmlj:hasInferenceRule   <http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/bb7ee114-5574-439d-872e-a28009322c48>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/bb7ee114-5574-439d-872e-a28009322c48>;
+   oprov:endTime "2014-06-21T11:50:40-04:00"^^xsd:dateTime;
+.
+<nodeSetbb7ee114-5574-439d-872e-a28009322c48_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../manual/reverts.graffle.ttl>;
+.
+
+<http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader#bb7ee114-5574-439d-872e-a28009322c48>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader#bb7ee114-5574-439d-872e-a28009322c48";
+.
+
