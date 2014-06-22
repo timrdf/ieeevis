@@ -6,6 +6,7 @@
 #3> .
 #
 
+mkdir -p automatic
 # reverter,against;reverter,supports
 saxon.sh ../../src/group-by.xsl xml ttl -v `cr-sdv.sh --attribute-value` group='revert' dim1='reverter' dim2='against'  -in source/reverts.rq.xml > automatic/against.ttl
 saxon.sh ../../src/group-by.xsl xml ttl -v `cr-sdv.sh --attribute-value` group='revert' dim1='reverter' dim2='supports' -in source/reverts.rq.xml > automatic/supports.ttl
