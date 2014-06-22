@@ -22,8 +22,8 @@
       <xsl:variable name="comment-1" select="substring-after($comment,'by ')"/>
       <xsl:variable name="comment-2" select="substring-after($comment-1,'by ')"/>
 
-      <xsl:variable name="first-by"  select="tokenize(replace($comment-1,'Special:Contributions/',''),',| ')[1]"/>
-      <xsl:variable name="second-by" select="tokenize(replace($comment-2,'Special:Contributions/',''),',| ')[1]"/>
+      <xsl:variable name="first-by"  select="tokenize(replace($comment-1,'Special:Contributions/',''),'\.|,| ')[1]"/>
+      <xsl:variable name="second-by" select="tokenize(replace($comment-2,'Special:Contributions/',''),'\.|,| ')[1]"/>
 
       <xsl:value-of select="concat($LT,$commit,$GT,$NL)"/>
       <xsl:if test="string-length($against)">
