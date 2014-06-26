@@ -6,4 +6,4 @@
 #3> .
 #
 
-aggregate-source-rdf.sh automatic/against.ttl automatic/supports.ttl
+cr-publish.sh source/* automatic/* manual/*
