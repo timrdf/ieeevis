@@ -69,7 +69,9 @@
 
 <xsl:function name="sr:user">
    <xsl:param name="comment"/>
-   <xsl:value-of select="replace(tokenize($comment,' ')[1],'\.$|,|;','')"/>
+   <xsl:value-of select="replace(replace(tokenize($comment,' ')[1],
+                                         'Special:Contributions/',''),
+                                 '\.$|,|;','')"/>
 </xsl:function>
 
 <xsl:function name="sr:uriify">
