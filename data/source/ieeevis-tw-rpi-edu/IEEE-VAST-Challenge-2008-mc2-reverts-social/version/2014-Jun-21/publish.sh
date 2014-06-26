@@ -6,4 +6,4 @@
 #3> .
 #
 
-aggregate-source-rdf.sh source/* automatic/*
+cr-publish.sh source/* automatic/*

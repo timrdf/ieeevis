@@ -8,7 +8,7 @@
 <!-- http://stackoverflow.com/questions/1384802/java-how-to-indent-xml-generated-by-transformer -->
 
 <xsl:variable name="prefixes"><![CDATA[@prefix mc2:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/> .
-@prefix user: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/> .
+@prefix user:   <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/> .
 @prefix social: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/> .
 ]]>
 </xsl:variable>
@@ -16,31 +16,38 @@
 <xsl:template match="/">
    <xsl:value-of select="$prefixes"/>
    <xsl:for-each select="sr:sparql/sr:results/sr:result">
-      <xsl:variable name="against" select="sr:binding[@name='against']"/>
       <xsl:variable name="commit"  select="sr:binding[@name='commit']"/>
+      <xsl:variable name="against" select="sr:binding[@name='against']"/>
       <xsl:variable name="comment" select="sr:binding[@name='comment']"/>
+
       <xsl:variable name="comment-1" select="substring-after($comment,'by ')"/>
       <xsl:variable name="comment-2" select="substring-after($comment-1,'by ')"/>
 
-      <xsl:variable name="first-by"  select="tokenize(replace($comment-1,'Special:Contributions/',''),'\.|,| ')[1]"/>
-      <xsl:variable name="second-by" select="tokenize(replace($comment-2,'Special:Contributions/',''),'\.|,| ')[1]"/>
+      <!-- Incorrectly trimmed e.g. user '209.250.162.x' to user '209'.
+       xsl:variable name="first-by"  select="tokenize(replace($comment-1,'Special:Contributions/',''),'\.|,| ')[1]"/>
+      <xsl:variable name="second-by" select="tokenize(replace($comment-2,'Special:Contributions/',''),'\.|,| ')[1]"/-->
+
+      <xsl:variable name="first-by"  select="sr:user(tokenize($comment-1,' ')[1])"/>
+      <xsl:variable name="second-by" select="sr:user(tokenize($comment-2,' ')[1])"/>
 
       <xsl:value-of select="concat($LT,$commit,$GT,$NL)"/>
       <xsl:if test="string-length($against)">
          <xsl:value-of select="concat('   social:against  ',$LT,$against,$GT,';',$NL)"/>
       </xsl:if>
       <xsl:value-of select="concat('   # ',$comment,$NL)"/>
+      <xsl:value-of select="concat('   # by 1: ',$comment-1,'|',$NL)"/>
+      <xsl:value-of select="concat('   # by 2: ',$comment-2,'|',$NL)"/>
       <xsl:value-of select="concat('   # first  by: ',$first-by,'|',$NL)"/>
       <xsl:value-of select="concat('   # second by: ',$second-by,'|',$NL)"/>
       <xsl:choose>
          <xsl:when test="matches($comment,'Undid revision')">
             <xsl:value-of select="concat('   social:against user:',sr:uriify($first-by),' . # b/c undid',$NL)"/>
          </xsl:when>
-         <xsl:when test="$first-by and $second-by">
+         <xsl:when test="string-length($first-by) and string-length($second-by)">
             <xsl:value-of select="concat('   social:against  user:',sr:uriify($first-by),';   # b/c both',$NL)"/>
             <xsl:value-of select="concat('   social:supports user:',sr:uriify($second-by),' . # b/c both',$NL)"/>
          </xsl:when>
-         <xsl:when test="$first-by">
+         <xsl:when test="string-length($first-by)">
             <xsl:value-of select="concat('   # just first exists;',$NL)"/>
             <xsl:choose>
                <xsl:when test="matches(lower-case($comment),'revert.* edit.* by ') or 
@@ -59,6 +66,11 @@
       <xsl:value-of select="concat($NL,$NL)"/>
    </xsl:for-each>
 </xsl:template>
+
+<xsl:function name="sr:user">
+   <xsl:param name="comment"/>
+   <xsl:value-of select="replace(tokenize($comment,' ')[1],'\.$|,|;','')"/>
+</xsl:function>
 
 <xsl:function name="sr:uriify">
    <xsl:param name="string"/>
