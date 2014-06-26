@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<against-and-supports.ttl.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T12:51:08-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/File_copying#d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>;
+.
+<http://dbpedia.org/resource/File_copying#d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4> a prov:Plan;
+  dcterms:date "2014-06-26T12:52:41-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/File_copying>;
+.
+<http://dbpedia.org/resource/File_copying> a prov:Plan .
+<against-and-supports.ttl.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "against-and-supports.ttl.graffle";
+   nfo:hasHash <md5_65892ef43b95c1b9df5c074c4a954916_time_1403801561>;
+.
+<md5_65892ef43b95c1b9df5c074c4a954916_time_1403801561>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T12:52:41-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "65892ef43b95c1b9df5c074c4a954916";
+.
+
+<../automatic/against-and-supports.ttl.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T12:52:40-04:00"^^xsd:dateTime;
+.
+<against-and-supports.ttl.graffle> prov:wasDerivedFrom <../automatic/against-and-supports.ttl.graffle> .
+<../automatic/against-and-supports.ttl.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "../automatic/against-and-supports.ttl.graffle";
+   nfo:hasHash <md5_65892ef43b95c1b9df5c074c4a954916_time_1403801561>;
+.
+<md5_65892ef43b95c1b9df5c074c4a954916_time_1403801561>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T12:52:41-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "65892ef43b95c1b9df5c074c4a954916";
+.
+
+<nodeSet/d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <against-and-supports.ttl.graffle>;
+   pmlj:isConsequentOf <inferenceStep/d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>;
+.
+<inferenceStep/d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetd1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetd1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/File_copying#d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/File_copying>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>;
+   oprov:endTime "2014-06-26T12:52:40-04:00"^^xsd:dateTime;
+.
+<nodeSetd1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../automatic/against-and-supports.ttl.graffle>;
+.
+
+<http://dbpedia.org/resource/File_copying#d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/File_copying#d1a9169c-2367-4ddd-a8ae-fc4ce63f9ee4";
+.
+

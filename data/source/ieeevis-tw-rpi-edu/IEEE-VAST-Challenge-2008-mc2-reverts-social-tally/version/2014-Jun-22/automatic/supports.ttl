@@ -393,11 +393,11 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/SantiMonse>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/SantiMonse/supports/152/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/SantiMonse/supports/152_10_189_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/SantiMonse/supports/152/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/SantiMonse/supports/152_10_189_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/152>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/152_10_189_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/825>;
 .
@@ -473,11 +473,11 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cancerbero8>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Cancerbero8/supports/207/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Cancerbero8/supports/207_144_91_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Cancerbero8/supports/207/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Cancerbero8/supports/207_144_91_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/207>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/207_144_91_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/78>;
 .
@@ -493,11 +493,11 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/Amado/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/Amado__/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/Amado/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/Amado__/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Amado>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Amado__>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/709>;
 .
@@ -513,21 +513,21 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/66/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/66_66_125_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/66/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Socorro/supports/66_66_125_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/562>;
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gustava>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gustava/supports/61/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gustava/supports/61_9_148_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gustava/supports/61/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gustava/supports/61_9_148_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/61>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/61_9_148_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/39>;
 .
@@ -544,31 +544,31 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Salvatora>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Salvatora/supports/78/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Salvatora/supports/78_19_244_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Salvatora/supports/78/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Salvatora/supports/78_19_244_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/78>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/78_19_244_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/125>;
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/138/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/138_253_87_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/138/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/138_253_87_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/138>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/138_253_87_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/675>;
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/124/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/124_189_51_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/124/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Guillermina/supports/124_189_51_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124_189_51_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/670>;
 .
@@ -774,11 +774,11 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Sarita/supports/69/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Sarita/supports/69_26_121_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Sarita/supports/69/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Sarita/supports/69_26_121_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_26_121_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/403>;
 .
@@ -946,21 +946,21 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudis>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudis/supports/83/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudis/supports/83_221_150_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudis/supports/83/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudis/supports/83_221_150_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/83>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/83_221_150_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/163>;
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudes>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudes/supports/125/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudes/supports/125_238_243_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudes/supports/125/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Gertrudes/supports/125_238_243_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/125>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/125_238_243_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/139>;
 .
@@ -1006,11 +1006,11 @@
 .
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adan>
-   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Adan/supports/205/1>;
+   vocab:qualifiedSupports <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Adan/supports/205_227_165_x/1>;
 .
-<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Adan/supports/205/1>
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/version/2014-Jun-22/Adan/supports/205_227_165_x/1>
    a prov:EntityInfluence, qb:Observation, vocab:Supports;
-   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/205>;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/205_227_165_x>;
    sio:count 1;
    sio:has-member <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/100>;
 .

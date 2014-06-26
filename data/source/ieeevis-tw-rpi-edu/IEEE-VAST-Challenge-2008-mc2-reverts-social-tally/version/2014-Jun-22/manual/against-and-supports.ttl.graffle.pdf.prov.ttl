@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<against-and-supports.ttl.graffle.pdf>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T14:12:45-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://provenanceweb.org/formats/pronom/fmt/17#f76088d5-62bd-4add-ada1-48230e1e0464>;
+.
+<http://provenanceweb.org/formats/pronom/fmt/17#f76088d5-62bd-4add-ada1-48230e1e0464> a prov:Plan;
+  dcterms:date "2014-06-26T14:13:32-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://provenanceweb.org/formats/pronom/fmt/17>;
+.
+<http://provenanceweb.org/formats/pronom/fmt/17> a prov:Plan .
+<against-and-supports.ttl.graffle.pdf>
+   a nfo:FileDataObject;
+   nfo:fileName "against-and-supports.ttl.graffle.pdf";
+   nfo:hasHash <md5_9a6cc7e072202cc8fb7f6a2296f60133_time_1403806412>;
+.
+<md5_9a6cc7e072202cc8fb7f6a2296f60133_time_1403806412>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T14:13:32-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "9a6cc7e072202cc8fb7f6a2296f60133";
+.
+
+<../manual/against-and-supports.ttl.graffle>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T14:10:30-04:00"^^xsd:dateTime;
+.
+<against-and-supports.ttl.graffle.pdf> prov:wasDerivedFrom <../manual/against-and-supports.ttl.graffle> .
+<../manual/against-and-supports.ttl.graffle>
+   a nfo:FileDataObject;
+   nfo:fileName "../manual/against-and-supports.ttl.graffle";
+   nfo:hasHash <md5_34697baac6ea3e5257591e95b0e0b6a0_time_1403806412>;
+.
+<md5_34697baac6ea3e5257591e95b0e0b6a0_time_1403806412>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T14:13:32-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "34697baac6ea3e5257591e95b0e0b6a0";
+.
+
+<nodeSet/f76088d5-62bd-4add-ada1-48230e1e0464>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <against-and-supports.ttl.graffle.pdf>;
+   pmlj:isConsequentOf <inferenceStep/f76088d5-62bd-4add-ada1-48230e1e0464>;
+.
+<inferenceStep/f76088d5-62bd-4add-ada1-48230e1e0464>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetf76088d5-62bd-4add-ada1-48230e1e0464_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetf76088d5-62bd-4add-ada1-48230e1e0464_antecedent> );
+   pmlj:hasInferenceEngine <http://provenanceweb.org/formats/pronom/fmt/17#f76088d5-62bd-4add-ada1-48230e1e0464>;
+   pmlj:hasInferenceRule   <http://provenanceweb.org/formats/pronom/fmt/17>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/f76088d5-62bd-4add-ada1-48230e1e0464>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/f76088d5-62bd-4add-ada1-48230e1e0464>;
+   oprov:endTime "2014-06-26T14:13:31-04:00"^^xsd:dateTime;
+.
+<nodeSetf76088d5-62bd-4add-ada1-48230e1e0464_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../manual/against-and-supports.ttl.graffle>;
+.
+
+<http://provenanceweb.org/formats/pronom/fmt/17#f76088d5-62bd-4add-ada1-48230e1e0464>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://provenanceweb.org/formats/pronom/fmt/17#f76088d5-62bd-4add-ada1-48230e1e0464";
+.
+

@@ -39,17 +39,31 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix prov:    <http://www.w3.org/ns/prov#> .
 
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
 
 <reverts.rq.xml>
    a nfo:FileDataObject;
    nfo:fileName "reverts.rq.xml";
-   nfo:hasHash <md5_1069aa3aeed9faa5fcc149aa447d32c1_time_1403442933>;
+   nfo:hasHash <md5_9be06c4a5aa20fbc6a50ef75b9ce70dc_time_1403801346>;
 .
-<md5_1069aa3aeed9faa5fcc149aa447d32c1_time_1403442933>
+<md5_9be06c4a5aa20fbc6a50ef75b9ce70dc_time_1403801346>
    a nfo:FileHash; 
-   dcterms:date      "2014-06-22T09:15:33-04:00"^^xsd:dateTime;
+   dcterms:date      "2014-06-26T12:49:06-04:00"^^xsd:dateTime;
    nfo:hashAlgorithm "md5";
-   nfo:hashValue     "1069aa3aeed9faa5fcc149aa447d32c1";
+   nfo:hashValue     "9be06c4a5aa20fbc6a50ef75b9ce70dc";
 .
 
 
@@ -60,53 +74,53 @@
 
 <../../src/reverts.rq.xml>
    a pmlp:Information;
-   pmlp:hasModificationDateTime "2014-06-22T09:15:33-04:00"^^xsd:dateTime;
-   pmlp:hasReferenceSourceUsage <sourceusage96b6dbbc-d6a2-4f90-b884-b90068b225aa>;
+   pmlp:hasModificationDateTime "2014-06-26T12:49:06-04:00"^^xsd:dateTime;
+   pmlp:hasReferenceSourceUsage <sourceusage7e80daa6-fc55-4378-ada4-3f667720afb6>;
 .
 
-<sourceusage_96b6dbbc-d6a2-4f90-b884-b90068b225aa>
+<sourceusage_7e80daa6-fc55-4378-ada4-3f667720afb6>
    a pmlp:SourceUsage;
    pmlp:hasSource        <http://ieeevis.tw.rpi.edu/sparql?query=prefix%20rdfs%3a%20%20%20%20%3chttp%3a%2f%2fwww.w3.org%2f2000%2f01%2frdf-schema%23%3e%0aprefix%20prov%3a%20%20%20%20%3chttp%3a%2f%2fwww.w3.org%2fns%2fprov%23%3e%0aprefix%20user%3a%20%20%20%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2%2fversion%2f2008-Mar-15%2fuser%2f%3e%0aprefix%20reverts%3a%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts%2fvocab%2f%3e%0aprefix%20social%3a%20%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts-social%2fvocab%2f%3e%0a%0aselect%20distinct%20%3freverter%20%3fagainst%20%3fsupports%20%3frevert%0awhere%20%7b%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2%2fversion%2f2008-Mar-15%3e%20%7b%0a%20%20%20%20%20%3frevert%20prov%3awasAssociatedWith%20%3freverter%3b%0a%20%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3acomment%20%3fcomment%20.%0a%20%20%7d%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts%2fversion%2f2014-Jun-20%3e%20%7b%20%0a%20%20%20%20%3frevert%20a%20reverts%3aRevert%0a%20%20%7d%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts-social%2fversion%2f2014-Jun-21%3e%20%7b%0a%20%20%20%20%20%7b%20%3frevert%20social%3asupports%20%3fsupports%20%7d%0a%20%20%20%20%20union%20%0a%20%20%20%20%20%7b%20%3frevert%20social%3aagainst%20%20%3fagainst%20%20%7d%0a%20%20%7d%0a%7d%0agroup%20by%20%3freverter%20%3fsupports%20%3fagainst%0aorder%20by%20desc%28%3frevert%29&output=xml>;
-   pmlp:hasUsageDateTime "2014-06-22T09:15:33-04:00"^^xsd:dateTime;
+   pmlp:hasUsageDateTime "2014-06-26T12:49:06-04:00"^^xsd:dateTime;
 .
 
 <http://ieeevis.tw.rpi.edu/sparql?query=prefix%20rdfs%3a%20%20%20%20%3chttp%3a%2f%2fwww.w3.org%2f2000%2f01%2frdf-schema%23%3e%0aprefix%20prov%3a%20%20%20%20%3chttp%3a%2f%2fwww.w3.org%2fns%2fprov%23%3e%0aprefix%20user%3a%20%20%20%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2%2fversion%2f2008-Mar-15%2fuser%2f%3e%0aprefix%20reverts%3a%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts%2fvocab%2f%3e%0aprefix%20social%3a%20%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts-social%2fvocab%2f%3e%0a%0aselect%20distinct%20%3freverter%20%3fagainst%20%3fsupports%20%3frevert%0awhere%20%7b%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2%2fversion%2f2008-Mar-15%3e%20%7b%0a%20%20%20%20%20%3frevert%20prov%3awasAssociatedWith%20%3freverter%3b%0a%20%20%20%20%20%20%20%20%20%20%20%20%20rdfs%3acomment%20%3fcomment%20.%0a%20%20%7d%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts%2fversion%2f2014-Jun-20%3e%20%7b%20%0a%20%20%20%20%3frevert%20a%20reverts%3aRevert%0a%20%20%7d%0a%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fieeevis-tw-rpi-edu%2fdataset%2fIEEE-VAST-Challenge-2008-mc2-reverts-social%2fversion%2f2014-Jun-21%3e%20%7b%0a%20%20%20%20%20%7b%20%3frevert%20social%3asupports%20%3fsupports%20%7d%0a%20%20%20%20%20union%20%0a%20%20%20%20%20%7b%20%3frevert%20social%3aagainst%20%20%3fagainst%20%20%7d%0a%20%20%7d%0a%7d%0agroup%20by%20%3freverter%20%3fsupports%20%3fagainst%0aorder%20by%20desc%28%3frevert%29&output=xml>
    a pmlj:Query, pmlp:Source;
    pmlj:isFromEngine <http://ieeevis.tw.rpi.edu/sparql>;
-   pmlj:hasAnswer    <nodeset96b6dbbc-d6a2-4f90-b884-b90068b225aa>;
+   pmlj:hasAnswer    <nodeset7e80daa6-fc55-4378-ada4-3f667720afb6>;
 .
 
 <http://ieeevis.tw.rpi.edu/sparql>
    a pmlp:InferenceEngine, pmlp:WebService;
 .
 
-<nodeset_96b6dbbc-d6a2-4f90-b884-b90068b225aa>
+<nodeset_7e80daa6-fc55-4378-ada4-3f667720afb6>
    a pmlj:NodeSet;
    pmlj:hasConclusion <../../src/reverts.rq.xml>;
-   pmlj:isConsequentOf <inferenceStep_96b6dbbc-d6a2-4f90-b884-b90068b225aa>;
+   pmlj:isConsequentOf <inferenceStep_7e80daa6-fc55-4378-ada4-3f667720afb6>;
 .
-<inferenceStep_96b6dbbc-d6a2-4f90-b884-b90068b225aa>
+<inferenceStep_7e80daa6-fc55-4378-ada4-3f667720afb6>
    a pmlj:InferenceStep;
    pmlj:hasIndex 0;
    pmlj:hasAntecedentList (
-      [ a pmlj:NodeSet; pmlp:hasConclusion <query96b6dbbc-d6a2-4f90-b884-b90068b225aa> ]
+      [ a pmlj:NodeSet; pmlp:hasConclusion <query7e80daa6-fc55-4378-ada4-3f667720afb6> ]
       [ a pmlj:NodeSet; pmlp:hasConclusion [
             a pmlb:AttributeValuePair;
             pmlb:attribute "output"; pmlb:value "xml"
           ]
       ]
    );
-   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
-   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
 .
-<wasControlled_96b6dbbc-d6a2-4f90-b884-b90068b225aa>
+<wasControlled_7e80daa6-fc55-4378-ada4-3f667720afb6>
    a oprov:WasControlledBy;
-   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
-   oprov:effect <inferenceStep96b6dbbc-d6a2-4f90-b884-b90068b225aa>;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep7e80daa6-fc55-4378-ada4-3f667720afb6>;
    oprov:endTime ""^^xsd:dateTime;
 .
 
-<query_96b6dbbc-d6a2-4f90-b884-b90068b225aa>
+<query_7e80daa6-fc55-4378-ada4-3f667720afb6>
    a pmlb:AttributeValuePair;
    pmlb:attribute "query";
    pmlb:value     """prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>

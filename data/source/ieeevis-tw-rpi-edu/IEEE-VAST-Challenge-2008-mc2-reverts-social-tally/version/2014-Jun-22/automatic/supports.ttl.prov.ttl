@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<supports.ttl>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T12:49:12-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl#d62feef0-364f-42bd-aae3-572eadda81a4>;
+.
+<https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl#d62feef0-364f-42bd-aae3-572eadda81a4> a prov:Plan;
+  dcterms:date "2014-06-26T12:52:29-04:00"^^xsd:dateTime;
+  prov:specializationOf <https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl>;
+.
+<https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl> a prov:Plan .
+<supports.ttl>
+   a nfo:FileDataObject;
+   nfo:fileName "supports.ttl";
+   nfo:hasHash <md5_55598a9b63bd64a8ac22d533ec3a3def_time_1403801549>;
+.
+<md5_55598a9b63bd64a8ac22d533ec3a3def_time_1403801549>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T12:52:29-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "55598a9b63bd64a8ac22d533ec3a3def";
+.
+
+<../source/reverts.rq.xml>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-26T12:52:29-04:00"^^xsd:dateTime;
+.
+<supports.ttl> prov:wasDerivedFrom <../source/reverts.rq.xml> .
+<../source/reverts.rq.xml>
+   a nfo:FileDataObject;
+   nfo:fileName "../source/reverts.rq.xml";
+   nfo:hasHash <md5_9be06c4a5aa20fbc6a50ef75b9ce70dc_time_1403801549>;
+.
+<md5_9be06c4a5aa20fbc6a50ef75b9ce70dc_time_1403801549>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-26T12:52:29-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "9be06c4a5aa20fbc6a50ef75b9ce70dc";
+.
+
+<nodeSet/d62feef0-364f-42bd-aae3-572eadda81a4>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <supports.ttl>;
+   pmlj:isConsequentOf <inferenceStep/d62feef0-364f-42bd-aae3-572eadda81a4>;
+.
+<inferenceStep/d62feef0-364f-42bd-aae3-572eadda81a4>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetd62feef0-364f-42bd-aae3-572eadda81a4_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetd62feef0-364f-42bd-aae3-572eadda81a4_antecedent> );
+   pmlj:hasInferenceEngine <https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl#d62feef0-364f-42bd-aae3-572eadda81a4>;
+   pmlj:hasInferenceRule   <https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/d62feef0-364f-42bd-aae3-572eadda81a4>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/d62feef0-364f-42bd-aae3-572eadda81a4>;
+   oprov:endTime "2014-06-26T12:52:29-04:00"^^xsd:dateTime;
+.
+<nodeSetd62feef0-364f-42bd-aae3-572eadda81a4_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../source/reverts.rq.xml>;
+.
+
+<https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl#d62feef0-364f-42bd-aae3-572eadda81a4>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/src/group-by.xsl#d62feef0-364f-42bd-aae3-572eadda81a4";
+.
+

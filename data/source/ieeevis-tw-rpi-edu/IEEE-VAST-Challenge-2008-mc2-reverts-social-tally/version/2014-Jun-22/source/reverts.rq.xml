@@ -48,11 +48,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/98</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adan</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/98</uri></binding>
   </result>
@@ -193,12 +188,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/943</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/943</uri></binding>
   </result>
   <result>
@@ -218,11 +213,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80_175_28_x</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/932</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80_175_28_x</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124_186_233_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/932</uri></binding>
   </result>
@@ -239,11 +229,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Pablo6213</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/93</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/93</uri></binding>
   </result>
   <result>
@@ -272,16 +257,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/921</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Abelardo</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/89</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/921</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ricarda</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/919</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ricarda</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86_135_211_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/919</uri></binding>
@@ -293,12 +268,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rosario</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/64_25_200_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/914</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rosario</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/64</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/914</uri></binding>
   </result>
   <result>
@@ -313,18 +288,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Abelardo</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/58</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/912</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Abelardo</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/58_2_236_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/912</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/65</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/910</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
@@ -357,29 +322,14 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/892</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Jfreyre</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/65</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/892</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Eunispero</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ricarda</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/890</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/888</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86_16_191_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/888</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Paintman</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/886</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Paintman</uri></binding>
@@ -390,11 +340,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Paintman</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209_120_162_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/886</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Curcio</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/70</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/884</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Curcio</uri></binding>
@@ -413,28 +358,13 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/11</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/141</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/878</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/11</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/141_140_150_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/878</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/201</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/876</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/201_226_51_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/876</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Simona</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/88</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/873</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Simona</uri></binding>
@@ -453,11 +383,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Simona</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/88</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/871</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Simona</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Simona</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/871</uri></binding>
   </result>
@@ -468,23 +393,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/88</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/869</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/68_101_65_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/867</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/68</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/867</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Makila</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/862</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Makila</uri></binding>
@@ -495,11 +405,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Makila</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71_68_15_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/862</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Makila</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/860</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Makila</uri></binding>
@@ -548,18 +453,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/831</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/71_59_210_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/831</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/79_65_65_x</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/152</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/826</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/79_65_65_x</uri></binding>
@@ -568,17 +463,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/SantiMonse</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/79</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/825</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/SantiMonse</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/79_65_65_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/825</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/SantiMonse</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/152</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/152_10_189_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/825</uri></binding>
   </result>
   <result>
@@ -594,11 +484,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cansado</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/82</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/82</uri></binding>
   </result>
   <result>
@@ -622,18 +507,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/817</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/24</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/817</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rosalinda</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/24_168_142_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/815</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rosalinda</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/24</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/815</uri></binding>
   </result>
   <result>
@@ -644,11 +519,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75_81_8_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/813</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/813</uri></binding>
   </result>
   <result>
@@ -667,11 +537,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/808</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/204</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/808</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/805</uri></binding>
@@ -683,11 +548,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/803</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75_179_21_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/803</uri></binding>
   </result>
@@ -702,19 +562,9 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/801</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Hispa</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/801</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Moisescorral</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gustava</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/8</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sierra</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/87</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/799</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sierra</uri></binding>
@@ -748,11 +598,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/788</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209_155_27_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/788</uri></binding>
   </result>
@@ -777,39 +622,19 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/783</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edmenb</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/74</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/783</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ricarda</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_74_29_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/780</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ricarda</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/780</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cancerbero8</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/207</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/78</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cancerbero8</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/207_144_91_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/78</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cancerbero8</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_152_204_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/78</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alarico</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/86</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/775</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alarico</uri></binding>
@@ -862,11 +687,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/76</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/67</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/76</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rm99</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/VictoriaV</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/744</uri></binding>
@@ -897,18 +717,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/732</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/732</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cansado</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80_2_12_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/73</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cansado</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/73</uri></binding>
   </result>
   <result>
@@ -933,7 +743,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cansado</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/80_2_12_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/72</uri></binding>
   </result>
   <result>
@@ -943,18 +753,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/74</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/714</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/74_120_3_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/714</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Claudio</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/162</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/712</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Claudio</uri></binding>
@@ -962,8 +762,13 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/712</uri></binding>
   </result>
   <result>
+   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Claudio</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/162_129_251_x</uri></binding>
+   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/712</uri></binding>
+  </result>
+  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Amado</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Amado__</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/709</uri></binding>
   </result>
   <result>
@@ -975,11 +780,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Absalon</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/706</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/150</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/70</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
@@ -1012,11 +812,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/690</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Amado</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/90</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/690</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillebelloc</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/686</uri></binding>
@@ -1025,11 +820,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cristofor</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/220_239_201_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/681</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Salvatora</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/150</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/68</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Salvatora</uri></binding>
@@ -1048,17 +838,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/138</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/675</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/128</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/675</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/128_174_36_x</uri></binding>
+   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/675</uri></binding>
+  </result>
+  <result>
+   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/138_253_87_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/675</uri></binding>
   </result>
   <result>
@@ -1073,12 +858,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/670</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Guillermina</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/60</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/124_189_51_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/670</uri></binding>
   </result>
   <result>
@@ -1087,18 +867,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/664</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/131</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/664</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Solana</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/216_73_77_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/661</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Solana</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/216</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/661</uri></binding>
   </result>
   <result>
@@ -1122,16 +892,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/66</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/150</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/66</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/195</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/656</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/195_113_65_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/656</uri></binding>
@@ -1147,34 +907,14 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/654</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Romana</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/195</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/654</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/170_35_208_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/652</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/170</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/652</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alfredo</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82_152_249_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/646</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alfredo</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/646</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/DailosTamanca</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/644</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/DailosTamanca</uri></binding>
@@ -1184,11 +924,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Genoveva</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/DailosTamanca</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/642</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Genoveva</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/642</uri></binding>
   </result>
   <result>
@@ -1207,16 +942,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/640</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Mercenario97</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/640</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alfredo</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/638</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alfredo</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/82_152_249_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/638</uri></binding>
@@ -1228,22 +953,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/64</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/632</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/64_4_113_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/632</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cris</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/630</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cris</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/24</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/630</uri></binding>
   </result>
   <result>
@@ -1262,11 +977,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/63</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ismaelsmr</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/87</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/63</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Roldana</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/72_34_232_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/627</uri></binding>
@@ -1277,18 +987,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/621</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/621</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gerarda</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81_132_254_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/618</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gerarda</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/618</uri></binding>
   </result>
   <result>
@@ -1308,11 +1008,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ciro</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/614</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ciro</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81_132_254_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/614</uri></binding>
   </result>
@@ -1328,11 +1023,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Arate</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/608</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Arate</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Rjgalindo</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/608</uri></binding>
   </result>
@@ -1344,11 +1034,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/SilviaBot</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/604</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/604</uri></binding>
   </result>
   <result>
@@ -1432,11 +1117,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/574</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/574</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/573</uri></binding>
@@ -1453,18 +1133,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/572</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/572</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/570</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
@@ -1475,11 +1145,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/570</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sorruno</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/98</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/57</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sorruno</uri></binding>
@@ -1487,13 +1152,13 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/57</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/568</uri></binding>
+   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sorruno</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/98_203_74_x</uri></binding>
+   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/57</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/568</uri></binding>
   </result>
   <result>
@@ -1522,18 +1187,13 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/564</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Estirabot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/564</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/562</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Socorro</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_66_125_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/562</uri></binding>
   </result>
   <result>
@@ -1748,11 +1408,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cruz</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/421</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cruz</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81_86_206_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/421</uri></binding>
   </result>
@@ -1763,22 +1418,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/128</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/412</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/128_125_81_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/412</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/410</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/58</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/410</uri></binding>
   </result>
   <result>
@@ -1797,18 +1442,13 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/408</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Ginessa</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/76</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/408</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_26_121_x</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_26_121_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/403</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_26_121_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/403</uri></binding>
   </result>
   <result>
@@ -1820,11 +1460,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sarita</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/402</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Chkbot</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/74</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/400</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Chkbot</uri></binding>
@@ -1853,18 +1488,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alvaro</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/392</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Alvaro</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/392</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/390</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
@@ -1878,7 +1503,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gustava</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/61</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/61_9_148_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/39</uri></binding>
   </result>
   <result>
@@ -1894,11 +1519,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Niermague</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75_131_224_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/388</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Niermague</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/388</uri></binding>
   </result>
   <result>
@@ -1923,11 +1543,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/382</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gustava</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/38</uri></binding>
   </result>
@@ -1948,11 +1563,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/68</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/376</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/68_60_74_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/376</uri></binding>
   </result>
@@ -1967,18 +1577,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/373</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Seina</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/172</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/373</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Seina</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/371</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/207</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/371</uri></binding>
   </result>
   <result>
@@ -2025,6 +1625,11 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sara</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/337</uri></binding>
+  </result>
+  <result>
+   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adriano_S</uri></binding>
+   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/312</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
@@ -2202,18 +1807,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/170</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/206</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/170</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Airunp</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/168</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Airunp</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/76</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/168</uri></binding>
   </result>
   <result>
@@ -2223,17 +1818,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudis</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/83</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/83_221_150_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/163</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudis</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/144_132_141_x</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/163</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudis</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/144</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/163</uri></binding>
   </result>
   <result>
@@ -2244,11 +1834,6 @@
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/RASECZENITRAM</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudis</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/160</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/RASECZENITRAM</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/97</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/160</uri></binding>
   </result>
   <result>
@@ -2273,7 +1858,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/CommonsDelinker</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/200</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/200_119_211_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/143</uri></binding>
   </result>
   <result>
@@ -2283,23 +1868,13 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudes</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/125_238_243_x</uri></binding>
+   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/139</uri></binding>
+  </result>
+  <result>
+   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudes</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69_116_73_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/139</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudes</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/125</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/139</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gertrudes</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/69</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/139</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sisyfus</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/135</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Sisyfus</uri></binding>
@@ -2310,16 +1885,6 @@
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75_3_95_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/133</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/75</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/133</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Josecastro79</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/219</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/130</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Josecastro79</uri></binding>
@@ -2338,11 +1903,6 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Josecastro79</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/219</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/128</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Josecastro79</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Josecastro79</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/128</uri></binding>
   </result>
@@ -2358,12 +1918,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Salvatora</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/78</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/125</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Salvatora</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/209</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/78_19_244_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/125</uri></binding>
   </result>
   <result>
@@ -2377,19 +1932,9 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/123</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Honoria</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/12</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/123</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Diegoob</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Gafotas</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/121</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/24</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/119</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Edemir</uri></binding>
@@ -2403,7 +1948,7 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Cansado</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/66_215_77_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/115</uri></binding>
   </result>
   <result>
@@ -2422,11 +1967,6 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/113</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Remedios</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/203</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/113</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
    <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Remedios</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/111</uri></binding>
@@ -2437,13 +1977,8 @@
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/111</uri></binding>
   </result>
   <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/BakBOT</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/84</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/111</uri></binding>
-  </result>
-  <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Snakeyes</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/84</uri></binding>
+   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/84_158_202_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/108</uri></binding>
   </result>
   <result>
@@ -2458,18 +1993,8 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Angus</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/84</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/106</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Angus</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/84_9_145_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/106</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/81</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/103</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Agustin</uri></binding>
@@ -2483,17 +2008,12 @@
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adan</uri></binding>
-   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/205</uri></binding>
-   <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/100</uri></binding>
-  </result>
-  <result>
-   <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adan</uri></binding>
    <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/172_203_243_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/100</uri></binding>
   </result>
   <result>
    <binding name="reverter"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/Adan</uri></binding>
-   <binding name="against"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/172</uri></binding>
+   <binding name="supports"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/205_227_165_x</uri></binding>
    <binding name="revert"><uri>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/100</uri></binding>
   </result>
  </results>
