@@ -1,0 +1,100 @@
+2014-06-28T15:28:05-04:00
+342 rows in manual/submissions.rq.xlsx.csv
+E1 CONVERSION
+========== edu.rpi.tw.data.csv.CSVtoRDF version 2014-May-29 initiated:
+fileName:                     manual/submissions.rq.xlsx.csv
+sampleLimit:                  10
+enhancementParametersURL:     manual/submissions.rq.xlsx.csv.global.e1.params.ttl
+VoIDDumpExtensions:           ttl.gz
+outputFileName:               automatic/submissions.rq.xlsx.csv.e1.sample.ttl
+converterIdentifier:          csv2rdf4lod_92ec096603a21b573af51009bc16e229
+==============================
+BaseURIQuerylet(*) .http://ieeevis.tw.rpi.edu.
+SourceIdentifierQuerylet(*) .ieeevis-tw-rpi-edu.
+DatasetIdentifierQuerylet(*) .hcil-va-benchmark-tool-usage.
+VersionIdentifierQuerylet(*) .2014-Jun-27.
+SubClassOfQuerylet(*) .Tool. -> .http://usefulinc.com/ns/doap#Project.
+OmittedColumnsQuerylet(1)
+ExistingBundleQuerylet: 2 bundled by [1]
+ObjectTemplateQuerylet(3) .http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#[.].
+SubpropertyOfQuerylet(3) .http://www.w3.org/ns/prov#wasDerivedFrom.
+TypedResourcePromotionQuerylet(3) .Error.
+InterpretedAsNullQuerylet(*) ..
+InterpretedAsNullQuerylet(*) .-.
+DomainTemplateQuerylet(*) .[#1].
+
+subjectNS:   :  http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/version/2014-Jun-27/
+predicateNS: e1:  http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/
+
+CellDelimiterQuerylet(*) .,.
+headers present at row 1: submission,hcil,Error,Challenge Type,Tool 1,Tool 2,Tool 3,Tool 4,Tool 5,,,,,,,,,,,,,
+
+RangeQuerylet(1) .http://www.w3.org/2000/01/rdf-schema#Literal.
+RangeQuerylet(2) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(2) .http://www.w3.org/ns/prov#specializationOf.
+2: "hcil" -> "hcil" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/hcil (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(3) .http://www.w3.org/2000/01/rdf-schema#Resource.
+       EquivalentPropertyQueryletChainHead(3) .http://www.w3.org/ns/prov#hadDerivation.
+3: "Error" -> "Error" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/error (rdfs:Resource)
+----------------------------------------------------------------------------------------------------
+RangeQuerylet(4) .http://www.w3.org/2000/01/rdf-schema#Literal.
+4: "Challenge Type" -> "Challenge Type" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/challenge_type (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+5: "Tool 1" -> "Tool 1" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/tool_1 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+6: "Tool 2" -> "Tool 2" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/tool_2 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+7: "Tool 3" -> "Tool 3" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/tool_3 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+8: "Tool 4" -> "Tool 4" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/tool_4 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+9: "Tool 5" -> "Tool 5" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/tool_5 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+10: "" -> "column_10" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_10 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+11: "" -> "column_11" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_11 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+12: "" -> "column_12" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_12 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+13: "" -> "column_13" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_13 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+14: "" -> "column_14" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_14 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+15: "" -> "column_15" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_15 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+16: "" -> "column_16" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_16 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+17: "" -> "column_17" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_17 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+18: "" -> "column_18" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_18 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+19: "" -> "column_19" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_19 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+20: "" -> "column_20" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_20 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+21: "" -> "column_21" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_21 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+22: "" -> "column_22" -> http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/hcil-va-benchmark-tool-usage/vocab/enhancement/1/column_22 (rdfs:Literal)
+----------------------------------------------------------------------------------------------------
+
+
+(existing bundle) ERROR: 2 failed to bundle into 1 - it is not a resource. change it's conversion:range to rdfs:Resource.
+    bundle range: VerbatimLiteralValueHandler
+    http://ieeevis.tw.rpi.edu/instance/external/submission/90b3f5b6dbaa1ce065c4f081461a2e88 false false
+2: could not name existing bundle: [1] hcil [2] => (http://ieeevis.tw.rpi.edu/instance/external/submission/90b3f5b6dbaa1ce065c4f081461a2e88, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/EVAT%20-%20Environment%20for%20Visualization%20and%20Analysis) => (null, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/EVAT%20-%20Environment%20for%20Visualization%20and%20Analysis)
+(existing bundle) ERROR: 2 failed to bundle into 1 - it is not a resource. change it's conversion:range to rdfs:Resource.
+    bundle range: VerbatimLiteralValueHandler
+    http://ieeevis.tw.rpi.edu/instance/external/submission/1d2829052ea94ce3434d6c5c51c79a8b false false
+3: could not name existing bundle: [1] hcil [2] => (http://ieeevis.tw.rpi.edu/instance/external/submission/1d2829052ea94ce3434d6c5c51c79a8b, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/TaxoNote) => (null, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/TaxoNote)
+(existing bundle) ERROR: 2 failed to bundle into 1 - it is not a resource. change it's conversion:range to rdfs:Resource.
+    bundle range: VerbatimLiteralValueHandler
+    http://ieeevis.tw.rpi.edu/instance/external/submission/41acedfccbe9f4213454335adeddd0ff false false
+4: could not name existing bundle: [1] hcil [2] => (http://ieeevis.tw.rpi.edu/instance/external/submission/41acedfccbe9f4213454335adeddd0ff, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/TreeJuxtaposer) => (null, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/TreeJuxtaposer)
+(existing bundle) ERROR: 2 failed to bundle into 1 - it is not a resource. change it's conversion:range to rdfs:Resource.
+    bundle range: VerbatimLiteralValueHandler
+    http://ieeevis.tw.rpi.edu/instance/external/submission/81dc8fc7e5d96d1bcfb46e9eb1553f38 false false
+5: could not name existing bundle: [1] hcil [2] => (http://ieeevis.tw.rpi.edu/instance/external/submission/81dc8fc7e5d96d1bcfb46e9eb1553f38, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/Treemap,%20Radial%20Tree,%20and%203D%20Tree%20Visualizations) => (null, hcil, http://hcil2.cs.umd.edu/newvarepository/InfoVis%20Contest%202003/challenges/Visualization%20and%20pair%20wise%20comparison%20of%20trees/entries/Treemap,%20Radial%20Tree,%20and%203D%20Tree%20Visualizations)
+(existing bundle) ERROR: 2 failed to bundle into 1 - it is not a resource. change it's conversion:range to rdfs:Resource.
+    bundle range: VerbatimLiteralValueHandler
+    http://ieeevis.tw.rpi.edu/instance/external/submission/1839fbb8f33d75edd8d51fcbdf00b6ed false false

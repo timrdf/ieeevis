@@ -1,0 +1,93 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<submissions.rq.xlsx.csv>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-28T15:17:22-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <justify.sh#a71159fc-41bb-4bbe-8e8a-1d4fd934891c>;
+.
+<justify.sh#a71159fc-41bb-4bbe-8e8a-1d4fd934891c> a prov:Plan;
+  dcterms:date "2014-06-28T15:17:44-04:00"^^xsd:dateTime;
+  prov:specializationOf conv:justify.sh_Method;
+.
+conv:justify.sh_Method a prov:Plan .
+<submissions.rq.xlsx.csv>
+   a nfo:FileDataObject;
+   nfo:fileName "submissions.rq.xlsx.csv";
+   nfo:hasHash <md5_217f7470f117722000704bb66614f45d_time_1403983064>;
+.
+<md5_217f7470f117722000704bb66614f45d_time_1403983064>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-28T15:17:44-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "217f7470f117722000704bb66614f45d";
+.
+
+<../manual/submissions.rq.xlsx>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-28T15:16:19-04:00"^^xsd:dateTime;
+.
+<submissions.rq.xlsx.csv> prov:wasDerivedFrom <../manual/submissions.rq.xlsx> .
+<../manual/submissions.rq.xlsx>
+   a nfo:FileDataObject;
+   nfo:fileName "../manual/submissions.rq.xlsx";
+   nfo:hasHash <md5_9b7eb4e2ec010a45e217330d79405a9f_time_1403983064>;
+.
+<md5_9b7eb4e2ec010a45e217330d79405a9f_time_1403983064>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-28T15:17:44-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "9b7eb4e2ec010a45e217330d79405a9f";
+.
+
+<nodeSet/a71159fc-41bb-4bbe-8e8a-1d4fd934891c>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <submissions.rq.xlsx.csv>;
+   pmlj:isConsequentOf <inferenceStep/a71159fc-41bb-4bbe-8e8a-1d4fd934891c>;
+.
+<inferenceStep/a71159fc-41bb-4bbe-8e8a-1d4fd934891c>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSeta71159fc-41bb-4bbe-8e8a-1d4fd934891c_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSeta71159fc-41bb-4bbe-8e8a-1d4fd934891c_antecedent> );
+   pmlj:hasInferenceEngine <justify.sh#a71159fc-41bb-4bbe-8e8a-1d4fd934891c>;
+   pmlj:hasInferenceRule   conv:justify.sh_Method;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/a71159fc-41bb-4bbe-8e8a-1d4fd934891c>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/a71159fc-41bb-4bbe-8e8a-1d4fd934891c>;
+   oprov:endTime "2014-06-28T15:17:44-04:00"^^xsd:dateTime;
+.
+<nodeSeta71159fc-41bb-4bbe-8e8a-1d4fd934891c_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../manual/submissions.rq.xlsx>;
+.
+
+<justify.sh#a71159fc-41bb-4bbe-8e8a-1d4fd934891c>
+   a pmlp:InferenceEngine, conv:Justify.sh_Engine, prov:Entity;
+   dcterms:identifier "justify.sh#a71159fc-41bb-4bbe-8e8a-1d4fd934891c";
+.
+
+conv:Justify.sh_Engine rdfs:subClassOf pmlp:InferenceEngine .
