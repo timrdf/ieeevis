@@ -144,7 +144,7 @@ if [[ ! -d $version || ! -d $version/source || `find $version -empty -type d -na
          mkdir manual
       fi
 
-      cp ../2014-May-09/.grddl.sh-541289f8350f187414cdd3332ba6ce97.xsl .
+      cp ../../src/grddl.xsl .grddl.sh-541289f8350f187414cdd3332ba6ce97.xsl
       retrieved_files=`find source -newer source/.__CSV2RDF4LOD_retrieval -type f | grep -v "pml.ttl$" | grep -v "cr-droid.ttl$"`
 
       all_rdf="yes"

@@ -43,3 +43,59 @@
    a dcat:Dataset;
    dcat:distribution <distribution/49f7e2c3f4bad93b419b9f206c8513b9>;
 .
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003/version/2003-Apr-16>
+   prov:wasDerivedFrom <distribution/a99ae3db918073952124c4ab900498db>;
+.
+
+<distribution/a99ae3db918073952124c4ab900498db>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/iv03contest/phylo/ABCYIM.pir>;
+.
+
+<dataset/a99ae3db918073952124c4ab900498db>
+   a dcat:Dataset;
+   dcat:distribution <distribution/a99ae3db918073952124c4ab900498db>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003/version/2003-Apr-16>
+   prov:wasDerivedFrom <distribution/006c7856808538a8d17d8525d1c0db22>;
+.
+
+<distribution/006c7856808538a8d17d8525d1c0db22>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/iv03contest/phylo/ABCYabc.pir>;
+.
+
+<dataset/006c7856808538a8d17d8525d1c0db22>
+   a dcat:Dataset;
+   dcat:distribution <distribution/006c7856808538a8d17d8525d1c0db22>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003/version/2003-Apr-16>
+   prov:wasDerivedFrom <distribution/59ab18ea6b857f1ea183ad1f295fc0ac>;
+.
+
+<distribution/59ab18ea6b857f1ea183ad1f295fc0ac>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/iv03contest/phylo/ABCYIM.phy>;
+.
+
+<dataset/59ab18ea6b857f1ea183ad1f295fc0ac>
+   a dcat:Dataset;
+   dcat:distribution <distribution/59ab18ea6b857f1ea183ad1f295fc0ac>;
+.
+
+<http://localhost/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003/version/2003-Apr-16>
+   prov:wasDerivedFrom <distribution/bae3a0c46153250a59c79f1924f94780>;
+.
+
+<distribution/bae3a0c46153250a59c79f1924f94780>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www.cs.umd.edu/hcil/iv03contest/phylo/ABCYabc.phy>;
+.
+
+<dataset/bae3a0c46153250a59c79f1924f94780>
+   a dcat:Dataset;
+   dcat:distribution <distribution/bae3a0c46153250a59c79f1924f94780>;
+.

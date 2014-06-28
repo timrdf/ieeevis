@@ -134,6 +134,10 @@
             conversion:regex          "^MC ";
             conversion:interpretation "MiniChallenge";
          ];
+         conversion:interpret [
+            conversion:symbol         "Grand Challenge";
+            conversion:interpretation "GrandChallenge";
+         ];
          conversion:range_template  "[/sd]vocab/[.]Submission";
          conversion:range   rdfs:Resource;
          #conversion:range_name  "Thing";

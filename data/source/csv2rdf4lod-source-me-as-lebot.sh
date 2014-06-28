@@ -5,9 +5,12 @@
 
 export CSV2RDF4LOD_CONVERT_PERSON_URI="http://tw.rpi.edu/instances/TimLebo"
 source /home/lebot/prizms/ieeevis/data/source/csv2rdf4lod-source-me-for-ieeevis.sh
-alias ieeevis='sudo su ieeevis'
-export PATH=$PATH`/home/lebot/opt/prizms/bin/install/paths.sh`
-export CLASSPATH=$CLASSPATH`/home/lebot/opt/prizms/bin/install/classpaths.sh`
-export CSV2RDF4LOD_HOME="/home/lebot/opt/prizms/repos/csv2rdf4lod-automation"
-export JENAROOT=/home/lebot/opt/apache-jena-2.10.0
-export DATAFAQS_HOME="/home/lebot/opt/prizms/repos/DataFAQs"
+CSV2RDF4LOD_BASE_URI_OVERRIDE=''
+if [[ -z "$CSV2RDF4LOD_CONFIG_OMIT" ]]; then
+   alias ieeevis='sudo su ieeevis'
+   export PATH=$PATH`/home/lebot/opt/prizms/bin/install/paths.sh`
+   export CLASSPATH=$CLASSPATH`/home/lebot/opt/prizms/bin/install/classpaths.sh`
+   export CSV2RDF4LOD_HOME="/home/lebot/opt/prizms/repos/csv2rdf4lod-automation"
+   export JENAROOT=/home/lebot/opt/apache-jena-2.10.0
+   export DATAFAQS_HOME="/home/lebot/opt/prizms/repos/DataFAQs"
+fi
