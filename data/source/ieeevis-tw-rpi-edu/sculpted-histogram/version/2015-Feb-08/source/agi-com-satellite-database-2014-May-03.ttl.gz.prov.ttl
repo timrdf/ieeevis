@@ -1,0 +1,154 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix httphead:   <http://inference-web.org/registry/MPR/HTTP_1_1_HEAD.owl#> .
+@prefix httpget:    <http://inference-web.org/registry/MPR/HTTP_1_1_GET.owl#> .
+@prefix httppost:   <http://inference-web.org/registry/MPR/HTTP_1_1_POST.owl#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2>
+   a prov:Entity;
+.
+<http://tw.rpi.edu/instances/TimLebo>
+  a prov:Agent, foaf:Agent;
+  foaf:holdsAccount <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+<http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>
+   a foaf:OnlineAccount, prov:Agent;
+   foaf:accountName "lebot";
+   dcterms:isPartOf <http://purl.org/twc/id/machine/lebot/MacBookPro6_2>;
+   sioc:account_of      <http://tw.rpi.edu/instances/TimLebo>;
+   prov:actedOnBehalfOf <http://tw.rpi.edu/instances/TimLebo>;
+.
+
+<http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>
+   a pmlp:Source, prov:Entity;
+.
+
+<http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>
+   a pmlp:Source, prov:Entity;
+   pmlp:hasModificationDateTime "2014-05-03T19:47:00"^^xsd:dateTime;
+   dcterms:modified             "2014-05-03T19:47:00"^^xsd:dateTime;
+.
+
+<agi-com-satellite-database-2014-May-03.ttl.gz>
+   a nfo:FileDataObject, prov:Entity, pmlp:Information;
+   prov:wasQuotedFrom      <http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>;
+   prov:qualifiedQuotation <quotation_16a9400c-d74e-4e8c-8a22-f64628998dc2>;
+   pmlp:hasReferenceSourceUsage <sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_content>;
+.
+<agi-com-satellite-database-2014-May-03.ttl.gz>
+   a nfo:FileDataObject;
+   nfo:fileName "agi-com-satellite-database-2014-May-03.ttl.gz";
+   nfo:hasHash <md5_4a79d2ce352e4fa051cfea91913777d1_time_1423421113>;
+.
+<md5_4a79d2ce352e4fa051cfea91913777d1_time_1423421113>
+   a nfo:FileHash; 
+   dcterms:date      "2015-02-08T13:45:13-05:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "4a79d2ce352e4fa051cfea91913777d1";
+.
+
+<nodeSet16a9400c-d74e-4e8c-8a22-f64628998dc2_content>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <agi-com-satellite-database-2014-May-03.ttl.gz>;
+   pmlj:isConsequentOf <inferenceStep16a9400c-d74e-4e8c-8a22-f64628998dc2_content>;
+.
+<inferenceStep16a9400c-d74e-4e8c-8a22-f64628998dc2_content>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_content>;
+   pmlj:hasInferenceEngine conv:curl_md5_4e2942f66807bfe6bc23942b78c3142f;
+   pmlj:hasInferenceRule   httpget:HTTP_1_1_GET;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<quotation_16a9400c-d74e-4e8c-8a22-f64628998dc2>
+   a prov:Quotation;
+   prov:entity <http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>;
+   prov:atTime "2015-02-08T13:45:09-05:00"^^xsd:dateTime;
+.
+
+<sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_content>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>;
+   pmlp:hasUsageDateTime "2015-02-08T13:45:09-05:00"^^xsd:dateTime;
+.
+
+<wasControlledBy16a9400c-d74e-4e8c-8a22-f64628998dc2_content>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <inferenceStep16a9400c-d74e-4e8c-8a22-f64628998dc2_content>;
+   oprov:endTime "2015-02-08T13:45:09-05:00"^^xsd:dateTime;
+.
+ 
+<info16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>
+   a pmlp:Information, conv:HTTPHeader;
+   pmlp:hasRawString """HTTP/1.1 200 OK
+Date: Sun, 08 Feb 2015 18:44:02 GMT
+Server: Apache/2.2.14 (Ubuntu)
+Last-Modified: Sat, 03 May 2014 19:47:00 GMT
+ETag: "143a0133-1b1ec8-4f8842965add8"
+Accept-Ranges: bytes
+Content-Length: 1777352
+Content-Type: application/x-gzip
+Via: 1.1 ieeevis.tw.rpi.edu
+""";
+   pmlp:hasReferenceSourceUsage <sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>;
+.
+ 
+<nodeSet16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <info16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>;
+   pmlj:isConsequentOf <inferenceStep16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>;
+.
+<inferenceStep16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList ();
+   pmlj:hasSourceUsage     <sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>;
+   pmlj:hasInferenceEngine conv:curl_md5_4e2942f66807bfe6bc23942b78c3142f;
+   pmlj:hasInferenceRule   httphead:HTTP_1_1_HEAD;
+   oboro:has_agent          <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   hartigprov:involvedActor <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+.
+
+<sourceUsage16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://ieeevis.tw.rpi.edu/source/agi-com/file/satellite-database/version/2014-May-03/conversion/agi-com-satellite-database-2014-May-03.ttl.gz>;
+   pmlp:hasUsageDateTime "2015-02-08T13:45:09-05:00"^^xsd:dateTime;
+.
+<wasControlledBy16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>
+   a oprov:WasControlledBy;
+   oprov:cause  <http://purl.org/twc/id/machine/lebot/MacBookPro6_2#lebot>;
+   oprov:effect <nodeSet16a9400c-d74e-4e8c-8a22-f64628998dc2_url_header>;
+   oprov:endTime "2015-02-08T13:45:09-05:00"^^xsd:dateTime;
+.
+
+
+conv:curl_md5_4e2942f66807bfe6bc23942b78c3142f
+   a prov:Agent, pmlp:InferenceEngine, conv:Curl;
+   dcterms:identifier "md5_4e2942f66807bfe6bc23942b78c3142f";
+   dcterms:description """curl 7.37.1 (x86_64-apple-darwin14.0) libcurl/7.37.1 SecureTransport zlib/1.2.5
+Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp 
+Features: AsynchDNS GSS-Negotiate IPv6 Largefile NTLM NTLM_WB SSL libz """;
+.
+
+conv:Curl rdfs:subClassOf pmlp:InferenceEngine .
