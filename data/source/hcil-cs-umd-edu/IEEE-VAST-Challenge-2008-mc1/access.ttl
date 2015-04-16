@@ -1,0 +1,28 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix doap:       <http://usefulinc.com/ns/doap#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "hcil-cs-umd-edu";
+   conversion:dataset_identifier "IEEE-VAST-Challenge-2008-mc1";
+   conversion:identifier         "6b48c5e36ad389554215aafa199aceb6";
+   prov:wasDerivedFrom <distribution/f07948b546481e3d51846539ceedc18d>;
+.
+
+<distribution/f07948b546481e3d51846539ceedc18d>
+   a dcat:Distribution;
+   dcat:downloadURL <http://hcil2.cs.umd.edu/newvarepository/VAST%20Challenge%202008/challenges/MC1%20-%20Wiki%20Editors/dataset/VASTchallenge08-20080315-Deinosuchus.zip>;
+.
+
+<dataset/f07948b546481e3d51846539ceedc18d>
+   a dcat:Dataset;
+   dcat:distribution <distribution/f07948b546481e3d51846539ceedc18d>;
+.
