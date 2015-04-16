@@ -64,10 +64,15 @@
 
       rdfs:seeAlso <https://github.com/timrdf/pvcs/wiki/Modeling-Wiki-Edits-with-PROV>;
 
-      #conversion:enhance [
-      #   ov:csvRow 2;
-      #   a conversion:DataStartRow;
-      #];
+      conversion:enhance [
+         ov:csvRow 0;
+         a conversion:HeaderRow;
+      ];
+
+      conversion:enhance [
+         ov:csvRow 5;
+         a conversion:DataStartRow;
+      ];
 
       conversion:delimits_cell ",";
       #conversion:delimits_cell "	"; # tab
