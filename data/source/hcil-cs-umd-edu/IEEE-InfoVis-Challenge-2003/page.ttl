@@ -17,3 +17,7 @@
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003>
    foaf:page <http://www.cs.umd.edu/hcil/iv03contest/phylo/phylo.html>;
 .
+
+<http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-InfoVis-Challenge-2003>
+   foaf:page <http://bess.u-strasbg.fr/BioInfo/ClustalW/>;
+.

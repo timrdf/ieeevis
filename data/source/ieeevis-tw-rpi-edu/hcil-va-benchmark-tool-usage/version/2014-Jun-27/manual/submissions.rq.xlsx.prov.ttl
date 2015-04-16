@@ -1,0 +1,92 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw: <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<submissions.rq.xlsx>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-28T15:12:29-04:00"^^xsd:dateTime;
+   pml:wasGeneratedWithPlan <http://dbpedia.org/resource/Microsoft_Excel#d89a7c87-446d-4eae-a585-61640c6184db>;
+.
+<http://dbpedia.org/resource/Microsoft_Excel#d89a7c87-446d-4eae-a585-61640c6184db> a prov:Plan;
+  dcterms:date "2014-06-28T15:15:41-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/Microsoft_Excel>;
+.
+<http://dbpedia.org/resource/Microsoft_Excel> a prov:Plan .
+<submissions.rq.xlsx>
+   a nfo:FileDataObject;
+   nfo:fileName "submissions.rq.xlsx";
+   nfo:hasHash <md5_9b7eb4e2ec010a45e217330d79405a9f_time_1403982941>;
+.
+<md5_9b7eb4e2ec010a45e217330d79405a9f_time_1403982941>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-28T15:15:41-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "9b7eb4e2ec010a45e217330d79405a9f";
+.
+
+<../source/submissions.rq.csv>
+   a pmlp:Information, prov:Entity;
+   pmlp:hasModificationDateTime "2014-06-27T17:01:48-04:00"^^xsd:dateTime;
+.
+<submissions.rq.xlsx> prov:wasDerivedFrom <../source/submissions.rq.csv> .
+<../source/submissions.rq.csv>
+   a nfo:FileDataObject;
+   nfo:fileName "../source/submissions.rq.csv";
+   nfo:hasHash <md5_5ec786b771fa0321fa0f40f9412c5b97_time_1403982941>;
+.
+<md5_5ec786b771fa0321fa0f40f9412c5b97_time_1403982941>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-28T15:15:41-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "5ec786b771fa0321fa0f40f9412c5b97";
+.
+
+<nodeSet/d89a7c87-446d-4eae-a585-61640c6184db>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <submissions.rq.xlsx>;
+   pmlj:isConsequentOf <inferenceStep/d89a7c87-446d-4eae-a585-61640c6184db>;
+.
+<inferenceStep/d89a7c87-446d-4eae-a585-61640c6184db>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetd89a7c87-446d-4eae-a585-61640c6184db_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetd89a7c87-446d-4eae-a585-61640c6184db_antecedent> );
+   pmlj:hasInferenceEngine <http://dbpedia.org/resource/Microsoft_Excel#d89a7c87-446d-4eae-a585-61640c6184db>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/Microsoft_Excel>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/d89a7c87-446d-4eae-a585-61640c6184db>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/d89a7c87-446d-4eae-a585-61640c6184db>;
+   oprov:endTime "2014-06-28T15:15:41-04:00"^^xsd:dateTime;
+.
+<nodeSetd89a7c87-446d-4eae-a585-61640c6184db_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../source/submissions.rq.csv>;
+.
+
+<http://dbpedia.org/resource/Microsoft_Excel#d89a7c87-446d-4eae-a585-61640c6184db>
+   a pmlp:InferenceEngine, prov:Entity;
+   dcterms:identifier "http://dbpedia.org/resource/Microsoft_Excel#d89a7c87-446d-4eae-a585-61640c6184db";
+.
+

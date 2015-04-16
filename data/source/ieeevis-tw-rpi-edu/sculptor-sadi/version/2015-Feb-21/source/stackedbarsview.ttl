@@ -1,0 +1,63 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pmlp: <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix moby: <http://www.mygrid.org.uk/mygrid-moby-service#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pml: <http://provenanceweb.org/ns/pml#> .
+
+<http://ieeevis.tw.rpi.edu/views/StackedBarsView> prov:specializationOf <java:views.StackedBarsView> ;
+   dcterms:title "Stacked Bar Chart" ;
+   a <http://ieeevis.tw.rpi.edu/functioning/Function> , moby:serviceDescription , pmlp:WebService ;
+   moby:hasServiceDescriptionText "Stacked Bar Chart" ;
+   moby:hasOperation <http://ieeevis.tw.rpi.edu/views/StackedBarsView/op> .
+
+<http://ieeevis.tw.rpi.edu/views/StackedBarsView/op> moby:inputParameter <http://ieeevis.tw.rpi.edu/views/StackedBarsView/op/in> ;
+   a moby:operation .
+
+<http://ieeevis.tw.rpi.edu/views/StackedBarsView/op/in> a moby:parameter ;
+   moby:objectType <http://ieeevis.tw.rpi.edu/id/sparql-query/3d65bd9ad7476259e9c3880b07dbbbfb?bin=> .
+
+<http://ieeevis.tw.rpi.edu/id/sparql-query/3d65bd9ad7476259e9c3880b07dbbbfb?bin=> rdfs:subClassOf pml:Variable ;
+   dcterms:identifier "?bin" ;
+   rdfs:isDefinedBy <http://ieeevis.tw.rpi.edu/id/sparql-query/3d65bd9ad7476259e9c3880b07dbbbfb> ;
+   a owl:Class .
+
+<http://ieeevis.tw.rpi.edu/id/sparql-query/3d65bd9ad7476259e9c3880b07dbbbfb> prov:value """prefix dcterms: <http://purl.org/dc/terms/>
+prefix vsr:     <http://purl.org/twc/vocab/vsr#>
+prefix sio:     <http://semanticscience.org/resource/>
+prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl:     <http://www.w3.org/2002/07/owl#>
+prefix prov:    <http://www.w3.org/ns/prov#>
+
+select ?bin ?count ?dimension ?value ?subBin ?subDimension ?subValue ?subCount ?subIdentifier
+where {
+  ?bin
+    sio:count ?count;
+    owl:onProperty ?dimension;
+    rdf:type vsr:Bin;
+    dcterms:hasPart ?subBin;
+    owl:hasValue ?value
+  .
+  ?subBin
+    dcterms:identifier ?subIdentifier;
+    sio:count ?subCount;
+    owl:onProperty ?subDimension;
+    rdf:type vsr:Bin;
+    owl:hasValue ?subValue
+  .
+  optional {
+    ?histogram
+      rdf:type sio:SIO_000911;
+      dcterms:hasPart ?bin
+    .
+  }  
+  optional {
+    ?bin
+      prov:hadMember ?member
+    .
+  }  
+}
+""" ;
+   a <http://purl.org/net/provenance/types#SPARQLQuery> .

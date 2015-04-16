@@ -1,0 +1,29 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix doap:       <http://usefulinc.com/ns/doap#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/brendano-github-com/dataset/twitter_geo_preproc>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "brendano-github-com";
+   conversion:dataset_identifier "twitter_geo_preproc";
+   conversion:identifier         "896affbce24763accb63a4872ddbe647";
+   prov:wasDerivedFrom <distribution/25687ca49739c308454a69e4a159cfa0>;
+.
+
+<distribution/25687ca49739c308454a69e4a159cfa0>
+   a dcat:Distribution;
+   a doap:GitRepository;
+   dcat:downloadURL <https://github.com/brendano/twitter_geo_preproc.git>;
+.
+
+<dataset/25687ca49739c308454a69e4a159cfa0>
+   a dcat:Dataset;
+   dcat:distribution <distribution/25687ca49739c308454a69e4a159cfa0>;
+.

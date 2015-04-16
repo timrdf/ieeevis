@@ -1,0 +1,123 @@
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:        <http://www.w3.org/2002/07/owl#> .
+@prefix wgs:        <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix doap:       <http://usefulinc.com/ns/doap#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix skos:       <http://www.w3.org/2004/02/skos/core#> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix ov:         <http://open.vocab.org/terms/> .
+@prefix frbr:       <http://purl.org/vocab/frbr/core#> .
+@prefix qb:         <http://purl.org/linked-data/cube#> .
+@prefix sd:         <http://www.w3.org/ns/sparql-service-description#> .
+@prefix moby:       <http://www.mygrid.org.uk/mygrid-moby-service#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix dbpedia:    <http://dbpedia.org/resource/> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix sio:        <http://semanticscience.org/resource/> .
+@prefix org:        <http://www.w3.org/ns/org#> .
+@prefix vsr:        <http://purl.org/twc/vocab/vsr#> .
+@prefix cogs:       <http://vocab.deri.ie/cogs#> .
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+@prefix twi:        <http://tw.rpi.edu/instances/> .
+
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix pmlb:       <http://inference-web.org/2.b/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<submissions.rq.csv>
+   a nfo:FileDataObject;
+   nfo:fileName "submissions.rq.csv";
+   nfo:hasHash <md5_5ec786b771fa0321fa0f40f9412c5b97_time_1403902856>;
+.
+<md5_5ec786b771fa0321fa0f40f9412c5b97_time_1403902856>
+   a nfo:FileHash; 
+   dcterms:date      "2014-06-27T17:00:56-04:00"^^xsd:dateTime;
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "5ec786b771fa0321fa0f40f9412c5b97";
+.
+
+
+<submissions.rq.csv>
+   a prov:Entity;
+   prov:wasQuotedFrom <http://ieeevis.tw.rpi.edu/sparql?query=prefix%20prov%3a%20%3chttp%3a%2f%2fwww.w3.org%2fns%2fprov%23%3e%0aprefix%20vabr%3a%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fvocab%2f%3e%0a%0aselect%20distinct%20%3fsubmission%20%3fhcil%0awhere%20%7b%0a%20%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fversion%2fwget%3e%20%7b%0a%20%20%20%20%20%20%3fsubmission%20a%20vabr%3aSubmission%0a%20%20%20%20%20%20optional%20%7b%20%3fsubmission%20prov%3aspecializationOf%20%3fhcil%20%7d%0a%20%20%20%20%20%20filter%28regex%28str%28%3fhcil%29%2c%27%5ehttp%3a%2f%2fhcil2.cs.umd.edu%27%29%29%0a%20%20%20%7d%0a%7d&output=csv>;
+.
+
+<../../src/submissions.rq.csv>
+   a pmlp:Information;
+   pmlp:hasModificationDateTime "2014-06-27T17:00:56-04:00"^^xsd:dateTime;
+   pmlp:hasReferenceSourceUsage <sourceusage49ce2992-dd9e-46a3-bc86-205197a7604a>;
+.
+
+<sourceusage_49ce2992-dd9e-46a3-bc86-205197a7604a>
+   a pmlp:SourceUsage;
+   pmlp:hasSource        <http://ieeevis.tw.rpi.edu/sparql?query=prefix%20prov%3a%20%3chttp%3a%2f%2fwww.w3.org%2fns%2fprov%23%3e%0aprefix%20vabr%3a%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fvocab%2f%3e%0a%0aselect%20distinct%20%3fsubmission%20%3fhcil%0awhere%20%7b%0a%20%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fversion%2fwget%3e%20%7b%0a%20%20%20%20%20%20%3fsubmission%20a%20vabr%3aSubmission%0a%20%20%20%20%20%20optional%20%7b%20%3fsubmission%20prov%3aspecializationOf%20%3fhcil%20%7d%0a%20%20%20%20%20%20filter%28regex%28str%28%3fhcil%29%2c%27%5ehttp%3a%2f%2fhcil2.cs.umd.edu%27%29%29%0a%20%20%20%7d%0a%7d&output=csv>;
+   pmlp:hasUsageDateTime "2014-06-27T17:00:56-04:00"^^xsd:dateTime;
+.
+
+<http://ieeevis.tw.rpi.edu/sparql?query=prefix%20prov%3a%20%3chttp%3a%2f%2fwww.w3.org%2fns%2fprov%23%3e%0aprefix%20vabr%3a%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fvocab%2f%3e%0a%0aselect%20distinct%20%3fsubmission%20%3fhcil%0awhere%20%7b%0a%20%20%20graph%20%3chttp%3a%2f%2fieeevis.tw.rpi.edu%2fsource%2fhcil-cs-umd-edu%2fdataset%2fvisual-analytics-benchmark-repository%2fversion%2fwget%3e%20%7b%0a%20%20%20%20%20%20%3fsubmission%20a%20vabr%3aSubmission%0a%20%20%20%20%20%20optional%20%7b%20%3fsubmission%20prov%3aspecializationOf%20%3fhcil%20%7d%0a%20%20%20%20%20%20filter%28regex%28str%28%3fhcil%29%2c%27%5ehttp%3a%2f%2fhcil2.cs.umd.edu%27%29%29%0a%20%20%20%7d%0a%7d&output=csv>
+   a pmlj:Query, pmlp:Source;
+   pmlj:isFromEngine <http://ieeevis.tw.rpi.edu/sparql>;
+   pmlj:hasAnswer    <nodeset49ce2992-dd9e-46a3-bc86-205197a7604a>;
+.
+
+<http://ieeevis.tw.rpi.edu/sparql>
+   a pmlp:InferenceEngine, pmlp:WebService;
+.
+
+<nodeset_49ce2992-dd9e-46a3-bc86-205197a7604a>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <../../src/submissions.rq.csv>;
+   pmlj:isConsequentOf <inferenceStep_49ce2992-dd9e-46a3-bc86-205197a7604a>;
+.
+<inferenceStep_49ce2992-dd9e-46a3-bc86-205197a7604a>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   pmlj:hasAntecedentList (
+      [ a pmlj:NodeSet; pmlp:hasConclusion <query49ce2992-dd9e-46a3-bc86-205197a7604a> ]
+      [ a pmlj:NodeSet; pmlp:hasConclusion [
+            a pmlb:AttributeValuePair;
+            pmlb:attribute "output"; pmlb:value "csv"
+          ]
+      ]
+   );
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+<wasControlled_49ce2992-dd9e-46a3-bc86-205197a7604a>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep49ce2992-dd9e-46a3-bc86-205197a7604a>;
+   oprov:endTime ""^^xsd:dateTime;
+.
+
+<query_49ce2992-dd9e-46a3-bc86-205197a7604a>
+   a pmlb:AttributeValuePair;
+   pmlb:attribute "query";
+   pmlb:value     """prefix prov: <http://www.w3.org/ns/prov#>
+prefix vabr: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/vocab/>
+
+select distinct ?submission ?hcil
+where {
+   graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/version/wget> {
+      ?submission a vabr:Submission
+      optional { ?submission prov:specializationOf ?hcil }
+      filter(regex(str(?hcil),'^http://hcil2.cs.umd.edu'))
+   }
+}""";
+.

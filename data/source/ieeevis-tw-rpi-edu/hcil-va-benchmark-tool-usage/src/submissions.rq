@@ -1,0 +1,11 @@
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix vabr: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/vocab/>
+
+select distinct ?submission ?hcil
+where {
+   graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/visual-analytics-benchmark-repository/version/wget> {
+      ?submission a vabr:Submission
+      optional { ?submission prov:specializationOf ?hcil }
+      filter(regex(str(?hcil),'^http://hcil2.cs.umd.edu'))
+   }
+}

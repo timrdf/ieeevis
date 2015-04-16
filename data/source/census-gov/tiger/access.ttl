@@ -1,0 +1,28 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix conversion: <http://purl.org/twc/vocab/conversion/> .
+@prefix dcat:       <http://www.w3.org/ns/dcat#> .
+@prefix void:       <http://rdfs.org/ns/void#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix doap:       <http://usefulinc.com/ns/doap#> .
+@prefix prov:       <http://www.w3.org/ns/prov#> .
+@prefix datafaqs:   <http://purl.org/twc/vocab/datafaqs#> .
+@prefix :           <http://ieeevis.tw.rpi.edu/id/> .
+@base               <http://ieeevis.tw.rpi.edu/id/> .
+
+<http://ieeevis.tw.rpi.edu/source/census-gov/dataset/tiger>
+   a void:Dataset, dcat:Dataset;
+   conversion:source_identifier  "census-gov";
+   conversion:dataset_identifier "tiger";
+   conversion:identifier         "fa68fe838c76ffc2e931d64e2f901d8f";
+   prov:wasDerivedFrom <distribution/64ca1f0a75bbabca01812a47faf7259d>;
+.
+
+<distribution/64ca1f0a75bbabca01812a47faf7259d>
+   a dcat:Distribution;
+   dcat:downloadURL <http://www2.census.gov/geo/tiger/TIGER2013/CBSA/tl_2013_us_cbsa.zip>;
+.
+
+<dataset/64ca1f0a75bbabca01812a47faf7259d>
+   a dcat:Dataset;
+   dcat:distribution <distribution/64ca1f0a75bbabca01812a47faf7259d>;
+.

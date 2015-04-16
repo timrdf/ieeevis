@@ -1,0 +1,6 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+
+<http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/sculpted-histogram/version/2015-Feb-08>
+   a dcat:Dataset, void:Dataset;
+   void:exampleResource <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/sculpted-histogram/version/2015-Feb-07/TwoDimensionalBinner/2015-Feb-08_13-39_1423420799151_ms/bin/52> .

@@ -1,0 +1,23 @@
+prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+prefix prov:    <http://www.w3.org/ns/prov#>
+prefix user:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/>
+prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/>
+prefix social:  <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/>
+
+select distinct ?reverter ?against ?supports ?revert
+where {
+  graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15> {
+     ?revert prov:wasAssociatedWith ?reverter;
+             rdfs:comment ?comment .
+  }
+  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/version/2014-Jun-20> { 
+    ?revert a reverts:Revert
+  }
+  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/version/2014-Jun-21> {
+     { ?revert social:supports ?supports }
+     union 
+     { ?revert social:against  ?against  }
+  }
+}
+group by ?reverter ?supports ?against
+order by desc(?revert)

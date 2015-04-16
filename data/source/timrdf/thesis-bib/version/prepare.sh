@@ -26,10 +26,11 @@
 mkdir -p manual automatic
 
 abstract=`cr-dataset-uri.sh --abstract`
+echo abstract: $abstract
 BIBTEX='source/papers3.bib'
 BIBTEX_NG=$abstract/bibtex
 
-MASTER_GRAFFLE='../graffle/source/papers3.graffle'
+MASTER_GRAFFLE='../master/source/papers3.graffle'
 GRAFFLE_NG=$abstract/previous-graffle
 
 java -jar ../../src/siberski/bibtex2rdf.jar -baseuri $abstract/ $BIBTEX automatic/papers3.bib.rdf && mv bibtex2rdf.log automatic/
@@ -50,3 +51,6 @@ fi
 
 tdbquery  --loc=automatic/papers3.bib.tdb --query=../../src/new-pubs.rq > automatic/new-papers.ttl
 vsr2grf.sh $VSR_HOME/src/xsl/from/siberski-bibtex.vsr.xsl graffle -w -od automatic automatic/new-papers.ttl
+
+open automatic/new-papers.ttl.graffle
+

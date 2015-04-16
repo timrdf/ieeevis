@@ -14,6 +14,16 @@
 
 
 mkdir -p source/homepage && pushd source/homepage
-   web_directory='http://www.cs.umd.edu/hcil/InfovisRepository/contest-2005' # NOTE: this says 2005, but we get all of the years.
+   # InfoVis Challenges 2003-2006
+   # (NOTE: this says 2005, but we get all of the years.)
+   #web_directory='http://www.cs.umd.edu/hcil/InfovisRepository/contest-2005' 
+   #wget --mirror -e robots=off --no-parent $web_directory
+
+   # VAST 2009
+   #web_directory='http://hcil.cs.umd.edu/localphp/hcil/vast/index.php'
+   #wget --mirror -e robots=off --no-parent $web_directory
+
+   # VAST 2010
+   web_directory='http://hcil.cs.umd.edu/localphp/hcil/vast10/index.php'
    wget --mirror -e robots=off --no-parent $web_directory
 popd

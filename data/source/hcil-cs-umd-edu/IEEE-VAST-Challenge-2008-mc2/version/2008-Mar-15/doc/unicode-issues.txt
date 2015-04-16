@@ -1,0 +1,36 @@
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/468
+does not have time, user, minor, size. It's comment is "#cur) last".
+
+This is probably b/c of the unicode character in the CSV:
+
+ 468 "03:32, 30 September 2006","DavidMorón","","99,623","?Paraiso as a state-recognized religion"
+
+
+
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/521
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/522
+
+ 521 "03:11, 18 September 2006","DavidMorón","","97,739","?Beliefs"
+ 522 "03:05, 18 September 2006","DavidMorón","","97,597","?Activities"
+
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/528
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/529
+
+ 528 "01:30, 17 September 2006","DavidMorón","","97,868","?Paraiso web links"
+ 529 "01:08, 17 September 2006","DavidMorón","","97,796",""
+
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/455
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/456
+
+ 455 "00:58, 1 October 2006","DavidMorón","","99,870","?Paraiso as a state-recognized religion"
+ 456 "00:53, 1 October 2006","DavidMorón","","99,473","?Paraiso versus the Internet"
+
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/658
+
+ 658 "15:53, 5 September 2006","Góngora","","93,412","?Membership - wikify"
+
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/688
+http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/commit/689
+
+ 688 "14:02, 4 September 2006","Góngora","","93,384","?Auditing Levels 0 - 5 - fixed incorrect slant but cough cough no-one I know uses this terminology maybe DM does?)"
+ 689 "13:37, 4 September 2006","Góngora","","93,512","I may as well put \"Political Commentator\" - he was a dictatorial hack"
