@@ -38,12 +38,12 @@
 @prefix :              <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21/params/enhancement/1/> .
 
 
-#:a_bundle
-#   a conversion:ImplicitBundle;
-#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
-#   conversion:name_template "[/sd]company/[#2]/[r]";
-#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
-#.
+:a_bundle
+   a conversion:ImplicitBundle;
+   conversion:property_name prov:generated;
+   conversion:name_template "[/sdv]revision/[r]";
+   conversion:type_name     fabio:WikiEntry;
+.
 
 <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21/conversion/enhancement/1>
    a conversion:LayerDataset, void:Dataset;
@@ -61,6 +61,7 @@
       dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
       dcterms:created "2015-04-16T21:17:17+00:00"^^xsd:dateTime;
 
+      rdfs:seeAlso <https://github.com/timrdf/pvcs/wiki/Modeling-Wiki-Edits-with-PROV>;
 
       #conversion:enhance [
       #   ov:csvRow 2;
@@ -84,16 +85,30 @@
       #   conversion:class_name "Thing";
       #   conversion:subclass_of <http://purl.org/...>;
       #];
+
+      conversion:interpret [
+         conversion:symbol        "";
+         conversion:interpretation conversion:null; 
+      ];
+      conversion:enhance [
+         conversion:domain_template "[/sdv]commit/[r]";
+         conversion:domain_name     "Commit";
+      ];
+      conversion:enhance [
+         conversion:class_name "Commit";
+         conversion:subclass_of prov:Activity;
+      ];
       conversion:enhance [
          ov:csvCol          1;
          ov:csvHeader       "Edit date";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "Edit date";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property prov:endedAtTime;
          #conversion:subproperty_of      dcterms:identifier;
-         conversion:comment "";
+         conversion:eg "17:12, 11 August 2006";
+         conversion:pattern "HH:mm, dd MMMMMM YYYY";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   xsd:dateTime;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -101,35 +116,39 @@
          ov:csvHeader       "Editing user";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "Editing user";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property prov:wasAssociatedWith;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
-         #conversion:range_name  "Thing";
+         conversion:range_template  "[/sdv]user/[.]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "User";
+      ];
+      conversion:enhance [
+         conversion:class_name "User";
+         conversion:subclass_of foaf:UserAccount, sioc:UserAccount;
       ];
       conversion:enhance [
          ov:csvCol          3;
          ov:csvHeader       "Minor edit or not";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "Minor edit or not";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property rdf:type;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
-         #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range_template  "[/sd]vocab/[^._]";
+         conversion:range   rdfs:Resource;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
          ov:csvCol          4;
          ov:csvHeader       "Resulting page size in bytes";
-         #conversion:bundled_by [ ov:csvCol 1 ];
+         conversion:bundled_by :a_bundle; #[ ov:csvCol 1 ];
          #conversion:label   "Resulting page size in bytes";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property nfo:byteSize;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   xsd:integer;
          #conversion:range_name  "Thing";
       ];
       conversion:enhance [
@@ -137,11 +156,11 @@
          ov:csvHeader       "Edit comment";
          #conversion:bundled_by [ ov:csvCol 1 ];
          #conversion:label   "Edit comment";
-         #conversion:equivalent_property dcterms:identifier;
+         conversion:equivalent_property rdfs:comment;
          #conversion:subproperty_of      dcterms:identifier;
          conversion:comment "";
          #conversion:range_template  "[/sd]thing[.]";
-         conversion:range   todo:Literal;
+         conversion:range   rdfs:Literal;
          #conversion:range_name  "Thing";
       ];
       #conversion:enhance [
