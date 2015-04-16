@@ -92,6 +92,10 @@
       #   conversion:subclass_of <http://purl.org/...>;
       #];
 
+      conversion:enhance [
+         void:inDataset conversion:null;
+      ];
+
       conversion:interpret [
          conversion:symbol        "";
          conversion:interpretation conversion:null; 
