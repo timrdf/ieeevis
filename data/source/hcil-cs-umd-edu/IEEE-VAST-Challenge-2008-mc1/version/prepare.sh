@@ -23,20 +23,43 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
-mkdir -p manual
+if [[ "$1" == 'clean' ]]; then
+   echo rm -rf source/VASTchallenge08-20080315-Deinosuchus manual/ automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
+        rm -rf source/VASTchallenge08-20080315-Deinosuchus manual/ automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
+   exit
+fi
+
+mkdir -p 'source' 'manual'
+
+  zipped='source/VASTchallenge08-20080315-Deinosuchus.zip'
+unzipped='source/VASTchallenge08-20080315-Deinosuchus'
+
+if [[ ! -e $unzipped ]]; then
+   unzip -d source $zipped
+   #justify.sh "$zipped" "$unzipped" uncompress
+fi
+echo $txt
 
 txt='manual/paraiso-edits.txt'
-if [ ! -e "$txt" ]; then
-   cp source/VASTchallenge08-20080315-Deinosuchus/WIKI\ EDITS\ PAGE/Paraiso\ Edits.txt $txt
+edits='WIKI EDITS PAGE/Paraiso Edits.txt'
+if [[ -e $unzipped && ! -e "$txt" ]]; then
+   cp "$unzipped/$edits" $txt
    perl -pi -e 's/\r\n/\n/' $txt
    perl -pi -e 's/\r/\n/g'  $txt
+   justify.sh "$zipped"           $txt uncompress # Short circuit from zip to the file that we need from the zip.
+   #justify.sh "$unzipped/$edits" $txt redelimit
 fi
 echo $txt
 
 csv='manual/paraiso-edits.csv'
-cat $txt | awk -f ../../../IEEE-VAST-Challenge-2008-mc2/src/paraiso-edits.awk > $csv
+if [[ -e $unzipped && -e "$txt" && ! -e $csv ]]; then
+   cat $txt | awk -f ../../../IEEE-VAST-Challenge-2008-mc2/src/paraiso-edits.awk > $csv
+   justify.sh $txt $csv csvify
+fi
 echo $csv
 
-cr-create-conversion-trigger.sh -w $csv
-
-
+trigger='convert-IEEE-VAST-Challenge-2008-mc1.sh'
+if [[ ! -e $trigger ]]; then
+   cr-create-conversion-trigger.sh -w $csv
+fi
+echo $trigger
