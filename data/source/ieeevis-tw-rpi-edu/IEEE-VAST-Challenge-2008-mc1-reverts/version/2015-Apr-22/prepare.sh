@@ -23,6 +23,12 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
+if [[ "$1" == "clean" ]]; then
+   echo rm -rf source automatic publish
+        rm -rf source automatic publish
+   exit
+fi
+
 auto='automatic/edits.rq.turtle.graffle'
 vsr2grf.sh rdf graffle -w -od automatic source/edits.rq.turtle
 echo $auto
