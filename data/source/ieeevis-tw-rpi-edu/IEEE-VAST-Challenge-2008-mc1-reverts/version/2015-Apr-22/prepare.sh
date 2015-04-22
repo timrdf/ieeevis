@@ -23,4 +23,19 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
-vsr2grf.sh rdf graffle -w -od automatic source/edits.rq.sparql
+auto='automatic/edits.rq.turtle.graffle'
+vsr2grf.sh rdf graffle -w -od automatic source/edits.rq.turtle
+echo $auto
+
+mkdir -p manual
+manual='manual/edits.rq.turtle.graffle'
+if [[ ! -e $manual ]]; then
+   cp $auto $manual
+   justify.sh automatic/edits.rq.turtle.graffle manual/edits.rq.turtle.graffle file_copy
+fi
+echo $manual
+
+echo
+echo
+echo "AT THIS POINT: edit manual/edits.rq.turtle.graffle to categorize edits' comments,"
+echo "               then copy the file to manual/reverts.graffle and run ./convert.sh"
