@@ -1,0 +1,11 @@
+prefix vsr:     <http://purl.org/twc/vocab/vsr#>
+prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/> 
+
+construct {
+   ?revert a reverts:Revert .
+}
+where {
+   ?graphic a vsr:Graphic;
+      vsr:depicts ?revert;
+   .
+}
