@@ -14,7 +14,10 @@ echo
 read -p "Q: Have you categorized the edits' comments in manual/edits.rq.turtle.graffle, copied it to $reverts, and deleted all non-revert edits in the former file? [y/n] " -u 1 manual_stuff_was_done
 
 if [[ "$manual_stuff_was_done" == [yY] ]]; then
-   justify.sh manual/edits.rq.turtle.graffle $reverts manual_organization_then_manual_deletion
+
+   if [[ ! -e $reverts.prov.ttl ]]; then
+      justify.sh manual/edits.rq.turtle.graffle $reverts manual_organization_then_manual_deletion
+   fi
 
    reverts2='automatic/reverts.graffle'
 
