@@ -23,14 +23,19 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
+vis_strategy='../../src/edits-absolute.vsr.xsl'
+
 if [[ "$1" == "clean" ]]; then
-   echo rm -rf source automatic publish
-        rm -rf source automatic publish
+   echo rm -rf source automatic publish $vis_strategy
+        rm -rf source automatic publish $vis_strategy
    exit
 fi
 
 auto='automatic/edits.rq.turtle.graffle'
-vsr2grf.sh rdf graffle -w -od automatic source/edits.rq.turtle
+VSR_HOME=${VSR_HOME:?"must be set."}
+cp ../../src/edits.vsr.xsl $vis_strategy
+perl -pi -e "s|href=\"..|href=\"$VSR_HOME|g" $vis_strategy
+vsr2grf.sh $vis_strategy graffle -w -od automatic source/edits.rq.turtle
 echo $auto
 
 mkdir -p manual

@@ -16,14 +16,17 @@ read -p "Q: Have you categorized the edits' comments in manual/edits.rq.turtle.g
 if [[ "$manual_stuff_was_done" == [yY] ]]; then
    justify.sh manual/edits.rq.turtle.graffle $reverts manual_organization_then_manual_deletion
 
-   grddl.sh $reverts > $reverts.ttl
-   justify.sh $reverts $reverts.ttl 'https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh'
+   reverts2='automatic/reverts.graffle'
 
-   tdbloader --loc=$reverts.ttl.tdb $reverts.ttl
-   justify.sh $reverts.ttl     $reverts.ttl.tdb 'http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader'
+   grddl.sh $reverts > $reverts2.ttl
+   justify.sh $reverts $reverts2.ttl 'https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh'
 
-   tdbquery  --loc=$reverts.ttl.tdb --query=../../src/reverts.rq > $reverts.ttl.tdb.ttl
-   justify.sh $reverts.ttl.tdb $reverts.ttl.tdb.ttl 'https://jena.apache.org/documentation/javadoc/tdb/tdb/tdbquery'
+   rm -rf $reverts2.ttl.tdb
+   tdbloader --loc=$reverts2.ttl.tdb $reverts2.ttl
+   justify.sh $reverts2.ttl     $reverts2.ttl.tdb 'http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader'
+
+   tdbquery  --loc=$reverts2.ttl.tdb --query=../../src/reverts.rq > $reverts2.ttl.tdb.ttl
+   justify.sh $reverts2.ttl.tdb $reverts2.ttl.tdb.ttl 'https://jena.apache.org/documentation/javadoc/tdb/tdb/tdbquery'
 else
    echo
    echo "Okay, go do that and run this script again."
