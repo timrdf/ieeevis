@@ -10,4 +10,4 @@ for ((commit=3; commit<=1010; commit++)); do
    echo "   prov:wasInformedBy <$sdv/commit/$prev> ."  >> automatic/usages.ttl
 done
 
-./convert-IEEE-VAST-Challenge-2008-mc2.sh
+./convert-`cr-dataset-id.sh`.sh # e.g. IEEE-VAST-Challenge-2008-mc1
