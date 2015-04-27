@@ -82,12 +82,13 @@
 
 <xsl:function name="sr:uriify">
    <xsl:param name="string"/>
-   <xsl:value-of select="replace(replace($string,'\.','_'),' ','_')"/>
+   <xsl:value-of select="replace(replace(replace($string,'\.','_'),' ','_'),$SQ,'')"/>
 </xsl:function>
 
 <xsl:variable name="NL" select="'&#xa;'"/>
 <xsl:variable name="DQ" select="'&#x22;'"/>
 <xsl:variable name="LT" select="'&lt;'"/>
 <xsl:variable name="GT" select="'&gt;'"/>
+<xsl:variable name="SQ">'</xsl:variable>
 
 </xsl:transform>
