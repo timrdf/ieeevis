@@ -53,7 +53,7 @@ echo $txt
 
 csv='manual/paraiso-edits.csv'
 if [[ -e $unzipped && -e "$txt" && ! -e $csv ]]; then
-   cat $txt | awk -f ../../../IEEE-VAST-Challenge-2008-mc2/src/paraiso-edits.awk > $csv
+   cat $txt | awk -f ../../src/paraiso-edits.awk > $csv
    justify.sh $txt $csv csvify
 fi
 echo $csv

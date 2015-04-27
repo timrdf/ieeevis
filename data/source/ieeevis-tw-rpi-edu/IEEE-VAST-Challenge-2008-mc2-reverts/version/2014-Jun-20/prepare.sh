@@ -23,4 +23,54 @@
 # When this script is invoked, the conversion cockpit is the current working directory.
 #
 
-vsr2grf.sh rdf graffle -w -od automatic source/edits.rq.sparql
+source ../../../../csv2rdf4lod-source-me-for-ieeevis.sh
+
+vis_strategy='../../src/edits-absolute.vsr.xsl'
+
+if [[ "$1" == "clean" ]]; then
+   echo rm -rf source automatic publish $vis_strategy
+        rm -rf source automatic publish $vis_strategy
+   exit
+fi
+
+echo
+
+turtle='source/edits.rq.turtle'
+if [[ ! -e "$turtle" ]]; then
+   echo "$turtle ?"
+
+   echo
+   read -p "Q: Cannot find $turtle, run ./retrieve.sh now? [y/n] " -u 1 do_retrieve
+
+   if [[ "$do_retrieve" == [yY] ]]; then
+      echo
+      echo "= = = = = = retrieve.sh = = = = = = ="
+      ./retrieve.sh
+      echo
+      echo "= = = = = = prepare.sh = = = = = = ="
+   else
+      exit
+   fi
+fi
+
+mkdir -p manual
+manual='manual/edits.rq.turtle.graffle'
+if [[ ! -e "$manual" ]]; then
+   auto='automatic/edits.rq.turtle.graffle'
+   VSR_HOME=${VSR_HOME:?"must be set."}
+   cp ../../src/edits.vsr.xsl $vis_strategy
+   perl -pi -e "s|href=\"\.\.|href=\"$VSR_HOME/src/xsl|g" $vis_strategy
+   vsr2grf.sh $vis_strategy 'graffle' -w -od automatic/ $turtle
+   echo $auto
+
+   cp "$auto" "$manual"
+   justify.sh $auto $manual 'file_copy'
+   echo $manual
+else
+   echo "$manual already exists."
+fi
+
+echo
+echo
+echo "AT THIS POINT: edit $manual to categorize edits' comments,"
+echo "               then copy the file to manual/reverts.graffle and run ./convert.sh"

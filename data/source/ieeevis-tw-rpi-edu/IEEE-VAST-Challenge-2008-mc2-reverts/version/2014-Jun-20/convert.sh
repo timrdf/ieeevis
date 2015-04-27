@@ -6,13 +6,31 @@
 #3> .
 #
 
-# Requires manual creation of graffle.
+# Requires editing of manual/edits.rq.turtle.graffle, copying it to manual/reverts.graffle, then deleting everything but reverts.
 
-grddl.sh manual/reverts.graffle > manual/reverts.graffle.ttl
-justify.sh manual/reverts.graffle manual/reverts.graffle.ttl 'https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh'
+reverts='manual/reverts.graffle'
 
-tdbloader --loc=manual/reverts.graffle.ttl.tdb manual/reverts.graffle.ttl
-justify.sh manual/reverts.graffle.ttl     manual/reverts.graffle.ttl.tdb 'http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader'
+echo
+read -p "Q: Have you categorized the edits' comments in manual/edits.rq.turtle.graffle, copied it to $reverts, and deleted all non-revert edits in the former file? [y/n] " -u 1 manual_stuff_was_done
 
-tdbquery  --loc=manual/reverts.graffle.ttl.tdb --query=../../src/reverts.rq > manual/reverts.graffle.ttl.tdb.ttl
-justify.sh manual/reverts.graffle.ttl.tdb manual/reverts.graffle.ttl.tdb.ttl 'https://jena.apache.org/documentation/javadoc/tdb/tdb/tdbquery'
+if [[ "$manual_stuff_was_done" == [yY] ]]; then
+
+   if [[ ! -e $reverts.prov.ttl ]]; then
+      justify.sh manual/edits.rq.turtle.graffle $reverts manual_organization_then_manual_deletion
+   fi
+
+   reverts2='automatic/reverts.graffle'
+
+   grddl.sh $reverts > $reverts2.ttl
+   justify.sh $reverts $reverts2.ttl 'https://github.com/timrdf/csv2rdf4lod-automation/blob/master/bin/util/grddl.sh'
+
+   rm -rf $reverts2.ttl.tdb
+   tdbloader --loc=$reverts2.ttl.tdb $reverts2.ttl
+   justify.sh $reverts2.ttl     $reverts2.ttl.tdb 'http://jena.apache.org/documentation/javadoc/tdb/com/hp/hpl/jena/tdb/TDBLoader'
+
+   tdbquery  --loc=$reverts2.ttl.tdb --query=../../src/reverts.rq > $reverts2.ttl.tdb.ttl
+   justify.sh $reverts2.ttl.tdb $reverts2.ttl.tdb.ttl 'https://jena.apache.org/documentation/javadoc/tdb/tdb/tdbquery'
+else
+   echo
+   echo "Okay, go do that and run this script again."
+fi

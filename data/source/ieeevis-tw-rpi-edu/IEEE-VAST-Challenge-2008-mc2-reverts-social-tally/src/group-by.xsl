@@ -33,7 +33,8 @@
 <xsl:variable name="prefixes"><![CDATA[@prefix prov:   <http://www.w3.org/ns/prov#>.
 @prefix qb:    <http://purl.org/linked-data/cube#> .
 @prefix sio:   <http://semanticscience.org/resource/> .
-@prefix vocab: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/> .
+#@prefix vocab: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/> .
+@prefix vocab: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/> .
 ]]>
 </xsl:variable>
 
