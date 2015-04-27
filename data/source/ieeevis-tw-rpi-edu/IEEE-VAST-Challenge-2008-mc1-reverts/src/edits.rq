@@ -1,0 +1,27 @@
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix prov:  <http://www.w3.org/ns/prov#>
+prefix nfo:   <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+prefix fabio: <http://purl.org/spar/fabio/>
+#prefix vocab: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/>
+prefix vocab: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/>
+
+#select distinct ?commit ?time ?user ?minor ?size ?comment
+construct {
+    ?commit a vocab:Commit .
+    ?commit rdfs:comment           ?comment .
+    ?commit prov:endedAtTime       ?time    .
+    ?commit prov:wasAssociatedWith ?user    .
+    ?commit a ?minor.
+    ?commit prov:generated ?revision . ?revision nfo:byteSize ?size; a prov:Entity, fabio:WikiEntry .
+}
+where {
+  #graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15> { 
+  graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21> { 
+    ?commit a vocab:Commit .
+    optional { ?commit rdfs:comment           ?comment }
+    optional { ?commit prov:endedAtTime       ?time    }
+    optional { ?commit prov:wasAssociatedWith ?user    }
+    optional { ?commit a ?minor. filter(?minor = vocab:Minor) }
+    optional { ?commit prov:generated ?revision . ?revision nfo:byteSize ?size }
+  }
+}
