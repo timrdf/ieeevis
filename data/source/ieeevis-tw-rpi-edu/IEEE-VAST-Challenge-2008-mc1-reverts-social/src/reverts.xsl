@@ -66,7 +66,7 @@
             </xsl:choose>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:value-of select="concat('.  # b/c neither',$NL)"/>
+            <xsl:value-of select="concat('   a mc1:Commit .  # b/c neither',$NL)"/>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:value-of select="concat($NL,$NL)"/>
