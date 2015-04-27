@@ -1,5 +1,5 @@
 prefix vsr:     <http://purl.org/twc/vocab/vsr#>
-prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/> 
+prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts/vocab/> 
 
 construct {
    ?revert a reverts:Revert .
