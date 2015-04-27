@@ -46,7 +46,7 @@
       <xsl:value-of select="concat('   # first  by: ',$first-by,'|',$NL)"/>
       <xsl:value-of select="concat('   # second by: ',$second-by,'|',$NL)"/>
       <xsl:choose>
-         <xsl:when test="matches($comment,'Undid revision')">
+         <xsl:when test="matches($comment,'Undid revision') and string-length($first-by)">
             <xsl:value-of select="concat('   social:against user:',sr:uriify($first-by),' . # b/c undid',$NL)"/>
          </xsl:when>
          <xsl:when test="string-length($first-by) and string-length($second-by)">
