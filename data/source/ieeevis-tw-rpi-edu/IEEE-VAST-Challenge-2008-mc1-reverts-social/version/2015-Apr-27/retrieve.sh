@@ -14,4 +14,14 @@
 
 source ../../../../csv2rdf4lod-source-me-for-ieeevis.sh
 
+if [[ "$1" == 'clean' ]]; then
+   echo rm source/reverts.rq.sparql*
+        rm source/reverts.rq.sparql*
+   if [[ "2" == 'all' ]]; then
+      echo rm automatic/*
+           rm automatic/*
+   fi
+   exit
+fi
+
 cache-queries.sh ${CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT:-'http://ieeevis.tw.rpi.edu/sparql'} -o sparql -q ../../src/reverts.rq -od source
