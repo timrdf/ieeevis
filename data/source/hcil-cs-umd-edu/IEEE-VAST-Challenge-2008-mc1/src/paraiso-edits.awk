@@ -52,8 +52,8 @@ BEGIN {
    gsub(/\(/,"",comment)
    if( index(comment,")") > 0 ) {
       gsub(/\)[^)]*$/,"",comment)
-      #gsub(/"/,"\\\"",comment) # This works great, but javacsv now chokes.
-      gsub(/"/,"'",comment)     # Apr 2015 javacsv isn't handling escaped double quotes any more.
+      #gsub(/"/,"\\\"",comment) # <- This works great, but javacsv chokes (could have sworn it could handle it).
+      gsub(/"/,"'",comment)     # Apr 2015 javacsv 2.0 and 2.1 aren't handling escaped double quotes any more.
    }else {
       comment = ""
    }
