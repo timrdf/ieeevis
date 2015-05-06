@@ -17,7 +17,7 @@ source ../../../../csv2rdf4lod-source-me-for-ieeevis.sh
 if [[ "$1" == 'clean' ]]; then
    echo rm source/reverts.rq.sparql*
         rm source/reverts.rq.sparql*
-   if [[ "2" == 'all' ]]; then
+   if [[ "$2" == 'all' ]]; then
       echo rm automatic/*
            rm automatic/*
    fi
