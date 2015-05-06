@@ -1,0 +1,16 @@
+prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+prefix prov:  <http://www.w3.org/ns/prov#>
+prefix nfo:   <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
+prefix vocab: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/>
+
+select distinct ?commit ?time ?user ?minor ?size
+where {
+  graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21> { 
+    ?commit a vocab:Commit .
+    filter not exists { ?commit rdfs:comment  ?comment }
+    optional { ?commit prov:endedAtTime       ?time    }
+    optional { ?commit prov:wasAssociatedWith ?user    }
+    optional { ?commit a ?minor. filter(?minor = vocab:Minor) }
+    optional { ?commit prov:generated ?revision . ?revision nfo:byteSize ?size }
+  }
+}
