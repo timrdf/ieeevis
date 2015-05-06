@@ -57,6 +57,10 @@ mkdir -p manual
 manual='manual/edits.rq.turtle.graffle'
 if [[ ! -e "$manual" ]]; then
    auto='automatic/edits.rq.turtle.graffle'
+   if [[ ! -e "$VSR_HOME" && -e ~/opt/prizms/repos/vsr ]]; then
+      # Thanks, Prizms ---------^^^^^^^^^^^^^^^^^^^^^^
+      export VSR_HOME=~/opt/prizms/repos/vsr 
+   fi
    VSR_HOME=${VSR_HOME:?"must be set."}
    cp ../../src/edits.vsr.xsl $vis_strategy
    perl -pi -e "s|href=\"\.\.|href=\"$VSR_HOME/src/xsl|g" $vis_strategy
