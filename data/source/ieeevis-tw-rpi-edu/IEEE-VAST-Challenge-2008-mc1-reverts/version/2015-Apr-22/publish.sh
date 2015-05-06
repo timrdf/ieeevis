@@ -6,4 +6,18 @@
 #3> .
 #
 
-aggregate-source-rdf.sh automatic/reverts.graffle.ttl.tdb.ttl
+
+# source/edits.rq.turtle
+#    source/edits.rq.turtle.prov.ttl
+#
+#    manual/edits.rq.turtle.graffle.prov.ttl
+#    manual/reverts.graffle.prov.ttl
+#
+# automatic/reverts.graffle.ttl
+# automatic/reverts.graffle.ttl.tdb.ttl
+#    automatic/edits.rq.turtle.graffle.prov.ttl
+#    automatic/reverts.graffle.ttl.tdb.ttl.prov.ttl
+#    automatic/reverts.graffle.ttl.prov.ttl
+#    automatic/reverts.graffle.ttl.tdb.prov.ttl
+
+aggregate-source-rdf.sh automatic/reverts.graffle.ttl automatic/reverts.graffle.ttl.tdb.ttl */*.prov.ttl
