@@ -38,6 +38,10 @@ turtle=automatic/against-and-supports.ttl
    manual=manual/against-and-supports.ttl.graffle
 vis_strategy='../../src/edits-absolute.vsr.xsl'
 if [[ ! -e "$manual" ]]; then
+   if [[ ! -e "$VSR_HOME" && -e ~/opt/prizms/repos/vsr ]]; then
+      # Thanks, Prizms ---------^^^^^^^^^^^^^^^^^^^^^^
+      export VSR_HOME=~/opt/prizms/repos/vsr 
+   fi
    VSR_HOME=${VSR_HOME:?"must be set."}
    cp ../../src/edits.vsr.xsl $vis_strategy
    # //\\
