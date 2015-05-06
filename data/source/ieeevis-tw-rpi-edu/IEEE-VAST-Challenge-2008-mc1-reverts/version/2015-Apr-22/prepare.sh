@@ -64,7 +64,7 @@ if [[ ! -e "$manual" ]]; then
    VSR_HOME=${VSR_HOME:?"must be set."}
    cp ../../src/edits.vsr.xsl $vis_strategy
    perl -pi -e "s|href=\"\.\.|href=\"$VSR_HOME/src/xsl|g" $vis_strategy
-   vsr2grf.sh $vis_strategy 'graffle' -w -od automatic/ $turtle
+   vsr2grf.sh $vis_strategy 'graffle' -w -od automatic $turtle
    echo $auto
 
    cp "$auto" "$manual"
