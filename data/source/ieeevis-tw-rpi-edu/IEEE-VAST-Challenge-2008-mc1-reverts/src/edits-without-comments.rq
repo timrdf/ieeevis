@@ -3,6 +3,8 @@ prefix prov:  <http://www.w3.org/ns/prov#>
 prefix nfo:   <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#>
 prefix vocab: <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/>
 
+# 134 as per http://ieeevis.tw.rpi.edu/sparql?default-graph-uri=&query=prefix+rdfs%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0Aprefix+prov%3A++%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fprov%23%3E%0D%0Aprefix+nfo%3A+++%3Chttp%3A%2F%2Fwww.semanticdesktop.org%2Fontologies%2F2007%2F03%2F22%2Fnfo%23%3E%0D%0Aprefix+vocab%3A+%3Chttp%3A%2F%2Fieeevis.tw.rpi.edu%2Fsource%2Fhcil-cs-umd-edu%2Fdataset%2FIEEE-VAST-Challenge-2008-mc1%2Fvocab%2F%3E%0D%0A%0D%0Aselect+distinct+%3Fcommit+%3Ftime+%3Fuser+%3Fminor+%3Fsize%0D%0Awhere+%7B%0D%0A++graph+%3Chttp%3A%2F%2Fieeevis.tw.rpi.edu%2Fsource%2Fhcil-cs-umd-edu%2Fdataset%2FIEEE-VAST-Challenge-2008-mc1%2Fversion%2F2014-Feb-21%3E+%7B+%0D%0A++++%3Fcommit+a+vocab%3ACommit+.%0D%0A++++filter+not+exists+%7B+%3Fcommit+rdfs%3Acomment++%3Fcomment+%7D%0D%0A++++optional+%7B+%3Fcommit+prov%3AendedAtTime+++++++%3Ftime++++%7D%0D%0A++++optional+%7B+%3Fcommit+prov%3AwasAssociatedWith+%3Fuser++++%7D%0D%0A++++optional+%7B+%3Fcommit+a+%3Fminor.+filter%28%3Fminor+%3D+vocab%3AMinor%29+%7D%0D%0A++++optional+%7B+%3Fcommit+prov%3Agenerated+%3Frevision+.+%3Frevision+nfo%3AbyteSize+%3Fsize+%7D%0D%0A++%7D%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+
 select distinct ?commit ?time ?user ?minor ?size
 where {
   graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21> { 
