@@ -12,4 +12,6 @@
 #3>      <https://github.com/timrdf/csv2rdf4lod-automation/wiki/tic-turtle-in-comments>;
 #3> .
 
-cache-queries.sh ${CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT:-'http://ieeevis.tw.rpi.edu/sparql'} -o sparql -q ../../src/edits.rq -od source
+source ../../../../csv2rdf4lod-source-me-for-ieeevis.sh
+
+cache-queries.sh ${CSV2RDF4LOD_PUBLISH_SPARQL_ENDPOINT:-'http://ieeevis.tw.rpi.edu/sparql'} -o turtle -q ../../src/edits.rq -od source

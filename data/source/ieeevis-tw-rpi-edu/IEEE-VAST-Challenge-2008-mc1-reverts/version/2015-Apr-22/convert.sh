@@ -11,7 +11,7 @@
 reverts='manual/reverts.graffle'
 
 echo
-read -p "Q: Have you categorized the edits' comments in manual/edits.rq.turtle.graffle, copied it to $reverts, and deleted all non-revert edits in the former file? [y/n] " -u 1 manual_stuff_was_done
+read -p "Q: Have you categorized the edits' comments in manual/edits.rq.turtle.graffle, copied it to $reverts, and deleted all non-revert edits in the latter file? [y/n] " -u 1 manual_stuff_was_done
 
 if [[ "$manual_stuff_was_done" == [yY] ]]; then
 

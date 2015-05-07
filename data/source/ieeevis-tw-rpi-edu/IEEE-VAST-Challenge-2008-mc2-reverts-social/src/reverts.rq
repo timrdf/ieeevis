@@ -1,18 +1,24 @@
 prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 prefix prov:    <http://www.w3.org/ns/prov#>
-prefix mc2:     <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/>
-prefix user:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/>
-prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/>
-prefix social:  <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/>
+#prefix mc2:     <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/>
+#prefix user:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/>
+#prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/vocab/>
+#prefix social:  <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/>
+prefix mc1:     <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/>
+prefix user:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21/user/>
+prefix reverts: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts/vocab/>
+prefix social:  <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social/vocab/>
 
 select ?against ?commit ?comment
 where {
-  graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15> { 
-    ?commit a mc2:Commit .
+  #graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15> { 
+  graph <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21> { 
+    ?commit a mc1:Commit .
     optional{ ?commit rdfs:comment ?comment }
-    optional{ ?commit prov:wasInformedBy ?previous . ?previous a mc2:Commit; prov:wasAssociatedWith ?against }
+    optional{ ?commit prov:wasInformedBy ?previous . ?previous a mc1:Commit; prov:wasAssociatedWith ?against }
   }
-  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/version/2014-Jun-20> {
+  #graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts/version/2014-Jun-20> {
+  graph <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts/version/2015-Apr-22> {
     ?commit a reverts:Revert
   }
 }

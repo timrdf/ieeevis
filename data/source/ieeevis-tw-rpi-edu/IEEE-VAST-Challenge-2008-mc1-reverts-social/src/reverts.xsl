@@ -5,16 +5,8 @@
    exclude-result-prefixes="">
 <xsl:output method="text"/>
 
-<!-- http://stackoverflow.com/questions/1384802/java-how-to-indent-xml-generated-by-transformer -->
-
-<!--xsl:variable name="prefixes"><![CDATA[@prefix mc2:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/> .
-@prefix user:   <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/> .
-@prefix social: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social/vocab/> .
-]]>
-</xsl:variable-->
-
 <xsl:variable name="prefixes"><![CDATA[@prefix mc1:    <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/> .
-@prefix user:   <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2008-Mar-15/user/> .
+@prefix user:   <http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21/user/> .
 @prefix social: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social/vocab/> .
 ]]>
 </xsl:variable>
@@ -46,7 +38,7 @@
       <xsl:value-of select="concat('   # first  by: ',$first-by,'|',$NL)"/>
       <xsl:value-of select="concat('   # second by: ',$second-by,'|',$NL)"/>
       <xsl:choose>
-         <xsl:when test="matches($comment,'Undid revision')">
+         <xsl:when test="matches($comment,'Undid revision') and string-length($first-by)">
             <xsl:value-of select="concat('   social:against user:',sr:uriify($first-by),' . # b/c undid',$NL)"/>
          </xsl:when>
          <xsl:when test="string-length($first-by) and string-length($second-by)">
@@ -66,7 +58,7 @@
             </xsl:choose>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:value-of select="concat('.  # b/c neither',$NL)"/>
+            <xsl:value-of select="concat('   a mc1:Commit .  # b/c neither',$NL)"/>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:value-of select="concat($NL,$NL)"/>
@@ -82,12 +74,13 @@
 
 <xsl:function name="sr:uriify">
    <xsl:param name="string"/>
-   <xsl:value-of select="replace(replace($string,'\.','_'),' ','_')"/>
+   <xsl:value-of select="replace(replace(replace($string,'\.','_'),' ','_'),$SQ,'')"/>
 </xsl:function>
 
 <xsl:variable name="NL" select="'&#xa;'"/>
 <xsl:variable name="DQ" select="'&#x22;'"/>
 <xsl:variable name="LT" select="'&lt;'"/>
 <xsl:variable name="GT" select="'&gt;'"/>
+<xsl:variable name="SQ">'</xsl:variable>
 
 </xsl:transform>
