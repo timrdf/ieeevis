@@ -9,7 +9,7 @@
 mkdir -p automatic
 echo '@prefix prov: <http://www.w3.org/ns/prov#>.' > automatic/usages.ttl
 sdv=`cr-dataset-uri.sh --uri`
-for ((commit=3; commit<=1010; commit++)); do
+for ((commit=5; commit<=1013; commit++)); do
    let "prev=$commit+1"
    echo "<$sdv/commit/$commit>"                        >> automatic/usages.ttl
    echo "   prov:used          <$sdv/revision/$prev>;" >> automatic/usages.ttl
