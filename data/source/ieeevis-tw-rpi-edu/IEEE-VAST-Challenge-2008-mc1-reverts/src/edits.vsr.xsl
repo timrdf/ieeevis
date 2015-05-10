@@ -186,14 +186,14 @@
 -->
 <xsl:variable name="TEMPLATE-class-strategy"> <!-- mappings -->
    <visual-form fill-color="1 0 0 .7">       <!-- Red -->
-      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/Against'"/></class>
+      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/Against'"/></class>
    </visual-form>
    <visual-form fill-color="1 0.98823529411 0.5294117647">       <!-- Yellow -->
       <class><xsl:value-of select="'http://purl.org/spar/fabio/WikiEntry'"/></class>
    </visual-form>
    <visual-form fill-color="0.62352941176 0.69411764705 0.98823529411"> <!-- Blue -->
       <class><xsl:value-of select="$prov:Activity"/></class>
-      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/vocab/Commit'"/></class>
+      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/vocab/Commit'"/></class>
    </visual-form>
    <visual-form fill-color="0.99607843137 0.82745098039 0.49803921568">       <!-- Orange -->
       <class><xsl:value-of select="'http://moat-project.org/ns#Tag'"/></class>
@@ -206,7 +206,7 @@
       <class><xsl:value-of select="''"/></class>
    </visual-form>
    <visual-form fill-color=".25 .5 0 .45">       <!-- Green -->
-      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/Supports'"/></class>
+      <class><xsl:value-of select="'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/Supports'"/></class>
    </visual-form>
    <visual-form fill-color=".8392 .9882 .8000">       <!-- Green -->
       <class><xsl:value-of select="$foaf:Person"/></class>
@@ -277,7 +277,10 @@
       <namespace>c</namespace>
    </visual-form>
    <visual-form prefix="user">
-      <namespace>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc2/version/2008-Mar-15/user/</namespace>
+      <namespace>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2014-Feb-21/user/</namespace>
+   </visual-form>
+   <visual-form prefix="user">
+      <namespace>http://ieeevis.tw.rpi.edu/source/hcil-cs-umd-edu/dataset/IEEE-VAST-Challenge-2008-mc1/version/2008-Mar-15/user/</namespace>
    </visual-form>
 </xsl:variable>
 
@@ -432,10 +435,10 @@
 -->
 <xsl:variable name="TEMPLATE-predicate-color-strategy"> <!-- mappings -->
    <visual-form stroke-color="1 0 0"> <!-- Red -->
-      <predicate>http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/qualifiedAgainst</predicate>
+      <predicate>http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/qualifiedAgainst</predicate>
    </visual-form>
    <visual-form stroke-color="0 .5 0"> <!-- Green -->
-      <predicate>http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/qualifiedSupports</predicate>
+      <predicate>http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/qualifiedSupports</predicate>
    </visual-form>
    <visual-form stroke-color="1 1 .77">   <!-- Yellow -->
       <predicate>a</predicate>
@@ -472,8 +475,8 @@
    $prov:qualifiedCommunication,
    $prov:qualifiedInfluence,
 
-   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/qualifiedAgainst',
-   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/qualifiedSupports'
+   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/qualifiedAgainst',
+   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/qualifiedSupports'
 )"/>
 <xsl:variable name="TEMPLATE-qualification-classes" select="(
    $prov:Influence,
@@ -497,8 +500,8 @@
    $prov:Association,
    $prov:Delegation,
 
-   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/Against',
-   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/Supports'
+   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/Against',
+   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/Supports'
 )"/>
 <xsl:variable name="TEMPLATE-qualified-object-predicates" select="(
    $sio:refers-to,
@@ -583,7 +586,7 @@
    $nfo:hasHash,
    $skos:broader,
    $dcterms:subject,
-   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc2-reverts-social-tally/vocab/qualifiedAgainst'
+   'http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/qualifiedAgainst'
 )"/>
 
 <!-- - - - - - - - - - - -->
