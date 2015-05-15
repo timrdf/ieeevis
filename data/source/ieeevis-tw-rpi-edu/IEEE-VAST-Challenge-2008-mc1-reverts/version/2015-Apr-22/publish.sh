@@ -20,4 +20,7 @@
 #    automatic/reverts.graffle.ttl.prov.ttl
 #    automatic/reverts.graffle.ttl.tdb.prov.ttl
 
-aggregate-source-rdf.sh automatic/reverts.graffle.ttl automatic/reverts.graffle.ttl.tdb.ttl */*.prov.ttl
+#aggregate-source-rdf.sh automatic/reverts.graffle.ttl automatic/reverts.graffle.ttl.tdb.ttl */*.prov.ttl
+#cr-ln-to-www-root.sh automatic/*.graffle manual/*.graffle
+cr-publish.sh automatic/reverts.graffle.ttl automatic/reverts.graffle.ttl.tdb.ttl */*.prov.ttl \
+              automatic/*.graffle manual/*.graffle
