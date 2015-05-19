@@ -12,7 +12,7 @@ fi
 
 for exported in against-and-supports.ttl.graffle.pdf against-and-supports.ttl.graffle.svg; do
    if [[ -e manual/$exported ]]; then
-      justify.sh against-and-supports.ttl.graffle manual/$exported 'export'
+      justify.sh manual/against-and-supports.ttl.graffle manual/$exported 'export'
    fi
 done
 
