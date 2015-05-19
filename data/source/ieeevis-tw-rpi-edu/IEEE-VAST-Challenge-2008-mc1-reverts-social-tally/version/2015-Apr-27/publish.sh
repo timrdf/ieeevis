@@ -7,7 +7,7 @@
 #
 
 if [[ ! -e manual/against-and-supports.ttl.graffle.prov.ttl ]]; then
-   justify.sh automatic/against-and-supports.ttl.graffle manual/against-and-supports.ttl.graffle.prov.ttl copy_and_manual_edit
+   justify.sh 'automatic/against-and-supports.ttl.graffle' manual/against-and-supports.ttl.graffle 'copy_and_manual_edit'
 fi
 
 for exported in against-and-supports.ttl.graffle.pdf against-and-supports.ttl.graffle.svg; do
