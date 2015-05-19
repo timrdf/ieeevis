@@ -16,8 +16,7 @@ if [[ "$1" == 'clean' ]]; then
    echo rm source/reverts.rq.xml*
         rm source/reverts.rq.xml*
    if [[ "$2" == 'all' ]]; then
-      echo rm automatic/*
-           rm automatic/*
+      convert.sh 'clean' 'all'
    fi
    exit
 fi
