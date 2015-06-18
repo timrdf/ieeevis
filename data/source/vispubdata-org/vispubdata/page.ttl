@@ -37,3 +37,7 @@
    conversion:dataset_identifier "vispubdata";
    foaf:page <http://www.vispubdata.org/site/vispubdata/>;
 .
+
+<http://ieeevis.tw.rpi.edu/source/vispubdata-org/dataset/vispubdata>
+   foaf:page <http://www.infovis.org/pipermail/infovis/2015-June/000733.html>;
+.
