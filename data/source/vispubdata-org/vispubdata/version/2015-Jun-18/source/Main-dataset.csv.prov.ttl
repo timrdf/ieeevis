@@ -1,0 +1,89 @@
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf:       <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms:    <http://purl.org/dc/terms/> .
+@prefix sioc:       <http://rdfs.org/sioc/ns#> .
+@prefix pmlp:       <http://inference-web.org/2.0/pml-provenance.owl#> .
+@prefix oboro:      <http://obofoundry.org/ro/ro.owl#> .
+@prefix oprov:      <http://openprovenance.org/ontology#> .
+@prefix hartigprov: <http://purl.org/net/provenance/ns#> .
+@prefix nfo:        <http://www.semanticdesktop.org/ontologies/nfo/#> .
+@prefix pmlj:       <http://inference-web.org/2.0/pml-justification.owl#> .
+@prefix conv:       <http://purl.org/twc/vocab/conversion/> .
+@prefix irw:        <http://www.ontologydesignpatterns.org/ont/web/irw.owl#> .
+@prefix prv:        <http://purl.org/net/provenance/ns#>.
+@prefix pml:        <http://provenanceweb.org/ns/pml#> .
+
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix sioc:    <http://rdfs.org/sioc/ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+
+
+<http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv>
+   a nfo:FileDataObject;
+   nfo:fileName "Main-dataset.csv";
+   dcterms:date "2015-06-17T21:26:04-04:00"^^xsd:dateTime;
+   nfo:hasHash     <http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a>; #<md5_a0e2b8c694a4d077e91f7dbd43085e6a_time_1434590764>;
+   prov:atLocation <http://ieeevis.tw.rpi.edu/id/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv>;
+.
+<http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a>
+   a nfo:FileHash; 
+   nfo:hashAlgorithm "md5";
+   nfo:hashValue     "a0e2b8c694a4d077e91f7dbd43085e6a";
+.
+<http://ieeevis.tw.rpi.edu/id/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv> prv:serializedBy <Main-dataset.csv> .
+
+<http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv>
+   a prov:Entity;
+   prv:serializedBy <Main-dataset.csv>;
+   pml:wasGeneratedWithPlan <http#f5534854-f48b-4355-8147-764994c5fe9f>;
+.
+<http#f5534854-f48b-4355-8147-764994c5fe9f> a prov:Plan;
+  dcterms:date "2015-06-17T21:26:04-04:00"^^xsd:dateTime;
+  prov:specializationOf <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+.
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol> a prov:Plan .
+
+
+<http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv> prov:wasDerivedFrom <https://docs.google.com/spreadsheets/d/1xgoOPu28dQSSGPIp_HHQs0uvvcyLNdkMF9XtRajhhxU/edit#gid=1648985613> .
+<https://docs.google.com/spreadsheets/d/1xgoOPu28dQSSGPIp_HHQs0uvvcyLNdkMF9XtRajhhxU/edit#gid=1648985613>
+   a sioc:Item, irw:WebResource, prov:Entity;
+.
+<http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv>
+   prov:wasDerivedFrom
+      <https://docs.google.com/spreadsheets/d/1xgoOPu28dQSSGPIp_HHQs0uvvcyLNdkMF9XtRajhhxU/edit#gid=1648985613> .
+
+<nodeSet/f5534854-f48b-4355-8147-764994c5fe9f>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <http://ieeevis.tw.rpi.edu/id/md5/a0e2b8c694a4d077e91f7dbd43085e6a/path/3ab60b1de5c1b8443ae558d065ba13cd/Main-dataset.csv>;
+   pmlj:isConsequentOf <inferenceStep/f5534854-f48b-4355-8147-764994c5fe9f>;
+.
+<inferenceStep/f5534854-f48b-4355-8147-764994c5fe9f>
+   a pmlj:InferenceStep;
+   pmlj:hasIndex 0;
+   rdfs:seeAlso <nodeSetf5534854-f48b-4355-8147-764994c5fe9f_antecedent>;
+#   pmlj:hasAntecedentList ( <nodeSetf5534854-f48b-4355-8147-764994c5fe9f_antecedent> );
+   pmlj:hasInferenceEngine <http#f5534854-f48b-4355-8147-764994c5fe9f>;
+   pmlj:hasInferenceRule   <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>;
+   oboro:has_agent          [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   hartigprov:involvedActor [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+.
+
+<wasControlled/f5534854-f48b-4355-8147-764994c5fe9f>
+   a oprov:WasControlledBy;
+   oprov:cause  [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+   oprov:effect <inferenceStep/f5534854-f48b-4355-8147-764994c5fe9f>;
+   oprov:endTime "2015-06-17T21:26:03-04:00"^^xsd:dateTime;
+.
+<nodeSetf5534854-f48b-4355-8147-764994c5fe9f_antecedent>
+   a pmlj:NodeSet;
+   pmlj:hasConclusion <https://docs.google.com/spreadsheets/d/1xgoOPu28dQSSGPIp_HHQs0uvvcyLNdkMF9XtRajhhxU/edit#gid=1648985613>;
+.
+
+<http#f5534854-f48b-4355-8147-764994c5fe9f>
+   a pmlp:InferenceEngine, <http://dbpedia.org/resource/Hypertext_Transfer_Protocol>, prov:Entity;
+   dcterms:identifier "http#f5534854-f48b-4355-8147-764994c5fe9f";
+.
+
+<http://dbpedia.org/resource/Hypertext_Transfer_Protocol> rdfs:subClassOf pmlp:InferenceEngine .
