@@ -14,6 +14,10 @@
 
 if [[ "$1" == 'clean' ]]; then
    rm -rf source/edits.rq.turtle*
+   if [[ "$2" == 'all' ]]; then
+      ./prepare.sh clean all
+      ./convert.sh clean all
+   fi
    exit
 fi
 

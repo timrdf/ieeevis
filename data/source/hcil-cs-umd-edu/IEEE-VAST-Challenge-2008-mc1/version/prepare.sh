@@ -24,12 +24,12 @@
 #
 
 if [[ "$1" == 'clean' ]]; then
-   echo rm -rf source/VASTchallenge08-20080315-Deinosuchus manual/ automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
-        rm -rf source/VASTchallenge08-20080315-Deinosuchus manual/ automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
+   echo rm -rf source/VASTchallenge08-20080315-Deinosuchus automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
+        rm -rf source/VASTchallenge08-20080315-Deinosuchus automatic publish convert-IEEE-VAST-Challenge-2008-mc1.sh 
    exit
 fi
 
-mkdir -p 'source' 'manual'
+mkdir -p 'source' 'automatic'
 
   zipped='source/VASTchallenge08-20080315-Deinosuchus.zip'
 unzipped='source/VASTchallenge08-20080315-Deinosuchus'
@@ -40,7 +40,7 @@ if [[ ! -e $unzipped ]]; then
 fi
 echo $txt
 
-txt='manual/paraiso-edits.txt'
+txt='automatic/paraiso-edits.txt'
 edits='WIKI EDITS PAGE/Paraiso Edits.txt'
 if [[ -e $unzipped && ! -e "$txt" ]]; then
    cp "$unzipped/$edits" $txt
@@ -51,7 +51,7 @@ if [[ -e $unzipped && ! -e "$txt" ]]; then
 fi
 echo $txt
 
-csv='manual/paraiso-edits.csv'
+csv='automatic/paraiso-edits.csv'
 if [[ -e $unzipped && -e "$txt" && ! -e $csv ]]; then
    cat $txt | awk -f ../../src/paraiso-edits.awk > $csv
    justify.sh $txt $csv csvify

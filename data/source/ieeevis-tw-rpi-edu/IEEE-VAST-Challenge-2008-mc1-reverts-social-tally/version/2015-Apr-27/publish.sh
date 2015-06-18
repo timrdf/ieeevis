@@ -6,4 +6,14 @@
 #3> .
 #
 
+if [[ ! -e manual/against-and-supports.ttl.graffle.prov.ttl ]]; then
+   justify.sh 'automatic/against-and-supports.ttl.graffle' manual/against-and-supports.ttl.graffle 'copy_and_manual_edit'
+fi
+
+for exported in against-and-supports.ttl.graffle.pdf against-and-supports.ttl.graffle.svg; do
+   if [[ -e manual/$exported ]]; then
+      justify.sh manual/against-and-supports.ttl.graffle manual/$exported 'export'
+   fi
+done
+
 cr-publish.sh source/* automatic/* manual/*

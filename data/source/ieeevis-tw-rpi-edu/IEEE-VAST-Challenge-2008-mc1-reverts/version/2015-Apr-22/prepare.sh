@@ -65,6 +65,7 @@ if [[ ! -e "$manual" ]]; then
    cp ../../src/edits.vsr.xsl $vis_strategy
    perl -pi -e "s|href=\"\.\.|href=\"$VSR_HOME/src/xsl|g" $vis_strategy
    vsr2grf.sh $vis_strategy 'graffle' -w -od automatic $turtle
+   justify.sh $turtle automatic/`basename $turtle`.graffle 'https://github.com/timrdf/ieeevis/blob/master/data/source/ieeevis-tw-rpi-edu/IEEE-VAST-Challenge-2008-mc1-reverts/src/edits.vsr.xsl' --append
    echo $auto
 
    cp "$auto" "$manual"

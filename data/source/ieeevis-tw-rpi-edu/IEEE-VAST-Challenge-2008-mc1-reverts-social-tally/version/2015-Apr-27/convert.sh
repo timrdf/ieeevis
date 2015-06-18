@@ -60,5 +60,10 @@ else
    echo "$manual already exists."
 fi
 
+echo
+echo
+echo "AT THIS POINT: edit $manual to organize social dynamics,"
+echo "               then run ./convert.sh"
+
 #cp         'automatic'/against-and-supports.ttl.graffle 'manual'/against-and-supports.ttl.graffle
 #justify.sh 'automatic'/against-and-supports.ttl.graffle 'manual'/against-and-supports.ttl.graffle 'http://dbpedia.org/resource/File_copying'
