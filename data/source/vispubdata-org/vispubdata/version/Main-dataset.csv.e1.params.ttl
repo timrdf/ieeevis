@@ -1,0 +1,346 @@
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix todo:          <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:           <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:           <http://www.w3.org/2002/07/owl#> .
+@prefix vann:          <http://purl.org/vocab/vann/> .
+@prefix skos:          <http://www.w3.org/2004/02/skos/core#> .
+@prefix time:          <http://www.w3.org/2006/time#> .
+@prefix wgs:           <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geonames:      <http://www.geonames.org/ontology#> .
+@prefix geonamesid:    <http://sws.geonames.org/> .
+@prefix govtrackusgov: <http://www.rdfabout.com/rdf/usgov/geo/us/> .
+@prefix dbpedia:       <http://dbpedia.org/resource/> .
+@prefix dbpediaprop:   <http://dbpedia.org/property/> .
+@prefix dbpediaowl:    <http://dbpedia.org/ontology/> .
+@prefix con:           <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix muo:           <http://purl.oclc.org/NET/muo/muo#> .
+@prefix vs:            <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix frbr:          <http://purl.org/vocab/frbr/core#> .
+@prefix bibo:          <http://purl.org/ontology/bibo/> .
+@prefix prov:          <http://www.w3.org/ns/prov#> .
+@prefix doap:          <http://usefulinc.com/ns/doap#> .
+@prefix nfo:           <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix sio:           <http://semanticscience.org/resource/> .
+@prefix org:           <http://www.w3.org/ns/org#> .
+@prefix vsr:           <http://purl.org/twc/vocab/vsr#> .
+@prefix dcat:          <http://www.w3.org/ns/dcat#> .
+@prefix qb:            <http://purl.org/linked-data/cube#> .
+@prefix pml:           <http://provenanceweb.org/ns/pml#> .
+@prefix dgtwc:         <http://data-gov.tw.rpi.edu/2009/data-gov-twc.rdf#> .
+@prefix dcterms:       <http://purl.org/dc/terms/> .
+@prefix void:          <http://rdfs.org/ns/void#> .
+@prefix scovo:         <http://purl.org/NET/scovo#> .
+@prefix sioc:          <http://rdfs.org/sioc/ns#> .
+@prefix foaf:          <http://xmlns.com/foaf/0.1/> .
+@prefix ov:            <http://open.vocab.org/terms/> .
+@prefix cito:          <http://purl.org/spar/cito/> .
+@prefix dblp:          <http://dblp.uni-trier.de/rdf/schema-2015-01-26#> .
+@prefix schema:        <http://schema.org/> .
+@prefix conversion:    <http://purl.org/twc/vocab/conversion/> .
+@prefix :              <http://ieeevis.tw.rpi.edu/source/vispubdata-org/dataset/vispubdata/version/2015-Jun-18/params/enhancement/1/> .
+
+
+#:a_bundle
+#   a conversion:ImplicitBundle;
+#   conversion:property_name "a_property"; # Can also be a URI, e.g. dcterms:title.
+#   conversion:name_template "[/sd]company/[#2]/[r]";
+#   #conversion:type_name     "My Class";   # Can also be a URI, e.g. foaf:Person.
+#.
+
+<http://ieeevis.tw.rpi.edu/source/vispubdata-org/dataset/vispubdata/version/2015-Jun-18/conversion/enhancement/1>
+   a conversion:LayerDataset, void:Dataset;
+
+   conversion:base_uri           "http://ieeevis.tw.rpi.edu"^^xsd:anyURI;
+   conversion:source_identifier  "vispubdata-org";
+   conversion:dataset_identifier "vispubdata";
+   conversion:version_identifier "2015-Jun-18";
+   conversion:enhancement_identifier "1";
+
+   conversion:conversion_process [
+      a conversion:EnhancementConversionProcess;
+      conversion:enhancement_identifier "1";
+      #conversion:subject_discriminator  "main-dataset";
+
+      dcterms:creator [ a foaf:OnlineAccount; foaf:accountName "lebot" ];
+      dcterms:created "2015-07-20T17:22:27-04:00"^^xsd:dateTime;
+
+      conversion:enhance [
+         void:inDataset conversion:null;
+      ];
+
+      #conversion:enhance [
+      #   ov:csvRow 2;
+      #   a conversion:DataStartRow;
+      #];
+
+      conversion:delimits_cell ",";
+      #conversion:delimits_cell "	"; # tab
+      #conversion:delimits_cell "|";   # pipe
+      #conversion:delimits_cell ",";   # comma
+
+      conversion:interpret [
+         conversion:symbol        "";
+         conversion:interpretation conversion:null; 
+      ];
+      conversion:enhance [
+         conversion:domain_template "[/sd]id/[#17]";
+         conversion:domain_name     dblp:Publication; #"Thing";
+      ];
+      #conversion:enhance [
+      #   conversion:class_name "Thing";
+      #   conversion:subclass_of <http://purl.org/...>;
+      #];
+      conversion:enhance [
+         ov:csvCol          1;
+         ov:csvHeader       "Conference";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Conference";
+         conversion:equivalent_property dcterms:isPartOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/s]id/conference/[.]";
+         conversion:range   rdfs:Resource;
+         conversion:range_name  "Conference";
+      ];
+      conversion:enhance [
+         ov:csvCol          2;
+         ov:csvHeader       "Year";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Year";
+         conversion:equivalent_property dblp:yearOfPublication;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   xsd:gYear;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          3;
+         ov:csvHeader       "Paper Title";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Paper Title";
+         conversion:equivalent_property dcterms:title;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range   rdfs:Literal;
+      ];
+      conversion:enhance [
+         ov:csvCol          4;
+         ov:csvHeader       "Paper DOI";
+         a conversion:URISafe;
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Paper DOI";
+         conversion:equivalent_property prov:specializationOf;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "http://dx.doi.org/[.]";
+         conversion:range   todo:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          5;
+         ov:csvHeader       "Link";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Link";
+         conversion:equivalent_property dblp:primaryElectronicEdition;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          6;
+         ov:csvHeader       "first age";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "first age";
+         conversion:equivalent_property dblp:pageNumbers;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[.]-[#7]";
+         conversion:range   rdfs:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          7;
+         ov:csvHeader       "Last age";
+         a conversion:Omitted;
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Last age";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          8;
+         ov:csvHeader       "IEEE XPLORE Article Number";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "IEEE XPLORE Article Number";
+         conversion:equivalent_property dblp:primaryElectronicEdition;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          9;
+         ov:csvHeader       "Panel, Keynote, Captstone, Demo, Poster, ...";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Panel, Keynote, Captstone, Demo, Poster, ...";
+         conversion:equivalent_property rdf:type;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:range_template  "[/sd]vocab/CapstoneKeynotepanelOrPoster";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          10;
+         ov:csvHeader       "Paper type: C=conference paper, T = TVCG journal paper, M=miscellaneous (capstone, keynote, VAST challenge, panel, poster, ...)";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Paper type: C=conference paper, T = TVCG journal paper, M=miscellaneous (capstone, keynote, VAST challenge, panel, poster, ...)";
+         conversion:equivalent_property rdf:type;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:interpret [
+            conversion:symbol         "C";
+            conversion:interpretation "Conference Paper";
+         ];
+         conversion:interpret [
+            conversion:symbol         "T";
+            conversion:interpretation "TVCG Journal Paper";
+         ];
+         conversion:interpret [
+            conversion:symbol         "M";
+            conversion:interpretation "Miscellaneous";
+         ];
+         conversion:range_template  "[/sd]vocab/[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          11;
+         ov:csvHeader       "Abstract";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Abstract";
+         conversion:equivalent_property dcterms:abstract;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          12;
+         ov:csvHeader       "Author Names";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Author Names";
+         conversion:equivalent_property schema:author;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:delimits_object ";\\s*";
+         #conversion:range_template  "[/sd]author/[.]";
+         conversion:range   rdfs:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          13;
+         ov:csvHeader       "First Author Affiliation";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "First Author Affiliation";
+         conversion:equivalent_property "[/sd]vocab/wasPrimarilyAttributedTo";
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:delimits_object "\\|\\s*";
+         conversion:interpret [
+            conversion:regex          "\\|.*$";
+            conversion:interpretation "";
+         ];
+         #conversion:interpret [
+         #   conversion:symbol        "";
+         #   conversion:interpretation conversion:null; 
+         #];
+         #conversion:interpret [
+         #   conversion:symbol        "c";
+         #   conversion:interpretation conversion:null; 
+         #];
+         conversion:range_template  "[/s]affiliation/[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          14;
+         ov:csvHeader       "Author IDs";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Author IDs";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:delimits_object ";\\s*";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          15;
+         ov:csvHeader       "IEEE Xplore Number Guessed";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "IEEE Xplore Number Guessed";
+         #conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   todo:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          16;
+         ov:csvHeader       "Deduped author names";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Deduped author names";
+         conversion:equivalent_property prov:wasAttributedTo;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:delimits_object ",\\s*";
+         conversion:range_template  "[/s]id/author/[.]";
+         conversion:range   rdfs:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          17;
+         ov:csvHeader       "filename";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "filename";
+         conversion:equivalent_property dcterms:identifier;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         #conversion:range_template  "[/sd]thing[.]";
+         conversion:range   rdfs:Literal;
+         #conversion:range_name  "Thing";
+      ];
+      conversion:enhance [
+         ov:csvCol          18;
+         ov:csvHeader       "Citations";
+         #conversion:bundled_by [ ov:csvCol 1 ];
+         #conversion:label   "Citations";
+         conversion:equivalent_property cito:cites;
+         #conversion:subproperty_of      dcterms:identifier;
+         conversion:comment "";
+         conversion:delimits_object ",\\s*";
+         conversion:range_template "[/sd]id/[.]"; # same as domain template
+         conversion:range   todo:Resource;
+         #conversion:range_name  "Thing";
+      ];
+      #conversion:enhance [
+      #   ov:csvRow 3,4,5;
+      #   conversion:fromRow 3;
+      #   conversion:toRow   5;
+      #   a conversion:ExampleResource;
+      #];
+   ];
+.
