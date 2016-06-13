@@ -232,14 +232,28 @@ div.Section1
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
+<style>
+.typeform-widget{
+    width: 50%;
+    position: fixed;
+    left: 0;
+    border: 1px solid lightgray;
+    top: -1
+}
+.Section1{
+    max-width: 50%;
+    position: absolute;
+    right: 0;
+}
+</style>
 </head>
 
 <body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+
 <!--TYPEFORM-->
 
-
 <div class=Section1>
-
 
 <p class=MsoNormal style='tab-stops:535.5pt'><b><span style='font-size:10.0pt;
 font-family:Arial;background:yellow;mso-highlight:yellow'></span></b></p>
@@ -298,7 +312,7 @@ normal'><span style='font-size:10.0pt;font-family:Arial'>(250 words MAX)</span><
    <li><a href="https://github.com/timrdf/DataFAQs/wiki" target="_blank">DataFAQs</a> <b>Quality Assessment Framework</b> was used to assess the quality of the Linked Data mentioned in this report.</li>
 </ul>
 
-<div id="qa-report" class="datafaqs">
+<div class="datafaqs">
 <center><span>DataFAQs Quality Assessement</span></center>
   <table xmlns:grddl="http://www.w3.org/2003/g/data-view#"
                grddl:transformation="https://raw.githubusercontent.com/timrdf/csv2rdf4lod-automation/master/bin/util/tix.xsl">
@@ -341,8 +355,9 @@ normal'><span style='font-size:10.0pt;font-family:Arial'>(250 words MAX)</span><
 #3> @prefix ns4: <http://purl.org/dc/terms/> .
 #3> @prefix pml: <http://provenanceweb.org/ns/pml#> .
 #3> @prefix ns3: <http://purl.org/twc/vocab/vsr#> .
-#3> @prefix ns6: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+#3> @prefix ns6: <http://purl.org/net/provenance/ns#> .
 #3> @prefix ns5: <http://ieeevis.tw.rpi.edu/source/ieeevis-tw-rpi-edu/dataset/IEEE-VAST-Challenge-2008-mc1-reverts-social-tally/vocab/> .
+#3> @prefix ns7: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
 #3> @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 #3> @prefix sio: <http://semanticscience.org/resource/> .
 #3> @prefix sesame: <http://www.openrdf.org/schema/sesame#> .
@@ -369,6 +384,7 @@ normal'><span style='font-size:10.0pt;font-family:Arial'></span></i></p>
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
 style='font-size:10.0pt;font-family:Arial'></span></b></p>
 
+<br></br>
 <p class=MsoNormal><b style='mso-bidi-font-weight:normal'>
 <span style='font-size:10.0pt;font-family:Arial'>Two Page Summary:</span></b> <span style='font-size:10.0pt; font-family:Arial'>NO<!--i style='mso-bidi-font-style:normal'>(leave only your choice</i--></span>
 </p>
@@ -528,11 +544,13 @@ DailosTamanca; DavidMorn</span>
 </table>
 
 <br></br>
+
 <br></br>
 <div class="datafaqs">
   <center>This document's Linked Data has been <a href="#qa-report">assessed for quality</a>. </center>
 </div>
 <br></br>
+
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>
 <b style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;font-family: Arial'>Detailed Answer:</span></b>
@@ -663,6 +681,7 @@ style='font-size:10.0pt;font-family:Arial'>
 </span></div>
 
 </div>
+
 <br></br>
 <div class="datafaqs">
   <center>This document's Linked Data has been <a href="#qa-report">assessed for quality</a>. </center>
